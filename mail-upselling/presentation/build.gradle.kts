@@ -72,8 +72,6 @@ dependencies {
     implementation(project(":uicomponents"))
     implementation(project(":shared:core:payment:domain"))
     implementation(project(":shared:core:payment:presentation"))
-    implementation(project(":shared:core:payment-google:domain"))
-    implementation(project(":shared:core:payment-google:presentation"))
 
     debugImplementation(libs.bundles.compose.debug)
 

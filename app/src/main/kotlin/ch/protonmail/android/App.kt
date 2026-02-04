@@ -30,7 +30,6 @@ import ch.protonmail.android.mailbugreport.domain.LogsExportFeatureSetting
 import ch.protonmail.android.mailbugreport.domain.annotations.LogsExportFeatureSettingValue
 import ch.protonmail.android.mailcommon.domain.benchmark.BenchmarkTracer
 import ch.protonmail.android.mailcrashrecord.domain.usecase.SaveMessageBodyWebViewCrash
-import ch.protonmail.android.mailnotifications.domain.FirebaseMessagingTokenLifecycleObserver
 import ch.protonmail.android.mailsession.data.initializer.DatabaseLifecycleObserver
 import dagger.hilt.android.HiltAndroidApp
 import javax.inject.Inject
@@ -53,9 +52,6 @@ internal class App : Application() {
     lateinit var databaseLifecycleObserver: Provider<DatabaseLifecycleObserver>
 
     @Inject
-    lateinit var firebaseLifecycleObserver: Provider<FirebaseMessagingTokenLifecycleObserver>
-
-    @Inject
     lateinit var eventLoopLifecycleObserver: Provider<RustEventLoopErrorLifecycleObserver>
 
     @Inject
@@ -75,7 +71,6 @@ internal class App : Application() {
 
         addLogsFileHandlerObserver()
         addDatabaseObserver()
-        addFirebaseTokenLifecycleObserver()
         addEventLoopObserver()
 
         benchmarkTracer.end()
@@ -89,10 +84,6 @@ internal class App : Application() {
 
     private fun addDatabaseObserver() {
         ProcessLifecycleOwner.get().lifecycle.addObserver(databaseLifecycleObserver.get())
-    }
-
-    private fun addFirebaseTokenLifecycleObserver() {
-        ProcessLifecycleOwner.get().lifecycle.addObserver(firebaseLifecycleObserver.get())
     }
 
     private fun addEventLoopObserver() {

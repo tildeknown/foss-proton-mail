@@ -1,6 +1,5 @@
 [versions]
 android-gradle-plugin = "8.13.2"
-google-services-plugin = "4.4.4"
 proton-core-plugin = "1.3.0"
 
 accompanist-webview = "0.30.1"
@@ -47,7 +46,6 @@ arrow-core = "2.2.0" # 2.2.1.1 has KT 2.3.0 as base
 cash-turbine = "1.2.1"
 coil = "2.7.0"
 dagger = "2.57.2"
-firebase-bom = "34.7.0"
 guava = "33.5.0-jre"
 haze = "1.6.10" # 1.7.1 requires compileSdk=36
 timber = "5.0.1"
@@ -71,8 +69,6 @@ robolectric = "4.15.1" # 4.16.0 requires Java 21
 kotlinpoet-ksp = "2.2.0"
 leakcanary = "2.14"
 okhttp = "5.3.2"
-play-services = "18.9.0"
-play-review = "2.0.2"
 zxing-embedded = "4.3.0"
 
 [plugins]
@@ -85,7 +81,6 @@ kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", versi
 android-tools-build = { module = "com.android.tools.build:gradle", version.ref = "android-gradle-plugin" }
 kotlin-gradle = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 hilt-android-gradle = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "dagger" }
-google-services = { module = "com.google.gms:google-services", version.ref = "google-services-plugin" }
 paparazzi-plugin = { module = "app.cash.paparazzi:paparazzi-gradle-plugin", version.ref = "paparazzi" }
 
 # Standard dependencies
@@ -158,8 +153,6 @@ dagger-hilt-android = { module = "com.google.dagger:hilt-android", version.ref =
 dagger-hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "dagger" }
 dagger-hilt-core = { module = "com.google.dagger:hilt-core", version.ref = "dagger" }
 dagger-hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "dagger" }
-firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase-bom" }
-firebase-messaging = { module = "com.google.firebase:firebase-messaging" }
 javax-inject = { module = "javax.inject:javax.inject", version.ref = "javax-inject" }
 java-jna = { module = "net.java.dev.jna:jna", version.ref = "jna" }
 guava = { module = "com.google.guava:guava", version.ref = "guava" }
@@ -184,9 +177,6 @@ mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "
 okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
 okhttp-logging = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp" }
 okhttp-tls = { module = "com.squareup.okhttp3:okhttp-tls", version.ref = "okhttp" }
-play-services = { module = "com.google.android.gms:play-services-base", version.ref = "play-services" }
-play-review-core = { module = "com.google.android.play:review", version.ref = "play-review" }
-play-review-ext = { module = "com.google.android.play:review-ktx", version.ref = "play-review" }
 plumber = { module = "com.squareup.leakcanary:plumber-android", version.ref = "leakcanary" }
 robolectric = { module = "org.robolectric:robolectric", version.ref = "robolectric" }
 zxing-embedded = { module = "com.journeyapps:zxing-android-embedded", version.ref = "zxing-embedded" }

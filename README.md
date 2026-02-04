@@ -9,7 +9,8 @@ FOSS version
 - [x] remove sentry
 - [x] remove benchmark
 - [x] remove unit-tests (coverage)
-- [ ] setup ntfy (remove firebase)
+- [x] remove google services
+- [ ] setup ntfy
 - [ ] copy all the proton remote dependencies
 - [ ] unlimited free accounts
 - [ ] build workflow for github actions

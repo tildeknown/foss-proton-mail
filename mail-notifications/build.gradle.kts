@@ -72,13 +72,6 @@ dependencies {
     kapt(libs.bundles.app.annotationProcessors)
     compileOnly(libs.proton.rust.core)
 
-    api(platform(libs.firebase.bom))
-    api(libs.firebase.messaging) {
-        exclude(group = "com.google.firebase", module = "firebase-core")
-        exclude(group = "com.google.firebase", module = "firebase-analytics")
-        exclude(group = "com.google.firebase", module = "firebase-measurement-connector")
-    }
-
     implementation(project(":mail-common"))
     implementation(project(":mail-settings:domain"))
     implementation(project(":mail-session:data"))

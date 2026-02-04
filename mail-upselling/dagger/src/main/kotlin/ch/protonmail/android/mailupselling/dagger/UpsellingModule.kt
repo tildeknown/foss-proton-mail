@@ -23,7 +23,6 @@ import ch.protonmail.android.mailupselling.data.BlackFridayDataStoreProvider
 import ch.protonmail.android.mailupselling.data.local.BlackFridayLocalDataSource
 import ch.protonmail.android.mailupselling.data.local.BlackFridayLocalDataSourceImpl
 import ch.protonmail.android.mailupselling.data.repository.BlackFridayRepositoryImpl
-import ch.protonmail.android.mailupselling.domain.annotation.PlayServicesAvailableValue
 import ch.protonmail.android.mailupselling.domain.annotation.UpsellingCacheScope
 import ch.protonmail.android.mailupselling.domain.repository.BlackFridayRepository
 import dagger.Binds
@@ -36,8 +35,6 @@ import dagger.hilt.components.SingletonComponent
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
-import me.proton.android.core.payment.google.domain.GoogleServicesAvailability
-import me.proton.android.core.payment.google.domain.GoogleServicesUtils
 import javax.inject.Singleton
 
 @Module
@@ -61,20 +58,4 @@ interface UpsellingModule {
         fun provideDataStoreProvider(@ApplicationContext context: Context): BlackFridayDataStoreProvider =
             BlackFridayDataStoreProvider(context)
     }
-}
-
-@Module
-@InstallIn(SingletonComponent::class)
-object CacheModule {
-
-    @Provides
-    @Singleton
-    @UpsellingCacheScope
-    fun provideScope(): CoroutineScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
-
-    @Provides
-    @PlayServicesAvailableValue
-    @Singleton
-    fun providePlayServicesAvailable(gmsUtils: GoogleServicesUtils) =
-        gmsUtils.getPlayServicesAvailability() == GoogleServicesAvailability.Success
 }

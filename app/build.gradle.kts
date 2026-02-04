@@ -22,7 +22,6 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     id("com.android.application")
-    id("com.google.gms.google-services")
     kotlin("android")
     kotlin("kapt")
     id("com.google.devtools.ksp")
@@ -182,8 +181,6 @@ dependencies {
     implementation(project(":shared:core:auth:presentation"))
     implementation(project(":shared:core:payment:dagger"))
     implementation(project(":shared:core:payment:presentation"))
-    implementation(project(":shared:core:payment-google:dagger"))
-    implementation(project(":shared:core:payment-google:presentation"))
 
     implementation(libs.bundles.appLibs)
     implementation(libs.bundles.module.legacyCore)
@@ -217,9 +214,6 @@ dependencies {
     implementation(project(":uicomponents"))
     implementation(project(":design-system"))
     implementation(project(":presentation-compose"))
-
-    implementation(libs.play.review.core)
-    implementation(libs.play.review.ext)
 
     debugImplementation(libs.bundles.app.debug)
 

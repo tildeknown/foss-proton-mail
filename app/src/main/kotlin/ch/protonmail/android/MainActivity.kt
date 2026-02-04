@@ -44,8 +44,6 @@ import ch.protonmail.android.navigation.model.LauncherState
 import ch.protonmail.android.navigation.share.NewIntentObserver
 import coil.Coil
 import coil.ImageLoader
-import com.google.android.play.core.review.ReviewException
-import com.google.android.play.core.review.ReviewManager
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 import me.proton.android.core.payment.domain.IconResourceManager
