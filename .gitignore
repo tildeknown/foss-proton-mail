@@ -29,10 +29,6 @@ local.properties
 # Log Files
 *.log
 
-# Fastlane
-fastlane/README.md
-fastlane/report.xml
-
 # Keystore
 keystore/*
 
