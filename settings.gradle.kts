@@ -47,7 +47,6 @@ includeBuild("build-plugin")
 include(":app")
 include(":benchmark")
 include(":coverage")
-include(":detekt-rules")
 
 include(":mail-attachments:dagger")
 include(":mail-attachments:data")

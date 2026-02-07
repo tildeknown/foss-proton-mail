@@ -43,14 +43,16 @@ allprojects {
 plugins {
     alias(libs.plugins.google.devtools.ksp) apply false
     alias(libs.plugins.kotlin.serialization) apply false
-    alias(libs.plugins.proton.core.detekt)
     alias(libs.plugins.proton.core.coverage.config)
     alias(libs.plugins.proton.core.coverage) apply false
     alias(libs.plugins.proton.core.global.coverage) apply false
     alias(libs.plugins.compose.compiler) apply false
+    id("studio.forface.easygradle") version "3.0.5" apply false
 }
 
 subprojects {
+    plugins.apply("studio.forface.easygradle")
+
     if (project.findProperty("enableComposeCompilerReports") == "true") {
         plugins.withId("org.jetbrains.kotlin.android") {
             tasks.withType<KotlinCompile>().configureEach {
@@ -78,19 +80,6 @@ subprojects {
             }
         }
     }
-
-    afterEvaluate {
-        dependencies {
-            configurations.findByName("detektPlugins")?.let {
-                add("detektPlugins", project(":detekt-rules"))
-            }
-        }
-        tasks.findByName("detekt")?.dependsOn(":detekt-rules:assemble")
-    }
-}
-
-protonDetekt {
-    threshold = 0
 }
 
 tasks.register("clean", Delete::class) {

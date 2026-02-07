@@ -48,7 +48,6 @@ arrow-core = "2.2.0" # 2.2.1.1 has KT 2.3.0 as base
 cash-turbine = "1.2.1"
 coil = "2.7.0"
 dagger = "2.57.2"
-detekt = "1.23.8"
 firebase-bom = "34.7.0"
 guava = "33.5.0-jre"
 haze = "1.6.10" # 1.7.1 requires compileSdk=36
@@ -82,7 +81,6 @@ zxing-embedded = "4.3.0"
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 google-devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp-symbol-processing-api" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
-proton-core-detekt = { id = "me.proton.core.gradle-plugins.detekt", version.ref = "proton-core-plugin" }
 proton-core-coverage = { id = "me.proton.core.gradle-plugins.coverage", version.ref = "proton-core-plugin" }
 proton-core-coverage-config = { id = "me.proton.core.gradle-plugins.coverage-config", version.ref = "proton-core-plugin" }
 proton-core-global-coverage = { id = "me.proton.core.gradle-plugins.global-coverage", version.ref = "proton-core-plugin" }
@@ -166,8 +164,6 @@ dagger-hilt-android = { module = "com.google.dagger:hilt-android", version.ref =
 dagger-hilt-android-testing = { module = "com.google.dagger:hilt-android-testing", version.ref = "dagger" }
 dagger-hilt-core = { module = "com.google.dagger:hilt-core", version.ref = "dagger" }
 dagger-hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "dagger" }
-detekt-api = { module = "io.gitlab.arturbosch.detekt:detekt-api", version.ref = "detekt" }
-detekt-test = { module = "io.gitlab.arturbosch.detekt:detekt-test", version.ref = "detekt" }
 firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase-bom" }
 firebase-messaging = { module = "com.google.firebase:firebase-messaging" }
 javax-inject = { module = "javax.inject:javax.inject", version.ref = "javax-inject" }

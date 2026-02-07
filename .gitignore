@@ -15,7 +15,6 @@
 bin/
 gen/
 releases/
-config/detekt/reports/
 /new_releases.tmp
 
 # Gradle files
@@ -29,9 +28,6 @@ local.properties
 
 # Log Files
 *.log
-
-# Remote Detek config
-config/detekt/config.yml
 
 # Fastlane
 fastlane/README.md

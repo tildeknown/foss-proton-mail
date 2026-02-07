@@ -19,7 +19,6 @@ bin/
 gen/
 releases/
 docs/
-config/detekt/reports/
 slack.tmp
 
 # Gradle files

@@ -45,11 +45,6 @@ We use **Sentry** for crash/error reporting (primarily for **non-debuggable** bu
 - **Mapping/symbol uploads (CI / release tasks)**: CI provides a `sentry.properties` file for uploading ProGuard/R8
   mappings and native symbols.
 
-## Code style
-
-This project's code style and formatting is checked by detekt. The rule set
-is [ktlint's default one](https://github.com/pinterest/ktlint).
-
 License
 -------
 The code and data files in this distribution are licensed under the terms of the GPLv3 as published by the Free Software
