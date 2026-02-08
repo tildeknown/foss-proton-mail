@@ -27,7 +27,6 @@ buildscript {
         classpath(libs.kotlin.gradle)
         classpath(libs.hilt.android.gradle)
         classpath(libs.google.services)
-        classpath(libs.sentry.gradle)
         classpath(libs.paparazzi.plugin)
     }
 }
@@ -80,13 +79,30 @@ subprojects {
             }
         }
     }
+
+
+    // plugins.withId("com.android.application") {
+    //     extensions.configure<com.android.build.gradle.AppExtension> {
+    //         lint {
+    //             checkReleaseBuilds = false
+    //             abortOnError = false
+    //         }
+    //     }
+    // }
+
+    plugins.withId("com.android.library") {
+        extensions.configure<com.android.build.gradle.LibraryExtension> {
+            lint {
+                checkReleaseBuilds = false
+                abortOnError = false
+            }
+        }
+    }
 }
 
 tasks.register("clean", Delete::class) {
     delete(rootProject.layout.buildDirectory)
 }
-
-setupTests()
 
 kotlinCompilerArgs(
     "-opt-in=kotlin.RequiresOptIn",
@@ -114,29 +130,3 @@ fun Project.kotlinCompilerArgs(vararg extraCompilerArgs: String) {
         }
     }
 }
-
-
-fun Project.setupTests() {
-    fun Project.isRootProject() = this@isRootProject.subprojects.size != 0
-
-    for (sub in subprojects) {
-
-        // Apply coverage plugin to non subprojects.
-        if (!sub.isRootProject()) {
-            sub.afterEvaluate { pluginManager.apply("me.proton.core.gradle-plugins.coverage") }
-        }
-
-        sub.tasks.withType<Test> {
-            // Test logging
-            testLogging {
-                exceptionFormat = org.gradle.api.tasks.testing.logging.TestExceptionFormat.FULL
-            }
-
-            // Additional JVM args to bypass strong encapsulation (needed for mocking)
-            jvmArgs(
-                "--add-opens", "java.base/java.util=ALL-UNNAMED"
-            )
-        }
-    }
-}
-

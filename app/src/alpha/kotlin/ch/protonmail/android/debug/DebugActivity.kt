@@ -33,7 +33,6 @@ import ch.protonmail.android.mailcommon.presentation.extension.navigateBack
 import ch.protonmail.android.mailfeatureflags.presentation.ui.FeatureFlagOverridesScreen
 import ch.protonmail.android.navigation.model.Destination.Screen
 import dagger.hilt.android.AndroidEntryPoint
-import io.sentry.compose.withSentryObservableEffect
 
 @AndroidEntryPoint
 internal class DebugActivity : AppCompatActivity() {
@@ -43,7 +42,7 @@ internal class DebugActivity : AppCompatActivity() {
 
         setContent {
             ProtonTheme {
-                val navController = rememberNavController().withSentryObservableEffect()
+                val navController = rememberNavController()
 
                 NavHost(
                     navController = navController,

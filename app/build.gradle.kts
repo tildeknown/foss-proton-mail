@@ -27,15 +27,11 @@ plugins {
     kotlin("kapt")
     id("com.google.devtools.ksp")
     id("dagger.hilt.android.plugin")
-    id("io.sentry.android.gradle")
     id("org.jetbrains.kotlinx.kover")
     id("me.proton.core.gradle-plugins.environment-config") version libs.versions.proton.core.plugin.get()
     id("org.jetbrains.kotlin.plugin.compose")
     id("app-config-plugin")
 }
-
-val accountSentryDSN: String = System.getenv("SENTRY_DSN_ACCOUNT") ?: ""
-val sentryDSN: String = System.getenv("SENTRY_DSN_MAIL") ?: ""
 
 val gitHashProvider: Provider<String> = providers.exec {
     commandLine("git", "rev-parse", "--short=7", "HEAD")
@@ -65,8 +61,6 @@ android {
             apiPrefix = "mail-api"
         }
 
-        buildConfigField("String", "SENTRY_DSN", sentryDSN.toBuildConfigValue())
-        buildConfigField("String", "ACCOUNT_SENTRY_DSN", accountSentryDSN.toBuildConfigValue())
         buildConfigField("String", "RUST_SDK_VERSION", "\"${libs.versions.proton.rust.core.get()}\"")
 
         setAssetLinksResValue("proton.me")
@@ -286,22 +280,6 @@ dependencies {
     androidTestUtil(libs.androidx.test.orchestrator)
     kaptAndroidTest(libs.dagger.hilt.compiler)
     kspAndroidTest(project(":test:robot:ksp:processor"))
-}
-
-fun isSentryAutoUploadEnabled(): Boolean = gradle.startParameter.taskNames.any {
-    it.contains("release", true)
-}
-
-sentry {
-    autoInstallation {
-        sentryVersion = libs.versions.sentry.asProvider()
-        autoUploadProguardMapping = isSentryAutoUploadEnabled()
-        uploadNativeSymbols = isSentryAutoUploadEnabled()
-    }
-
-    tracingInstrumentation {
-        enabled = false
-    }
 }
 
 fun String?.toBuildConfigValue() = if (this != null) "\"$this\"" else "null"

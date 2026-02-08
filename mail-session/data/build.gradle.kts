@@ -55,7 +55,6 @@ dependencies {
     implementation(libs.proton.core.domain)
     implementation(libs.proton.core.network.domain)
     implementation(libs.proton.core.utilAndroidDevice)
-    implementation(libs.sentry)
 
     implementation(project(":mail-featureflags:domain"))
     implementation(project(":mail-bugreport:domain"))

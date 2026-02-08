@@ -7,8 +7,9 @@ FOSS version
 - [x] remove detekt
 - [x] remove fastlane
 - [ ] remove firebase
-- [ ] remove sentry
+- [x] remove sentry
 - [ ] remove google services
+- [ ] remove unit-tests
 - [ ] copy all the proton remote dependencies
 - [ ] build workflow for github actions
 
@@ -25,16 +26,6 @@ FOSS version
 - Build with any of the following:
   - Execute `./gradlew assembleAlphaDebug` to build the debug version
   - Execute `./gradlew build` to build the release version
-
-## Observability
-
-We use **Sentry** for crash/error reporting (primarily for **non-debuggable** builds).
-
-- **Runtime crash/error reporting**: the DSN is injected at build time via environment variables (`SENTRY_DSN_MAIL` and
-  `SENTRY_DSN_ACCOUNT`). If these variables are not set (typical for local builds and forks), Sentry is effectively
-  disabled.
-- **Mapping/symbol uploads (CI / release tasks)**: CI provides a `sentry.properties` file for uploading ProGuard/R8
-  mappings and native symbols.
 
 License
 -------

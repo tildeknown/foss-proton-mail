@@ -37,7 +37,7 @@ class StrictModeHackArrayList : ArrayList<Any>() {
         // Firebase tests initialization
         "androidx.test.runner.MonitoringInstrumentation.specifyDexMakerCacheProperty",
         // Reading from file
-        "ch.protonmail.android.initializer.SentryInitializer.create",
+        // "ch.protonmail.android.initializer.SentryInitializer.create",
         // Reading from SharedPreferences
         "me.proton.core.util.android.sharedpreferences.ExtensionsKt.nullableGet"
     )

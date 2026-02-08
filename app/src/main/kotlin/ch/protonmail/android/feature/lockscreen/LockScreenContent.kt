@@ -32,12 +32,11 @@ import ch.protonmail.android.mailpinlock.presentation.autolock.standalone.LocalL
 import ch.protonmail.android.navigation.model.Destination
 import ch.protonmail.android.navigation.route.addAutoLockOverlay
 import ch.protonmail.android.navigation.route.addAutoLockPinScreen
-import io.sentry.compose.withSentryObservableEffect
 
 @Composable
 internal fun LockScreenContent(shouldBlurScreen: Boolean, onClose: () -> Unit) {
     ProtonTheme {
-        val navController = rememberNavController().withSentryObservableEffect()
+        val navController = rememberNavController()
         val backgroundColor = ProtonTheme.colors.backgroundNorm
 
         Box(

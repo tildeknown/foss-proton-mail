@@ -150,7 +150,6 @@ import ch.protonmail.android.navigation.route.addWebSpamFilterSettings
 import ch.protonmail.android.uicomponents.fab.FabHost
 import ch.protonmail.android.uicomponents.fab.ProtonFabHostState
 import ch.protonmail.android.uicomponents.snackbar.DismissableSnackbarHost
-import io.sentry.compose.withSentryObservableEffect
 import kotlinx.coroutines.NonCancellable
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -171,7 +170,7 @@ fun Home(
     blackFridayModalUpsellViewModel: BlackFridayModalUpsellViewModel = hiltViewModel(),
     featureSpotlightViewModel: HomeFeatureSpotlightViewModel = hiltViewModel()
 ) {
-    val navController = rememberNavController().withSentryObservableEffect()
+    val navController = rememberNavController()
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentDestinationRoute = navBackStackEntry?.destination?.route
 

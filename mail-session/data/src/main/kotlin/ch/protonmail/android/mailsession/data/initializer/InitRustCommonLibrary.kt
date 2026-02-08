@@ -50,8 +50,8 @@ class InitRustCommonLibrary @Inject constructor(
     private val deviceInfoProvider: DeviceInfoProvider,
     private val rustApiConfig: RustApiConfig,
     private val keyChain: OsKeyChain,
+    private val androidDnsResolver: AndroidDnsResolver,
     private val issueReporter: IssueReporter,
-    private val androidDnsResolver: AndroidDnsResolver
 ) {
 
     fun init() {
