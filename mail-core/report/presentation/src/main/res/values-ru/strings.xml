@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="core_report_bug_activity_title">Сообщить о проблеме</string>
+  <string name="core_report_bug_close">Закрыть</string>
+  <string name="core_report_bug_subject_field_hint">Тема</string>
+  <string name="core_report_bug_subject_field_required">Введите тему</string>
+  <string name="core_report_bug_description_field_hint">Что пошло не так? Минимум 10 символов</string>
+  <string name="core_report_bug_description_field_placeholder">Пожалуйста, опишите проблему как можно подробнее. Если было сообщение об ошибке, сообщите нам, что в нем говорилось.</string>
+  <plurals name="core_report_bug_description_field_required">
+    <item quantity="one">Введите не менее %d символа</item>
+    <item quantity="few">Введите не менее %d символов</item>
+    <item quantity="many">Введите не менее %d символов</item>
+    <item quantity="other">Введите не менее %d символов</item>
+  </plurals>
+  <string name="core_report_bug_discard_changes_title">Закрыть отчет об ошибке?</string>
+  <string name="core_report_bug_discard_changes_description">Если вы покинете эту страницу, ваш отчет не будет сохранен.</string>
+  <string name="core_report_bug_discard_changes_cancel">Продолжить писать</string>
+  <string name="core_report_bug_discard_changes_confirm">Закрыть без сохранения</string>
+  <plurals name="core_report_bug_form_field_too_long">
+    <item quantity="one">Максимум %d символ</item>
+    <item quantity="few">Максимум %d символа</item>
+    <item quantity="many">Максимум %d символов</item>
+    <item quantity="other">Максимум %d символов</item>
+  </plurals>
+  <string name="core_report_bug_general_error">Что-то пошло не так. Пожалуйста, повторите попытку через несколько минут.</string>
+  <string name="core_report_bug_send">Отправить отчёт</string>
+  <string name="core_report_bug_success">Спасибо за ваш отчёт</string>
+  <string name="core_report_bug_attach_log">Прикрепить журнал</string>
+</resources>

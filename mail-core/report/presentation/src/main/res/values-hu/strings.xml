@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="core_report_bug_activity_title">Probléma jelentése</string>
+  <string name="core_report_bug_close">Bezárás</string>
+  <string name="core_report_bug_subject_field_hint">Tárgy</string>
+  <string name="core_report_bug_subject_field_required">Adjon meg egy tárgyat</string>
+  <string name="core_report_bug_description_field_hint">Mi történt? Minimum 10 karakter</string>
+  <string name="core_report_bug_description_field_placeholder">Írja le a problémát olyan pontossággal, ahogy csak tudja. Ha hibaüzenet is jelent meg, kérjük azt is írja le pontosan.</string>
+  <plurals name="core_report_bug_description_field_required">
+    <item quantity="one">Adjon meg legalább %d karaktert</item>
+    <item quantity="other">Adjon meg legalább %d karaktert</item>
+  </plurals>
+  <string name="core_report_bug_discard_changes_title">Bezárja a hibajelentést?</string>
+  <string name="core_report_bug_discard_changes_description">Ha elhagyja az oldalt, a jelentés nem kerül mentésre.</string>
+  <string name="core_report_bug_discard_changes_cancel">Szerkesztés folytatása</string>
+  <string name="core_report_bug_discard_changes_confirm">Bezárás mentés nélkül</string>
+  <plurals name="core_report_bug_form_field_too_long">
+    <item quantity="one">Legalább %d karakter</item>
+    <item quantity="other">Legalább %d karakter</item>
+  </plurals>
+  <string name="core_report_bug_general_error">Hiba történt. Kérjük, próbálkozzon később.</string>
+  <string name="core_report_bug_send">Bejelentés elküldése</string>
+  <string name="core_report_bug_success">Köszönjük a bejelentést</string>
+  <string name="core_report_bug_attach_log">Napló csatolása</string>
+</resources>

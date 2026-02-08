@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- recovery email settings -->
+  <string name="settings_recovery_email_header">E-mail pre obnovenie</string>
+  <string name="settings_recovery_email_current">Aktuálna emailová adresa na obnovenie účtu</string>
+  <string name="settings_recovery_email_new">Nová emailová adresa na obnovenie účtu</string>
+  <string name="settings_recovery_email_confirm">Potvrďte emailovú adresu na obnovenie</string>
+  <string name="settings_recovery_email_new_hint">Zadajte emailovú adresu</string>
+  <string name="settings_recovery_email_confirm_hint">Znova zadajte emailovú adresu</string>
+  <string name="settings_save_second_password">Uložiť nové druhé heslo</string>
+  <string name="settings_save_main_password">Uložiť nové hlavné heslo</string>
+  <string name="settings_save">Uložiť</string>
+  <string name="settings_password_required">Zadajte svoje prihlasovacie heslo</string>
+  <string name="settings_password_required_ok">OK</string>
+  <string name="settings_not_set">Nenastavené</string>
+  <string name="settings_recovery_email_error_no_match">Nové emailové adresy na obnovenie účtu sa nezhodujú</string>
+  <string name="settings_validation_email">Emailová adresa je neplatná.</string>
+  <string name="settings_general_error">Vyskytla sa chyba.</string>
+  <!-- login and mailbox password settings -->
+  <string name="settings_password_management_tab_main_password">Hlavné heslo</string>
+  <string name="settings_password_management_tab_second_password">Druhé heslo</string>
+  <string name="settings_password_management_change_password_note">Ak chcete zmeniť niektoré z hesiel, musíte poznať svoje hlavné heslo. <a href="https://account.proton.me/reset-password">Zabudli ste svoje hlavné heslo?</a></string>
+  <string name="settings_password_management_header">Zmeniť heslo</string>
+  <string name="settings_password_management_cannot_change_password">Svoje záložné heslo nemôžete zmeniť. Obráťte sa na svojho správcu.</string>
+  <string name="settings_main_password_hint_current">Aktuálne hlavné heslo</string>
+  <string name="settings_main_password_hint_new">Nové hlavné heslo</string>
+  <string name="settings_main_password_hint_new_confirm">Potvrďte nové hlavné heslo</string>
+  <string name="settings_second_password_hint_current_main_password">Aktuálne hlavné heslo</string>
+  <string name="settings_second_password_hint_new">Nové druhé heslo</string>
+  <string name="settings_second_password_hint_new_confirm">Potvrďte nové druhé heslo</string>
+  <string name="settings_change_password_error">Vyskytla sa chyba pri zmene hesla.</string>
+  <string name="settings_recovery_email_success">Email na obnovenie bol aktualizovaný</string>
+  <string name="settings_password_management_success">Heslo bolo aktualizované</string>
+  <string name="settings_password_management_start_recovery">Neviete, aké je vaše aktuálne heslo?</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- base common presentation strings -->
+  <string name="presentation_browser_missing">Nem található böngésző. a hivatkozás megnyitásához.</string>
+  <string name="presentation_force_update_title">Frissítés szükséges</string>
+  <string name="presentation_force_update_message">Az alkalmazás ezen verziója már nem támogatott. Frissítenie kell egy újabbra.</string>
+  <string name="presentation_force_update_learn_more">További információk</string>
+  <string name="presentation_force_update_update">Frissítés</string>
+  <string name="presentation_market_missing">Nem található az áruház alkalmazás ezen az eszközön. Nyissa meg az áruházat és frissítse az alkalmazást.</string>
+  <string name="presentation_authenticate">Azonosítás</string>
+  <string name="presentation_signin_to_continue">Jelentkezzen be a folytatáshoz</string>
+  <string name="presentation_alert_title">Figyelmeztetés</string>
+  <string name="presentation_alert_ok">OK</string>
+  <string name="presentation_alert_enter">Belépés</string>
+  <string name="presentation_alert_cancel">Mégsem</string>
+  <string name="presentation_alert_continue">Folytatás</string>
+  <string name="presentation_alert_submit">Küldés</string>
+  <!-- Common menu items -->
+  <string name="presentation_menu_item_title_report_a_bug">Probléma jelentése</string>
+  <string name="presentation_menu_item_title_settings">Beállítások</string>
+  <string name="presentation_menu_item_title_subscription">Előfizetés</string>
+  <string name="presentation_menu_item_title_sign_out">Kijelentkezés</string>
+  <!-- Other -->
+  <string name="presentation_back">Vissza</string>
+  <string name="presentation_close">Bezárás</string>
+  <string name="presentation_retry">Újra</string>
+  <string name="presentation_skip">Kihagyás</string>
+  <string name="presentation_phone_calling_code_template">+%s</string>
+  <string name="presentation_general_connection_error">Nem sikerült kapcsolódni a szerverhez.</string>
+  <string name="presentation_check_your_connection">Ellenőrizze a kapcsolatot</string>
+  <string name="presentation_connectivity_issues">Kapcsolódási problémák</string>
+  <string name="presentation_field_required">A mező kitöltése kötelező.</string>
+  <string name="presentation_error_general">Hiba történt.</string>
+  <plurals name="presentation_datetime_day">
+    <item quantity="one">%d nap</item>
+    <item quantity="other">%d nap</item>
+  </plurals>
+  <plurals name="presentation_datetime_hour">
+    <item quantity="one">%d óra</item>
+    <item quantity="other">%d óra</item>
+  </plurals>
+  <plurals name="presentation_datetime_minute">
+    <item quantity="one">%d perc</item>
+    <item quantity="other">%d perc</item>
+  </plurals>
+  <plurals name="presentation_datetime_second">
+    <item quantity="one">%d másodperc</item>
+    <item quantity="other">%d másodperc</item>
+  </plurals>
+  <plurals name="presentation_datetime_millisecond">
+    <item quantity="one">%d milliszekundum</item>
+    <item quantity="other">%d milliszekundum</item>
+  </plurals>
+  <plurals name="presentation_datetime_microsecond">
+    <item quantity="one">%d mikroszekundum</item>
+    <item quantity="other">%d mikroszekundum</item>
+  </plurals>
+  <plurals name="presentation_datetime_nanosecond">
+    <item quantity="one">%d nanoszekundum</item>
+    <item quantity="other">%d nanoszekundum</item>
+  </plurals>
+</resources>

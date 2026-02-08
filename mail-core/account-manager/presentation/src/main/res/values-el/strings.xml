@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="account_switcher_section_switch_to">Αλλάξτε σε</string>
+  <string name="account_switcher_action_add_account">Προσθήκη λογαριασμού</string>
+  <string name="account_switcher_action_sign_in">Είσοδος</string>
+  <string name="account_switcher_action_sign_out">Αποσύνδεση</string>
+  <string name="account_switcher_action_remove">Αφαίρεση</string>
+  <string name="account_list_item_chevron_content_description">Άνοιγμα εναλλάκτη λογαριασμού</string>
+  <string name="account_view_three_dots_content_description">Επιλογές</string>
+  <string name="account_settings_header">Ρυθμίσεις λογαριασμού</string>
+  <string name="account_settings_item_header">Χρήστης</string>
+  <string name="account_settings_list_header">Λογαριασμός</string>
+  <string name="account_settings_list_item_password_header">Αλλαγή κωδικού πρόσβασης</string>
+  <string name="account_settings_list_item_password_hint_grace">Εκκρεμεί η επαναφορά του κωδικού πρόσβασης</string>
+  <string name="account_settings_list_item_password_hint_insecure">Έτοιμη η επαναφορά του κωδικού πρόσβασης</string>
+  <string name="account_settings_list_item_recovery_header">Διεύθυνση ανάκτησης</string>
+  <string name="account_settings_list_item_recovery_hint_not_set">Μη ορισμένο</string>
+  <string name="account_settings_list_item_security_keys_header">Κλειδιά ασφαλείας</string>
+  <string name="account_settings_list_item_security_keys_hint_not_set">Μη ορισμένο</string>
+  <string name="account_settings_list_item_security_keys_hint_single">%s</string>
+  <plurals name="account_settings_list_item_security_keys_hint_many">
+    <item quantity="one">%d κλειδί ασφαλείας ορίστηκε</item>
+    <item quantity="other">%d κλειδιά ασφαλείας ορίστηκαν</item>
+  </plurals>
+  <string name="account_signout_dialog_title">Αποσύνδεση?</string>
+  <string name="account_signout_dialog_text">Τα δεδομένα που σχετίζονται με τον λογαριασμό σας θα παραμείνουν σε αυτήν τη συσκευή, εκτός εάν επιλέξετε να τα διαγράψετε.</string>
+  <string name="account_signout_dialog_delete_information">Κατάργηση όλων των σχετικών δεδομένων</string>
+  <string name="account_signout_dialog_action_signout">Αποσύνδεση</string>
+  <string name="account_signout_dialog_action_cancel">Ακύρωση</string>
+</resources>

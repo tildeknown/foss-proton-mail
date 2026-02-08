@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- base common strings -->
+  <string name="human_verification_help">Tallelt</string>
+  <string name="human_verification_title">Asenqed b-umdan</string>
+  <!-- To verify the entered code - action -->
+  <string name="human_verification_help_title">Tesriḍ kra n tallalt tallalt s usenqed mačči d aṛubut?</string>
+  <string name="sms_hint">XX XXX XX XX</string>
+  <!-- TODO: update correct strings below -->
+  <string name="human_verification_help_manual_title">Suter tinubga</string>
+  <string name="human_verification_help_manual">Ma tufiḍ ugur deg usnulfu n umiḍan-inek/m, ttxil-k/m suter tinnubga ad d-nerr deg 1 wass uxeddim.</string>
+  <string name="human_verification_help_website_title">Rzu ɣer Wammas n Tallalt</string>
+  <string name="human_verification_help_website">Issin ugar ɣef uselkem mačči d aṛubut, ad teẓreḍ daɣen ayɣer i t-id-nussutur.</string>
+</resources>

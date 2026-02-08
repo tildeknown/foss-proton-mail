@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="account_switcher_section_switch_to">Alternar para</string>
+  <string name="account_switcher_action_add_account">Adicionar conta</string>
+  <string name="account_switcher_action_sign_in">Iniciar sessão</string>
+  <string name="account_switcher_action_sign_out">Encerrar sessão</string>
+  <string name="account_switcher_action_remove">Remover</string>
+  <string name="account_list_item_chevron_content_description">Abrir alternador de contas</string>
+  <string name="account_view_three_dots_content_description">Opções</string>
+  <string name="account_settings_header">Configurações da conta</string>
+  <string name="account_settings_item_header">Usuário</string>
+  <string name="account_settings_list_header">Conta</string>
+  <string name="account_settings_list_item_password_header">Alterar senha</string>
+  <string name="account_settings_list_item_password_hint_grace">Redefinição de senha pendente</string>
+  <string name="account_settings_list_item_password_hint_insecure">Pronto para redefinição de senha</string>
+  <string name="account_settings_list_item_recovery_header">E-mail de recuperação</string>
+  <string name="account_settings_list_item_recovery_hint_not_set">Não definido</string>
+  <string name="account_settings_list_item_security_keys_header">Chaves de segurança</string>
+  <string name="account_settings_list_item_security_keys_hint_not_set">Não definido</string>
+  <string name="account_settings_list_item_security_keys_hint_single">%s</string>
+  <plurals name="account_settings_list_item_security_keys_hint_many">
+    <item quantity="one">%d chave de segurança definida</item>
+    <item quantity="other">%d chaves de segurança definidas</item>
+  </plurals>
+  <string name="account_signout_dialog_title">Encerrar sessão?</string>
+  <string name="account_signout_dialog_text">Os dados associados à sua conta permanecerão neste dispositivo, a menos que você opte por excluí-los.</string>
+  <string name="account_signout_dialog_delete_information">Remover todos os dados associados</string>
+  <string name="account_signout_dialog_action_signout">Sair da sessão</string>
+  <string name="account_signout_dialog_action_cancel">Cancelar</string>
+</resources>

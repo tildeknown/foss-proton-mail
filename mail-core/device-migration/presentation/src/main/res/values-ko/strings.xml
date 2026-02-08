@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2025 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="emd_code_not_recognized">코드가 인식되지 않았습니다. 다시 시도하세요.</string>
+  <string name="edm_code_verifying">인증 중…</string>
+  <string name="edm_missing_camera_permission_headline">카메라 접근 권한 허용</string>
+  <string name="edm_missing_camera_permission_body">QR 코드로 로그인하려면 %1$s(에)서 카메라에 접근하도록 허용해야 합니다. 기기 설정에서 변경할 수 있습니다.</string>
+  <string name="edm_missing_camera_permission_footer">항상 설정을 변경하실 수 있습니다: 언제든지 기기 설정에서 변경할 수 있습니다.</string>
+  <string name="edm_missing_camera_permission_settings">설정</string>
+  <string name="intro_origin_sign_in_title">다른 기기에서 로그인</string>
+  <string name="intro_origin_sign_in_subtitle">QR 코드로 로그인 방법</string>
+  <string name="intro_origin_sign_in_hint_1">1. 로그인하려는 기기에서 Proton 앱을 실행하세요.</string>
+  <string name="intro_origin_sign_in_hint_2">2. 로그인 화면에서 <b>비밀번호를 잊으셨나요?</b> 또는 <b>로그인 문제를 겪고 계신가요?</b>를 선택하세요(모바일 앱에서는 <b>도움말</b>을 선택하세요).</string>
+  <string name="intro_origin_sign_in_hint_3">3. <b>QR 코드로 로그인</b>을 선택하세요. QR 코드가 표시됩니다.</string>
+  <string name="intro_origin_sign_in_hint_4">4. 이 기기에서 <b>QR 코드 스캔</b>을 누르고 코드를 스캔하세요.</string>
+  <string name="intro_origin_sign_in_tips">보안 팁</string>
+  <string name="intro_origin_sign_in_tip_1">QR 코드가 포함된 메시지에 주의하세요. 출처를 신뢰하는 경우에만 코드를 스캔해야 합니다.</string>
+  <string name="intro_origin_sign_in_tip_2">Proton은 예기치 않게 회원님께 QR 코드로 로그인을 절대 요청하지 않습니다.</string>
+  <string name="intro_origin_sign_in_tip_3">Proton은 <b>https://proton.me</b> 또는 공식 Proton 앱이 아닌 QR 코드를 스캔하도록 요청하지 않습니다.</string>
+  <string name="intro_origin_sign_in_begin">QR 코드 스캔</string>
+  <string name="intro_origin_biometrics_title">계속하려면 기기를 잠금 해제하세요</string>
+  <string name="manual_code_input_title">수동으로 코드 입력</string>
+  <string name="manual_code_input_description">로그인하려는 기기의 코드에 접근하려면 로그인 화면의 도움말 메뉴에서 <b>QR 코드로 로그인</b> 버튼을 탭한 다음 <b>수동으로 키 입력</b>을 탭하세요.</string>
+  <string name="manual_code_input_code_label">코드</string>
+  <string name="manual_code_input_clear_code">제거</string>
+  <string name="manual_code_input_submit">계속</string>
+  <string name="origin_success_signed_in">접근이 공유되었습니다</string>
+  <string name="origin_success_ack">설정으로 돌아가기</string>
+  <string name="qr_code_scan_hint">QR 코드를 사각형 안에 위치시켜 주세요</string>
+  <string name="qr_code_scan_enter_manually">수동으로 코드 입력</string>
+  <string name="target_sign_in_title">QR 코드로 로그인</string>
+  <string name="target_sign_in_scan_code">다른 기기에서 로그인하는 방법</string>
+  <string name="target_sign_in_instruction_1">1. Proton 계정에 로그인된 다른 기기를 가져오세요.</string>
+  <string name="target_sign_in_instruction_2">2. 해당 기기에서 Proton 앱 중 아무거나 실행한 뒤 <b>설정</b>을 선택하세요.</string>
+  <string name="target_sign_in_instruction_3"><b>다른 기기에서 로그인을 선택한 뒤 QR코드를 스캔하세요</b>.</string>
+  <string name="target_sign_in_instruction_4">4. 코드를 스캔하여 로그인하세요.</string>
+  <string name="target_sign_in_error_title">로그인에 실패했습니다</string>
+  <string name="target_sign_in_retryable_error">새로운 QR 코드를 생성해 보세요</string>
+  <string name="target_sign_in_passphrase_error">다른 로그인 방법을 시도해 주세요.</string>
+  <string name="target_sign_in_error_new_qr">QR 코드 생성</string>
+  <string name="target_sign_in_error_back_to_signin">로그인으로 돌아가기</string>
+  <string name="target_sign_in_qr_code_failure">QR 코드를 로그할 수 없습니다. 탭하여 다시 시도하세요.</string>
+  <string name="target_sign_in_no_connection">현재 오프라인 상태입니다. 인터넷 연결 상태 확인 후 다시 시도하세요.</string>
+  <string name="target_sign_in_learn_more">더 알아보기</string>
+</resources>

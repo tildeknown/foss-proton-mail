@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="plans_select_a_plan">Επιλέξτε ένα Πακέτο</string>
+  <string name="plans_select_a_plan_subtitle">Ένα πρόγραμμα για όλες τις υπηρεσίες Proton</string>
+  <string name="plans_fetching_general_error">Παρουσιάστηκε σφάλμα κατά τη λήψη πλάνων.</string>
+  <string name="plans_payment_error">Παρουσιάστηκε σφάλμα πληρωμής. Δοκιμάστε ξανά αργότερα ή δημιουργήστε ένα δωρεάν πλάνο.</string>
+  <string name="plans_free_name">Δωρεάν</string>
+  <string name="plan_price_monthly">ανά μήνα</string>
+  <string name="plan_price_annually">ανά έτος</string>
+  <string name="plans_current_plan">Τρέχον Πλάνο</string>
+  <string name="plans_upgrade_plan">Αναβαθμίστε το πρόγραμμά σας</string>
+  <string name="plans_subscription">Συνδρομή</string>
+  <string name="plans_renewal_date">Το πρόγραμμά σας θα ανανεωθεί αυτόματα στις &lt;b&gt;%s&lt;/b&gt;</string>
+  <string name="plans_expiration_date">Το πρόγραμμά σας θα λήξει στις &lt;b&gt;%s&lt;/b&gt;</string>
+  <string name="plans_pay_monthly">Μηνιαία πληρωμή</string>
+  <string name="plans_pay_annually">Ετήσια πληρωμή</string>
+  <string name="plans_pay_biennially">Πληρωμή κάθε 2 χρόνια</string>
+  <plurals name="plans_pay_other">
+    <item quantity="one">Πληρωμή για %d μήνα</item>
+    <item quantity="other">Πληρωμή για %d μήνες</item>
+  </plurals>
+  <string name="plans_billed_yearly">*Ετήσια χρέωση την %s</string>
+  <string name="plans_billed_monthly">Μηνιαία χρέωση</string>
+  <string name="plans_billing_monthly">Για 1 μήνα</string>
+  <string name="plans_billing_yearly">Για 1 χρόνο</string>
+  <string name="plans_billing_two_years">Για 2 χρόνια</string>
+  <plurals name="plans_billing_other_period">
+    <item quantity="one">Για %d μήνα</item>
+    <item quantity="other">Για %d μήνες</item>
+  </plurals>
+  <string name="plans_upgrade_your_plan">Αναβαθμίστε το πρόγραμμά σας</string>
+  <string name="plans_proton_for_free">Αποκτήστε το Proton δωρεάν</string>
+  <string name="plans_get_proton">Αποκτήστε %s</string>
+  <string name="plans_manage_your_subscription">Διαχειριστείτε τη συνδρομή σας στο <a href="https://account.proton.me">account.proton.me</a></string>
+  <string name="plans_used_space" comment="1 - used space (e.g. 300MB); 2 - max available space (e.g. 1GB)">%1$s από %2$s</string>
+  <string name="plans_payments_info_not_available">δ/υ</string>
+  <string name="plans_manage_your_subscription_google">Η συνδρομή σας διαχειρίζεται από το Google Play.</string>
+  <string name="plans_manage_your_subscription_other">Δεν είναι δυνατή η διαχείριση της συνδρομής σας εντός της εφαρμογής για κινητές συσκευές.</string>
+  <string name="plans_autorenew_subscriptions">Μόνο οι ετήσιες συνδρομές αυτόματης ανανέωσης είναι διαθέσιμες μέσω αυτής της εφαρμογής.</string>
+  <string name="plans_can_not_upgrade_from_mobile">Δεν είναι δυνατή η διαχείριση της συνδρομής σας μέσα από την εφαρμογή Android.</string>
+  <string name="plans_user_has_credits">Έχετε πιστώσεις στο λογαριασμό σας.</string>
+  <string name="plans_manage_subscription_play_store">Διαχείριση συνδρομής</string>
+  <string name="plans_no_upgrade_available">Προς το παρόν δεν υπάρχει διαθέσιμη αναβάθμιση.</string>
+  <string name="plans_limited_offer">Προσφορά για περιορισμένο διάστημα</string>
+  <string name="plans_subscription_base_storage_full_title">Ο αποθηκευτικός χώρος του Mail σας είναι γεμάτος</string>
+  <string name="plans_subscription_base_storage_nearly_full_title">Ο αποθηκευτικός χώρος του Mail σας είναι σχεδόν γεμάτος</string>
+  <string name="plans_subscription_drive_storage_full_title">Ο αποθηκευτικός χώρος του Drive σας είναι γεμάτος</string>
+  <string name="plans_subscription_drive_storage_nearly_full_title">Ο αποθηκευτικός χώρος του Drive σας είναι σχεδόν γεμάτος</string>
+  <string name="plans_subscription_storage_get_more">Αποκτήστε περισσότερο χώρο αποθήκευσης</string>
+  <string name="plans_subscription_storage_full_description">Αναβαθμίστε το πλάνο σας στην εφαρμογή ιστού για να συνεχίσετε να χρησιμοποιείτε τον λογαριασμό σας χωρίς διακοπές.</string>
+  <!-- region all possible plan item types. this could be updated as per language requirements.-->
+  <plurals name="item_storage" comment="please do not modify the text between #">
+    <item quantity="one">#proton_storage# αποθηκευτικού χώρου</item>
+    <item quantity="other">#proton_storage# αποθηκευτικού χώρου</item>
+  </plurals>
+  <plurals name="item_storage_free" comment="please do not modify the text between #">
+    <item quantity="one">Έως και #proton_storage# αποθηκευτικού χώρου</item>
+    <item quantity="other">Έως και #proton_storage# αποθηκευτικού χώρου</item>
+  </plurals>
+  <plurals name="item_storage_multiuser" comment="please do not modify the text between #">
+    <item quantity="one">#proton_storage# αποθηκευτικός χώρος / χρήστη</item>
+    <item quantity="other">#proton_storage# αποθηκευτικός χώρος / χρήστη</item>
+  </plurals>
+  <plurals name="item_address" comment="please do not modify the test between #">
+    <item quantity="one">#proton_addresses# διεύθυνση ηλεκτρονικού ταχυδρομείου</item>
+    <item quantity="other">#proton_addresses# διευθύνσεις ηλεκτρονικού ταχυδρομείου</item>
+  </plurals>
+  <plurals name="item_address_multiuser" comment="please do not modify the test between #">
+    <item quantity="one">#proton_addresses# διεύθυνση / χρήστη</item>
+    <item quantity="other">#proton_addresses# διευθύνσεις / χρήστη</item>
+  </plurals>
+  <plurals name="item_address_current" comment="please do not modify the test between #">
+    <item quantity="one">%d από #proton_addresses# διεύθυνση</item>
+    <item quantity="other">%d από #proton_addresses# διευθύνσεις</item>
+  </plurals>
+  <plurals name="item_domain" comment="please do not modify the test between #">
+    <item quantity="one">Υποστήριξη για #proton_domains# προσαρμοσμένο τομέα ηλεκτρονικού ταχυδρομείου</item>
+    <item quantity="other">Υποστήριξη για #proton_domains# προσαρμοσμένων τομέων ηλεκτρονικού ταχυδρομείου</item>
+  </plurals>
+  <plurals name="item_calendar" comment="please do not modify the test between #">
+    <item quantity="one">#proton_calendars# προσωπικό ημερολόγιο</item>
+    <item quantity="other">#proton_calendars# προσωπικά ημερολόγια</item>
+  </plurals>
+  <plurals name="item_calendar_current" comment="please do not modify the test between #">
+    <item quantity="one">%d από #proton_calendars# ημερολόγιο</item>
+    <item quantity="other">%d από #proton_calendars# ημερολόγια</item>
+  </plurals>
+  <plurals name="item_connections" comment="please do not modify the test between #">
+    <item quantity="one">Δωρεάν VPN σε μία μόνο συσκευή</item>
+    <item quantity="other">Δωρεάν VPN σε #proton_vpn# συσκευές</item>
+  </plurals>
+  <plurals name="item_connections_highspeed" comment="please do not modify the test between #">
+    <item quantity="one">#proton_vpn# σύνδεση VPN υψηλής ταχύτητας</item>
+    <item quantity="other">#proton_vpn# συνδέσεις VPN υψηλής ταχύτητας</item>
+  </plurals>
+  <plurals name="item_users" comment="please do not modify the test between #">
+    <item quantity="one">#proton_users# χρήστη</item>
+    <item quantity="other">#proton_users# χρήστες</item>
+  </plurals>
+  <plurals name="item_users_current" comment="please do not modify the test between #">
+    <item quantity="one">%d από #proton_users# χρήστη</item>
+    <item quantity="other">%d από #proton_users# χρήστες</item>
+  </plurals>
+  <!-- endregion -->
+  <!-- region plans headers -->
+  <string name="plan_id_free_header">Τα βασικά για ιδιωτική και ασφαλή επικοινωνία.</string>
+  <string name="plan_id_plus_header">Πλήρως εξοπλισμένο γραμματοκιβώτιο με προηγμένη προστασία.</string>
+  <string name="plan_id_vpnbasic_header">VPN Basic</string>
+  <string name="plan_id_vpnbasic_countries">63 χώρες</string>
+  <string name="plan_id_vpnbasic_high_speed">Υψηλή ταχύτητα</string>
+  <string name="plan_id_vpnplus_adblock">Φραγή Διαφημίσεων (NetShield)</string>
+  <string name="plan_id_vpnplus_streaming">Υποστήριξη υπηρεσίας μετάδοσης</string>
+  <string name="plan_id_vpnplus_header">VPN Plus</string>
+  <string name="plan_id_vpnplus_countries">63 χώρες</string>
+  <string name="plan_id_vpnplus_highest_speed">Ύψιστη ταχύτητα</string>
+  <string name="plan_id_professional_header">Professional</string>
+  <string name="plan_id_professional_multiuser">Υποστήριξη πολλαπλών χρηστών</string>
+  <string name="plan_id_visionary_header">Visionary</string>
+  <string name="plan_id_family_header">Οικογένεια</string>
+  <string name="plan_id_mail2022_header" comment="new_plans">Ασφαλές ηλεκτρονικό ταχυδρομείο με προηγμένες δυνατότητες για τις καθημερινές σας επικοινωνίες.</string>
+  <string name="plan_id_vpn2022_header" comment="new_plans">Η ιδιωτικότητα και η ασφάλειά σας είναι η προτεραιότητά μας.</string>
+  <string name="plan_id_drive2022_header" comment="new_plans">Ασφαλής αποθηκευτικός χώρος νέφους που επιτρέπει αποθήκευση, συγχρονισμό και κοινοποίηση αρχείων, εύκολα και διασφαλισμένα.</string>
+  <string name="plan_id_bundle2022_header" comment="new_plans">Ολοκληρωμένη ιδιωτικότητα και ασφάλεια, συνδυάζοντας όλες τις υπηρεσίες Proton.</string>
+  <string name="plan_id_pass2023_header" comment="new_plans">Για διαχείριση κωδικών πρόσβασης και προστασία ταυτότητας επόμενου επιπέδου.</string>
+  <!-- endregion -->
+  <string-array name="supported_currencies">
+    <item>EUR</item>
+    <item>USD</item>
+    <item>CHF</item>
+  </string-array>
+  <!-- region plans hardcoded texts -->
+  <string name="unlimited_folders_labels_filters" comment="new_plans">Απεριόριστοι φάκελοι, ετικέτες και φίλτρα</string>
+  <string name="highest_vpn_speed" comment="new_plans">Ύψιστη ταχύτητα VPN</string>
+  <string name="servers_in_countries" comment="new_plans">1500+ διακομιστές σε 63 χώρες</string>
+  <string name="ad_blocker" comment="new_plans">Ενσωματωμένη φραγή διαφημίσεων (NetShield)</string>
+  <string name="streaming_services_access" comment="new_plans">Πρόσβαση παγκοσμίως σε υπηρεσίες μετάδοσης</string>
+  <string name="secure_core" comment="new_plans">Διακομιστές Secure Core</string>
+  <string name="tor_vpn" comment="new_plans">Tor μέσω VPN</string>
+  <string name="p2p_bittorrent" comment="new_plans">P2P/BitTorrent</string>
+  <string name="unlimited_logins_and_notes">Απεριόριστες συνδέσεις και σημειώσεις</string>
+  <string name="unlimited_devices">Απεριόριστες συσκευές</string>
+  <string name="integrated_2fa_authenticator">Ενσωματωμένος ελεγκτής 2FA</string>
+  <string name="multiple_vaults">Πολλαπλές κρύπτες</string>
+  <string name="unlimited_email_alias">Απεριόριστα hide-my-email ψευδώνυμα</string>
+  <string name="custom_email_alias_domains">Προσαρμοσμένοι τομείς για ψευδώνυμα email</string>
+  <string name="multiple_forwarding_mailboxes">Πολλαπλές θυρίδες προώθησης</string>
+  <string name="priority_support">Υποστήριξη κατά προτεραιότητα</string>
+  <string name="one_vault">1 κρύπτη</string>
+  <string name="ten_hide_my_email_aliases">10 hide-my-email ψευδώνυμα</string>
+  <!-- endregion -->
+  <!-- region Plan entitlement tags -->
+  <string name="upgrade_storage_current_drive_storage">Drive: %d%% γεμάτο</string>
+  <string name="upgrade_storage_current_mail_storage">Mail: %d%% γεμάτο</string>
+  <string name="upgrade_storage_subtitle">Αναβάθμιση αποθηκευτικού χώρου</string>
+  <!-- endregion -->
+  <!-- region Plan upgrade -->
+  <string name="plan_manage_subscription_title">Αναβάθμιση σε %s</string>
+  <string name="plan_manage_subscription_subtitle">Μπορείτε να διαχειριστείτε τη συνδρομή σας στην εφαρμογή %1$s. Ανοίξτε το %2$s για αναβάθμιση σε %3$s.</string>
+  <string name="plan_manage_subscription_no_app_title">Εγκατάσταση %s</string>
+  <string name="plan_manage_subscription_no_app_subtitle">Μπορείτε να διαχειριστείτε τη συνδρομή σας στην εφαρμογή %1$s. Κάντε λήψη και εγκαταστήστε την πιο πρόσφατη έκδοση του %2$s για αναβάθμιση σε %3$s.</string>
+  <string name="plan_manage_subscription_app_missing_got_it">Το κατάλαβα</string>
+  <string name="plan_welcome_price_message_monthly">Προσφορά καλωσορίσματος. Αυτόματη ανανέωση στα %1$s/μήνα</string>
+  <string name="plan_welcome_price_message_annual">Προσφορά καλωσορίσματος. Αυτόματη ανανέωση στα %1$s/χρόνο</string>
+  <string name="plan_welcome_price_message_two_year">Προσφορά καλωσορίσματος. Αυτόματη ανανέωση στα %1$s/2 χρόνια</string>
+  <string name="plan_auto_renew_message_monthly">Η συνδρομή ανανεώνεται αυτόματα στα %1$s/μήνα</string>
+  <string name="plan_auto_renew_message_annual">Η συνδρομή ανανεώνεται αυτόματα στα %1$s/χρόνο</string>
+  <string name="plan_auto_renew_message_two_years">Η συνδρομή ανανεώνεται αυτόματα στα %1$s/2 χρόνια</string>
+  <string name="plan_welcome_price_message_other_fallback">Η συνδρομή ανανεώνεται αυτόματα</string>
+  <string name="subscription_renewal_info_monthly">Η μειωμένη τιμή του %1$s ισχύει για τον πρώτο μήνα. Η συνδρομή σας ανανεώνεται αυτόματα στο &lt;b&gt;%2$s&lt;/b&gt; στο &lt;b&gt;%3$s&lt;/b&gt; κάθε μήνα.</string>
+  <string name="subscription_renewal_info_annual">Η μειωμένη τιμή του %1$s ισχύει για τον πρώτο χρόνο. Η συνδρομή σας ανανεώνεται αυτόματα στο &lt;b&gt;%2$s&lt;/b&gt; στο &lt;b&gt;%3$s&lt;/b&gt; κάθε χρόνο.</string>
+  <string name="subscription_renewal_info_two_years">Η μειωμένη τιμή του %1$s ισχύει για τον πρώτο χρόνο. Η συνδρομή σας ανανεώνεται αυτόματα στο &lt;b&gt;%2$s&lt;/b&gt; στο &lt;b&gt;%3$s&lt;/b&gt; 2 χρόνια.</string>
+</resources>

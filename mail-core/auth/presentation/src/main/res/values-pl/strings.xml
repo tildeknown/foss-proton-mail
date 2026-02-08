@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="welcome_title">Chroń swoją prywatność z Proton</string>
+  <string name="welcome_subtitle">Szyfrowanie zapewnia prywatność Twoich danych. Twoje dane należą do Ciebie.</string>
+  <string name="welcome_subtitle_mail">Szyfrowana poczta e-mail, która zapewnia prywatną komunikację. Twoja skrzynka należy do Ciebie.</string>
+  <string name="welcome_subtitle_mail_alt">Prywatność. Bezpieczeństwo. Wygoda. Szyfrowana poczta e-mail, która daje Ci pełną kontrolę nad danymi.</string>
+  <string name="welcome_subtitle_drive">Wygoda przechowywania danych w chmurze i bezpieczeństwo technologii szyfrowania. Wreszcie rozwiązanie do przechowywania danych w chmurze, któremu możesz zaufać.</string>
+  <string name="welcome_subtitle_drive_alt">Najbezpieczniejszy sposób przechowywania plików. Przesyłaj, synchronizuj i udostępniaj pliki przy użyciu najsilniejszego szyfrowania.</string>
+  <string name="welcome_subtitle_calendar">Szyfrowany kalendarz, który zapewnia Twoim wydarzeniom prywatność i bezpieczeństwo.</string>
+  <string name="welcome_subtitle_calendar_alt">Szyfrowany kalendarz end-to-end pomaga organizować i kontrolować Twój harmonogram.</string>
+  <string name="welcome_subtitle_vpn">Szybka szwajcarska usługa VPN, która chroni Twoją prywatność, szyfrując Twoje połączenie internetowe.</string>
+  <string name="welcome_subtitle_vpn_alt">Szybka szwajcarska usługa VPN, która chroni Twoją prywatność. Maksymalne bezpieczeństwo, 1600 serwerów i brak ograniczeń.</string>
+  <string name="welcome_subtitle_pass">Wszystkie Twoje hasła. Bezpieczne w jednym miejscu i chronione przez najbardziej zaufaną markę w dziedzinie prywatności.</string>
+  <string name="welcome_subtitle_pass_alt">Wszystkie Twoje hasła. Bezpieczne w jednym miejscu i chronione przez najbardziej zaufaną markę w dziedzinie prywatności.</string>
+  <string name="welcome_privacy_by_default">Prywatność to nasz standard</string>
+  <string name="auth_password_label">Hasło</string>
+  <string name="auth_password_help">Hasło musi zawierać co najmniej 8 znaków</string>
+  <string name="auth_current_login_password">Obecne hasło logowania</string>
+  <string name="auth_enter_six_digit_code">Wpisz 6-cyfrowy kod</string>
+  <string name="auth_second_factor_code">Kod uwierzytelniający</string>
+  <string name="auth_email">Adres e-mail</string>
+  <string name="auth_email_username">Nazwa użytkownika lub adres e-mail</string>
+  <string name="auth_account_details">Wpisz szczegóły konta Proton.</string>
+  <string name="auth_sign_in">Zaloguj się</string>
+  <string name="auth_sign_out">Wyloguj</string>
+  <string name="auth_sign_in_action">Zaloguj się</string>
+  <string name="auth_sign_in_sso">Zaloguj się do organizacji</string>
+  <string name="auth_sign_in_with_password">Zaloguj się za pomocą hasła</string>
+  <string name="auth_continue_to_proton">i przejdź do Proton</string>
+  <string name="auth_sign_in_with_sso">Zaloguj się przez SSO</string>
+  <string name="auth_help_label">Pomoc</string>
+  <string name="auth_login_assistive_text">Wpisz adres e-mail Proton lub nazwę użytkownika.</string>
+  <string name="auth_login_sso_assistive_text">Wpisz adres e-mail</string>
+  <string name="auth_help_title">Jak możemy pomóc?</string>
+  <string name="auth_help_option_forgot_username">Przypomnij nazwę użytkownika</string>
+  <string name="auth_help_option_forgot_password">Przypomnij hasło</string>
+  <string name="auth_help_option_other">Inne problemy z logowaniem</string>
+  <string name="auth_help_other">Nadal potrzebujesz pomocy? Skontaktuj się z nami.</string>
+  <string name="auth_help_option_customer_support">Wsparcie klienta</string>
+  <string name="auth_help_option_sign_in_with_qr_code">Zaloguj się za pomocą kodu QR</string>
+  <string name="auth_2fa_title">Uwierzytelnianie dwustopniowe</string>
+  <string name="auth_2fa_subtitle">Na koncie masz skonfigurowane wiele metod uwierzytelniania dwustopniowego. Wybierz metodę potwierdzenia tożsamości.</string>
+  <string name="auth_2fa_tab_one_time_code">Kod uwierzytelniający</string>
+  <string name="auth_2fa_tab_security_key">Klucz bezpieczeństwa</string>
+  <string name="auth_2fa_insert_security_key">Użyj klucza bezpieczeństwa powiązanego z kontem Proton. <annotation link="more">Dowiedz się więcej</annotation></string>
+  <string name="auth_2fa_label">Kod uwierzytelniający</string>
+  <string name="auth_2fa_recovery_code_label">Kod odzyskiwania</string>
+  <string name="auth_2fa_assistive_text">Wpisz 6-cyfrowy kod.</string>
+  <string name="auth_2fa_recovery_code_assistive_text">Wpisz 8-cyfrowy kod odzyskiwania.</string>
+  <string name="auth_2fa_action">Uwierzytelnij</string>
+  <string name="auth_2fa_use_recovery_code">Użyj kodu odzyskiwania</string>
+  <string name="auth_2fa_learn_more">Dowiedz się więcej</string>
+  <string name="auth_2fa_use_2fa_code">Użyj kodu uwierzytelniającego</string>
+  <string name="auth_2fa_error_empty_code">Wpisz 6-cyfrowy kod.</string>
+  <string name="auth_2fa_error_key_security_error">A security error has occurred: %1$s</string>
+  <string name="auth_2fa_error_key_abort_error">The operation was aborted.</string>
+  <string name="auth_2fa_error_key_invalid_or_not_supported">Wystąpił błąd. Sprawdź klucz.</string>
+  <string name="auth_2fa_error_key_network_error">Wystąpił błąd sieci. Spróbuj ponownie.</string>
+  <string name="auth_mailbox_title">Odblokuj swoją skrzynkę pocztową</string>
+  <string name="auth_mailbox_password_label">Hasło skrzynki pocztowej</string>
+  <string name="auth_mailbox_unlock_action">Odblokuj</string>
+  <string name="auth_forgot_password">Przypomnij hasło</string>
+  <string name="auth_login_general_error">Wystąpił błąd.</string>
+  <string name="auth_login_external_account_unsupported_title">Adres Proton jest wymagany</string>
+  <string name="auth_login_external_account_unsupported_message">Uzyskaj adres Proton Mail powiązany z tym kontem.</string>
+  <string name="auth_login_external_account_unsupported_help_action">Dowiedz się więcej</string>
+  <string name="auth_login_external_sso_unsupported_title">Logowanie SSO nie jest obsługiwane</string>
+  <string name="auth_login_external_sso_unsupported_message">Jeśli problem powtarza się, skontaktuj się z administratorem.</string>
+  <string name="auth_login_external_sso_unsupported_action">Ok</string>
+  <string name="auth_login_empty_credentials">Pola z danymi logowania nie mogą być puste.</string>
+  <string name="auth_mailbox_empty_credentials">Pola z danymi logowania nie mogą być puste.</string>
+  <string name="auth_create_address_title">Adres Proton jest wymagany</string>
+  <string name="auth_create_address_subtitle">You need a Proton email address to use Calendar and other Proton products. You’ll still be able to use %1$s to sign in, and to recover your account.</string>
+  <string name="auth_username">Nazwa użytkownika</string>
+  <string name="auth_username_next_action">Kontynuuj</string>
+  <string name="auth_create_address_result_title">Adres %s jest dostępny</string>
+  <string name="auth_create_address_result_title_username">Twoim nowym adresem Proton Mail będzie %1$s@%2$s.</string>
+  <string name="auth_create_address_result_subtitle">Będziesz używać tego adresu do logowania się do wszystkich usług Proton.</string>
+  <string name="auth_create_address_result_recovery_title">Twój adres pomocniczy:</string>
+  <string name="auth_create_address_create">Utwórz adres</string>
+  <string name="auth_create_address_creating">Tworzenie adresu</string>
+  <string name="auth_create_address_terms">Klikając przycisk Utwórz adres, akceptujesz <a href="https://proton.me/legal/terms">regulamin</a> usługi Proton.</string>
+  <string name="auth_create_address_error_credentials">Pola z danymi logowania nie mogą być puste.</string>
+  <string name="auth_create_address_error_no_available_domain">Brak dostępnej domeny.</string>
+  <string name="auth_create_address_error_private_key">Generowanie klucza prywatnego nie powiodło się.</string>
+  <string name="auth_create_address_error_signed_key_list">Generowanie listy kluczy nie powiodło się.</string>
+  <string name="auth_create_address_error_setusername">Powiązanie nazwy użytkownika z kontem nie powiodło się.</string>
+  <string name="auth_create_address_error_username_unavailable">Wybrana nazwa użytkownika jest niedostępna.</string>
+  <string name="auth_mailbox_login_error_no_primary_key">Klucz główny nie został znaleziony.</string>
+  <string name="auth_mailbox_login_error_primary_key_error">Błąd klucza głównego.</string>
+  <string name="auth_mailbox_login_error_invalid_passphrase">Hasło jest nieprawidłowe.</string>
+  <string name="auth_password_chooser_title">Zmień hasło</string>
+  <string name="auth_password_chooser_description">Aby używać aplikacji Proton jako użytkownik organizacji, musisz zmienić swoje hasło. Zaloguj się do konta Proton przez przeglądarkę.</string>
+  <string name="auth_password_chooser_change">Zmień hasło</string>
+  <plurals name="auth_user_check_max_free_error">
+    <item quantity="one">Możesz dodać tylko jedno darmowe konto Proton.</item>
+    <item quantity="few">Możesz dodać tylko %d darmowe konta Proton.</item>
+    <item quantity="many">Możesz dodać tylko %d darmowych kont Proton.</item>
+    <item quantity="other">Możesz dodać tylko %d darmowych kont Proton.</item>
+  </plurals>
+  <string name="auth_user_check_delinquent_error">Twoje konto jest obecnie zawieszone z powodu zaległych faktur.</string>
+  <string name="auth_user_check_delinquent_action">Zapłać fakturę</string>
+  <string name="auth_account_not_found_error">Wystąpił błąd konta</string>
+  <string name="auth_one_account_all_services">Jedno konto do wszystkich usług Proton.</string>
+  <string name="auth_create_account">Utwórz konto</string>
+  <string name="auth_long_signup">Poczekaj chwilę…</string>
+  <string name="auth_long_login">Trwa logowanie. Poczekaj chwilę…</string>
+  <!-- signup related strings -->
+  <string name="auth_signup_create_account">Utwórz konto Proton</string>
+  <string name="auth_signup_current_email">Użyj swojego obecnego adresu e-mail</string>
+  <string name="auth_signup_external_footnote">Dzięki adresowi Proton możesz używać wszystkich usług Proton</string>
+  <string name="auth_signup_internal_footnote">Potrzebujesz adresu Proton, aby używać usług Proton Mail i Proton Calendar</string>
+  <string name="auth_signup_create_secure_proton_address">Uzyskaj nowy szyfrowany adres e-mail</string>
+  <string name="auth_signup_username">Nazwa użytkownika</string>
+  <string name="auth_signup_domain">Domena</string>
+  <string name="auth_signup_email">Adres e-mail</string>
+  <string name="auth_signup_next">Dalej</string>
+  <string name="auth_signup_choose_password">Utwórz hasło</string>
+  <string name="auth_signup_repeat_password">Potwierdź hasło</string>
+  <string name="auth_signup_recovery_method_title">Ustaw metodę odzyskiwania (opcjonalnie)</string>
+  <string name="auth_signup_recovery_method_title_mandatory">Ustaw metodę odzyskiwania</string>
+  <string name="auth_signup_recovery_method_subtitle">Jeśli zablokujesz konto, wyślemy instrukcję odzyskiwania na ten adres e-mail lub numer telefonu.</string>
+  <string name="auth_signup_recovery_method_subtitle_email_only">Jeśli zablokujesz konto, wyślemy instrukcję odzyskiwania na ten adres e-mail.</string>
+  <string name="auth_signup_recovery_method_email">Adres e-mail</string>
+  <string name="auth_signup_recovery_method_phone">Numer telefonu</string>
+  <string name="auth_signup_recovery_method_email_hint">Adres pomocniczy</string>
+  <string name="auth_signup_recovery_method_phone_hint">Numer pomocniczy</string>
+  <string name="auth_signup_terms_conditions">Regulamin</string>
+  <string name="auth_signup_privacy_policy">Polityka prywatności</string>
+  <string name="auth_signup_terms_conditions_privacy_policy_full">Klikając przycisk Dalej, akceptujesz <annotation link="terms">regulamin</annotation> usługi Proton i <annotation link="privacy">politykę prywatności</annotation>.</string>
+  <string name="auth_signup_skip_recovery_title">Pominąć metodę odzyskiwania?</string>
+  <string name="auth_signup_skip_recovery_description">Metoda odzyskiwania pomoże uzyskać dostęp do konta, w przypadku gdy zostanie ono zablokowane lub zapomnisz hasła.</string>
+  <string name="auth_signup_skip_recovery">Pomiń</string>
+  <string name="auth_signup_set_recovery">Ustaw metodę odzyskiwania</string>
+  <string name="auth_signup_no_connectivity">Brak połączenia z Internetem, aby wyświetlić stronę.</string>
+  <string name="auth_signup_error_create_to_continue">Utwórz konto, aby kontynuować</string>
+  <string name="auth_signup_error_create_to_continue_action_learn_more">Dowiedz się więcej</string>
+  <string name="auth_signup_create_account_dialog_title">Aktywuj subskrypcję</string>
+  <string name="auth_signup_create_account_dialog_text">Płatność Google Pay została przetworzona. Utwórz konto Proton, aby aktywować subskrypcję.</string>
+  <string name="auth_signup_create_account_dialog_action_cancel">Anuluj</string>
+  <string name="auth_signup_create_account_dialog_action_continue">Kontynuuj</string>
+  <string name="auth_signup_error_username_blank">Nazwa użytkownika nie może być pusta.</string>
+  <string name="auth_signup_error_passwords_do_not_match">Hasła nie pasują do siebie.</string>
+  <string name="auth_signup_validation_password_length">Hasło musi zawierać co najmniej 8 znaków.</string>
+  <string name="auth_signup_password_not_allowed">Hasło jest zbyt proste. Użyj innego hasła.</string>
+  <string name="auth_signup_validation_password">Hasło nie może być puste.</string>
+  <string name="auth_signup_your_account_is_being_setup">Tworzenie konta…</string>
+  <string name="auth_signup_please_wait">Zazwyczaj trwa to nie dłużej niż minutę.</string>
+  <string name="auth_signup_replacement_code">Nie otrzymano kodu?</string>
+  <string name="auth_signup_verify">Zweryfikuj</string>
+  <string name="auth_signup_verification_code">Kod weryfikacyjny</string>
+  <string name="auth_signup_enter_code_subtitle">Wpisz kod weryfikacyjny wysłany do %s:</string>
+  <string name="auth_signup_error_human_verification_failed">Weryfikacja antyspamowa nie powiodła się.</string>
+  <string name="auth_signup_congratulations_subtitle">Konto Proton zostało utworzone.\nCiesz się prywatnością.</string>
+  <string name="auth_signup_congratulations">Gratulacje!</string>
+  <string name="auth_signup_start_using_proton">Zacznij korzystać z Proton</string>
+  <string name="auth_signup_start_using_calendar">Zacznij korzystać z Proton Calendar</string>
+  <string name="auth_signup_start_using_mail">Zacznij korzystać z Proton Mail</string>
+  <string name="auth_signup_start_using_drive">Zacznij korzystać z Proton Drive</string>
+  <string name="auth_signup_start_using_vpn">Zacznij korzystać z Proton VPN</string>
+  <string name="auth_signup_start_using_pass">Zacznij korzystać z Proton Pass</string>
+  <string name="auth_signup_error_validation_recovery_destination">Kontakt pomocniczy jest nieprawidłowy.</string>
+  <string name="auth_credentialless_vpn_no_logs">Certyfikowany VPN bez logów</string>
+  <string name="auth_credentialless_vpn_title">Witaj w Proton VPN</string>
+  <string name="auth_credentialless_vpn_subtitle">Przeglądaj prywatnie Internet, uzyskaj dostęp do zablokowanych treści i ciesz się cyfrową wolnością.</string>
+  <string name="auth_credentialless_guest_button">Kontynuuj jako gość</string>
+  <string name="auth_credentialless_terms" comment="Please do not modify the &lt;annotation link=&quot;terms&quot;&gt; tag, only its contents.">Korzystając z aplikacji, akceptujesz <annotation link="terms">Regulamin</annotation>.</string>
+  <string name="auth_credentialless_settings_title">Przejdź do prywatności.</string>
+  <string name="auth_credentialless_settings_subtitle">Konto Proton zapewnia darmowy menadżer haseł, szyfrowaną pocztę, kalendarz oraz 1 GB przestrzeni dyskowej w chmurze.</string>
+</resources>

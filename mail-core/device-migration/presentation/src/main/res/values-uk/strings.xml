@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2025 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="emd_code_not_recognized">Код не розпізнано. Спробуйте ще раз.</string>
+  <string name="edm_code_verifying">Перевірка…</string>
+  <string name="edm_missing_camera_permission_headline">Дозволити доступ до камери</string>
+  <string name="edm_missing_camera_permission_body">Щоб увійти за допомогою QR-коду, необхідно дозволити %1$s доступ до вашої камери. Це можна зробити в налаштуваннях пристрою.</string>
+  <string name="edm_missing_camera_permission_footer">Ви завжди все контролюєте. Дозвіл можна будь-коли змінити в налаштуваннях пристрою.</string>
+  <string name="edm_missing_camera_permission_settings">Налаштування</string>
+  <string name="intro_origin_sign_in_title">Увійти на іншому пристрої</string>
+  <string name="intro_origin_sign_in_subtitle">Як увійти за допомогою QR-коду</string>
+  <string name="intro_origin_sign_in_hint_1">1. Відкрийте програму Proton на пристрої, на якому хочете ввійти.</string>
+  <string name="intro_origin_sign_in_hint_2">2. На екрані входу виберіть <b>Забули пароль</b> або <b>Проблеми з входом?</b> (у мобільних програмах виберіть <b>Довідка</b>).</string>
+  <string name="intro_origin_sign_in_hint_3">3. Виберіть <b>Увійти за допомогою QR-коду</b>. З\'явиться QR-код.</string>
+  <string name="intro_origin_sign_in_hint_4">4. На цьому пристрої натисніть <b>Сканувати QR-код</b>, щоб завершити вхід.</string>
+  <string name="intro_origin_sign_in_tips">Поради з безпеки</string>
+  <string name="intro_origin_sign_in_tip_1">Будьте обережні з повідомленнями, що містять QR-коди. Скануйте код, лише якщо довіряєте джерелу.</string>
+  <string name="intro_origin_sign_in_tip_2">Proton ніколи не звернеться до вас без попередження з проханням увійти за допомогою QR-коду.</string>
+  <string name="intro_origin_sign_in_tip_3">Proton ніколи не попросить вас сканувати QR-код з інших джерел, окрім <b>https://proton.me</b> або офіційної програми Proton.</string>
+  <string name="intro_origin_sign_in_begin">Сканувати QR-код</string>
+  <string name="intro_origin_biometrics_title">Розблокуйте свій пристрій, щоб продовжити</string>
+  <string name="manual_code_input_title">Ввести код вручну</string>
+  <string name="manual_code_input_description">Щоб отримати доступ до коду пристрою, на якому ви хочете ввійти, торкніться кнопки <b>Увійти за допомогою QR-коду</b> в меню довідки екрана входу, а потім торкніться <b>Ввести код вручну</b>.</string>
+  <string name="manual_code_input_code_label">Код</string>
+  <string name="manual_code_input_clear_code">Очистити</string>
+  <string name="manual_code_input_submit">Продовжити</string>
+  <string name="origin_success_signed_in">Доступ надано</string>
+  <string name="origin_success_ack">Повернутись до налаштувань</string>
+  <string name="qr_code_scan_hint">Наведіть QR-код у межі квадрата</string>
+  <string name="qr_code_scan_enter_manually">Ввести код вручну</string>
+  <string name="target_sign_in_title">Увійти за допомогою QR-коду</string>
+  <string name="target_sign_in_scan_code">Як увійти за допомогою іншого пристрою</string>
+  <string name="target_sign_in_instruction_1">1. Візьміть інший пристрій, на якому виконано вхід у ваш обліковий запис Proton</string>
+  <string name="target_sign_in_instruction_2">2. Використовуючи той пристрій, відкрийте програму Proton і перейдіть в <b>Налаштування</b></string>
+  <string name="target_sign_in_instruction_3">3. Виберіть <b>Увійти на іншому пристрої → Сканувати QR-код</b></string>
+  <string name="target_sign_in_instruction_4">4. Скануйте код, щоб увійти</string>
+  <string name="target_sign_in_error_title">Не вдається виконати вхід</string>
+  <string name="target_sign_in_retryable_error">Спробуйте згенерувати новий QR-код.</string>
+  <string name="target_sign_in_passphrase_error">Спробуйте інший спосіб входу.</string>
+  <string name="target_sign_in_error_new_qr">Згенерувати QR-код</string>
+  <string name="target_sign_in_error_back_to_signin">Повернутися до входу</string>
+  <string name="target_sign_in_qr_code_failure">Не вдалося завантажити QR-код. Торкніться, щоб повторити спробу.</string>
+  <string name="target_sign_in_no_connection">Схоже, ви не в мережі. Перевірте своє з\'єднання і повторіть спробу.</string>
+  <string name="target_sign_in_learn_more">Докладніше</string>
+</resources>

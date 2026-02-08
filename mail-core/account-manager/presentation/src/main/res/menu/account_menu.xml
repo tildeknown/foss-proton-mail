@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2021 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/account_menu_sign_in"
+        android:icon="@drawable/ic_proton_arrow_in_to_rectangle"
+        android:title="@string/account_switcher_action_sign_in" />
+    <item
+        android:id="@+id/account_menu_sign_out"
+        android:icon="@drawable/ic_proton_arrow_out_from_rectangle"
+        android:title="@string/account_switcher_action_sign_out" />
+    <item
+        android:id="@+id/account_menu_remove"
+        android:icon="@drawable/ic_remove_account"
+        android:title="@string/account_switcher_action_remove" />
+</menu>

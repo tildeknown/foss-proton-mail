@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- Grace period - info -->
+  <string name="account_recovery_grace_period_info_title">Подано запит на скидання пароля</string>
+  <plurals name="account_recovery_grace_period_info_subtitle">
+    <item quantity="one">Створено запит на скидання пароля для <b>%1$s</b>. Ви можете змінити пароль протягом %2$d години.\n\nЯкщо ви не робили цей запит, скасуйте його зараз.</item>
+    <item quantity="few">Створено запит на скидання пароля для <b>%1$s</b>. Ви можете змінити пароль протягом %2$d годин.\n\nЯкщо ви не робили цей запит, скасуйте його зараз.</item>
+    <item quantity="many">Створено запит на скидання пароля для <b>%1$s</b>. Ви можете змінити пароль протягом %2$d годин.\n\nЯкщо ви не робили цей запит, скасуйте його зараз.</item>
+    <item quantity="other">Створено запит на скидання пароля для <b>%1$s</b>. Ви можете змінити пароль протягом %2$d годин.\n\nЯкщо ви не робили цей запит, скасуйте його зараз.</item>
+  </plurals>
+  <!-- Grace period - cancellation form -->
+  <string name="account_recovery_cancel_title">Скасувати скидання пароля?</string>
+  <string name="account_recovery_cancel_subtitle">Введіть свій пароль, щоб скасувати.</string>
+  <string name="account_recovery_cancel_password_label">Поточний пароль</string>
+  <string name="account_recovery_cancel_password_placeholder">Пароль</string>
+  <string name="account_recovery_cancel_now">Скасувати скидання пароля</string>
+  <string name="account_recovery_cancel_back">Назад</string>
+  <!-- Account recovery cancelled -->
+  <string name="account_recovery_cancelled_title">Скидання пароля скасовано</string>
+  <string name="account_recovery_cancelled_subtitle">Якщо ви не створювали запит на зміну пароля, ваш обліковий запис може бути в небезпеці.\n\nЗмініть пароль, щоб захистити свій обліковий запис.</string>
+  <!-- Password change period -->
+  <string name="account_recovery_password_started_title">Доступне скидання пароля</string>
+  <string name="account_recovery_password_started_subtitle">Щоб скинути пароль, поверніться до пристрою, програми або браузера, з якого ви надіслали запит.\n\nЦе необхідно зробити до %s.\n\nЯкщо ви не надсилали запит на скидання пароля, скасуйте його зараз.</string>
+  <string name="account_recovery_password_started_self_initiated_subtitle">Тепер ви можете скинути пароль.\n\nЦе необхідно зробити до %s.\n\nЯкщо ви не надсилали запит на скидання пароля, скасуйте його зараз.</string>
+  <!-- Recovery window ended -->
+  <string name="account_recovery_window_ended_title">Скидання пароля протерміновано</string>
+  <string name="account_recovery_window_ended_subtitle">Вам необхідно подати новий запит на скидання пароля для %s.</string>
+  <!-- Other -->
+  <string name="account_recovery_cancel">Скасувати запит</string>
+  <string name="account_recovery_dismiss">Зрозуміло</string>
+  <string name="account_recovery_reset">Скинути пароль</string>
+  <!-- Account Recovery Info -->
+  <string name="account_recovery_info_grace_title">Запит на скидання пароля надіслано</string>
+  <string name="account_recovery_info_grace_subtitle">Ви можете скинути пароль через %1s.</string>
+  <string name="account_recovery_info_grace_description">Щоб переконатися, що саме ви намагаєтеся скинути пароль, ми чекаємо 72 години, перш ніж схвалити запит.\n\nЯкщо ви не запитували про скидання пароля, скасуйте цей запит негайно.</string>
+  <string name="account_recovery_info_cancelled_title">Скидання пароля скасовано</string>
+  <string name="account_recovery_info_cancelled_subtitle">Запит на скидання пароля подано %1s.</string>
+  <string name="account_recovery_info_cancelled_description">Якщо ви не розпізнаєте цей запит, це може означати, що хтось інший має доступ до вашого облікового запису Proton.\n\nЗахистіть свій обліковий запис зараз.</string>
+  <string name="account_recovery_info_insecure_title">Доступне скидання пароля</string>
+  <string name="account_recovery_info_insecure_subtitle">Тепер ви можете скинути пароль. Скидання пароля буде доступним до %1s.</string>
+  <string name="account_recovery_info_insecure_description">Не робили цього запиту?\n\nЯкщо ви не просили скинути пароль, скасуйте запит негайно.</string>
+  <!-- Password Reset Dialog -->
+  <string name="account_recovery_reset_dialog_title">Скинути пароль?</string>
+  <string name="account_recovery_reset_dialog_text">"З міркувань безпеки вам доведеться почекати 72 години, перш ніж ви зможете змінити пароль для %1s.\n\nЯкщо у вас налаштовано спосіб відновлення облікового запису, спробуйте замість цього скористатися ним. Це дозволить вам одразу змінити пароль."</string>
+  <string name="account_recovery_reset_dialog_action_request_reset">Запитати скидання пароля</string>
+  <string name="account_recovery_reset_dialog_action_use_recovery">Використати спосіб відновлення</string>
+  <string name="account_recovery_reset_dialog_action_use_recovery_hint">Змініть пароль у вашому браузері без очікування періоду безпеки.</string>
+  <string name="account_recovery_reset_dialog_action_request_reset_success">Подано запит на скидання пароля</string>
+</resources>

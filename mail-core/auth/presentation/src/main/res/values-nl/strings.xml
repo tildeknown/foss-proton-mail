@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="welcome_title">Bescherm uw privacy met Proton</string>
+  <string name="welcome_subtitle">Encryptie houdt uw gegevens privé. Uw gegevens zijn echt van u.</string>
+  <string name="welcome_subtitle_mail">Versleutelde e-mail die uw gesprekken privé houdt. Uw inbox is echt van u.</string>
+  <string name="welcome_subtitle_mail_alt">Privacy. Veiligheid. Gebruiksgemak. Versleutelde e-mail dat u volledige controle biedt over uw persoonlijke gegevens.</string>
+  <string name="welcome_subtitle_drive">Het gemak van cloudopslag en de beveiliging van encryptietechnologie. Eindelijk een cloudopslagdienst die u kunt vertrouwen.</string>
+  <string name="welcome_subtitle_drive_alt">De veiligste manier om uw bestanden op te slaan. Upload, synchroniseer en deel met de sterkst beschikbare versleuteling.</string>
+  <string name="welcome_subtitle_calendar">Gecodeerde agenda die uw levensgebeurtenissen privé, veilig en beveiligd houdt.</string>
+  <string name="welcome_subtitle_calendar_alt">Onze end-to-end versleutelde agenda helpt u om georganiseerd, op schema en in controle te blijven.</string>
+  <string name="welcome_subtitle_vpn">Zeer snelle Zwitserse VPN die uw privacy bewaakt door uw internetverbinding te versleutelen.</string>
+  <string name="welcome_subtitle_vpn_alt">Hogesnelheid Zwitserse VPN die uw privacy beschermt. Maximale beveiliging, 1600 servers en geen beperkingen.</string>
+  <string name="welcome_subtitle_pass">Al uw wachtwoorden. Veilig op één plaats en beschermd door de meest vertrouwde naam binnen privacy.</string>
+  <string name="welcome_subtitle_pass_alt">Al uw wachtwoorden. Veilig op één plaats en beschermd door de meest vertrouwde naam binnen privacy.</string>
+  <string name="welcome_privacy_by_default">Privacy als standaard</string>
+  <string name="auth_password_label">Wachtwoord</string>
+  <string name="auth_password_help">Wachtwoord moet ten minste 8 tekens bevatten</string>
+  <string name="auth_current_login_password">Huidig loginwachtwoord</string>
+  <string name="auth_enter_six_digit_code">Voer 6-cijferige code in</string>
+  <string name="auth_second_factor_code">Tweestapsverificatiecode</string>
+  <string name="auth_email">E-mail</string>
+  <string name="auth_email_username">Gebruikersnaam of e-mailadres</string>
+  <string name="auth_account_details">Vul uw Proton Account gegevens in.</string>
+  <string name="auth_sign_in">Inloggen</string>
+  <string name="auth_sign_out">Uitloggen</string>
+  <string name="auth_sign_in_action">Inloggen</string>
+  <string name="auth_sign_in_sso">Aanmelden bij uw organisatie</string>
+  <string name="auth_sign_in_with_password">Aanmelden met wachtwoord</string>
+  <string name="auth_continue_to_proton">om door te gaan naar Proton</string>
+  <string name="auth_sign_in_with_sso">Inloggen met SSO</string>
+  <string name="auth_help_label">Hulp</string>
+  <string name="auth_login_assistive_text">Voer uw Proton e-mail of gebruikersnaam in.</string>
+  <string name="auth_login_sso_assistive_text">Voer uw e-mailadres in.</string>
+  <string name="auth_help_title">Hoe kunnen we helpen?</string>
+  <string name="auth_help_option_forgot_username">Gebruikersnaam vergeten</string>
+  <string name="auth_help_option_forgot_password">Wachtwoord vergeten</string>
+  <string name="auth_help_option_other">Andere inlogproblemen</string>
+  <string name="auth_help_other">Meer hulp nodig? Neem dan rechtstreeks contact me ons op.</string>
+  <string name="auth_help_option_customer_support">Klantondersteuning</string>
+  <string name="auth_help_option_sign_in_with_qr_code">Meld u aan met een QR-code</string>
+  <string name="auth_2fa_title">Tweestapsverificatie</string>
+  <string name="auth_2fa_subtitle">Uw account heeft meerdere 2FA mechanismen geconfigureerd. Selecteer hoe u uw identiteit wilt bevestigen.</string>
+  <string name="auth_2fa_tab_one_time_code">Eenmalige code</string>
+  <string name="auth_2fa_tab_security_key">Beveiligingssleutel</string>
+  <string name="auth_2fa_insert_security_key">Vul een beveiligingssleutel in die gekoppeld is aan uw Proton Account. <annotation link="more">Meer informatie</annotation></string>
+  <string name="auth_2fa_label">Tweestapsverificatiecode</string>
+  <string name="auth_2fa_recovery_code_label">Herstelcode</string>
+  <string name="auth_2fa_assistive_text">Voer de 6-cijferige code in.</string>
+  <string name="auth_2fa_recovery_code_assistive_text">Voer een herstelcode van 8 tekens in.</string>
+  <string name="auth_2fa_action">Authenticeren</string>
+  <string name="auth_2fa_use_recovery_code">Herstelcode gebruiken</string>
+  <string name="auth_2fa_learn_more">Meer informatie</string>
+  <string name="auth_2fa_use_2fa_code">Tweestapsverificatiecode gebruiken</string>
+  <string name="auth_2fa_error_empty_code">Voer de 6-cijferige code in.</string>
+  <string name="auth_2fa_error_key_security_error">A security error has occurred: %1$s</string>
+  <string name="auth_2fa_error_key_abort_error">The operation was aborted.</string>
+  <string name="auth_2fa_error_key_invalid_or_not_supported">Er is een fout opgetreden. Controleer uw sleutel.</string>
+  <string name="auth_2fa_error_key_network_error">Er is een netwerkfout opgetreden. Probeer het nogmaals.</string>
+  <string name="auth_mailbox_title">Ontgrendel uw mailbox</string>
+  <string name="auth_mailbox_password_label">Mailbox-wachtwoord</string>
+  <string name="auth_mailbox_unlock_action">Ontgrendelen</string>
+  <string name="auth_forgot_password">Wachtwoord vergeten</string>
+  <string name="auth_login_general_error">Er is iets fout gegaan.</string>
+  <string name="auth_login_external_account_unsupported_title">Proton-adres vereist</string>
+  <string name="auth_login_external_account_unsupported_message">Verkrijg een Proton Mail-adres verbonden aan dit account via uw Proton-webinstellingen.</string>
+  <string name="auth_login_external_account_unsupported_help_action">Meer informatie</string>
+  <string name="auth_login_external_sso_unsupported_title">Single sign-on niet ondersteund</string>
+  <string name="auth_login_external_sso_unsupported_message">Contacteer uw beheerder als het probleem blijft.</string>
+  <string name="auth_login_external_sso_unsupported_action">Begrepen</string>
+  <string name="auth_login_empty_credentials">De inloggegevens mogen niet leeg zijn.</string>
+  <string name="auth_mailbox_empty_credentials">De inloggegevens mogen niet leeg zijn.</string>
+  <string name="auth_create_address_title">Proton-adres vereist</string>
+  <string name="auth_create_address_subtitle">You need a Proton email address to use Calendar and other Proton products. You’ll still be able to use %1$s to sign in, and to recover your account.</string>
+  <string name="auth_username">Gebruikersnaam</string>
+  <string name="auth_username_next_action">Doorgaan</string>
+  <string name="auth_create_address_result_title">%s is beschikbaar</string>
+  <string name="auth_create_address_result_title_username">%1$s@%2$s zal uw nieuw Proton Mail e-mailadres zijn.</string>
+  <string name="auth_create_address_result_subtitle">U zult dit adres gebruiken om in te loggen op alle Proton diensten.</string>
+  <string name="auth_create_address_result_recovery_title">Uw herstel e-mailadres is:</string>
+  <string name="auth_create_address_create">Adres toevoegen</string>
+  <string name="auth_create_address_creating">Adres aanmaken</string>
+  <string name="auth_create_address_terms">Door op Adres maken te klikken, gaat u akkoord met de <a href="https://proton.me/legal/terms">Algemene voorwaarden</a> van Proton.</string>
+  <string name="auth_create_address_error_credentials">De inloggegevens mogen niet leeg zijn.</string>
+  <string name="auth_create_address_error_no_available_domain">Geen beschikbaar domein.</string>
+  <string name="auth_create_address_error_private_key">Genereren van private sleutel mislukt.</string>
+  <string name="auth_create_address_error_signed_key_list">Genereren van sleutellijst mislukt.</string>
+  <string name="auth_create_address_error_setusername">Het koppelen van de gebruikersnaam is mislukt.</string>
+  <string name="auth_create_address_error_username_unavailable">De gekozen gebruikersnaam is niet beschikbaar.</string>
+  <string name="auth_mailbox_login_error_no_primary_key">Geen primaire sleutel gevonden.</string>
+  <string name="auth_mailbox_login_error_primary_key_error">Fout in primaire sleutel.</string>
+  <string name="auth_mailbox_login_error_invalid_passphrase">Ongeldige wachtwoordzin.</string>
+  <string name="auth_password_chooser_title">Verander uw wachtwoord</string>
+  <string name="auth_password_chooser_description">Om de Proton-app als lid van een organisatie te gebruiken, moet u eerst uw wachtwoord wijzigen door u via een browser bij Proton aan te melden.</string>
+  <string name="auth_password_chooser_change">Wachtwoord wijzigen</string>
+  <plurals name="auth_user_check_max_free_error">
+    <item quantity="one">Slechts één gratis Proton account is toegestaan.</item>
+    <item quantity="other">Slechts %d gratis Proton accounts zijn toegestaan.</item>
+  </plurals>
+  <string name="auth_user_check_delinquent_error">Uw account staat momenteel in wacht wegens een achterstallige factuur.</string>
+  <string name="auth_user_check_delinquent_action">Factuur betalen</string>
+  <string name="auth_account_not_found_error">Fout met het account</string>
+  <string name="auth_one_account_all_services">Één account voor alle Proton diensten.</string>
+  <string name="auth_create_account">Een account aanmaken</string>
+  <string name="auth_long_signup">Een ogenblik geduld…</string>
+  <string name="auth_long_login">Aanmelden. Een ogenblik geduld…</string>
+  <!-- signup related strings -->
+  <string name="auth_signup_create_account">Maak uw Proton Account aan</string>
+  <string name="auth_signup_current_email">Gebruik in plaats daarvan uw huidige e-mail</string>
+  <string name="auth_signup_external_footnote">Met een Proton-e-mailadres kan u alle Proton-diensten gebruiken</string>
+  <string name="auth_signup_internal_footnote">U zal een Proton-e-mailadres nodig hebben om Proton Mail en Proton Calender te gebruiken</string>
+  <string name="auth_signup_create_secure_proton_address">Verkrijg een nieuw versleuteld e-mailadres</string>
+  <string name="auth_signup_username">Gebruikersnaam</string>
+  <string name="auth_signup_domain">Domein</string>
+  <string name="auth_signup_email">E-mail</string>
+  <string name="auth_signup_next">Volgende</string>
+  <string name="auth_signup_choose_password">Maak uw wachtwoord</string>
+  <string name="auth_signup_repeat_password">Wachtwoord herhalen</string>
+  <string name="auth_signup_recovery_method_title">Herstelmethode instellen (optioneel)</string>
+  <string name="auth_signup_recovery_method_title_mandatory">Herstelmethode instellen</string>
+  <string name="auth_signup_recovery_method_subtitle">Wij sturen herstelinstructies naar dit e-mailadres of telefoonnummer als u van uw account wordt afgesloten.</string>
+  <string name="auth_signup_recovery_method_subtitle_email_only">Wij sturen herstelinstructies naar dit e-mailadres als u van uw account wordt afgesloten.</string>
+  <string name="auth_signup_recovery_method_email">E-mail</string>
+  <string name="auth_signup_recovery_method_phone">Telefoonnummer</string>
+  <string name="auth_signup_recovery_method_email_hint">Herstel-e-mailadres</string>
+  <string name="auth_signup_recovery_method_phone_hint">Herstel-telefoonnummer</string>
+  <string name="auth_signup_terms_conditions">Algemene voorwaarden</string>
+  <string name="auth_signup_privacy_policy">Privacybeleid</string>
+  <string name="auth_signup_terms_conditions_privacy_policy_full">Door op Volgende te klikken, gaat u akkoord met de <annotation link="terms">Algemene Voorwaarden</annotation> en het <annotation link="privacy">Privacybeleid</annotation> van Proton.</string>
+  <string name="auth_signup_skip_recovery_title">Herstelmethode overslaan?</string>
+  <string name="auth_signup_skip_recovery_description">Een herstelmethode zal u helpen om toegang te krijgen tot uw account in het geval u uw wachtwoord vergeet of van uw account wordt afgesloten.</string>
+  <string name="auth_signup_skip_recovery">Overslaan</string>
+  <string name="auth_signup_set_recovery">Herstelmethode instellen</string>
+  <string name="auth_signup_no_connectivity">Geen verbinding om de webpagina weer te geven.</string>
+  <string name="auth_signup_error_create_to_continue">Maak een account aan om verder te gaan</string>
+  <string name="auth_signup_error_create_to_continue_action_learn_more">Meer informatie</string>
+  <string name="auth_signup_create_account_dialog_title">Abonnement activeren</string>
+  <string name="auth_signup_create_account_dialog_text">Uw Google Pay betaling is succesvol verwerkt. Maak uw Proton account aan om uw abonnement te activeren.</string>
+  <string name="auth_signup_create_account_dialog_action_cancel">Annuleren</string>
+  <string name="auth_signup_create_account_dialog_action_continue">Doorgaan</string>
+  <string name="auth_signup_error_username_blank">De gebruikersnaam mag niet leeg zijn.</string>
+  <string name="auth_signup_error_passwords_do_not_match">Wachtwoorden komen niet overeen.</string>
+  <string name="auth_signup_validation_password_length">Wachtwoord moet ten minste 8 tekens bevatten.</string>
+  <string name="auth_signup_password_not_allowed">Wachtwoord is te veelvoorkomend. Gebruik een ander wachtwoord.</string>
+  <string name="auth_signup_validation_password">Het wachtwoord mag niet leeg zijn.</string>
+  <string name="auth_signup_your_account_is_being_setup">Uw account wordt aangemaakt…</string>
+  <string name="auth_signup_please_wait">Dit duurt doorgaans niet langer dan één minuut.</string>
+  <string name="auth_signup_replacement_code">Code niet ontvangen?</string>
+  <string name="auth_signup_verify">Verifiëren</string>
+  <string name="auth_signup_verification_code">Verificatiecode</string>
+  <string name="auth_signup_enter_code_subtitle">Voer de verificatiecode in die is verzonden naar %s:</string>
+  <string name="auth_signup_error_human_verification_failed">Persoonsverificatie is mislukt.</string>
+  <string name="auth_signup_congratulations_subtitle">Uw Proton account is succesvol aangemaakt.\nGeniet van de wereld van privacy.</string>
+  <string name="auth_signup_congratulations">Gefeliciteerd!</string>
+  <string name="auth_signup_start_using_proton">Aan de slag met Proton</string>
+  <string name="auth_signup_start_using_calendar">Begin Proton Calendar te gebruiken</string>
+  <string name="auth_signup_start_using_mail">Begin Proton Mail te gebruiken</string>
+  <string name="auth_signup_start_using_drive">Begin Proton Drive te gebruiken</string>
+  <string name="auth_signup_start_using_vpn">Begin Proton VPN te gebruiken</string>
+  <string name="auth_signup_start_using_pass">Begin Proton Pass te gebruiken</string>
+  <string name="auth_signup_error_validation_recovery_destination">Herstelbestemming is ongeldig.</string>
+  <string name="auth_credentialless_vpn_no_logs">Gecertifieerde VPN zonder logboeken</string>
+  <string name="auth_credentialless_vpn_title">Welkom bij Proton VPN</string>
+  <string name="auth_credentialless_vpn_subtitle">Surf privé, bekijk geblokkeerde content en geniet van digitale vrijheid.</string>
+  <string name="auth_credentialless_guest_button">Ga verder als gast</string>
+  <string name="auth_credentialless_terms" comment="Please do not modify the &lt;annotation link=&quot;terms&quot;&gt; tag, only its contents.">Door dit programma te gebruiken accepteert u onze <annotation link="terms">Voorwaarden</annotation>.</string>
+  <string name="auth_credentialless_settings_title">Maak de stap naar privacy.</string>
+  <string name="auth_credentialless_settings_subtitle">Krijg een wachtwoordmanager, versleutelde e-mail en agenda, en 1 GB gratis cloudopslag gratis met een Proton Account.</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- recovery email settings -->
+  <string name="settings_recovery_email_header">ایمیل بازیابی</string>
+  <string name="settings_recovery_email_current">ایمیل بازیابی فعلی</string>
+  <string name="settings_recovery_email_new">ایمیل بازیابی جدید</string>
+  <string name="settings_recovery_email_confirm">تایید ایمیل بازیابی</string>
+  <string name="settings_recovery_email_new_hint">آدرس ایمیل را وارد کنید</string>
+  <string name="settings_recovery_email_confirm_hint">آدرس ایمیل را دوباره وارد کنید</string>
+  <string name="settings_save_second_password">Save new second password</string>
+  <string name="settings_save_main_password">Save new main password</string>
+  <string name="settings_save">ذخیره</string>
+  <string name="settings_password_required">گذرواژه ورود خود را وارد کنید</string>
+  <string name="settings_password_required_ok">تایید</string>
+  <string name="settings_not_set">تنظیم نشده</string>
+  <string name="settings_recovery_email_error_no_match">آدرس ایمیل های بازیابی با یکدیگر مغایرت دارند.</string>
+  <string name="settings_validation_email">آدرس ایمیل نامعتبر است.</string>
+  <string name="settings_general_error">خطایی رخ داد.</string>
+  <!-- login and mailbox password settings -->
+  <string name="settings_password_management_tab_main_password">گذرواژه اصلی</string>
+  <string name="settings_password_management_tab_second_password">گذرواژه دوم</string>
+  <string name="settings_password_management_change_password_note">To change either of your passwords, you\'ll need to know your main password. <a href="https://account.proton.me/reset-password">Forgot your main password?</a></string>
+  <string name="settings_password_management_header">تغییر گذرواژه</string>
+  <string name="settings_password_management_cannot_change_password">You can\'t change your backup password. Please contact your administrator.</string>
+  <string name="settings_main_password_hint_current">گذرواژه اصلی فعلی</string>
+  <string name="settings_main_password_hint_new">گذرواژه اصلی جدید</string>
+  <string name="settings_main_password_hint_new_confirm">تأیید گذرواژه اصلی جدید</string>
+  <string name="settings_second_password_hint_current_main_password">گذرواژه اصلی فعلی</string>
+  <string name="settings_second_password_hint_new">گذرواژه دوم جدید</string>
+  <string name="settings_second_password_hint_new_confirm">تأیید گذرواژه دوم جدید</string>
+  <string name="settings_change_password_error">خطایی در تغییر گذرواژه رخ داد.</string>
+  <string name="settings_recovery_email_success">ایمیل بازیابی بروزرسانی شد</string>
+  <string name="settings_password_management_success">گذرواژه به‌روز شد</string>
+  <string name="settings_password_management_start_recovery">گذرواژه فعلی را نمی‌دانید؟</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- Grace period - info -->
+  <string name="account_recovery_grace_period_info_title">Solicitare resetare parolă</string>
+  <plurals name="account_recovery_grace_period_info_subtitle">
+    <item quantity="one">A fost solicitată o resetare a parolei pentru <b>%1$s</b>. Vă puteți schimba parola timp de %2$d oră.\n\nDacă nu ați făcut această solicitare, anulați-o acum.</item>
+    <item quantity="few">A fost solicitată o resetare a parolei pentru <b>%1$s</b>. Vă puteți schimba parola timp de %2$d ore.\n\nDacă nu ați făcut această solicitare, anulați-o acum.</item>
+    <item quantity="other">A fost solicitată o resetare a parolei pentru <b>%1$s</b>. Vă puteți schimba parola timp de %2$d de ore.\n\nDacă nu ați făcut această solicitare, anulați-o acum.</item>
+  </plurals>
+  <!-- Grace period - cancellation form -->
+  <string name="account_recovery_cancel_title">Anulați resetarea parolei?</string>
+  <string name="account_recovery_cancel_subtitle">Introduceți parola pentru a anula.</string>
+  <string name="account_recovery_cancel_password_label">Parola actuală</string>
+  <string name="account_recovery_cancel_password_placeholder">Parola</string>
+  <string name="account_recovery_cancel_now">Anulare resetare parolă</string>
+  <string name="account_recovery_cancel_back">Înapoi</string>
+  <!-- Account recovery cancelled -->
+  <string name="account_recovery_cancelled_title">Resetarea parolei a fost anulată</string>
+  <string name="account_recovery_cancelled_subtitle">Dacă nu ați cerut niciodată să vă schimbați parola, contul v-ar putea fi în pericol.\n\nSecurizați-vă contul schimbându-vă parola.</string>
+  <!-- Password change period -->
+  <string name="account_recovery_password_started_title">Resetare parolă disponibilă</string>
+  <string name="account_recovery_password_started_subtitle">Pentru a vă reseta parola, reveniți la dispozitivul, aplicația sau navigatorul web de pe care ați făcut cererea de resetare a parolei.\n\nVa trebui să faceți acest lucru înainte de %s.\n\nDacă nu ați solicitat resetarea parolei, anulați solicitarea acum.</string>
+  <string name="account_recovery_password_started_self_initiated_subtitle">Acum vă puteți reseta parola.\n\nVa trebui să faceți acest lucru înainte de %s.\n\nDacă nu ați solicitata resetarea parolei, anulați solicitarea acum.</string>
+  <!-- Recovery window ended -->
+  <string name="account_recovery_window_ended_title">Resetarea parolei a expirat</string>
+  <string name="account_recovery_window_ended_subtitle">Va trebui să solicitați o nouă resetare a parolei pentru %s.</string>
+  <!-- Other -->
+  <string name="account_recovery_cancel">Anulare solicitare</string>
+  <string name="account_recovery_dismiss">Am înțeles</string>
+  <string name="account_recovery_reset">Resetare parolă</string>
+  <!-- Account Recovery Info -->
+  <string name="account_recovery_info_grace_title">Solicitare resetare parolă</string>
+  <string name="account_recovery_info_grace_subtitle">Vă puteți reseta parola peste %1s.</string>
+  <string name="account_recovery_info_grace_description">Pentru a ne asigura că proprietarul contului încearcă să reseteze parola, așteptăm 72 de ore înainte de a aproba solicitările.\n\nDacă nu ați solicitata resetarea parolei anulați această solicitare acum.</string>
+  <string name="account_recovery_info_cancelled_title">Resetarea parolei a fost anulată.</string>
+  <string name="account_recovery_info_cancelled_subtitle">S-a solicitat o resetare a parolei la %1s.</string>
+  <string name="account_recovery_info_cancelled_description">Dacă nu recunoașteți această solicitare, ar putea însemna că altcineva are acces la contul dvs. Proton.\n\nSecurizați-vă contul acum.</string>
+  <string name="account_recovery_info_insecure_title">Resetare parolă disponibilă</string>
+  <string name="account_recovery_info_insecure_subtitle">Acum vă puteți reseta parola. Resetarea parolei este disponibilă până %1s.</string>
+  <string name="account_recovery_info_insecure_description">Nu ați făcut această solicitare?\n\nDacă nu ați solicitat resetarea parolei, anulați solicitarea acum.</string>
+  <!-- Password Reset Dialog -->
+  <string name="account_recovery_reset_dialog_title">Resetare parolă?</string>
+  <string name="account_recovery_reset_dialog_text">"Din motive de securitate, va trebui să așteptați 72 de ore înainte de a putea schimba parola pentru %1s.\n\nDacă aveți o metodă de recuperare configurată, încercați recuperarea contului. Acest lucru vă va permite să vă schimbați parola imediat."</string>
+  <string name="account_recovery_reset_dialog_action_request_reset">Solicitare resetare parolă</string>
+  <string name="account_recovery_reset_dialog_action_use_recovery">Folosire metodă de recuperare</string>
+  <string name="account_recovery_reset_dialog_action_use_recovery_hint">Modificați-vă parola într-un navigator web fără a aștepta perioada de securitate.</string>
+  <string name="account_recovery_reset_dialog_action_request_reset_success">Solicitare resetare parolă</string>
+</resources>

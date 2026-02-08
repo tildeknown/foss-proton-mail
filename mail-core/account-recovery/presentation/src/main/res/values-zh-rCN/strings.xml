@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- Grace period - info -->
+  <string name="account_recovery_grace_period_info_title">已请求重置密码</string>
+  <plurals name="account_recovery_grace_period_info_subtitle">
+    <item quantity="other"><b>%1$s</b> 已请求重置密码。您可以在 %2$d 小时内更改密码。 \n\n如果您没有提出此请求，请立即取消。</item>
+  </plurals>
+  <!-- Grace period - cancellation form -->
+  <string name="account_recovery_cancel_title">取消密码重置?</string>
+  <string name="account_recovery_cancel_subtitle">输入您的密码以取消。</string>
+  <string name="account_recovery_cancel_password_label">当前密码</string>
+  <string name="account_recovery_cancel_password_placeholder">密码</string>
+  <string name="account_recovery_cancel_now">取消密码重置</string>
+  <string name="account_recovery_cancel_back">返回</string>
+  <!-- Account recovery cancelled -->
+  <string name="account_recovery_cancelled_title">密码重置已取消</string>
+  <string name="account_recovery_cancelled_subtitle">如果您从未要求更改您的密码，您的账号可能存在风险。\n\n更改密码以确保账号安全。</string>
+  <!-- Password change period -->
+  <string name="account_recovery_password_started_title">可进行密码重置</string>
+  <string name="account_recovery_password_started_subtitle">请使用您提交申请时所用的设备、应用或浏览器继续重置密码。\n\n密码重置必须在 %s 前完成。\n\n如果您没有申请重置密码，请立即取消此次申请。</string>
+  <string name="account_recovery_password_started_self_initiated_subtitle">您现在可以重置密码了。\n\n密码重置必须在 %s 前完成。\n\n如果您没有申请重置密码，请立即取消此次申请。</string>
+  <!-- Recovery window ended -->
+  <string name="account_recovery_window_ended_title">密码重置已过期</string>
+  <string name="account_recovery_window_ended_subtitle">您需要重新为 %s 申请重置密码。</string>
+  <!-- Other -->
+  <string name="account_recovery_cancel">取消请求</string>
+  <string name="account_recovery_dismiss">了解</string>
+  <string name="account_recovery_reset">重置密码</string>
+  <!-- Account Recovery Info -->
+  <string name="account_recovery_info_grace_title">已请求重置密码</string>
+  <string name="account_recovery_info_grace_subtitle">您可以在 %1s 内重置您的密码。</string>
+  <string name="account_recovery_info_grace_description">为了确保是您本人重置密码，我们会在申请提交 72 小时后批准请求。\n\n如果您没有提交过申请，请立即取消。</string>
+  <string name="account_recovery_info_cancelled_title">密码重置已取消</string>
+  <string name="account_recovery_info_cancelled_subtitle">我们在 %1s 收到了密码重置申请。</string>
+  <string name="account_recovery_info_cancelled_description">如果您没有提交过申请，则可能有人已经窃取了您的 Proton 账户。\n\n请立即提升账户安全等级。</string>
+  <string name="account_recovery_info_insecure_title">可重置密码</string>
+  <string name="account_recovery_info_insecure_subtitle">您现在可以重置您的密码。重置密码的时限为 %1s。</string>
+  <string name="account_recovery_info_insecure_description">没有提交过申请？\n\n如果您并未申请重置密码，请立即取消重置。</string>
+  <!-- Password Reset Dialog -->
+  <string name="account_recovery_reset_dialog_title">重置密码?</string>
+  <string name="account_recovery_reset_dialog_text">"出于安全原因，您必须等待72小时后才能更改 %1s的密码。\n\n如果您设置了恢复功能，请尝试恢复帐户。这将允许您直接更改密码。"</string>
+  <string name="account_recovery_reset_dialog_action_request_reset">请求重置密码</string>
+  <string name="account_recovery_reset_dialog_action_use_recovery">设置恢复功能</string>
+  <string name="account_recovery_reset_dialog_action_use_recovery_hint">在您的网络浏览器中更改您的密码，无需等待安全期。</string>
+  <string name="account_recovery_reset_dialog_action_request_reset_success">已请求重置密码</string>
+</resources>

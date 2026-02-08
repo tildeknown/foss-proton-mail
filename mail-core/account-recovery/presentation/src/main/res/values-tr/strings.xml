@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- Grace period - info -->
+  <string name="account_recovery_grace_period_info_title">Parola sıfırlama isteği yapıldı</string>
+  <plurals name="account_recovery_grace_period_info_subtitle">
+    <item quantity="one"><b>%1$s</b> için bir parola sıfırlama isteği yapıldı. Parolanızı %2$d saat içinde değiştirebilirsiniz.\n\nBu isteği siz yapmadıysanız şimdi iptal edin.</item>
+    <item quantity="other"><b>%1$s</b> için bir parola sıfırlama isteği yapıldı. Parolanızı %2$d saat içinde değiştirebilirsiniz.\n\nBu isteği siz yapmadıysanız şimdi iptal edin.</item>
+  </plurals>
+  <!-- Grace period - cancellation form -->
+  <string name="account_recovery_cancel_title">Parola sıfırlama işlemi iptal edilsin mi?</string>
+  <string name="account_recovery_cancel_subtitle">İptal etmek için parolanızı yazın.</string>
+  <string name="account_recovery_cancel_password_label">Geçerli parola</string>
+  <string name="account_recovery_cancel_password_placeholder">Parola</string>
+  <string name="account_recovery_cancel_now">Parola sıfırlama işlemini iptal et</string>
+  <string name="account_recovery_cancel_back">Geri</string>
+  <!-- Account recovery cancelled -->
+  <string name="account_recovery_cancelled_title">Parola sıfırlama işlemi iptal edildi</string>
+  <string name="account_recovery_cancelled_subtitle">Parolanızı değiştirmek için herhangi bir istek yapmadıysanız, hesabınızın tehlike altında olabilir.\n\nHesabınızın güvenliğini sağlamak için parolanızı değiştirin.</string>
+  <!-- Password change period -->
+  <string name="account_recovery_password_started_title">Parola sıfırlama işlemi başlatılmış</string>
+  <string name="account_recovery_password_started_subtitle">Parolanızı sıfırlamak için, parola sıfırlama isteğini yaptığınız aygıta, uygulamaya ya da tarayıcıya dönün.\n\nBunu %s öncesinde yapmanız gerekir.\n\nParola sıfırlama isteğinde bulunmadıysanız, isteği şimdi iptal edin.</string>
+  <string name="account_recovery_password_started_self_initiated_subtitle">Artık parolanızı sıfırlayabilirsiniz.\n\nBunu %s öncesinde yapmanız gerekir.\n\nParolanızı sıfırlama isteğinde bulunmadıysanız, isteği şimdi iptal edin.</string>
+  <!-- Recovery window ended -->
+  <string name="account_recovery_window_ended_title">Parola sıfırlama süresi dolmuş</string>
+  <string name="account_recovery_window_ended_subtitle">%s için yeni bir parola sıfırlama isteği yapmalısınız.</string>
+  <!-- Other -->
+  <string name="account_recovery_cancel">İsteği iptal et</string>
+  <string name="account_recovery_dismiss">Anladım</string>
+  <string name="account_recovery_reset">Parolayı sıfırla</string>
+  <!-- Account Recovery Info -->
+  <string name="account_recovery_info_grace_title">Parola sıfırlama isteğinde bulunuldu</string>
+  <string name="account_recovery_info_grace_subtitle">Parolanızı %1s içinde sıfırlayabilirsiniz.</string>
+  <string name="account_recovery_info_grace_description">Parolanızı sıfırlamaya çalışanın gerçekten siz olduğunuzdan emin olmak için, istekleri onaylamadan önce 72 saat bekliyoruz.\n\nParolanızı sıfırlama isteğinde bulunmadıysanız, bu isteği şimdi iptal edin.</string>
+  <string name="account_recovery_info_cancelled_title">Parola sıfırlama isteği iptal edildi</string>
+  <string name="account_recovery_info_cancelled_subtitle">%1s üzerinde bir parola sıfırlama isteği yapıldı.</string>
+  <string name="account_recovery_info_cancelled_description">Bu isteği siz yapmadıysanız, başka biri Proton hesabınıza erişiyor olabilir.\n\nŞimdi hesabınızın güvenliğini sağlayın.</string>
+  <string name="account_recovery_info_insecure_title">Parola sıfırlama kullanılabilir</string>
+  <string name="account_recovery_info_insecure_subtitle">Artık parolanızı sıfırlayabilirsiniz. Parola sıfırlama işlemi %1s zamanına kadar yapılabilir.</string>
+  <string name="account_recovery_info_insecure_description">Böyle bir istekte bulunmadınız mı? \n\nParolanızı sıfırlama isteğinde bulunmadıysanız, isteği şimdi iptal edin.</string>
+  <!-- Password Reset Dialog -->
+  <string name="account_recovery_reset_dialog_title">Parola sıfırlansın mı?</string>
+  <string name="account_recovery_reset_dialog_text">"Güvenlik nedeniyle, %1s parolasını değiştirebilmeniz için 72 saat beklemeniz gerekir.\n\nBir kurtarma yöntemi ayarladıysanız, beklemek yerine hesabınızı kurtarmayı deneyin. Böylece parolanızı hemen değiştirebilirsiniz."</string>
+  <string name="account_recovery_reset_dialog_action_request_reset">Parola sıfırlama isteğinde bulunun</string>
+  <string name="account_recovery_reset_dialog_action_use_recovery">Kurtarma yöntemini kullanın</string>
+  <string name="account_recovery_reset_dialog_action_use_recovery_hint">Güvenlik süresini beklemeden tarayıcınızdan parolanızı değiştirin.</string>
+  <string name="account_recovery_reset_dialog_action_request_reset_success">Parola sıfırlama isteğinde bulunuldu</string>
+</resources>

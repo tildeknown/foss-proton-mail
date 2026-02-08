@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="welcome_title">Védje a magánszféráját a Protonnal</string>
+  <string name="welcome_subtitle">A titkosítás biztosítja, hogy adatai személyesek maradjanak. Adatai csak önre tartoznak.</string>
+  <string name="welcome_subtitle_mail">Titkosított e-mail, csak ön fér hozzá a beszélgetéseihez. Levelesládája csak önre tartozik.</string>
+  <string name="welcome_subtitle_mail_alt">Magánszféra. Biztonság. Kényelem. Titkosított e-mail, amellyel teljes mértékben kézben tarthatja személyes adatait.</string>
+  <string name="welcome_subtitle_drive">A felhőtárhelyek kényelme és a titkosított technológia biztonsága. Végre egy felhőtárhely, amelyben megbízhat.</string>
+  <string name="welcome_subtitle_drive_alt">Fájljai tárolásának a legbiztonságosabb módja. Töltse fel, szinkronizálja, ossza meg az elérhető legerősebb titkosítással.</string>
+  <string name="welcome_subtitle_calendar">Titkosított naptár, amelyben privát módon és biztonságosan tárolhatja eseményeit.</string>
+  <string name="welcome_subtitle_calendar_alt">A végpontok közt titkosított naptár segíti, hogy rendezett maradjon és mindig képben legyen.</string>
+  <string name="welcome_subtitle_vpn">Nagy sebességű svájci VPN, amely az internet kapcsolatának titkosításával védi az adatait.</string>
+  <string name="welcome_subtitle_vpn_alt">Nagy sebességű svájci VPN, amely védi a magánszféráját. Maximális biztonság, 1600+ szerver, nincs korlátozás.</string>
+  <string name="welcome_subtitle_pass">Minden jelszava. Egy helyen, biztonságban, az adatvédelem területén legmegbízhatóbb név védelme alatt.</string>
+  <string name="welcome_subtitle_pass_alt">Minden jelszava. Egy helyen, biztonságban, az adatvédelem területén legmegbízhatóbb név védelme alatt.</string>
+  <string name="welcome_privacy_by_default">Alapértelmezett adatvédelem</string>
+  <string name="auth_password_label">Jelszó</string>
+  <string name="auth_password_help">A jelszónak legalább 8 karakterből kell állnia</string>
+  <string name="auth_current_login_password">Jelenlegi bejelentkezési jelszó</string>
+  <string name="auth_enter_six_digit_code">Írja be a hatjegyű kódot</string>
+  <string name="auth_second_factor_code">Kétlépcsős hitelesítő kód</string>
+  <string name="auth_email">E-mail</string>
+  <string name="auth_email_username">Felhasználónév vagy e-mail cím</string>
+  <string name="auth_account_details">Írja be a Proton fiókja adatait.</string>
+  <string name="auth_sign_in">Bejelentkezés</string>
+  <string name="auth_sign_out">Kijelentkezés</string>
+  <string name="auth_sign_in_action">Bejelentkezés</string>
+  <string name="auth_sign_in_sso">Jelentkezzen be a szervezetébe</string>
+  <string name="auth_sign_in_with_password">Bejelentkezés jelszóval</string>
+  <string name="auth_continue_to_proton">tovább a Protonhoz</string>
+  <string name="auth_sign_in_with_sso">Bejelentkezés SSO használatával</string>
+  <string name="auth_help_label">Súgó</string>
+  <string name="auth_login_assistive_text">Adja meg a Proton email címét vagy a felhasználónevét.</string>
+  <string name="auth_login_sso_assistive_text">Kérjük adja meg az e-mail címét.</string>
+  <string name="auth_help_title">Miben segíthetünk?</string>
+  <string name="auth_help_option_forgot_username">Elfelejtett felhasználónév</string>
+  <string name="auth_help_option_forgot_password">Elfelejtette a jelszavát</string>
+  <string name="auth_help_option_other">Egyéb bejelentkezési problémák</string>
+  <string name="auth_help_other">További segítségre van szüksége? Lépjen velünk kapcsolatba.</string>
+  <string name="auth_help_option_customer_support">Vevőszolgálat</string>
+  <string name="auth_help_option_sign_in_with_qr_code">Bejelentkezés QR-kóddal</string>
+  <string name="auth_2fa_title">Kétlépcsős hitelesítés</string>
+  <string name="auth_2fa_subtitle">Többféle kétlépcsős hitelesítést is beállított. Válassza ki, hogy szeretné folytatni a hitelesítést.</string>
+  <string name="auth_2fa_tab_one_time_code">Egyszeri kód</string>
+  <string name="auth_2fa_tab_security_key">Hitelesítési kulcs</string>
+  <string name="auth_2fa_insert_security_key">A Proton fiókjához kapcsolt hitelesítési kulcs bemutatásával. <annotation link="more">További információk</annotation></string>
+  <string name="auth_2fa_label">Kétlépcsős kód</string>
+  <string name="auth_2fa_recovery_code_label">Helyreállítási kód</string>
+  <string name="auth_2fa_assistive_text">Írja be a hatjegyű kódot.</string>
+  <string name="auth_2fa_recovery_code_assistive_text">Írjon be egy 8 karakteres helyreállítási kódot.</string>
+  <string name="auth_2fa_action">Azonosítás</string>
+  <string name="auth_2fa_use_recovery_code">Helyreállító kód használata</string>
+  <string name="auth_2fa_learn_more">További információk</string>
+  <string name="auth_2fa_use_2fa_code">Kétlépcsős kód használata</string>
+  <string name="auth_2fa_error_empty_code">Írja be a hatjegyű kódot.</string>
+  <string name="auth_2fa_error_key_security_error">Biztonsági hiba történt: %1$s</string>
+  <string name="auth_2fa_error_key_abort_error">A művelet megszakítva.</string>
+  <string name="auth_2fa_error_key_invalid_or_not_supported">Hiba történt, ellenőrize a kulcsát.</string>
+  <string name="auth_2fa_error_key_network_error">Hálózati hiba történt, próbálja meg újra.</string>
+  <string name="auth_mailbox_title">E-mail fiók feloldása</string>
+  <string name="auth_mailbox_password_label">E-mail jelszó</string>
+  <string name="auth_mailbox_unlock_action">Feloldás</string>
+  <string name="auth_forgot_password">Elfelejtette a jelszavát</string>
+  <string name="auth_login_general_error">Hiba történt.</string>
+  <string name="auth_login_external_account_unsupported_title">Proton e-mail cím szükséges</string>
+  <string name="auth_login_external_account_unsupported_message">Kösse össze Proton Mail címét ezzel a fiókkal a Proton webes beallításoknál.</string>
+  <string name="auth_login_external_account_unsupported_help_action">További információk</string>
+  <string name="auth_login_external_sso_unsupported_title">Az egyszeri bejelentkezés nem támogatott</string>
+  <string name="auth_login_external_sso_unsupported_message">Ha a probléma továbbra is fennáll, forduljon az adminisztrátorhoz.</string>
+  <string name="auth_login_external_sso_unsupported_action">Rendben</string>
+  <string name="auth_login_empty_credentials">Az azonosítók nem lehetnek üresek.</string>
+  <string name="auth_mailbox_empty_credentials">Az azonosítók nem lehetnek üresek.</string>
+  <string name="auth_create_address_title">Proton e-mail cím szükséges</string>
+  <string name="auth_create_address_subtitle">Szüksége van egy Proton e-mail címre a Naptár és más Proton termékek használatához. Továbbra is használhatja a %1$s-t a bejelentkezéshez és a fiókja helyreállításához.</string>
+  <string name="auth_username">Felhasználónév</string>
+  <string name="auth_username_next_action">Folytatás</string>
+  <string name="auth_create_address_result_title">%s elérhető</string>
+  <string name="auth_create_address_result_title_username">%1$s@%2$s lesz az új Proton Mail e-mail címe.</string>
+  <string name="auth_create_address_result_subtitle">Ezzel a címmel tud majd bejelentkezni az összes Proton szolgáltatásba.</string>
+  <string name="auth_create_address_result_recovery_title">Az ön helyreállító e-mail címe:</string>
+  <string name="auth_create_address_create">Cím létrehozása</string>
+  <string name="auth_create_address_creating">Cím létrehozása</string>
+  <string name="auth_create_address_terms">A cím létrehozására kattintva elfogadja a Proton <a href="https://proton.me/legal/terms">Általános szerződési feltételeket</a>.</string>
+  <string name="auth_create_address_error_credentials">Az azonosítók nem lehetnek üresek.</string>
+  <string name="auth_create_address_error_no_available_domain">Nincs elérhető domain.</string>
+  <string name="auth_create_address_error_private_key">Titkos kulcs létrehozása sikertelen.</string>
+  <string name="auth_create_address_error_signed_key_list">Kulcs lista létrehozása sikertelen.</string>
+  <string name="auth_create_address_error_setusername">Felhasználónév hozzárendelése sikertelen.</string>
+  <string name="auth_create_address_error_username_unavailable">A választott felhasználónév foglalt.</string>
+  <string name="auth_mailbox_login_error_no_primary_key">Nincs elsődleges kulcs.</string>
+  <string name="auth_mailbox_login_error_primary_key_error">Elsődleges kulcs hiba.</string>
+  <string name="auth_mailbox_login_error_invalid_passphrase">Érvénytelen jelmondat.</string>
+  <string name="auth_password_chooser_title">Változtassa meg a jelszavát</string>
+  <string name="auth_password_chooser_description">A Proton alkalmazás szervezeti tagként való használatához, először be kell jelentkeznie a Protonba a web böngészőből és megváltoztatnia a jelszavát.</string>
+  <string name="auth_password_chooser_change">Jelszó megváltoztatása</string>
+  <plurals name="auth_user_check_max_free_error">
+    <item quantity="one">Csak egy ingyenes Proton fiók engedélyezett.</item>
+    <item quantity="other">Csak %d ingyenes Proton fiók engedélyezett.</item>
+  </plurals>
+  <string name="auth_user_check_delinquent_error">Fiókja jelenleg, számlatartozás miatt, fel van függesztve.</string>
+  <string name="auth_user_check_delinquent_action">Számla befizetése</string>
+  <string name="auth_account_not_found_error">Hiba történt a fiókkal</string>
+  <string name="auth_one_account_all_services">Egy fiók minden Proton szolgáltatáshoz.</string>
+  <string name="auth_create_account">Fiók létrehozása</string>
+  <string name="auth_long_signup">Kérjük, várjon…</string>
+  <string name="auth_long_login">Belépés folyamatban…</string>
+  <!-- signup related strings -->
+  <string name="auth_signup_create_account">Proton fiók létrehozása</string>
+  <string name="auth_signup_current_email">Inkább a jelenlegi e-mail címem használata</string>
+  <string name="auth_signup_external_footnote">Egy Proton címmel az összes Proton szolgáltatást használhatja</string>
+  <string name="auth_signup_internal_footnote">Proton cimre lesz szüksége a Proton Mail és a Proton Naptár használatához</string>
+  <string name="auth_signup_create_secure_proton_address">Szerezzen egy új, titkosított email címet</string>
+  <string name="auth_signup_username">Felhasználónév</string>
+  <string name="auth_signup_domain">Domain név</string>
+  <string name="auth_signup_email">E-mail</string>
+  <string name="auth_signup_next">Következő</string>
+  <string name="auth_signup_choose_password">Hozzon létre egy jelszót</string>
+  <string name="auth_signup_repeat_password">Jelszó ismét</string>
+  <string name="auth_signup_recovery_method_title">Helyreállítási módszer hozzáadása (opcionális)</string>
+  <string name="auth_signup_recovery_method_title_mandatory">Helyreállítási módszer hozzáadása</string>
+  <string name="auth_signup_recovery_method_subtitle">Erre a címre vagy telefonszámra fogjuk elküldeni a helyreállításhoz szükséges tudnivalókat, ha kizáródna a fiókjából.</string>
+  <string name="auth_signup_recovery_method_subtitle_email_only">Erre az e-mail címre fogjuk elküldeni a helyreállításhoz szükséges tudnivalókat, ha kizáródna a fiókjából.</string>
+  <string name="auth_signup_recovery_method_email">E-mail</string>
+  <string name="auth_signup_recovery_method_phone">Telefonszám</string>
+  <string name="auth_signup_recovery_method_email_hint">Helyreállítási email</string>
+  <string name="auth_signup_recovery_method_phone_hint">Helyreállítási telefonszám</string>
+  <string name="auth_signup_terms_conditions">Szerződési feltételeket</string>
+  <string name="auth_signup_privacy_policy">Adatvédelmi irányelvek</string>
+  <string name="auth_signup_terms_conditions_privacy_policy_full">A Következő gombra kattintva kijelenti, hogy elfogadja a Proton <annotation link="terms">Felhasználási feltételeit</annotation> és <annotation link="privacy">Adatvédelmi irányelveit</annotation>.</string>
+  <string name="auth_signup_skip_recovery_title">Helyreállítási módszer kihagyása?</string>
+  <string name="auth_signup_skip_recovery_description">Egy helyreállítási módszer beállításával könnyen visszaszerezheti a fiókja elérést, ha elfelejtené a jelszavát vagy kizáródna a fiókból.</string>
+  <string name="auth_signup_skip_recovery">Kihagyás</string>
+  <string name="auth_signup_set_recovery">Helyreállítási módszer beállítása</string>
+  <string name="auth_signup_no_connectivity">Nincs kapcsolat a weboldal megjelenítéséhez.</string>
+  <string name="auth_signup_error_create_to_continue">Kérjük, hozzon létre egy fiókot a folytatáshoz</string>
+  <string name="auth_signup_error_create_to_continue_action_learn_more">További információk</string>
+  <string name="auth_signup_create_account_dialog_title">Aktiválja az előfizetését</string>
+  <string name="auth_signup_create_account_dialog_text">A Google Pay fizetés sikeresen feldolgozva. Az előfizetése aktiválásához kérjük, hozza létre a Proton fiókját.</string>
+  <string name="auth_signup_create_account_dialog_action_cancel">Mégsem</string>
+  <string name="auth_signup_create_account_dialog_action_continue">Folytatás</string>
+  <string name="auth_signup_error_username_blank">A felhasználónév nem lehet üres.</string>
+  <string name="auth_signup_error_passwords_do_not_match">A jelszavak nem egyeznek meg.</string>
+  <string name="auth_signup_validation_password_length">A jelszónak legalább 8 karakternek kell lennie.</string>
+  <string name="auth_signup_password_not_allowed">Ez a jelszó túl közismert. Válasszon egy másikat.</string>
+  <string name="auth_signup_validation_password">A jelszó nem lehet üres.</string>
+  <string name="auth_signup_your_account_is_being_setup">Fiókja létrehozás alatt…</string>
+  <string name="auth_signup_please_wait">Ez általában nem tart tovább egy percnél.</string>
+  <string name="auth_signup_replacement_code">Nem kapta meg a kódot?</string>
+  <string name="auth_signup_verify">Ellenőrzés</string>
+  <string name="auth_signup_verification_code">Ellenőrző kód</string>
+  <string name="auth_signup_enter_code_subtitle">Írja be a %s címre küldött ellenőrző kódot:</string>
+  <string name="auth_signup_error_human_verification_failed">Robot ellenőrzés sikertelen.</string>
+  <string name="auth_signup_congratulations_subtitle">A Proton fiókja sikeresen elkészült.\nÉlvezze a magánszférája védelmét.</string>
+  <string name="auth_signup_congratulations">Gratulálunk!</string>
+  <string name="auth_signup_start_using_proton">A Proton használatának elkezdése</string>
+  <string name="auth_signup_start_using_calendar">A Proton Calendar használatának elkezdése</string>
+  <string name="auth_signup_start_using_mail">A Proton Mail használatának elkezdése</string>
+  <string name="auth_signup_start_using_drive">A Proton Drive használatának elkezdése</string>
+  <string name="auth_signup_start_using_vpn">A Proton VPN használatának elkezdése</string>
+  <string name="auth_signup_start_using_pass">A Proton Pass használatának elkezdése</string>
+  <string name="auth_signup_error_validation_recovery_destination">A helyreállítási célpont érvénytelen.</string>
+  <string name="auth_credentialless_vpn_no_logs">Hitelesített, naplózás nélküli VPN</string>
+  <string name="auth_credentialless_vpn_title">Üdvözli a Proton VPN</string>
+  <string name="auth_credentialless_vpn_subtitle">Böngésszen privát módon, érjen el blokkolt tartalmakat és élvezze a digitális szabadságot.</string>
+  <string name="auth_credentialless_guest_button">Folytatás vendégként</string>
+  <string name="auth_credentialless_terms" comment="Please do not modify the &lt;annotation link=&quot;terms&quot;&gt; tag, only its contents.">Az alkalmazásunk használatával elfogadja a <annotation link="terms">Felhasználási feltételeket</annotation></string>
+  <string name="auth_credentialless_settings_title">Lépjen az adatvédelem irányába.</string>
+  <string name="auth_credentialless_settings_subtitle">Szerezzen egy jelszókezelőt, titkosított levelezést, naptárat, valamint 1 GB felhőalapú tárhelyet ingyenesen egy Proton-fiókkal.</string>
+</resources>

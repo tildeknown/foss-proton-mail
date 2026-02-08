@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="core_report_bug_activity_title">Sorun bildireceğim</string>
+  <string name="core_report_bug_close">Kapat</string>
+  <string name="core_report_bug_subject_field_hint">Konu</string>
+  <string name="core_report_bug_subject_field_required">Bir konu yazın</string>
+  <string name="core_report_bug_description_field_hint">Yanlış giden neydi? En az 10 karakter</string>
+  <string name="core_report_bug_description_field_placeholder">Lütfen sorunu olabildiğince ayrıntılı olarak anlatın. Bir hata iletisi varsa bize ne yazdığını da iletin.</string>
+  <plurals name="core_report_bug_description_field_required">
+    <item quantity="one">En az %d karakter yazın</item>
+    <item quantity="other">En az %d karakter yazın</item>
+  </plurals>
+  <string name="core_report_bug_discard_changes_title">Hata bildirimi kapatılsın mı?</string>
+  <string name="core_report_bug_discard_changes_description">Bu sayfadan ayrılırsanız, bildiriminiz kaydedilmeyecek.</string>
+  <string name="core_report_bug_discard_changes_cancel">Yazmayı sürdürün</string>
+  <string name="core_report_bug_discard_changes_confirm">Kaydetmeden kapat</string>
+  <plurals name="core_report_bug_form_field_too_long">
+    <item quantity="one">En fazla %d karakter</item>
+    <item quantity="other">En fazla %d karakter</item>
+  </plurals>
+  <string name="core_report_bug_general_error">Bir şeyler ters gitti. Lütfen bir kaç dakika sonra yeniden deneyin.</string>
+  <string name="core_report_bug_send">Bildirimi gönder</string>
+  <string name="core_report_bug_success">Bildiriminiz için teşekkür ederiz</string>
+  <string name="core_report_bug_attach_log">Günlük eklensin</string>
+</resources>

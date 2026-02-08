@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="welcome_title">Protegiu la vostra privadesa amb Proton</string>
+  <string name="welcome_subtitle">El xifratge manté privades les vostres dades. Les vostres dades us pertanyen.</string>
+  <string name="welcome_subtitle_mail">El correu electrònic xifrat que manté en privat les vostres converses. La vostra safata d\'entrada realment us pertany.</string>
+  <string name="welcome_subtitle_mail_alt">Privadesa. Seguretat. Comoditat. Correu electrònic xifrat que us ofereix un control complet sobre les dades personals.</string>
+  <string name="welcome_subtitle_drive">La comoditat de l\'emmagatzematge al núvol i la seguretat de la tecnologia del xifratge. Per fi una solució d\'emmagatzematge al núvol en la qual podeu confiar.</string>
+  <string name="welcome_subtitle_drive_alt">La manera més segura d\'emmagatzemar fitxers. Pugeu-ne, sincronitzeu i compartiu amb el xifratge més potent disponible.</string>
+  <string name="welcome_subtitle_calendar">Calendari xifrat que manté les vostres dades privades, segures i protegides.</string>
+  <string name="welcome_subtitle_calendar_alt">El nostre calendari xifrat d\'extrem a extrem us ajuda a mantenir-vos organitzat, al dia i en control.</string>
+  <string name="welcome_subtitle_vpn">VPN suïssa d\'alta velocitat que protegeix la vostra privacitat mitjançant el xifratge de la connexió a Internet.</string>
+  <string name="welcome_subtitle_vpn_alt">VPN suïssa d\'alta velocitat que protegeix la vostra privacitat. Seguretat màxima, més de 1600 servidors i sense restriccions.</string>
+  <string name="welcome_subtitle_pass">Manteniu les vostres contrasenyes segures, en un sol lloc i protegides per l\'empresa més fiable en privacitat.</string>
+  <string name="welcome_subtitle_pass_alt">Manteniu les vostres contrasenyes segures, en un sol lloc i protegides per l\'empresa més fiable en privacitat.</string>
+  <string name="welcome_privacy_by_default">Privadesa per defecte</string>
+  <string name="auth_password_label">Contrasenya</string>
+  <string name="auth_password_help">La contrasenya ha de tenir com a mínim 8 caràcters</string>
+  <string name="auth_current_login_password">Contrasenya actual</string>
+  <string name="auth_enter_six_digit_code">Introduïu el codi de 6 dígits</string>
+  <string name="auth_second_factor_code">Codi de dos factors</string>
+  <string name="auth_email">Corrreu electrònic</string>
+  <string name="auth_email_username">Nom d\'usuari o correu electrònic</string>
+  <string name="auth_account_details">Introduïu la informació del vostre compte de Proton.</string>
+  <string name="auth_sign_in">Inicia la sessió</string>
+  <string name="auth_sign_out">Tanca la sessió</string>
+  <string name="auth_sign_in_action">Inicia la sessió</string>
+  <string name="auth_sign_in_sso">Inicieu la sessió a la vostra organització</string>
+  <string name="auth_sign_in_with_password">Inicieu la sessió amb una contrasenya</string>
+  <string name="auth_continue_to_proton">per a continuar a Proton</string>
+  <string name="auth_sign_in_with_sso">Inicia la sessió amb SSO</string>
+  <string name="auth_help_label">Ajuda</string>
+  <string name="auth_login_assistive_text">Introduïu el correu electrònic o nom d\'usuari de Proton.</string>
+  <string name="auth_login_sso_assistive_text">Introduïu el vostre correu electrònic.</string>
+  <string name="auth_help_title">Com us podem ajudar?</string>
+  <string name="auth_help_option_forgot_username">Nom d\'usuari oblidat</string>
+  <string name="auth_help_option_forgot_password">He oblidat la contrasenya</string>
+  <string name="auth_help_option_other">Altres problemes d\'inici de sessió</string>
+  <string name="auth_help_other">Encara necessiteu ajuda? Contacteu amb nosaltres directament.</string>
+  <string name="auth_help_option_customer_support">Atenció al client</string>
+  <string name="auth_help_option_sign_in_with_qr_code">Inicieu la sessió amb un codi QR</string>
+  <string name="auth_2fa_title">Autenticació de doble factor</string>
+  <string name="auth_2fa_subtitle">El vostre compte té configurats diversos mecanismes A2F. Trieu com voleu confirmar la vostra identitat.</string>
+  <string name="auth_2fa_tab_one_time_code">Codi d\'un sol ús</string>
+  <string name="auth_2fa_tab_security_key">Clau de seguretat</string>
+  <string name="auth_2fa_insert_security_key">Presenteu una clau de seguretat vinculada al vostre compte de Proton.<annotation link="more"> Saber-ne més</annotation></string>
+  <string name="auth_2fa_label">Codi de dos factors</string>
+  <string name="auth_2fa_recovery_code_label">Codi de recuperació</string>
+  <string name="auth_2fa_assistive_text">Introduïu el codi de 6 dígits.</string>
+  <string name="auth_2fa_recovery_code_assistive_text">Introduïu un codi de recuperació de 8 caràcters.</string>
+  <string name="auth_2fa_action">Autentica</string>
+  <string name="auth_2fa_use_recovery_code">Utilitza un codi de recuperació</string>
+  <string name="auth_2fa_learn_more">Saber-ne més</string>
+  <string name="auth_2fa_use_2fa_code">Utilitza un codi de dos factors</string>
+  <string name="auth_2fa_error_empty_code">Introduïu el codi de 6 dígits.</string>
+  <string name="auth_2fa_error_key_security_error">S\'ha produït un error de seguretat: %1$s</string>
+  <string name="auth_2fa_error_key_abort_error">S\'ha cancel·lat l\'operació.</string>
+  <string name="auth_2fa_error_key_invalid_or_not_supported">S\'ha produït un error. Comproveu la vostra clau.</string>
+  <string name="auth_2fa_error_key_network_error">S\'ha produït un error de xarxa. Proveu de nou.</string>
+  <string name="auth_mailbox_title">Desbloquegeu la vostra bústia de correu</string>
+  <string name="auth_mailbox_password_label">Contrasenya de la bústia de correu</string>
+  <string name="auth_mailbox_unlock_action">Desbloqueja</string>
+  <string name="auth_forgot_password">He oblidat la contrasenya</string>
+  <string name="auth_login_general_error">S\'ha produït un error.</string>
+  <string name="auth_login_external_account_unsupported_title">Es requereix una adreça de Proton</string>
+  <string name="auth_login_external_account_unsupported_message">Obteniu una adreça de correu de Proton Mail enllaçada amb aquest compte a les preferències web de Proton.</string>
+  <string name="auth_login_external_account_unsupported_help_action">Més informació</string>
+  <string name="auth_login_external_sso_unsupported_title">No s\'admet l\'inici de sessió únic.</string>
+  <string name="auth_login_external_sso_unsupported_message">Contacteu amb l\'administrador si el problema persisteix.</string>
+  <string name="auth_login_external_sso_unsupported_action">D\'acord</string>
+  <string name="auth_login_empty_credentials">Les credencials no poden estar buides.</string>
+  <string name="auth_mailbox_empty_credentials">Les credencials no poden estar buides.</string>
+  <string name="auth_create_address_title">Es requereix una adreça de Proton</string>
+  <string name="auth_create_address_subtitle">Us cal una adreça de correu electrònic de Proton per fer servir Calendari i altres productes de Proton. Podreu seguir fent servir %1$s per iniciar la sessió i per recuperar el compte.</string>
+  <string name="auth_username">Nom d\'usuari</string>
+  <string name="auth_username_next_action">Continua</string>
+  <string name="auth_create_address_result_title">%s està disponible</string>
+  <string name="auth_create_address_result_title_username">%1$s@%2$s serà la vostra nova adreça de correu electrònic de Proton Mail.</string>
+  <string name="auth_create_address_result_subtitle">Utilitzareu aquesta adreça per a iniciar la sessió a tots els serveis de Proton.</string>
+  <string name="auth_create_address_result_recovery_title">La vostra adreça de correu electrònic de recuperació és:</string>
+  <string name="auth_create_address_create">Crea una adreça</string>
+  <string name="auth_create_address_creating">S\'està creant l\'adreça</string>
+  <string name="auth_create_address_terms">En fer clic a Crea una adreça, accepteu els <a href="https://proton.me/legal/terms">Termes i Condicions</a> de Proton.</string>
+  <string name="auth_create_address_error_credentials">Les credencials no poden estar buides.</string>
+  <string name="auth_create_address_error_no_available_domain">Cap domini disponible.</string>
+  <string name="auth_create_address_error_private_key">No s\'ha pogut generar la clau privada.</string>
+  <string name="auth_create_address_error_signed_key_list">No s\'ha pogut generar la llista de claus.</string>
+  <string name="auth_create_address_error_setusername">No s\'ha pogut associar el nom d\'usuari.</string>
+  <string name="auth_create_address_error_username_unavailable">El nom d\'usuari elegit no està disponible.</string>
+  <string name="auth_mailbox_login_error_no_primary_key">No s\'ha trobat la clau primària.</string>
+  <string name="auth_mailbox_login_error_primary_key_error">Error de clau primària.</string>
+  <string name="auth_mailbox_login_error_invalid_passphrase">La frase de contrasenya no és vàlida.</string>
+  <string name="auth_password_chooser_title">Canvieu la vostra contrasenya</string>
+  <string name="auth_password_chooser_description">Per a utilitzar l\'aplicació Proton com a membre d\'una organització, abans necessiteu canviar la vostra contrasenya iniciant sessió a Proton des d\'un navegador.</string>
+  <string name="auth_password_chooser_change">Canvia la contrasenya</string>
+  <plurals name="auth_user_check_max_free_error">
+    <item quantity="one">Només es permet un compte Proton gratuït.</item>
+    <item quantity="other">Només es permeten %d comptes Proton gratuïts.</item>
+  </plurals>
+  <string name="auth_user_check_delinquent_error">El vostre compte està actualment en suspens a causa d\'una factura endarrerida.</string>
+  <string name="auth_user_check_delinquent_action">Paga la factura</string>
+  <string name="auth_account_not_found_error">Hi ha hagut un error amb el compte</string>
+  <string name="auth_one_account_all_services">Un compte per a tots els serveis de Proton.</string>
+  <string name="auth_create_account">Crea un compte</string>
+  <string name="auth_long_signup">Espereu…</string>
+  <string name="auth_long_login">S\'està iniciant la sessió, espereu…</string>
+  <!-- signup related strings -->
+  <string name="auth_signup_create_account">Creeu el vostre compte de Proton</string>
+  <string name="auth_signup_current_email">Utilitzeu el vostre correu electrònic actual.</string>
+  <string name="auth_signup_external_footnote">Amb una adreça de Proton, podeu utilitzar tots els serveis de Proton</string>
+  <string name="auth_signup_internal_footnote">Necessiteu una adreça de Proton per a utilitzar Proton Mail i Proton Calendar</string>
+  <string name="auth_signup_create_secure_proton_address">Obteniu una nova adreça de correu xifrada</string>
+  <string name="auth_signup_username">Nom d\'usuari</string>
+  <string name="auth_signup_domain">Domini</string>
+  <string name="auth_signup_email">Correu electrònic</string>
+  <string name="auth_signup_next">Següent</string>
+  <string name="auth_signup_choose_password">Creeu la vostra contrasenya</string>
+  <string name="auth_signup_repeat_password">Repeteix la contrasenya</string>
+  <string name="auth_signup_recovery_method_title">Establiu el mètode de recuperació (opcional)</string>
+  <string name="auth_signup_recovery_method_title_mandatory">Estableix un mètode de recuperació</string>
+  <string name="auth_signup_recovery_method_subtitle">Enviarem instruccions de recuperació a aquest correu electrònic o número de telèfon si no podeu accedir al vostre compte.</string>
+  <string name="auth_signup_recovery_method_subtitle_email_only">Enviarem instruccions de recuperació a aquest correu electrònic si no podeu accedir al vostre compte.</string>
+  <string name="auth_signup_recovery_method_email">Correu electrònic</string>
+  <string name="auth_signup_recovery_method_phone">Telèfon</string>
+  <string name="auth_signup_recovery_method_email_hint">Correu electrònic de recuperació</string>
+  <string name="auth_signup_recovery_method_phone_hint">Número de telèfon de recuperació</string>
+  <string name="auth_signup_terms_conditions">Termes i condicions</string>
+  <string name="auth_signup_privacy_policy">Política de privacitat</string>
+  <string name="auth_signup_terms_conditions_privacy_policy_full">En clicar a Següent, accepteu els <annotation link="terms">termes i condicions</annotation> i la <annotation link="privacy">política de privacitat</annotation> de Proton.</string>
+  <string name="auth_signup_skip_recovery_title">Voleu ometre el mètode de recuperació?</string>
+  <string name="auth_signup_skip_recovery_description">Un mètode de recuperació us ajudarà a accedir al vostre compte si oblideu la contrasenya o no podeu entrar al compte.</string>
+  <string name="auth_signup_skip_recovery">Omet</string>
+  <string name="auth_signup_set_recovery">Estableix un mètode de recuperació</string>
+  <string name="auth_signup_no_connectivity">No hi ha connectivitat per mostrar la pàgina web.</string>
+  <string name="auth_signup_error_create_to_continue">Creeu un compte per a continuar</string>
+  <string name="auth_signup_error_create_to_continue_action_learn_more">Saber-ne més</string>
+  <string name="auth_signup_create_account_dialog_title">Activeu la vostra subscripció</string>
+  <string name="auth_signup_create_account_dialog_text">El vostre pagament de Google Pay s\'ha processat. Per activar la subscripció, creeu el vostre compte de Proton.</string>
+  <string name="auth_signup_create_account_dialog_action_cancel">Cancel·la</string>
+  <string name="auth_signup_create_account_dialog_action_continue">Continua</string>
+  <string name="auth_signup_error_username_blank">El nom d\'usuari no pot estar en blanc.</string>
+  <string name="auth_signup_error_passwords_do_not_match">Les contrasenyes no coincideixen.</string>
+  <string name="auth_signup_validation_password_length">La contrasenya ha de tenir almenys 8 caràcters.</string>
+  <string name="auth_signup_password_not_allowed">La contrasenya és massa comuna. Utilitzeu una contrasenya diferent.</string>
+  <string name="auth_signup_validation_password">La contrasenya no pot ser buida.</string>
+  <string name="auth_signup_your_account_is_being_setup">S\'està creant el vostre compte…</string>
+  <string name="auth_signup_please_wait">No sol tardar més d\'un minut.</string>
+  <string name="auth_signup_replacement_code">No heu rebut el codi?</string>
+  <string name="auth_signup_verify">Verifica</string>
+  <string name="auth_signup_verification_code">Codi de verificació</string>
+  <string name="auth_signup_enter_code_subtitle">Introduïu el codi de verificació que s’ha enviat a %s:</string>
+  <string name="auth_signup_error_human_verification_failed">La verificació humana no ha funcionat.</string>
+  <string name="auth_signup_congratulations_subtitle">S\'ha creat el vostre compte de Proton.\nGaudiu del món de la privacitat.</string>
+  <string name="auth_signup_congratulations">Enhorabona!</string>
+  <string name="auth_signup_start_using_proton">Comenceu a utilitzar Proton</string>
+  <string name="auth_signup_start_using_calendar">Comenceu a utilitzar Proton Calendar</string>
+  <string name="auth_signup_start_using_mail">Comenceu a utilitzar Proton Mail</string>
+  <string name="auth_signup_start_using_drive">Comenceu a utilitzar Proton Drive</string>
+  <string name="auth_signup_start_using_vpn">Comenceu a utilitzar Proton VPN</string>
+  <string name="auth_signup_start_using_pass">Comenceu a utilitzar Proton Pass</string>
+  <string name="auth_signup_error_validation_recovery_destination">La destinació de recuperació és invàlida.</string>
+  <string name="auth_credentialless_vpn_no_logs">VPN certificada sense registres</string>
+  <string name="auth_credentialless_vpn_title">Us donem la benvinguda a Proton VPN</string>
+  <string name="auth_credentialless_vpn_subtitle">Navegueu en privat, accediu a continguts bloquejats i gaudiu de llibertat digital.</string>
+  <string name="auth_credentialless_guest_button">Continueu com a convidat</string>
+  <string name="auth_credentialless_terms" comment="Please do not modify the &lt;annotation link=&quot;terms&quot;&gt; tag, only its contents.">En utilitzar aquesta aplicació, accepteu els nostres <annotation link="terms">termes i condicions</annotation>.</string>
+  <string name="auth_credentialless_settings_title">Feu el pas cap a la privacitat.</string>
+  <string name="auth_credentialless_settings_subtitle">Obteniu un gestor de contrasenyes, un correu electrònic i un calendari xifrats, i 1 GB d\'emmagatzematge al núvol de forma gratuïta amb un compte del Proton.</string>
+</resources>

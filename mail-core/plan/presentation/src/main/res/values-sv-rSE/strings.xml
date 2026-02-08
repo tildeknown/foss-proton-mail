@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="plans_select_a_plan">Välj ett paket</string>
+  <string name="plans_select_a_plan_subtitle">Ett paket för alla Proton-tjänster</string>
+  <string name="plans_fetching_general_error">Ett fel uppstod vid hämtning av paket.</string>
+  <string name="plans_payment_error">Ett betalningsfel uppstod. Försök igen senare eller skapa ett gratis paket.</string>
+  <string name="plans_free_name">Gratis</string>
+  <string name="plan_price_monthly">per månad</string>
+  <string name="plan_price_annually">per år</string>
+  <string name="plans_current_plan">Nuvarande paket</string>
+  <string name="plans_upgrade_plan">Uppgradera ditt paket</string>
+  <string name="plans_subscription">Prenumeration</string>
+  <string name="plans_renewal_date">Ditt paket kommer att förnyas automatiskt den &lt;b&gt;%s&lt;/b&gt;</string>
+  <string name="plans_expiration_date">Ditt paket kommer att löpa ut den &lt;b&gt;%s&lt;/b&gt;</string>
+  <string name="plans_pay_monthly">Betala månadsvis</string>
+  <string name="plans_pay_annually">Betala årligen</string>
+  <string name="plans_pay_biennially">Betala vartannat år</string>
+  <plurals name="plans_pay_other">
+    <item quantity="one">Betala för %d månad</item>
+    <item quantity="other">Betala för %d månader</item>
+  </plurals>
+  <string name="plans_billed_yearly">*Faktureras årligen med %s</string>
+  <string name="plans_billed_monthly">Faktureras månadsvis</string>
+  <string name="plans_billing_monthly">För 1 månad</string>
+  <string name="plans_billing_yearly">För 1 år</string>
+  <string name="plans_billing_two_years">För 2 år</string>
+  <plurals name="plans_billing_other_period">
+    <item quantity="one">I %d månad</item>
+    <item quantity="other">I %d månader</item>
+  </plurals>
+  <string name="plans_upgrade_your_plan">Uppgradera ditt paket</string>
+  <string name="plans_proton_for_free">Skaffa Proton gratis</string>
+  <string name="plans_get_proton">Skaffa %s</string>
+  <string name="plans_manage_your_subscription">Hantera din prenumeration på <a href="https://account.proton.me">account.proton.me</a></string>
+  <string name="plans_used_space" comment="1 - used space (e.g. 300MB); 2 - max available space (e.g. 1GB)">%1$s av %2$s</string>
+  <string name="plans_payments_info_not_available">n/a</string>
+  <string name="plans_manage_your_subscription_google">Din prenumeration är hanterad av Google Play.</string>
+  <string name="plans_manage_your_subscription_other">Din prenumeration kan inte hanteras i mobilappen.</string>
+  <string name="plans_autorenew_subscriptions">Endast automatisk förnyelse av årliga prenumerationer är tillgängliga via denna app.</string>
+  <string name="plans_can_not_upgrade_from_mobile">Din prenumeration kan inte hanteras i Android-appen.</string>
+  <string name="plans_user_has_credits">Du har krediter på ditt konto.</string>
+  <string name="plans_manage_subscription_play_store">Hantera prenumeration</string>
+  <string name="plans_no_upgrade_available">Det finns för närvarande ingen uppgradering tillgänglig.</string>
+  <string name="plans_limited_offer">Tidsbegränsat erbjudande</string>
+  <string name="plans_subscription_base_storage_full_title">Ditt lagringsutrymme för Mail är fullt</string>
+  <string name="plans_subscription_base_storage_nearly_full_title">Ditt lagringsutrymme för Mail är nästan fullt</string>
+  <string name="plans_subscription_drive_storage_full_title">Ditt lagringsutrymme för Drive är fullt</string>
+  <string name="plans_subscription_drive_storage_nearly_full_title">Ditt lagringsutrymme för Drive är nästan fullt</string>
+  <string name="plans_subscription_storage_get_more">Skaffa mer lagringsutrymme</string>
+  <string name="plans_subscription_storage_full_description">Uppgradera ditt paket i webbappen för att fortsätta använda ditt konto utan avbrott.</string>
+  <!-- region all possible plan item types. this could be updated as per language requirements.-->
+  <plurals name="item_storage" comment="please do not modify the text between #">
+    <item quantity="one">#proton_storage# lagringsutrymme</item>
+    <item quantity="other">#proton_storage# lagringsutrymme</item>
+  </plurals>
+  <plurals name="item_storage_free" comment="please do not modify the text between #">
+    <item quantity="one">Upp till #proton_storage# lagringsutrymme</item>
+    <item quantity="other">Upp till #proton_storage# lagringsutrymme</item>
+  </plurals>
+  <plurals name="item_storage_multiuser" comment="please do not modify the text between #">
+    <item quantity="one">#proton_storage# lagringsutrymme/användare</item>
+    <item quantity="other">#proton_storage# lagringsutrymme/användare</item>
+  </plurals>
+  <plurals name="item_address" comment="please do not modify the test between #">
+    <item quantity="one">#proton_addresses# e-postadress</item>
+    <item quantity="other">#proton_addresses# e-postadresser</item>
+  </plurals>
+  <plurals name="item_address_multiuser" comment="please do not modify the test between #">
+    <item quantity="one">#proton_addresses# adress/användare</item>
+    <item quantity="other">#proton_addresses# adresser/användare</item>
+  </plurals>
+  <plurals name="item_address_current" comment="please do not modify the test between #">
+    <item quantity="one">%d av #proton_addresses# adress</item>
+    <item quantity="other">%d av #proton_addresses# adresser</item>
+  </plurals>
+  <plurals name="item_domain" comment="please do not modify the test between #">
+    <item quantity="one">Stöd för #proton_domains# anpassad e-postdomän</item>
+    <item quantity="other">Stöd för #proton_domains# anpassade e-postdomäner</item>
+  </plurals>
+  <plurals name="item_calendar" comment="please do not modify the test between #">
+    <item quantity="one">#proton_calendars# personlig kalender</item>
+    <item quantity="other">#proton_calendars# personliga kalendrar</item>
+  </plurals>
+  <plurals name="item_calendar_current" comment="please do not modify the test between #">
+    <item quantity="one">%d av #proton_calendars# kalender</item>
+    <item quantity="other">%d av #proton_calendars# kalendrar</item>
+  </plurals>
+  <plurals name="item_connections" comment="please do not modify the test between #">
+    <item quantity="one">Gratis VPN på en enhet</item>
+    <item quantity="other">Höghastighets-VPN på #proton_vpn# enheter</item>
+  </plurals>
+  <plurals name="item_connections_highspeed" comment="please do not modify the test between #">
+    <item quantity="one">#proton_vpn# VPN-anslutning med hög hastighet</item>
+    <item quantity="other">#proton_vpn# VPN-anslutningar med hög hastighet</item>
+  </plurals>
+  <plurals name="item_users" comment="please do not modify the test between #">
+    <item quantity="one">#proton_users# användare</item>
+    <item quantity="other">#proton_users# användare</item>
+  </plurals>
+  <plurals name="item_users_current" comment="please do not modify the test between #">
+    <item quantity="one">%d av #proton_users# användare</item>
+    <item quantity="other">%d av #proton_users# användare</item>
+  </plurals>
+  <!-- endregion -->
+  <!-- region plans headers -->
+  <string name="plan_id_free_header">Det grundläggande för privat och säker kommunikation.</string>
+  <string name="plan_id_plus_header">Fullfjädrad brevlåda med avancerat skydd.</string>
+  <string name="plan_id_vpnbasic_header">VPN Basic</string>
+  <string name="plan_id_vpnbasic_countries">63 länder</string>
+  <string name="plan_id_vpnbasic_high_speed">Hög hastighet</string>
+  <string name="plan_id_vpnplus_adblock">Annonsblockerare (NetShield)</string>
+  <string name="plan_id_vpnplus_streaming">Stöd för streamingtjänster</string>
+  <string name="plan_id_vpnplus_header">VPN Plus</string>
+  <string name="plan_id_vpnplus_countries">63 länder</string>
+  <string name="plan_id_vpnplus_highest_speed">Högsta hastighet</string>
+  <string name="plan_id_professional_header">Professionell</string>
+  <string name="plan_id_professional_multiuser">Stöd för flera användare</string>
+  <string name="plan_id_visionary_header">Visionary</string>
+  <string name="plan_id_family_header">Familj</string>
+  <string name="plan_id_mail2022_header" comment="new_plans">Säker e-post med avancerade funktioner för din dagliga kommunikation.</string>
+  <string name="plan_id_vpn2022_header" comment="new_plans">Din integritet och säkerhet är vår prioritet.</string>
+  <string name="plan_id_drive2022_header" comment="new_plans">Säker molnlagring som låter dig lagra, synkronisera och dela filer enkelt och säkert.</string>
+  <string name="plan_id_bundle2022_header" comment="new_plans">Omfattande integritet och säkerhet med alla Proton-tjänster kombinerade.</string>
+  <string name="plan_id_pass2023_header" comment="new_plans">För nästa nivå av lösenordshantering och identitetsskydd.</string>
+  <!-- endregion -->
+  <string-array name="supported_currencies">
+    <item>EUR</item>
+    <item>USD</item>
+    <item>CHF</item>
+  </string-array>
+  <!-- region plans hardcoded texts -->
+  <string name="unlimited_folders_labels_filters" comment="new_plans">Obegränsade mappar, etiketter och filter</string>
+  <string name="highest_vpn_speed" comment="new_plans">Högsta VPN-hastighet</string>
+  <string name="servers_in_countries" comment="new_plans">1500+ servrar i 63 länder</string>
+  <string name="ad_blocker" comment="new_plans">Inbyggd annonsblockerare (NetShield)</string>
+  <string name="streaming_services_access" comment="new_plans">Åtkomst till streamingtjänster globalt</string>
+  <string name="secure_core" comment="new_plans">Secure Core-servrar</string>
+  <string name="tor_vpn" comment="new_plans">Tor över VPN</string>
+  <string name="p2p_bittorrent" comment="new_plans">P2P/BitTorrent</string>
+  <string name="unlimited_logins_and_notes">Obegränsat antal inloggningar och anteckningar</string>
+  <string name="unlimited_devices">Obegränsat antal enheter</string>
+  <string name="integrated_2fa_authenticator">Integrerad 2FA-autentiserare</string>
+  <string name="multiple_vaults">Flera valv</string>
+  <string name="unlimited_email_alias">Obegränsat antal hide-my-email-alias</string>
+  <string name="custom_email_alias_domains">Anpassade domäner för e-postalias</string>
+  <string name="multiple_forwarding_mailboxes">Flera vidarebefordrade brevlådor</string>
+  <string name="priority_support">Prioriterad support</string>
+  <string name="one_vault">1 valv</string>
+  <string name="ten_hide_my_email_aliases">10 hide-my-email-alias</string>
+  <!-- endregion -->
+  <!-- region Plan entitlement tags -->
+  <string name="upgrade_storage_current_drive_storage">Drive: %d %% full</string>
+  <string name="upgrade_storage_current_mail_storage">Mail: %d %% full</string>
+  <string name="upgrade_storage_subtitle">Uppgradera lagringsutrymme</string>
+  <!-- endregion -->
+  <!-- region Plan upgrade -->
+  <string name="plan_manage_subscription_title">Uppgradera i %s</string>
+  <string name="plan_manage_subscription_subtitle">Du kan hantera din prenumeration i %1$s-applikationen. Öppna %2$s för att uppgradera till %3$s.</string>
+  <string name="plan_manage_subscription_no_app_title">Installera %s</string>
+  <string name="plan_manage_subscription_no_app_subtitle">Du kan hantera din prenumeration i %1$s-applikationen. Ladda ner och installera den senaste versionen av %2$s för att uppgradera till %3$s.</string>
+  <string name="plan_manage_subscription_app_missing_got_it">Jag förstår</string>
+  <string name="plan_welcome_price_message_monthly">Välkomsterbjudande. Förnyas automatiskt med %1$s/månad</string>
+  <string name="plan_welcome_price_message_annual">Välkomsterbjudande. Förnyas automatiskt med %1$s/år</string>
+  <string name="plan_welcome_price_message_two_year">Välkomsterbjudande. Förnyas automatiskt med %1$s/2 år</string>
+  <string name="plan_auto_renew_message_monthly">Prenumeration förnyas automatiskt med %1$s/månad</string>
+  <string name="plan_auto_renew_message_annual">Prenumeration förnyas automatiskt med %1$s/år</string>
+  <string name="plan_auto_renew_message_two_years">Prenumeration förnyas automatiskt med %1$s/2 år</string>
+  <string name="plan_welcome_price_message_other_fallback">Prenumeration förnyas automatiskt</string>
+  <string name="subscription_renewal_info_monthly">Det rabatterade priset på %1$s gäller för den första månaden. Din prenumeration förnyas automatiskt på &lt;b&gt;%2$s&lt;/b&gt; på &lt;b&gt;%3$s&lt;/b&gt; varje månad.</string>
+  <string name="subscription_renewal_info_annual">Det rabatterade priset på %1$s är giltig under det första året. Din prenumeration förnyas automatiskt den &lt;b&gt;%2$s&lt;/b&gt; på &lt;b&gt;%3$s&lt;/b&gt; varje år.</string>
+  <string name="subscription_renewal_info_two_years">Det rabatterade priset på %1$s är giltigt under det första året. Din prenumeration förnyas automatiskt den &lt;b&gt;%2$s&lt;/b&gt; på &lt;b&gt;%3$s&lt;/b&gt; vartannat år.</string>
+</resources>

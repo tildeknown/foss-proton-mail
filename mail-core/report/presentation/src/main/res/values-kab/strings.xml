@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="core_report_bug_activity_title">Azen aneqqis n wugur</string>
+  <string name="core_report_bug_close">Mdel</string>
+  <string name="core_report_bug_subject_field_hint">Asentel</string>
+  <string name="core_report_bug_subject_field_required">Sekcem azwel</string>
+  <string name="core_report_bug_description_field_hint">Acu yellan? Ma drus 10 yisekkilen</string>
+  <string name="core_report_bug_description_field_placeholder">Please describe the problem in as much detail as you can. If there was an error message, let us know what it said.</string>
+  <plurals name="core_report_bug_description_field_required">
+    <item quantity="one">Sekcem ma drus %d usekkil</item>
+    <item quantity="other">Sekcem ma drus %d yisekkilen</item>
+  </plurals>
+  <string name="core_report_bug_discard_changes_title">Mdel aneqqis n wabug?</string>
+  <string name="core_report_bug_discard_changes_description">Ma yella teǧǧiḍ asebter-a, aneqqis-ik ur yettwaseklas ara.</string>
+  <string name="core_report_bug_discard_changes_cancel">Kemmel tira</string>
+  <string name="core_report_bug_discard_changes_confirm">Mdel war asekles</string>
+  <plurals name="core_report_bug_form_field_too_long">
+    <item quantity="one">Ugar n %d usekkil</item>
+    <item quantity="other">Ugar n %d yisekkilen</item>
+  </plurals>
+  <string name="core_report_bug_general_error">Yella wayen ur nteddu ara akken iwata. Ttxil-k·m ɛreḍ tikkelt niḍen deg kra n tesdatin.</string>
+  <string name="core_report_bug_send">Azen aneqis</string>
+  <string name="core_report_bug_success">Tanemmirt ɣef uneqqis-inek·inem</string>
+  <string name="core_report_bug_attach_log">Attach log</string>
+</resources>

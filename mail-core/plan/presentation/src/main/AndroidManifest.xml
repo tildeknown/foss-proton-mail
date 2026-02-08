@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2020 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <queries>
+        <!-- Current app need to query all Proton apps (scheme) for /plan/upgrade -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.DEFAULT"/>
+            <data android:scheme="*" android:host="account.proton.me" android:pathPrefix="/plan/upgrade"/>
+        </intent>
+    </queries>
+
+    <application>
+        <activity
+            android:name=".ui.UnredeemedPurchaseActivity"
+            android:theme="@style/ProtonTheme.Transparent" />
+
+        <activity android:name=".ui.DynamicSelectPlanActivity" />
+
+        <activity
+            android:name=".ui.DynamicUpgradePlanActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="@string/core_app_scheme" />
+                <data android:host="account.proton.me" />
+                <data android:pathPrefix="/plan/upgrade" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="${applicationId}.androidx-startup"
+            android:exported="false"
+            tools:node="merge">
+
+            <meta-data
+                android:name="me.proton.core.plan.presentation.UnredeemedPurchaseInitializer"
+                android:value="androidx.startup" />
+
+            <meta-data
+                android:name="me.proton.core.plan.presentation.PurchaseHandlerInitializer"
+                android:value="androidx.startup" />
+
+        </provider>
+    </application>
+</manifest>

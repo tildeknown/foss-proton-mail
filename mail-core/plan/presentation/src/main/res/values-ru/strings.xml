@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="plans_select_a_plan">Выберите тариф</string>
+  <string name="plans_select_a_plan_subtitle">Единый тариф для всех служб Proton</string>
+  <string name="plans_fetching_general_error">Произошла ошибка при загрузке тарифов.</string>
+  <string name="plans_payment_error">Произошла ошибка при оплате. Повторите попытку позже или выберите бесплатный тариф.</string>
+  <string name="plans_free_name">Free</string>
+  <string name="plan_price_monthly">в месяц</string>
+  <string name="plan_price_annually">в год</string>
+  <string name="plans_current_plan">Текущий тариф</string>
+  <string name="plans_upgrade_plan">Улучшить тариф</string>
+  <string name="plans_subscription">Подписка</string>
+  <string name="plans_renewal_date">Ваш тариф будет автоматически продлен &lt;b&gt;%s&lt;/b&gt;</string>
+  <string name="plans_expiration_date">Срок действия вашего тарифа истекает &lt;b&gt;%s&lt;/b&gt;</string>
+  <string name="plans_pay_monthly">Оплачивать ежемесячно</string>
+  <string name="plans_pay_annually">Оплачивать ежегодно</string>
+  <string name="plans_pay_biennially">Оплачивать каждые 2 года</string>
+  <plurals name="plans_pay_other">
+    <item quantity="one">Оплатить %d месяц</item>
+    <item quantity="few">Оплатить %d месяца</item>
+    <item quantity="many">Оплатить %d месяцев</item>
+    <item quantity="other">Оплатить %d месяцев</item>
+  </plurals>
+  <string name="plans_billed_yearly">*Ежегодная оплата %s</string>
+  <string name="plans_billed_monthly">Ежемесячная оплата</string>
+  <string name="plans_billing_monthly">За 1 месяц</string>
+  <string name="plans_billing_yearly">За 1 год</string>
+  <string name="plans_billing_two_years">За 2 года</string>
+  <plurals name="plans_billing_other_period">
+    <item quantity="one">За %d месяц</item>
+    <item quantity="few">За %d месяца</item>
+    <item quantity="many">За %d месяцев</item>
+    <item quantity="other">За %d месяцев</item>
+  </plurals>
+  <string name="plans_upgrade_your_plan">Улучшить тариф</string>
+  <string name="plans_proton_for_free">Получить Proton бесплатно</string>
+  <string name="plans_get_proton">Получить %s</string>
+  <string name="plans_manage_your_subscription">Управляйте своей подпиской по ссылке: <a href="https://account.proton.me">account.proton.me</a></string>
+  <string name="plans_used_space" comment="1 - used space (e.g. 300MB); 2 - max available space (e.g. 1GB)">%1$s из %2$s</string>
+  <string name="plans_payments_info_not_available">недоступно</string>
+  <string name="plans_manage_your_subscription_google">Ваша подписка управляется Google Play.</string>
+  <string name="plans_manage_your_subscription_other">Вы не можете управлять подпиской из мобильного приложения.</string>
+  <string name="plans_autorenew_subscriptions">Через это приложение доступны только автопродлеваемые годовые подписки.</string>
+  <string name="plans_can_not_upgrade_from_mobile">Ваша подписка не может управляться из приложения Android.</string>
+  <string name="plans_user_has_credits">На вашем счету есть кредиты</string>
+  <string name="plans_manage_subscription_play_store">Управление подпиской</string>
+  <string name="plans_no_upgrade_available">Обновлений на данный момент нет.</string>
+  <string name="plans_limited_offer">Ограниченное предложение</string>
+  <string name="plans_subscription_base_storage_full_title">Ваше Mail хранилище заполнено</string>
+  <string name="plans_subscription_base_storage_nearly_full_title">Ваше Mail хранилище почти заполнено</string>
+  <string name="plans_subscription_drive_storage_full_title">Ваше Drive хранилище заполнено</string>
+  <string name="plans_subscription_drive_storage_nearly_full_title">Ваше Drive хранилище почти заполнено</string>
+  <string name="plans_subscription_storage_get_more">Получите больше дискового пространства</string>
+  <string name="plans_subscription_storage_full_description">Обновите тариф в веб-приложении, чтобы продолжать пользоваться своим аккаунтом без перебоев.</string>
+  <!-- region all possible plan item types. this could be updated as per language requirements.-->
+  <plurals name="item_storage" comment="please do not modify the text between #">
+    <item quantity="one">#proton_storage# хранилища</item>
+    <item quantity="few">#proton_storage# хранилища</item>
+    <item quantity="many">#proton_storage# хранилища</item>
+    <item quantity="other">#proton_storage# хранилища</item>
+  </plurals>
+  <plurals name="item_storage_free" comment="please do not modify the text between #">
+    <item quantity="one">До #proton_storage# хранилища</item>
+    <item quantity="few">До #proton_storage# хранилища</item>
+    <item quantity="many">До #proton_storage# хранилища</item>
+    <item quantity="other">До #proton_storage# хранилища</item>
+  </plurals>
+  <plurals name="item_storage_multiuser" comment="please do not modify the text between #">
+    <item quantity="one">#proton_storage# хранилища на пользователя</item>
+    <item quantity="few">#proton_storage# хранилища на пользователя</item>
+    <item quantity="many">#proton_storage# хранилища на пользователя</item>
+    <item quantity="other">#proton_storage# хранилища на пользователя</item>
+  </plurals>
+  <plurals name="item_address" comment="please do not modify the test between #">
+    <item quantity="one">#proton_addresses# адрес электронной почты</item>
+    <item quantity="few">#proton_addresses# адреса электронной почты</item>
+    <item quantity="many">#proton_addresses# адресов электронной почты</item>
+    <item quantity="other">#proton_addresses# адресов электронной почты</item>
+  </plurals>
+  <plurals name="item_address_multiuser" comment="please do not modify the test between #">
+    <item quantity="one">#proton_addresses# адрес на пользователя</item>
+    <item quantity="few">#proton_addresses# адреса на пользователя</item>
+    <item quantity="many">#proton_addresses# адресов на пользователя</item>
+    <item quantity="other">#proton_addresses# адресов на пользователя</item>
+  </plurals>
+  <plurals name="item_address_current" comment="please do not modify the test between #">
+    <item quantity="one">%d из #proton_addresses# адреса</item>
+    <item quantity="few">%d из #proton_addresses# адресов</item>
+    <item quantity="many">%d из #proton_addresses# адресов</item>
+    <item quantity="other">%d из #proton_addresses# адресов</item>
+  </plurals>
+  <plurals name="item_domain" comment="please do not modify the test between #">
+    <item quantity="one">Поддержка #proton_domains# пользовательского домена электронной почты</item>
+    <item quantity="few">Поддержка #proton_domains# пользовательских доменов электронной почты</item>
+    <item quantity="many">Поддержка #proton_domains# пользовательских доменов электронной почты</item>
+    <item quantity="other">Поддержка #proton_domains# пользовательских доменов электронной почты</item>
+  </plurals>
+  <plurals name="item_calendar" comment="please do not modify the test between #">
+    <item quantity="one">#proton_calendars# личный календарь</item>
+    <item quantity="few">#proton_calendars# личных календаря</item>
+    <item quantity="many">#proton_calendars# личных календарей</item>
+    <item quantity="other">#proton_calendars# личных календарей</item>
+  </plurals>
+  <plurals name="item_calendar_current" comment="please do not modify the test between #">
+    <item quantity="one">%d из #proton_calendars# календаря</item>
+    <item quantity="few">%d из #proton_calendars# календарей</item>
+    <item quantity="many">%d из #proton_calendars# календарей</item>
+    <item quantity="other">%d из #proton_calendars# календарей</item>
+  </plurals>
+  <plurals name="item_connections" comment="please do not modify the test between #">
+    <item quantity="one">Бесплатный VPN на одном устройстве</item>
+    <item quantity="few">Высокоскоростной VPN на #proton_vpn# устройствах</item>
+    <item quantity="many">Высокоскоростной VPN на #proton_vpn# устройствах</item>
+    <item quantity="other">Высокоскоростной VPN на #proton_vpn# устройствах</item>
+  </plurals>
+  <plurals name="item_connections_highspeed" comment="please do not modify the test between #">
+    <item quantity="one">#proton_vpn# высокоскоростное подключение к VPN</item>
+    <item quantity="few">#proton_vpn# высокоскоростных подключения к VPN</item>
+    <item quantity="many">#proton_vpn# высокоскоростных подключений к VPN</item>
+    <item quantity="other">#proton_vpn# высокоскоростных подключений к VPN</item>
+  </plurals>
+  <plurals name="item_users" comment="please do not modify the test between #">
+    <item quantity="one">#proton_users# пользователь</item>
+    <item quantity="few">#proton_users# пользователя</item>
+    <item quantity="many">#proton_users# пользователей</item>
+    <item quantity="other">#proton_users# пользователей</item>
+  </plurals>
+  <plurals name="item_users_current" comment="please do not modify the test between #">
+    <item quantity="one">%d из #proton_users# пользователя</item>
+    <item quantity="few">%d из #proton_users# пользователей</item>
+    <item quantity="many">%d из #proton_users# пользователей</item>
+    <item quantity="other">%d из #proton_users# пользователей</item>
+  </plurals>
+  <!-- endregion -->
+  <!-- region plans headers -->
+  <string name="plan_id_free_header">Основа для конфиденциальных и защищенных коммуникаций.</string>
+  <string name="plan_id_plus_header">Полнофункциональный почтовый ящик с расширенной защитой.</string>
+  <string name="plan_id_vpnbasic_header">VPN Basic</string>
+  <string name="plan_id_vpnbasic_countries">63 страны</string>
+  <string name="plan_id_vpnbasic_high_speed">Высокая скорость</string>
+  <string name="plan_id_vpnplus_adblock">Блокировщик рекламы (NetShield)</string>
+  <string name="plan_id_vpnplus_streaming">Поддержка стриминговых сервисов</string>
+  <string name="plan_id_vpnplus_header">VPN Plus</string>
+  <string name="plan_id_vpnplus_countries">63 страны</string>
+  <string name="plan_id_vpnplus_highest_speed">Наивысшая скорость</string>
+  <string name="plan_id_professional_header">Professional</string>
+  <string name="plan_id_professional_multiuser">Многопользовательская поддержка</string>
+  <string name="plan_id_visionary_header">Visionary</string>
+  <string name="plan_id_family_header">Family</string>
+  <string name="plan_id_mail2022_header" comment="new_plans">Защищенная электронная почта с дополнительными возможностями для повседневного общения.</string>
+  <string name="plan_id_vpn2022_header" comment="new_plans">Наш приоритет — ваша конфиденциальность и безопасность.</string>
+  <string name="plan_id_drive2022_header" comment="new_plans">Защищённое облачное хранилище для удобного и надежного хранения, синхронизации и обмена файлами.</string>
+  <string name="plan_id_bundle2022_header" comment="new_plans">Комплексная конфиденциальность и безопасность со всеми службами Proton вместе взятыми.</string>
+  <string name="plan_id_pass2023_header" comment="new_plans">Для нового уровня управления паролями и защиты личных данных.</string>
+  <!-- endregion -->
+  <string-array name="supported_currencies">
+    <item>EUR</item>
+    <item>USD</item>
+    <item>CHF</item>
+  </string-array>
+  <!-- region plans hardcoded texts -->
+  <string name="unlimited_folders_labels_filters" comment="new_plans">Неограниченное количество папок, ярлыков и фильтров</string>
+  <string name="highest_vpn_speed" comment="new_plans">Наивысшая скорость VPN</string>
+  <string name="servers_in_countries" comment="new_plans">Более 1500 серверов в 63 странах</string>
+  <string name="ad_blocker" comment="new_plans">Встроенный блокировщик рекламы (NetShield)</string>
+  <string name="streaming_services_access" comment="new_plans">Доступ к стриминговым сервисам по всему миру</string>
+  <string name="secure_core" comment="new_plans">Серверы Secure Core</string>
+  <string name="tor_vpn" comment="new_plans">Tor через VPN</string>
+  <string name="p2p_bittorrent" comment="new_plans">P2P/BitTorrent</string>
+  <string name="unlimited_logins_and_notes">Неограниченное количество имен пользователей и заметок</string>
+  <string name="unlimited_devices">Неограниченное количество устройств</string>
+  <string name="integrated_2fa_authenticator">Интегрированная двухфакторная аутентификация</string>
+  <string name="multiple_vaults">Несколько хранилищ</string>
+  <string name="unlimited_email_alias">Неограниченное количество псевдонимов hide-my-email</string>
+  <string name="custom_email_alias_domains">Пользовательские домены для псевдонимов электронной почты</string>
+  <string name="multiple_forwarding_mailboxes">Несколько почтовых ящиков для пересылки</string>
+  <string name="priority_support">Приоритетная поддержка</string>
+  <string name="one_vault">1 хранилище</string>
+  <string name="ten_hide_my_email_aliases">10 псевдонимов hide-my-email</string>
+  <!-- endregion -->
+  <!-- region Plan entitlement tags -->
+  <string name="upgrade_storage_current_drive_storage">Drive: заполнено на %d%%</string>
+  <string name="upgrade_storage_current_mail_storage">Mail: заполнено на %d%%</string>
+  <string name="upgrade_storage_subtitle">Увеличить дисковое пространство</string>
+  <!-- endregion -->
+  <!-- region Plan upgrade -->
+  <string name="plan_manage_subscription_title">Улучшить в %s</string>
+  <string name="plan_manage_subscription_subtitle">Вы можете управлять своей подпиской в приложении %1$s. Откройте %2$s, чтобы улучшить до %3$s.</string>
+  <string name="plan_manage_subscription_no_app_title">Установить %s</string>
+  <string name="plan_manage_subscription_no_app_subtitle">Вы можете управлять своей подпиской в приложении %1$s . Загрузите и установите последнюю версию %2$s для улучшения до %3$s.</string>
+  <string name="plan_manage_subscription_app_missing_got_it">Понятно</string>
+  <string name="plan_welcome_price_message_monthly">Приветственное предложение. Автоматическое продление по цене %1$s/в месяц</string>
+  <string name="plan_welcome_price_message_annual">Приветственное предложение. Автоматическое продление по цене %1$s/в год</string>
+  <string name="plan_welcome_price_message_two_year">Приветственное предложение. Автоматическое продление по цене %1$s за 2 года</string>
+  <string name="plan_auto_renew_message_monthly">Подписка автоматически обновляется за %1$s в месяц</string>
+  <string name="plan_auto_renew_message_annual">Подписка автоматически продлевается за %1$s в год</string>
+  <string name="plan_auto_renew_message_two_years">Подписка автоматически продлевается за %1$s раз в 2 года</string>
+  <string name="plan_welcome_price_message_other_fallback">Подписка автоматически обновляется</string>
+  <string name="subscription_renewal_info_monthly">Цена со скидкой %1$s действительна в течение первого месяца. Ваша подписка автоматически продлевается за &lt;b&gt;%2$s&lt;/b&gt; в &lt;b&gt;%3$s&lt;/b&gt; каждый месяц.</string>
+  <string name="subscription_renewal_info_annual">Сниженная цена %1$s действительна в течение первого года. Ваша подписка автоматически продлевается за &lt;b&gt;%2$s&lt;/b&gt; в &lt;b&gt;%3$s&lt;/b&gt; каждый год.</string>
+  <string name="subscription_renewal_info_two_years">Цена со скидкой %1$s действительна в течение первого года. Ваша подписка автоматически продлевается на &lt;b&gt;%2$s&lt;/b&gt; на &lt;b&gt;%3$s&lt;/b&gt; каждые 2 года.</string>
+</resources>

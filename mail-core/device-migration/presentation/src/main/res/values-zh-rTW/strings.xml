@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2025 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="emd_code_not_recognized">代碼無法識別。請再試一次。</string>
+  <string name="edm_code_verifying">正在驗證…</string>
+  <string name="edm_missing_camera_permission_headline">允許相機存取</string>
+  <string name="edm_missing_camera_permission_body">若要使用 QR 碼登入，您需要允許 %1$s 存取您的相機。您可以在您的裝置設定中執行此操作。</string>
+  <string name="edm_missing_camera_permission_footer">您始終掌握控制權：您隨時可以在您的裝置設定中更改此設定。</string>
+  <string name="edm_missing_camera_permission_settings">設定</string>
+  <string name="intro_origin_sign_in_title">登入服務</string>
+  <string name="intro_origin_sign_in_subtitle">如何使用 QR 碼登入</string>
+  <string name="intro_origin_sign_in_hint_1">1. 在您要登入的裝置上開啟任何 Proton 應用程式。</string>
+  <string name="intro_origin_sign_in_hint_2">2. 在登入畫面上，選取<b>忘記密碼</b>或<b>登入有問題？</b> (在行動應用程式上，選取<b>說明</b>)。</string>
+  <string name="intro_origin_sign_in_hint_3">3. 選取<b>使用 QR 碼登入</b>。將會出現 QR 碼。</string>
+  <string name="intro_origin_sign_in_hint_4">4. 在此裝置上，按下<b>掃描 QR 碼</b>並掃描代碼。</string>
+  <string name="intro_origin_sign_in_tips">安全性提示</string>
+  <string name="intro_origin_sign_in_tip_1">請小心帶有 QR 碼的訊息。僅在信任來源的情況下掃描代碼。</string>
+  <string name="intro_origin_sign_in_tip_2">Proton 絕不會在您未預期的情況下聯繫您，要求您使用 QR 碼登入。</string>
+  <string name="intro_origin_sign_in_tip_3">Proton 絕不會要求您掃描非來自 <b>https://proton.me</b> 或官方 Proton 應用程式的 QR 碼。</string>
+  <string name="intro_origin_sign_in_begin">掃描 QR 碼</string>
+  <string name="intro_origin_biometrics_title">解鎖您的裝置以繼續</string>
+  <string name="manual_code_input_title">手動輸入代碼</string>
+  <string name="manual_code_input_description">若要存取您想登入之裝置的代碼，請在登入畫面的說明選單中，輕觸<b>使用 QR 碼登入</b>按鈕，然後輕觸<b>手動輸入金鑰</b>。</string>
+  <string name="manual_code_input_code_label">程式碼</string>
+  <string name="manual_code_input_clear_code">清除</string>
+  <string name="manual_code_input_submit">繼續</string>
+  <string name="origin_success_signed_in">存取已共享</string>
+  <string name="origin_success_ack">返回設定</string>
+  <string name="qr_code_scan_hint">將 QR 碼置於方框內</string>
+  <string name="qr_code_scan_enter_manually">手動輸入代碼</string>
+  <string name="target_sign_in_title">使用 QR code 登入</string>
+  <string name="target_sign_in_scan_code">如何使用其他裝置登入</string>
+  <string name="target_sign_in_instruction_1">1. 取得已登入您的 Proton 帳號的另一台裝置</string>
+  <string name="target_sign_in_instruction_2">2. 使用該裝置，開啟任何 Proton 應用程式並選取<b>設定</b></string>
+  <string name="target_sign_in_instruction_3">3. 選取<b>在其他裝置上登入 → 掃描 QR 碼</b></string>
+  <string name="target_sign_in_instruction_4">4. 掃描代碼以登入</string>
+  <string name="target_sign_in_error_title">我們無法為您登入</string>
+  <string name="target_sign_in_retryable_error">請嘗試產生新的 QR 碼。</string>
+  <string name="target_sign_in_passphrase_error">請嘗試其他登入方式。</string>
+  <string name="target_sign_in_error_new_qr">產生 QR 碼</string>
+  <string name="target_sign_in_error_back_to_signin">返回登入</string>
+  <string name="target_sign_in_qr_code_failure">我們無法載入 QR 碼。輕觸以重試。</string>
+  <string name="target_sign_in_no_connection">您似乎已離線。請檢查您的連線並再試一次。</string>
+  <string name="target_sign_in_learn_more">瞭解詳情</string>
+</resources>

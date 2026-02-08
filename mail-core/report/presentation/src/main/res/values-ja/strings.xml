@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="core_report_bug_activity_title">問題を報告</string>
+  <string name="core_report_bug_close">閉じる</string>
+  <string name="core_report_bug_subject_field_hint">件名</string>
+  <string name="core_report_bug_subject_field_required">件名を入力</string>
+  <string name="core_report_bug_description_field_hint">何が起きましたか? 10 文字以上</string>
+  <string name="core_report_bug_description_field_placeholder">問題をできるだけ詳しく説明してください。エラーメッセージがある場合は、その内容をお知らせください。</string>
+  <plurals name="core_report_bug_description_field_required">
+    <item quantity="other">少なくとも%d文字を入力してください</item>
+  </plurals>
+  <string name="core_report_bug_discard_changes_title">バグ報告を閉じますか?</string>
+  <string name="core_report_bug_discard_changes_description">ページを離れると、報告は保存されません。</string>
+  <string name="core_report_bug_discard_changes_cancel">編集を続ける</string>
+  <string name="core_report_bug_discard_changes_confirm">保存しないで閉じる</string>
+  <plurals name="core_report_bug_form_field_too_long">
+    <item quantity="other">最大 %d 文字</item>
+  </plurals>
+  <string name="core_report_bug_general_error">問題が発生しました。数分後に再度お試しください。</string>
+  <string name="core_report_bug_send">報告を送信</string>
+  <string name="core_report_bug_success">ご報告ありがとうございます</string>
+  <string name="core_report_bug_attach_log">ログを添付</string>
+</resources>

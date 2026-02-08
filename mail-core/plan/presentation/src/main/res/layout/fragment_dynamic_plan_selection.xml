@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/cycleSpinner"
+        style="@style/ProtonSpinnerStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/gap_large"
+        android:spinnerMode="dropdown"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/plans"
+        android:name="me.proton.core.plan.presentation.ui.DynamicPlanListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/list_empty"
+        style="@style/Proton.Text.Caption.Weak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_medium"
+        android:drawablePadding="@dimen/gap_medium"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="@string/plans_no_upgrade_available"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <Spinner
+        android:id="@+id/currencySpinner"
+        style="@style/ProtonSpinnerStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/gap_large"
+        android:spinnerMode="dropdown"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+</LinearLayout>

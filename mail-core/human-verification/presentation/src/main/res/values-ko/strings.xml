@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- base common strings -->
+  <string name="human_verification_help">도움말</string>
+  <string name="human_verification_title">사람임을 인증</string>
+  <!-- To verify the entered code - action -->
+  <string name="human_verification_help_title">사람임을 인증하는 데 도움이 필요하신가요?</string>
+  <string name="sms_hint">XX XXX XX XX</string>
+  <!-- TODO: update correct strings below -->
+  <string name="human_verification_help_manual_title">가입 요청하기</string>
+  <string name="human_verification_help_manual">계정을 생성하는데 문제가 있을 경우, 계정 생성 요청을 해 주시면 1영업일 이내에 답변해 드리겠습니다.</string>
+  <string name="human_verification_help_website_title">지원 센터에 접속하세요</string>
+  <string name="human_verification_help_website">로봇이 아닌가요와 우리가 왜 이 인증을 요구하는지에 대해 더 알아보세요.</string>
+</resources>

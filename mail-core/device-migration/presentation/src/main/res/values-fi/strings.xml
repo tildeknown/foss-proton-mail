@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2025 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="emd_code_not_recognized">Koodia ei tunnistettu. Yritä uudelleen.</string>
+  <string name="edm_code_verifying">Vahvistetaan…</string>
+  <string name="edm_missing_camera_permission_headline">Salli pääsy kameraan</string>
+  <string name="edm_missing_camera_permission_body">Kirjautuaksesi sisään QR-koodilla, sinun täytyy antaa %1$s:lle pääsy kameraasi. Voit tehdä tämän laitteesi asetuksissa.</string>
+  <string name="edm_missing_camera_permission_footer">Olet aina hallinnassa: Voit muuttaa tämän milloin vain laitteesi asetuksissa.</string>
+  <string name="edm_missing_camera_permission_settings">Asetukset</string>
+  <string name="intro_origin_sign_in_title">Kirjaudu toisella laitteella</string>
+  <string name="intro_origin_sign_in_subtitle">Miten kirjaudut QR-koodilla</string>
+  <string name="intro_origin_sign_in_hint_1">1. Avaa mikä tahansa Proton-sovellus laitteella, johon haluat kirjautua.</string>
+  <string name="intro_origin_sign_in_hint_2">2. Valitse kirjautumisruudussa <b>Unohtunut salasana</b> tai <b>Ongelmia kirjautumisessa?</b> (mobiilisovelluksissa, valitse <b>Ohje</b>).</string>
+  <string name="intro_origin_sign_in_hint_3">3. Valitse <b>kirjaudu sisään QR-koodilla</b>, niin QR-koodi ilmestyy.</string>
+  <string name="intro_origin_sign_in_hint_4">4. Paina tällä laitteella <b>Lue QR-koodi</b> ja skannaa koodi.</string>
+  <string name="intro_origin_sign_in_tips">Turvallisuusvinkkejä</string>
+  <string name="intro_origin_sign_in_tip_1">Ole varovainen QR-koodeja sisältävien viestien kanssa. Skannaa koodi vain, jos luotat lähteeseen.</string>
+  <string name="intro_origin_sign_in_tip_2">Proton ei koskaan ota sinuun yllättäen yhteyttä ja pyydä kirjautumaan sisään QR-koodilla.</string>
+  <string name="intro_origin_sign_in_tip_3">Proton ei koskaan pyydä sinua skannaamaan QR-koodia, joka ei ole peräisin <b>https://proton.me</b>-sivustolta tai virallisesta Proton-sovelluksesta.</string>
+  <string name="intro_origin_sign_in_begin">Skannaa QR-koodi</string>
+  <string name="intro_origin_biometrics_title">Avaa laite jatkaaksesi</string>
+  <string name="manual_code_input_title">Syötä koodi itse</string>
+  <string name="manual_code_input_description">Nähdäksesi koodin laitteeseen, johon haluat kirjautua sisään, napauta kirjautumisruudun ohjevalikossa <b>Kirjaudu sisään QR-koodilla</b> -painiketta ja napauta sitten <b>Syötä avain itse</b>.</string>
+  <string name="manual_code_input_code_label">Koodi</string>
+  <string name="manual_code_input_clear_code">Tyhjennä</string>
+  <string name="manual_code_input_submit">Jatka</string>
+  <string name="origin_success_signed_in">Pääsy jaettu</string>
+  <string name="origin_success_ack">Takaisin asetuksiin</string>
+  <string name="qr_code_scan_hint">Aseta QR-koodi neliön sisälle</string>
+  <string name="qr_code_scan_enter_manually">Syötä koodi itse</string>
+  <string name="target_sign_in_title">Kirjaudu QR-koodilla</string>
+  <string name="target_sign_in_scan_code">Miten kirjaudut toisella laitteella</string>
+  <string name="target_sign_in_instruction_1">1. Ota toinen laite, joka on kirjautunut sisään Proton-tilillesi</string>
+  <string name="target_sign_in_instruction_2">2. Avaa kyseisellä laitteella mikä tahansa Proton-sovellus ja valitse <b>Asetukset</b></string>
+  <string name="target_sign_in_instruction_3">3. Valitse <b>Kirjaudu toisella laitteella → Skannaa QR-koodi</b></string>
+  <string name="target_sign_in_instruction_4">4. Skannaa koodi kirjautuaksesi sisään</string>
+  <string name="target_sign_in_error_title">Kirjautuminen epäonnistui</string>
+  <string name="target_sign_in_retryable_error">Yritä luoda uusi QR-koodi.</string>
+  <string name="target_sign_in_passphrase_error">Kokeile toista kirjautumistapaa.</string>
+  <string name="target_sign_in_error_new_qr">Luo QR-koodi</string>
+  <string name="target_sign_in_error_back_to_signin">Takaisin kirjautumiseen</string>
+  <string name="target_sign_in_qr_code_failure">QR-koodia ei voitu ladata. Napauta yrittääksesi uudelleen.</string>
+  <string name="target_sign_in_no_connection">Näyttää siltä, että nettiyhteys puuttuu. Tarkista yhteytesi ja yritä uudelleen.</string>
+  <string name="target_sign_in_learn_more">Lue lisää</string>
+</resources>

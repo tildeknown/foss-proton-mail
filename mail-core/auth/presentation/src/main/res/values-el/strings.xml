@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="welcome_title">Προστατέψτε την ιδιωτικότητά σας με το Proton</string>
+  <string name="welcome_subtitle">Η κρυπτογράφηση διατηρεί τα δεδομένα σας απόρρητα. Τα δεδομένα σας ανήκουν πραγματικά σε εσάς.</string>
+  <string name="welcome_subtitle_mail">Το κρυπτογραφημένο email διατηρεί τις συνομιλίες σας απόρρητες. Τα εισερχόμενά σας ανήκουν πραγματικά σε εσάς.</string>
+  <string name="welcome_subtitle_mail_alt">Ιδιωτικότητα. Διασφάλιση. Ευκολία. Κρυπτογραφημένο ταχυδρομείο που σας δίνει πλήρη έλεγχο των προσωπικών σας δεδομένων.</string>
+  <string name="welcome_subtitle_drive">Η άνεση της αποθήκευσης στο νέφος και η διασφάλιση της τεχνολογίας κρυπτογράφησης. Επιτέλους μια αξιόπιστη λύση αποθήκευσης στο νέφος.</string>
+  <string name="welcome_subtitle_drive_alt">Ο ασφαλέστερος τρόπος αποθήκευσης των αρχείων σας. Ανεβάστε, συγχρονίστε και μοιραστείτε με την ισχυρότερη διαθέσιμη κρυπτογράφηση.</string>
+  <string name="welcome_subtitle_calendar">Κρυπτογραφημένο ημερολόγιο που κρατά τις εκδηλώσεις σας ιδιωτικές, ασφαλείς και διασφαλισμένες.</string>
+  <string name="welcome_subtitle_calendar_alt">Το διατερματικά κρυπτογραφημένο ημερολόγιό μας σάς βοηθά να παραμένετε οργανωμένοι, στο πρόγραμμα και υπό έλεγχο.</string>
+  <string name="welcome_subtitle_vpn">Ελβετικό VPN υψηλής ταχύτητας που προστατεύει το απόρρητό σας, κρυπτογραφώντας τη διαδικτυακή σύνδεσή σας.</string>
+  <string name="welcome_subtitle_vpn_alt">Ελβετικό VPN υψηλής ταχύτητας που προστατεύει την ιδιωτικότητά σας. Μέγιστη διασφάλιση, 1600+ διακομιστές, και χωρίς περιορισμούς.</string>
+  <string name="welcome_subtitle_pass">Όλοι οι κωδικοί πρόσβασής σας. Ασφαλής σε ένα μέρος και προστατευόμενοι από το πιο αξιόπιστο όνομα στο απόρρητο.</string>
+  <string name="welcome_subtitle_pass_alt">Όλοι οι κωδικοί πρόσβασής σας. Ασφαλής σε ένα μέρος και προστατευόμενοι από το πιο αξιόπιστο όνομα στο απόρρητο.</string>
+  <string name="welcome_privacy_by_default">Ιδιωτικότητα από προεπιλογή</string>
+  <string name="auth_password_label">Κωδικός</string>
+  <string name="auth_password_help">Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον 8 χαρακτήρες</string>
+  <string name="auth_current_login_password">Τρέχων κωδικός εισόδου</string>
+  <string name="auth_enter_six_digit_code">Εισάγετε τον 6-ψήφιο κωδικό</string>
+  <string name="auth_second_factor_code">Κωδικός Δύο Παραγόντων (2FA)</string>
+  <string name="auth_email">Email</string>
+  <string name="auth_email_username">Όνομα χρήστη ή email</string>
+  <string name="auth_account_details">Εισαγάγετε τα στοιχεία του λογαριασμού σας Proton.</string>
+  <string name="auth_sign_in">Είσοδος</string>
+  <string name="auth_sign_out">Αποσύνδεση</string>
+  <string name="auth_sign_in_action">Είσοδος</string>
+  <string name="auth_sign_in_sso">Συνδεθήτε στον οργανισμό σας</string>
+  <string name="auth_sign_in_with_password">Σύνδεση με κωδικό</string>
+  <string name="auth_continue_to_proton">για να συνεχίσετε στο Proton</string>
+  <string name="auth_sign_in_with_sso">Συνδεθείτε με SSO</string>
+  <string name="auth_help_label">Βοήθεια</string>
+  <string name="auth_login_assistive_text">Παρακαλούμε εισάγετε το Proton email ή το όνομα χρήστη σας.</string>
+  <string name="auth_login_sso_assistive_text">Παρακαλούμε εισάγετε το e-mail σας</string>
+  <string name="auth_help_title">Πώς μπορούμε να βοηθήσουμε;</string>
+  <string name="auth_help_option_forgot_username">Ξέχασα το όνομα χρήστη μου</string>
+  <string name="auth_help_option_forgot_password">Ξέχασα τον κωδικό πρόσβασης</string>
+  <string name="auth_help_option_other">Άλλα προβλήματα εισόδου</string>
+  <string name="auth_help_other">Χρειάζεστε ακόμα βοήθεια; Επικοινωνήστε απευθείας με εμάς.</string>
+  <string name="auth_help_option_customer_support">Εξυπηρέτηση πελατών</string>
+  <string name="auth_help_option_sign_in_with_qr_code">Σύνδεση με κωδικό QR</string>
+  <string name="auth_2fa_title">Ελεγχος Ταυτότητας δυο παραγόντων</string>
+  <string name="auth_2fa_subtitle">Ο λογαριασμός σας έχει διαμορφώσει αρκετούς μηχανισμούς 2FA. Επιλέξτε πώς θέλετε να επιβεβαιώσετε την ταυτότητά σας.</string>
+  <string name="auth_2fa_tab_one_time_code">Κωδικός μίας χρήσης</string>
+  <string name="auth_2fa_tab_security_key">Κλειδί ασφαλείας</string>
+  <string name="auth_2fa_insert_security_key">Παρουσιάστε ένα κλειδί ασφαλείας συνδεδεμένο με τον λογαριασμό Proton. <annotation link="more">Μάθετε περισσότερα</annotation></string>
+  <string name="auth_2fa_label">Κωδικός Δύο Παραγόντων (2FA)</string>
+  <string name="auth_2fa_recovery_code_label">Κωδικός ανάκτησης</string>
+  <string name="auth_2fa_assistive_text">Εισάγετε τον 6-ψήφιο κωδικό.</string>
+  <string name="auth_2fa_recovery_code_assistive_text">Εισαγάγετε έναν κωδικό ανάκτησης 8 χαρακτήρων.</string>
+  <string name="auth_2fa_action">Ταυτοποίηση</string>
+  <string name="auth_2fa_use_recovery_code">Χρησιμοποιήστε κωδικό ανάκτησης</string>
+  <string name="auth_2fa_learn_more">Μάθετε περισσότερα</string>
+  <string name="auth_2fa_use_2fa_code">Χρησιμοποιήστε κωδικό Δύο Παραγόντων (2FA)</string>
+  <string name="auth_2fa_error_empty_code">Εισάγετε τον 6-ψήφιο κωδικό.</string>
+  <string name="auth_2fa_error_key_security_error">Προέκυψε σφάλμα ασφαλείας: %1$s</string>
+  <string name="auth_2fa_error_key_abort_error">Η λειτουργία ακυρώθηκε.</string>
+  <string name="auth_2fa_error_key_invalid_or_not_supported">Παρουσιάστηκε σφάλμα. Παρακαλούμε ελέγξτε το κλειδί σας.</string>
+  <string name="auth_2fa_error_key_network_error">Παρουσιάστηκε ένα σφάλμα δικτύου. Παρακαλούμε δοκιμάστε ξανά.</string>
+  <string name="auth_mailbox_title">Ξεκλειδώστε τη θυρίδα σας</string>
+  <string name="auth_mailbox_password_label">Κωδικός Θυρίδας</string>
+  <string name="auth_mailbox_unlock_action">Ξεκλείδωμα</string>
+  <string name="auth_forgot_password">Ξέχασα τον κωδικό πρόσβασης</string>
+  <string name="auth_login_general_error">Παρουσιάστηκε σφάλμα.</string>
+  <string name="auth_login_external_account_unsupported_title">Απαιτείται διεύθυνση Proton</string>
+  <string name="auth_login_external_account_unsupported_message">Αποκτήστε μια διεύθυνση Proton Mail συνδεδεμένη με αυτόν τον λογαριασμό στις ρυθμίσεις ιστοτόπου του Proton.</string>
+  <string name="auth_login_external_account_unsupported_help_action">Μάθετε περισσότερα</string>
+  <string name="auth_login_external_sso_unsupported_title">Η ενιαία πρόσβαση δεν υποστηρίζεται</string>
+  <string name="auth_login_external_sso_unsupported_message">Επικοινωνήστε με το διαχειριστή σας εάν το πρόβλημα παραμένει.</string>
+  <string name="auth_login_external_sso_unsupported_action">Το κατάλαβα</string>
+  <string name="auth_login_empty_credentials">Τα διαπιστευτήρια δεν πρέπει να είναι κενά.</string>
+  <string name="auth_mailbox_empty_credentials">Τα διαπιστευτήρια δεν πρέπει να είναι κενά.</string>
+  <string name="auth_create_address_title">Απαιτείται διεύθυνση Proton</string>
+  <string name="auth_create_address_subtitle">Χρειάζεστε μια ηλεκτρονική διεύθυνση Proton για να χρησιμοποιήσετε το Ημερολόγιο και άλλα προϊόντα Proton. Θα μπορείτε να συνεχίσετε να χρησιμοποιείτε το %1$s για να συνδεθείτε και να ανακτήσετε τον λογαριασμό σας.</string>
+  <string name="auth_username">Όνομα χρήστη</string>
+  <string name="auth_username_next_action">Συνέχεια</string>
+  <string name="auth_create_address_result_title">Το %s είναι διαθέσιμο</string>
+  <string name="auth_create_address_result_title_username">Η %1$s@%2$s θα είναι η νέα σας ηλεκτρονική διεύθυνση Proton Mail.</string>
+  <string name="auth_create_address_result_subtitle">Θα χρησιμοποιείτε αυτήν τη διεύθυνση για σύνδεση σε όλες τις υπηρεσίες Proton.</string>
+  <string name="auth_create_address_result_recovery_title">Η ηλ. διεύθυνσή σας ανάκτησης είναι:</string>
+  <string name="auth_create_address_create">Δημιουργία διεύθυνσης</string>
+  <string name="auth_create_address_creating">Δημιουργία διεύθυνσης</string>
+  <string name="auth_create_address_terms">Κάνοντας κλικ στην επιλογή Δημιουργία διεύθυνσης, συμφωνείτε με τους <a href="https://proton.me/legal/terms">Όρους και Προϋποθέσεις</a> του Proton.</string>
+  <string name="auth_create_address_error_credentials">Τα διαπιστευτήρια δεν πρέπει να είναι κενά.</string>
+  <string name="auth_create_address_error_no_available_domain">Μη διαθέσιμος τομέας.</string>
+  <string name="auth_create_address_error_private_key">Αποτυχία δημιουργίας ιδιωτικού κλειδιού.</string>
+  <string name="auth_create_address_error_signed_key_list">Αποτυχία δημιουργίας λίστας κλειδιών.</string>
+  <string name="auth_create_address_error_setusername">Αποτυχία συσχέτισης ονόματος χρήστη.</string>
+  <string name="auth_create_address_error_username_unavailable">Το επιλεγμένο όνομα χρήστη είναι διαθέσιμο.</string>
+  <string name="auth_mailbox_login_error_no_primary_key">Δεν βρέθηκε Πρωτεύον κλειδί.</string>
+  <string name="auth_mailbox_login_error_primary_key_error">Σφάλμα κύριου κλειδιού.</string>
+  <string name="auth_mailbox_login_error_invalid_passphrase">Μη έγκυρη φράση πρόσβασης.</string>
+  <string name="auth_password_chooser_title">Αλλαγή του κωδικού πρόσβασης σας</string>
+  <string name="auth_password_chooser_description">Για να χρησιμοποιήσετε την εφαρμογή Proton ως μέλος ενός οργανισμού, πρέπει πρώτα να αλλάξετε τον κωδικό πρόσβασης σας, χρησιμοποιώντας ένα πρόγραμμα περιήγησης για την είσοδο στο Proton.</string>
+  <string name="auth_password_chooser_change">Αλλαγή Κωδικού Πρόσβασης</string>
+  <plurals name="auth_user_check_max_free_error">
+    <item quantity="one">Επιτρέπεται μόνο ένας δωρεάν λογαριασμός Proton.</item>
+    <item quantity="other">Επιτρέπονται μόνο %d δωρεάν λογαριασμοί Proton.</item>
+  </plurals>
+  <string name="auth_user_check_delinquent_error">Ο λογαριασμός σας είναι σε αναστολή λόγω ενός ληξιπρόθεσμου τιμολογίου.</string>
+  <string name="auth_user_check_delinquent_action">Πληρωμή τιμολογίου</string>
+  <string name="auth_account_not_found_error">Σφάλμα με τον λογαριασμό</string>
+  <string name="auth_one_account_all_services">Ένας λογαριασμός για όλες τις υπηρεσίες Proton.</string>
+  <string name="auth_create_account">Δημιουργία λογαριασμού</string>
+  <string name="auth_long_signup">Παρακαλούμε περιμένετε…</string>
+  <string name="auth_long_login">Σύνδεση, παρακαλούμε περιμένετε…</string>
+  <!-- signup related strings -->
+  <string name="auth_signup_create_account">Δημιουργήστε τον λογαριασμό σας Proton</string>
+  <string name="auth_signup_current_email">Χρησιμοποιήστε την τρέχουσα διεύθυνση email σας</string>
+  <string name="auth_signup_external_footnote">Με μια διεύθυνση Proton, μπορείτε να χρησιμοποιήσετε όλες τις υπηρεσίες Proton</string>
+  <string name="auth_signup_internal_footnote">Για χρήση των Proton Mail και Proton Calendar, θα χρειαστείτε μια διεύθυνση Proton</string>
+  <string name="auth_signup_create_secure_proton_address">Λάβετε μια νέα κρυπτογραφημένη διεύθυνση ηλεκτρονικού ταχυδρομείου</string>
+  <string name="auth_signup_username">Όνομα χρήστη</string>
+  <string name="auth_signup_domain">Τομέας</string>
+  <string name="auth_signup_email">E-mail</string>
+  <string name="auth_signup_next">Επόμενο</string>
+  <string name="auth_signup_choose_password">Δημιουργήστε τον κωδικό σας</string>
+  <string name="auth_signup_repeat_password">Επανάληψη κωδικού</string>
+  <string name="auth_signup_recovery_method_title">Ορισμός μεθόδου ανάκτησης (προαιρετικά)</string>
+  <string name="auth_signup_recovery_method_title_mandatory">Ορισμός μεθόδου ανάκτησης</string>
+  <string name="auth_signup_recovery_method_subtitle">Θα στείλουμε οδηγίες ανάκτησης σε αυτήν τη διεύθυνση ηλεκτρονικού ταχυδρομείου ή τηλέφωνο αν κλειδωθείτε έξω από τον λογαριασμό σας.</string>
+  <string name="auth_signup_recovery_method_subtitle_email_only">Θα στείλουμε οδηγίες ανάκτησης σε αυτήν τη διεύθυνση αν κλειδωθείτε έξω από τον λογαριασμό σας.</string>
+  <string name="auth_signup_recovery_method_email">E-mail</string>
+  <string name="auth_signup_recovery_method_phone">Τηλέφωνο</string>
+  <string name="auth_signup_recovery_method_email_hint">Διεύθυνση ανάκτησης</string>
+  <string name="auth_signup_recovery_method_phone_hint">Αριθμός τηλεφώνου ανάκτησης</string>
+  <string name="auth_signup_terms_conditions">Όροι και Προϋποθέσεις</string>
+  <string name="auth_signup_privacy_policy">Πολιτική Απορρήτου</string>
+  <string name="auth_signup_terms_conditions_privacy_policy_full">Με κλικ στο Επόμενο, συμφωνείτε με τους <annotation link="terms">Όρους και Προϋποθέσεις</annotation> και την <annotation link="privacy">Πολιτική απορρήτου</annotation> της Proton.</string>
+  <string name="auth_signup_skip_recovery_title">Παράλειψη μεθόδου ανάκτησης;</string>
+  <string name="auth_signup_skip_recovery_description">Μια μέθοδος ανάκτησης θα σας βοηθήσει να αποκτήσετε πρόσβαση στον λογαριασμό σας σε περίπτωση που ξεχάσετε τον κωδικό πρόσβασης σας ή κλειδωθείτε από τον λογαριασμό σας.</string>
+  <string name="auth_signup_skip_recovery">Παράλειψη</string>
+  <string name="auth_signup_set_recovery">Ορισμός μεθόδου ανάκτησης</string>
+  <string name="auth_signup_no_connectivity">Δεν υπάρχει δυνατότητα σύνδεσης για την εμφάνιση της ιστοσελίδας.</string>
+  <string name="auth_signup_error_create_to_continue">Παρακαλούμε δημιουργήστε έναν λογαριασμό για να συνεχίσετε</string>
+  <string name="auth_signup_error_create_to_continue_action_learn_more">Μάθετε περισσότερα</string>
+  <string name="auth_signup_create_account_dialog_title">Ενεργοποιήστε τη συνδρομή σας</string>
+  <string name="auth_signup_create_account_dialog_text">Η επεξεργασία της πληρωμής σας στο Google Pay ολοκληρώθηκε με επιτυχία. Για να ενεργοποιήσετε τη συνδρομή σας, παρακαλούμε δημιουργήστε τον Proton λογαριασμό σας.</string>
+  <string name="auth_signup_create_account_dialog_action_cancel">Ακύρωση</string>
+  <string name="auth_signup_create_account_dialog_action_continue">Συνέχεια</string>
+  <string name="auth_signup_error_username_blank">Το Όνομα Χρήστη δεν πρέπει να είναι κενό.</string>
+  <string name="auth_signup_error_passwords_do_not_match">Οι κωδικοί πρόσβασης δεν ταιριάζουν.</string>
+  <string name="auth_signup_validation_password_length">Ο κωδικός πρόσβασης πρέπει να είναι τουλάχιστον 8 χαρακτήρες.</string>
+  <string name="auth_signup_password_not_allowed">Ο κωδικός πρόσβασης είναι πολύ συνηθισμένος. Χρησιμοποιήστε διαφορετικό κωδικό πρόσβασης.</string>
+  <string name="auth_signup_validation_password">Ο κωδικός πρόσβασης δεν γίνεται να είναι κενός.</string>
+  <string name="auth_signup_your_account_is_being_setup">Ο λογαριασμός σας δημιουγείται…</string>
+  <string name="auth_signup_please_wait">Συνήθως δεν διαρκεί περισσότερο από ένα λεπτό.</string>
+  <string name="auth_signup_replacement_code">Δεν λάβατε τον κωδικό;</string>
+  <string name="auth_signup_verify">Επαλήθευση</string>
+  <string name="auth_signup_verification_code">Κωδικός Επαλήθευσης</string>
+  <string name="auth_signup_enter_code_subtitle">Εισάγετε τον κωδικό επαλήθευσης στον οποίο εστάλη %s:</string>
+  <string name="auth_signup_error_human_verification_failed">Αποτυχία επαλήθευσης ανθρώπου.</string>
+  <string name="auth_signup_congratulations_subtitle">Ο λογαριασμός σας Proton δημιουργήθηκε επιτυχώς.\nΑπολαύστε τον κόσμο τις ιδιωτικότητας.</string>
+  <string name="auth_signup_congratulations">Συγχαρητήρια!</string>
+  <string name="auth_signup_start_using_proton">Ξεκινήστε να χρησιμοποιείτε το Proton</string>
+  <string name="auth_signup_start_using_calendar">Ξεκινήστε να χρησιμοποιείτε το Proton Calendar</string>
+  <string name="auth_signup_start_using_mail">Ξεκινήστε να χρησιμοποιείτε το Proton Mail</string>
+  <string name="auth_signup_start_using_drive">Ξεκινήστε να χρησιμοποιείτε το Proton Drive</string>
+  <string name="auth_signup_start_using_vpn">Ξεκινήστε να χρησιμοποιείτε το Proton VPN</string>
+  <string name="auth_signup_start_using_pass">Ξεκινήστε να χρησιμοποιείτε το Proton Pass</string>
+  <string name="auth_signup_error_validation_recovery_destination">Ο προορισμός ανάκτησης δεν είναι έγκυρος.</string>
+  <string name="auth_credentialless_vpn_no_logs">Πιστοποιημένο VPN χωρίς αρχεία καταγραφής</string>
+  <string name="auth_credentialless_vpn_title">Καλώς ήρθατε στο Proton VPN</string>
+  <string name="auth_credentialless_vpn_subtitle">Περιηγηθείτε ιδιωτικά, αποκτήστε πρόσβαση σε αποκλεισμένο περιεχόμενο και απολαύστε ψηφιακή ελευθερία.</string>
+  <string name="auth_credentialless_guest_button">Συνέχιση ως επισκέπτης</string>
+  <string name="auth_credentialless_terms" comment="Please do not modify the &lt;annotation link=&quot;terms&quot;&gt; tag, only its contents.">Χρησιμοποιώντας αυτήν την εφαρμογή αποδέχεστε τους <annotation link="terms">Όρους και Προϋποθέσεις</annotation> μας.</string>
+  <string name="auth_credentialless_settings_title">Κάντε τη μετάβαση στο απόρρητο.</string>
+  <string name="auth_credentialless_settings_subtitle">Αποκτήστε έναν διαχειριστή κωδικών πρόσβασης, κρυπτογραφημένη αλληλογραφία και ημερολόγιο και 1 GB αποθηκευτικού χώρου στο cloud δωρεάν με έναν λογαριασμό Proton.</string>
+</resources>

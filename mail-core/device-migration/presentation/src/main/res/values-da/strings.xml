@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2025 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="emd_code_not_recognized">Kode ikke genkendt. Prøv igen.</string>
+  <string name="edm_code_verifying">Verificerer…</string>
+  <string name="edm_missing_camera_permission_headline">Tillad adgang til kamera</string>
+  <string name="edm_missing_camera_permission_body">For at logge ind med QR-kode, bliver du nødt til at give %1$s adgang til dit kamera. Du kan gøre dette i din enheds indstillinger.</string>
+  <string name="edm_missing_camera_permission_footer">Du har altid kontrol: du kan ændre dette når som helst i dine enhedsindstillinger.</string>
+  <string name="edm_missing_camera_permission_settings">Indstillinger</string>
+  <string name="intro_origin_sign_in_title">Log ind på en anden enhed</string>
+  <string name="intro_origin_sign_in_subtitle">Sådan logges ind med QR-kode</string>
+  <string name="intro_origin_sign_in_hint_1">1. Åbn en hvilken som helst Proton-app på den enhed, du vil logge ind på.</string>
+  <string name="intro_origin_sign_in_hint_2">2. På log ind-skærmen, vælg <b>Glemt adgangskode</b> eller <b>Problemer med at logge ind?</b> (på mobilapps, vælg <b>Hjælp</b>).</string>
+  <string name="intro_origin_sign_in_hint_3">3. Vælg <b>Log ind med QR-kode</b>. En QR-kode vil blive vist.</string>
+  <string name="intro_origin_sign_in_hint_4">4. På denne enhed, tryk på <b>Scan QR-kode</b> og scan koden.</string>
+  <string name="intro_origin_sign_in_tips">Sikkerhedstips</string>
+  <string name="intro_origin_sign_in_tip_1">Vær varsom med beskeder indeholdende QR-koder. Scan kun en kode, hvis du stoler på kilden.</string>
+  <string name="intro_origin_sign_in_tip_2">Proton vil aldrig kontakte dig uventet og bede dig om at logge ind med en QR-kode.</string>
+  <string name="intro_origin_sign_in_tip_3">Proton vil aldrig bede dig om at scanne en QR-kode, der ikke er fra <b>https://proton.me</b> eller en officiel Proton-app.</string>
+  <string name="intro_origin_sign_in_begin">Scan QR-kode</string>
+  <string name="intro_origin_biometrics_title">Lås enheden op for at fortsætte</string>
+  <string name="manual_code_input_title">Indtast kode manuelt</string>
+  <string name="manual_code_input_description">For at få adgang til koden til den enhed, du vil logge ind på, tryk på knappen <b>Log ind med QR-kode</b> i hjælpemenuen på log ind-skærmen, og tryk derefter på <b>Indtast nøgle manuelt</b>.</string>
+  <string name="manual_code_input_code_label">Kode</string>
+  <string name="manual_code_input_clear_code">Ryd</string>
+  <string name="manual_code_input_submit">Fortsæt</string>
+  <string name="origin_success_signed_in">Adgang delt</string>
+  <string name="origin_success_ack">Tilbage til indstillinger</string>
+  <string name="qr_code_scan_hint">Placer QR-koden inden for firkanten</string>
+  <string name="qr_code_scan_enter_manually">Indtast kode manuelt</string>
+  <string name="target_sign_in_title">Log ind med QR-kode</string>
+  <string name="target_sign_in_scan_code">Sådan logger du ind med en anden enhed</string>
+  <string name="target_sign_in_instruction_1">1. Få fat i en anden enhed, der er logget ind på din Proton-konto</string>
+  <string name="target_sign_in_instruction_2">2. Åbn en hvilken som helst Proton-app på denne enhed, og vælg <b>Indstillinger</b></string>
+  <string name="target_sign_in_instruction_3">3. Vælg <b>Log ind på en anden enhed → Scan QR-kode</b></string>
+  <string name="target_sign_in_instruction_4">4. Scan koden for at logge ind</string>
+  <string name="target_sign_in_error_title">Vi kunne ikke logge dig ind</string>
+  <string name="target_sign_in_retryable_error">Prøv at generere en ny QR-kode.</string>
+  <string name="target_sign_in_passphrase_error">Prøv en anden log ind-metode.</string>
+  <string name="target_sign_in_error_new_qr">Generer QR-kode</string>
+  <string name="target_sign_in_error_back_to_signin">Tilbage til login</string>
+  <string name="target_sign_in_qr_code_failure">Vi kunne ikke indlæse QR-koden. Tryk for at prøve igen.</string>
+  <string name="target_sign_in_no_connection">Det ser ud til, at du er offline. Kontrollér din forbindelse, og prøv igen.</string>
+  <string name="target_sign_in_learn_more">Få mere at vide</string>
+</resources>

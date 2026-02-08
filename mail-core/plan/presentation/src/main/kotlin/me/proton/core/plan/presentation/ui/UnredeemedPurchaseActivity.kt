@@ -1,0 +1,126 @@
+/*
+ * Copyright (c) 2023 Proton AG
+ * This file is part of Proton AG and ProtonCore.
+ *
+ * ProtonCore is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * ProtonCore is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package me.proton.core.plan.presentation.ui
+
+import android.content.Intent
+import android.os.Build
+import android.os.Bundle
+import android.view.View
+import androidx.activity.viewModels
+import androidx.core.view.isVisible
+import androidx.lifecycle.lifecycleScope
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
+import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.flow.launchIn
+import kotlinx.coroutines.flow.onEach
+import me.proton.core.domain.entity.UserId
+import me.proton.core.plan.presentation.R
+import me.proton.core.plan.presentation.databinding.ActivityUnredeemedPurchaseBinding
+import me.proton.core.plan.presentation.entity.UnredeemedGooglePurchase
+import me.proton.core.plan.presentation.entity.UnredeemedPurchaseResult
+import me.proton.core.plan.presentation.viewmodel.UnredeemedPurchaseViewModel
+import me.proton.core.presentation.ui.ProtonViewBindingActivity
+import me.proton.core.presentation.utils.errorToast
+import me.proton.core.presentation.utils.showToast
+import me.proton.core.util.kotlin.exhaustive
+
+/** Activity for checking and redeeming Google purchases.
+ * The check will be performed against the primary (logged in) user.
+ */
+@AndroidEntryPoint
+class UnredeemedPurchaseActivity :
+    ProtonViewBindingActivity<ActivityUnredeemedPurchaseBinding>(ActivityUnredeemedPurchaseBinding::inflate) {
+
+    private val viewModel by viewModels<UnredeemedPurchaseViewModel>()
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        makeFullScreenLayout()
+        viewModel.state.onEach(this::handleState).launchIn(lifecycleScope)
+    }
+
+    private fun handleState(state: UnredeemedPurchaseViewModel.State) {
+        when (state) {
+            UnredeemedPurchaseViewModel.State.Loading -> {
+                binding.progress.isVisible = true
+            }
+
+            is UnredeemedPurchaseViewModel.State.UnredeemedPurchase -> {
+                binding.progress.isVisible = false
+                showAlertForUnredeemedGooglePurchase(state.unredeemedPurchase, state.userId)
+            }
+
+            is UnredeemedPurchaseViewModel.State.Error -> {
+                errorToast(getString(R.string.payments_giap_redeem_error))
+                cancelAndFinish()
+            }
+
+            UnredeemedPurchaseViewModel.State.NoUnredeemedPurchases -> {
+                setResultAndFinish(redeemed = false)
+            }
+
+            UnredeemedPurchaseViewModel.State.PurchaseRedeemed -> {
+                showToast(R.string.payments_giap_redeem_success)
+                setResultAndFinish(redeemed = true)
+            }
+        }.exhaustive
+    }
+
+    private fun makeFullScreenLayout() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            window.setDecorFitsSystemWindows(false)
+        } else {
+            @Suppress("DEPRECATION")
+            window.decorView.systemUiVisibility =
+                View.SYSTEM_UI_FLAG_LAYOUT_STABLE or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+        }
+    }
+
+    private fun showAlertForUnredeemedGooglePurchase(
+        unredeemedPurchase: UnredeemedGooglePurchase,
+        userId: UserId
+    ) {
+        MaterialAlertDialogBuilder(this)
+            .setTitle(R.string.payments_giap_unredeemed_title)
+            .setMessage(R.string.payments_giap_unredeemed_description)
+            .setPositiveButton(R.string.payments_giap_unredeemed_confirm) { _, _ ->
+                viewModel.redeemPurchase(unredeemedPurchase, userId)
+            }
+            .setNegativeButton(R.string.presentation_alert_cancel) { _, _ -> cancelAndFinish() }
+            .setCancelable(false)
+            .show()
+    }
+
+    private fun cancelAndFinish() {
+        setResult(RESULT_CANCELED)
+        finish()
+    }
+
+    private fun setResultAndFinish(redeemed: Boolean) {
+        val intent = Intent().apply {
+            putExtra(ARG_RESULT, UnredeemedPurchaseResult(redeemed))
+        }
+        setResult(RESULT_OK, intent)
+        finish()
+    }
+
+    companion object {
+        const val ARG_RESULT = "arg.unredeemedResult"
+    }
+}

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="plans_select_a_plan">プランを選択</string>
+  <string name="plans_select_a_plan_subtitle">すべての Proton サービスのための 1 つのプラン</string>
+  <string name="plans_fetching_general_error">プランの読み込み時にエラーが発生しました。</string>
+  <string name="plans_payment_error">支払いエラーが発生しました。再度お試しいただくか、無料プランを作成してください。</string>
+  <string name="plans_free_name">無料</string>
+  <string name="plan_price_monthly">1 ヶ月あたり</string>
+  <string name="plan_price_annually">1年あたり</string>
+  <string name="plans_current_plan">現在のプラン</string>
+  <string name="plans_upgrade_plan">プランをアップグレード</string>
+  <string name="plans_subscription">サブスクリプション</string>
+  <string name="plans_renewal_date">プランは &lt;b&gt;%s&lt;/b&gt; に自動的に更新されます</string>
+  <string name="plans_expiration_date">プランは &lt;b&gt;%s&lt;/b&gt; に期限切れになります</string>
+  <string name="plans_pay_monthly">月払い</string>
+  <string name="plans_pay_annually">年払い</string>
+  <string name="plans_pay_biennially">2年ごとの支払い</string>
+  <plurals name="plans_pay_other">
+    <item quantity="other">%d か月分の支払い</item>
+  </plurals>
+  <string name="plans_billed_yearly">* 1 年毎に %s が請求されます</string>
+  <string name="plans_billed_monthly">毎月請求されます</string>
+  <string name="plans_billing_monthly">1 か月間</string>
+  <string name="plans_billing_yearly">1 年間</string>
+  <string name="plans_billing_two_years">2 年間</string>
+  <plurals name="plans_billing_other_period">
+    <item quantity="other">%d か月間</item>
+  </plurals>
+  <string name="plans_upgrade_your_plan">プランをアップグレード</string>
+  <string name="plans_proton_for_free">Proton を無料を入手</string>
+  <string name="plans_get_proton">%s を入手</string>
+  <string name="plans_manage_your_subscription"><a href="https://account.proton.me">account.proton.me</a> でサブスクリプションを管理</string>
+  <string name="plans_used_space" comment="1 - used space (e.g. 300MB); 2 - max available space (e.g. 1GB)">%2$s の中の%1$s</string>
+  <string name="plans_payments_info_not_available">なし</string>
+  <string name="plans_manage_your_subscription_google">Google Play によってサブスクリプションは管理されています。</string>
+  <string name="plans_manage_your_subscription_other">モバイルアプリ内ではサブスクリプションを管理できません。</string>
+  <string name="plans_autorenew_subscriptions">このアプリは自動更新の年間サブスクリプションのみご利用いただけます。</string>
+  <string name="plans_can_not_upgrade_from_mobile">Androidアプリ内ではサブスクリプションを管理できません。</string>
+  <string name="plans_user_has_credits">アカウントにクレジットがあります。</string>
+  <string name="plans_manage_subscription_play_store">サブスクリプションの管理</string>
+  <string name="plans_no_upgrade_available">現在利用可能なアップグレードはありません。</string>
+  <string name="plans_limited_offer">期間限定キャンペーン</string>
+  <string name="plans_subscription_base_storage_full_title">Mail ストレージがいっぱいです</string>
+  <string name="plans_subscription_base_storage_nearly_full_title">Mail ストレージがもうすぐいっぱいです</string>
+  <string name="plans_subscription_drive_storage_full_title">Drive ストレージがいっぱいです</string>
+  <string name="plans_subscription_drive_storage_nearly_full_title">Drive ストレージがもうすぐいっぱいです</string>
+  <string name="plans_subscription_storage_get_more">ストレージを増やす</string>
+  <string name="plans_subscription_storage_full_description">アカウントを中断することなく利用し続けるために、Webアプリでプランをアップグレードしてください。</string>
+  <!-- region all possible plan item types. this could be updated as per language requirements.-->
+  <plurals name="item_storage" comment="please do not modify the text between #">
+    <item quantity="other">#proton_storage# ストレージ</item>
+  </plurals>
+  <plurals name="item_storage_free" comment="please do not modify the text between #">
+    <item quantity="other">最大 #proton_storage# のストレージ</item>
+  </plurals>
+  <plurals name="item_storage_multiuser" comment="please do not modify the text between #">
+    <item quantity="other">#proton_storage# ストレージ / ユーザー</item>
+  </plurals>
+  <plurals name="item_address" comment="please do not modify the test between #">
+    <item quantity="other">#proton_addresses# 件のメールアドレス</item>
+  </plurals>
+  <plurals name="item_address_multiuser" comment="please do not modify the test between #">
+    <item quantity="other">#proton_addresses# アドレス / ユーザー</item>
+  </plurals>
+  <plurals name="item_address_current" comment="please do not modify the test between #">
+    <item quantity="other">%d/#proton_addresses# アドレス</item>
+  </plurals>
+  <plurals name="item_domain" comment="please do not modify the test between #">
+    <item quantity="other">#proton_domains# 件のカスタムメールドメインに対応</item>
+  </plurals>
+  <plurals name="item_calendar" comment="please do not modify the test between #">
+    <item quantity="other">#proton_calendars# 件のパーソナルカレンダー</item>
+  </plurals>
+  <plurals name="item_calendar_current" comment="please do not modify the test between #">
+    <item quantity="other">%d / #proton_calendars# カレンダー</item>
+  </plurals>
+  <plurals name="item_connections" comment="please do not modify the test between #">
+    <item quantity="other">#proton_vpn# 台のデバイスで利用できる高速な VPN</item>
+  </plurals>
+  <plurals name="item_connections_highspeed" comment="please do not modify the test between #">
+    <item quantity="other">#proton_vpn# 件の高速 VPN 接続</item>
+  </plurals>
+  <plurals name="item_users" comment="please do not modify the test between #">
+    <item quantity="other">#proton_users# ユーザー</item>
+  </plurals>
+  <plurals name="item_users_current" comment="please do not modify the test between #">
+    <item quantity="other">#proton_users# 人のユーザーのうち %d 人</item>
+  </plurals>
+  <!-- endregion -->
+  <!-- region plans headers -->
+  <string name="plan_id_free_header">プライベートで安全な会話のための基本機能。</string>
+  <string name="plan_id_plus_header">高度な保護を備えたフル機能のメールボックス。</string>
+  <string name="plan_id_vpnbasic_header">VPN Basic</string>
+  <string name="plan_id_vpnbasic_countries">63 か国</string>
+  <string name="plan_id_vpnbasic_high_speed">高速</string>
+  <string name="plan_id_vpnplus_adblock">広告ブロッカー (NetShield)</string>
+  <string name="plan_id_vpnplus_streaming">ストリーミングサービス対応</string>
+  <string name="plan_id_vpnplus_header">VPN Plus</string>
+  <string name="plan_id_vpnplus_countries">63 か国</string>
+  <string name="plan_id_vpnplus_highest_speed">最高速</string>
+  <string name="plan_id_professional_header">Professional</string>
+  <string name="plan_id_professional_multiuser">複数ユーザー対応</string>
+  <string name="plan_id_visionary_header">Visionary</string>
+  <string name="plan_id_family_header">Family</string>
+  <string name="plan_id_mail2022_header" comment="new_plans">毎日の会話のための、高度な機能を備えた安全なメール</string>
+  <string name="plan_id_vpn2022_header" comment="new_plans">あなたのプライバシーとセキュリティは私たちの最優先事項です。</string>
+  <string name="plan_id_drive2022_header" comment="new_plans">ファイルを簡単かつ安全に保存、同期、共有できるセキュアなクラウドストレージです。</string>
+  <string name="plan_id_bundle2022_header" comment="new_plans">包括的なプライバシーとセキュリティを、すべてのProtonサービスと組み合わせて提供します。</string>
+  <string name="plan_id_pass2023_header" comment="new_plans">次のレベルのパスワード管理とアイデンティティ保護のために。</string>
+  <!-- endregion -->
+  <string-array name="supported_currencies">
+    <item>EUR</item>
+    <item>USD</item>
+    <item>CHF</item>
+  </string-array>
+  <!-- region plans hardcoded texts -->
+  <string name="unlimited_folders_labels_filters" comment="new_plans">制限なしのフォルダー、ラベル、フィルター</string>
+  <string name="highest_vpn_speed" comment="new_plans">最高の VPN 速度</string>
+  <string name="servers_in_countries" comment="new_plans">63 か国にある 1500 台を超えるサーバー</string>
+  <string name="ad_blocker" comment="new_plans">広告ブロッカー内蔵 (NetShield)</string>
+  <string name="streaming_services_access" comment="new_plans">世界中でストリーミングサービスにアクセス</string>
+  <string name="secure_core" comment="new_plans">Secure Core サーバー</string>
+  <string name="tor_vpn" comment="new_plans">VPN 経由の TOR</string>
+  <string name="p2p_bittorrent" comment="new_plans">P2P/BitTorrent</string>
+  <string name="unlimited_logins_and_notes">無制限のログインとメモ</string>
+  <string name="unlimited_devices">無制限のデバイス</string>
+  <string name="integrated_2fa_authenticator">統合された2FA認証機能</string>
+  <string name="multiple_vaults">複数の保管庫</string>
+  <string name="unlimited_email_alias">無制限のhide-my-emailエイリアス</string>
+  <string name="custom_email_alias_domains">エイリアス用カスタムドメイン</string>
+  <string name="multiple_forwarding_mailboxes">複数の転送メールボックス</string>
+  <string name="priority_support">優先サポート</string>
+  <string name="one_vault">1 個の保管庫</string>
+  <string name="ten_hide_my_email_aliases">10 個の hide-my-emailエイリアス</string>
+  <!-- endregion -->
+  <!-- region Plan entitlement tags -->
+  <string name="upgrade_storage_current_drive_storage">ドライブ: %d%% がいっぱいです</string>
+  <string name="upgrade_storage_current_mail_storage">メール: %d%% がいっぱいです</string>
+  <string name="upgrade_storage_subtitle">ストレージ容量を増やす</string>
+  <!-- endregion -->
+  <!-- region Plan upgrade -->
+  <string name="plan_manage_subscription_title">%sでアップグレード</string>
+  <string name="plan_manage_subscription_subtitle">%1$s アプリでサブスクリプションを管理できます。%2$s を開いて %3$sにアップグレードしましょう。</string>
+  <string name="plan_manage_subscription_no_app_title">%sをインストール</string>
+  <string name="plan_manage_subscription_no_app_subtitle">%1$s アプリでサブスクリプションを管理できます。%2$sの最新バージョンをインストールして%3$sへアップグレードしましょう。</string>
+  <string name="plan_manage_subscription_app_missing_got_it">はい</string>
+  <string name="plan_welcome_price_message_monthly">歓迎オファー。%1$s/月で自動更新</string>
+  <string name="plan_welcome_price_message_annual">歓迎オファー。%1$s/年で自動更新</string>
+  <string name="plan_welcome_price_message_two_year">歓迎オファー。%1$s/2 年で自動更新</string>
+  <string name="plan_auto_renew_message_monthly">サブスクリプションは%1$s/月で自動更新</string>
+  <string name="plan_auto_renew_message_annual">サブスクリプションは%1$s/年で自動更新</string>
+  <string name="plan_auto_renew_message_two_years">サブスクリプションは%1$s/2 年で自動更新</string>
+  <string name="plan_welcome_price_message_other_fallback">サブスクリプションは自動更新</string>
+  <string name="subscription_renewal_info_monthly">%1$sの割引価格は最初の月のみ有効です。サブスクリプションは毎月&lt;b&gt;%2$s&lt;/b&gt;に&lt;b&gt;%3$s&lt;/b&gt;で自動更新されます。</string>
+  <string name="subscription_renewal_info_annual">%1$sの割引価格は最初の年のみ有効です。サブスクリプションは毎年&lt;b&gt;%2$s&lt;/b&gt;に&lt;b&gt;%3$s&lt;/b&gt;で自動更新されます。</string>
+  <string name="subscription_renewal_info_two_years">%1$sの割引価格は最初の年のみ有効です。サブスクリプションは 2 年ごとに&lt;b&gt;%2$s&lt;/b&gt;に&lt;b&gt;%3$s&lt;/b&gt;で自動更新されます。</string>
+</resources>

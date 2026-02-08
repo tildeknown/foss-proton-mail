@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="welcome_title">Proton 保護您的隱私</string>
+  <string name="welcome_subtitle">加密可讓您的資料保有絕對隱密。您的隱私資料完全地掌握在自己的手中。</string>
+  <string name="welcome_subtitle_mail">安全加密電郵，守住對話內容隱私。您的收件匣真實地掌握手中。</string>
+  <string name="welcome_subtitle_mail_alt">隱私權。安全防護。便捷。安全加密電郵讓您可以完全掌控個人資料。</string>
+  <string name="welcome_subtitle_drive">雲端儲存的便利性與加密技術的安全性。引頸期盼終於等到讓您可完全信賴的雲端儲存。</string>
+  <string name="welcome_subtitle_drive_alt">最安全的檔案儲存方式。在適當的情況，進行上載、同步以及分享時，皆同時使用最強大的加密方式。</string>
+  <string name="welcome_subtitle_calendar">讓您的生活大小記事保有隱私、安全且可靠的加密行事曆。</string>
+  <string name="welcome_subtitle_calendar_alt">我們的端到端加密行事曆可協助您井然有序地步入正軌，一切都在掌控之中。</string>
+  <string name="welcome_subtitle_vpn">極飆速Swiss VPN會透過把您的網際網路連線加密好以保護您的隱私。</string>
+  <string name="welcome_subtitle_vpn_alt">高速的瑞士 VPN 能夠保護您的隱私。最高的安全性、1,600+台伺服器、且沒有使用限制。</string>
+  <string name="welcome_subtitle_pass">安放所有密碼。取得最可信的保護。</string>
+  <string name="welcome_subtitle_pass_alt">安放所有密碼。取得最可信的保護。</string>
+  <string name="welcome_privacy_by_default">隱私權為根本</string>
+  <string name="auth_password_label">密碼</string>
+  <string name="auth_password_help">密碼必須至少包含 8 個字元</string>
+  <string name="auth_current_login_password">目前的登入密碼</string>
+  <string name="auth_enter_six_digit_code">請輸入 6 位數代碼</string>
+  <string name="auth_second_factor_code">兩步驟驗證代碼</string>
+  <string name="auth_email">電子信箱</string>
+  <string name="auth_email_username">使用者名稱或電子信箱</string>
+  <string name="auth_account_details">輸入您的 Proton 帳號的詳細資料。</string>
+  <string name="auth_sign_in">登入</string>
+  <string name="auth_sign_out">登出</string>
+  <string name="auth_sign_in_action">登入</string>
+  <string name="auth_sign_in_sso">登入您的組織</string>
+  <string name="auth_sign_in_with_password">使用密碼登入</string>
+  <string name="auth_continue_to_proton">以繼續使用 Proton</string>
+  <string name="auth_sign_in_with_sso">使用 SSO 登入</string>
+  <string name="auth_help_label">幫助</string>
+  <string name="auth_login_assistive_text">請輸入您的 Proton 電子信箱或使用者名稱。</string>
+  <string name="auth_login_sso_assistive_text">請輸入您的電子信箱</string>
+  <string name="auth_help_title">有什麼我們能幫忙的地方？</string>
+  <string name="auth_help_option_forgot_username">忘記使用者名稱</string>
+  <string name="auth_help_option_forgot_password">忘記密碼</string>
+  <string name="auth_help_option_other">其他登入問題</string>
+  <string name="auth_help_other">仍然需要協助？直接聯絡我們。</string>
+  <string name="auth_help_option_customer_support">客服</string>
+  <string name="auth_help_option_sign_in_with_qr_code">使用 QR code 登入</string>
+  <string name="auth_2fa_title">雙因子驗證</string>
+  <string name="auth_2fa_subtitle">您的帳號設定了多種雙因子驗證機制。請挑選您想要確認身份的方式。</string>
+  <string name="auth_2fa_tab_one_time_code">拋棄式驗證碼</string>
+  <string name="auth_2fa_tab_security_key">安全金鑰</string>
+  <string name="auth_2fa_insert_security_key">出示連結到您 Proton 帳號的安全金鑰。<annotation link="more">取得更多資訊</annotation></string>
+  <string name="auth_2fa_label">兩步驟代碼</string>
+  <string name="auth_2fa_recovery_code_label">復原代碼</string>
+  <string name="auth_2fa_assistive_text">請輸入 6 位數</string>
+  <string name="auth_2fa_recovery_code_assistive_text">輸入一組 8 個字元的復原代碼</string>
+  <string name="auth_2fa_action">驗證</string>
+  <string name="auth_2fa_use_recovery_code">使用復原代碼</string>
+  <string name="auth_2fa_learn_more">瞭解詳情</string>
+  <string name="auth_2fa_use_2fa_code">使用兩步驟驗證碼</string>
+  <string name="auth_2fa_error_empty_code">輸入六位數的代碼。</string>
+  <string name="auth_2fa_error_key_security_error">A security error has occurred: %1$s</string>
+  <string name="auth_2fa_error_key_abort_error">The operation was aborted.</string>
+  <string name="auth_2fa_error_key_invalid_or_not_supported">遇到錯誤。請檢查您的金鑰。</string>
+  <string name="auth_2fa_error_key_network_error">遇到網路錯誤。請再試一次。</string>
+  <string name="auth_mailbox_title">解除鎖定您的信箱</string>
+  <string name="auth_mailbox_password_label">信箱密碼</string>
+  <string name="auth_mailbox_unlock_action">解鎖</string>
+  <string name="auth_forgot_password">忘記密碼</string>
+  <string name="auth_login_general_error">出現錯誤</string>
+  <string name="auth_login_external_account_unsupported_title">需要 Proton 位址</string>
+  <string name="auth_login_external_account_unsupported_message">在您的 Proton 網路設定中取得連結至此帳號的 Proton Mail 電子郵件位址</string>
+  <string name="auth_login_external_account_unsupported_help_action">瞭解詳情</string>
+  <string name="auth_login_external_sso_unsupported_title">不支援單一登入</string>
+  <string name="auth_login_external_sso_unsupported_message">若問題仍然存在，請聯絡您的管理員。</string>
+  <string name="auth_login_external_sso_unsupported_action">我知道了</string>
+  <string name="auth_login_empty_credentials">憑證不應為空。</string>
+  <string name="auth_mailbox_empty_credentials">憑證不應為空。</string>
+  <string name="auth_create_address_title">需要 Proton 電子信箱位址</string>
+  <string name="auth_create_address_subtitle">You need a Proton email address to use Calendar and other Proton products. You’ll still be able to use %1$s to sign in, and to recover your account.</string>
+  <string name="auth_username">使用者名稱</string>
+  <string name="auth_username_next_action">繼續</string>
+  <string name="auth_create_address_result_title">%s 可用</string>
+  <string name="auth_create_address_result_title_username">%1$s@%2$s 將是您的新 Proton Mail 電子信箱位址</string>
+  <string name="auth_create_address_result_subtitle">您將會使用此位址登入所有 Proton 服務。</string>
+  <string name="auth_create_address_result_recovery_title">您的復原電子郵件位址為：</string>
+  <string name="auth_create_address_create">創建電子信箱位址</string>
+  <string name="auth_create_address_creating">正在創建電子信箱位址</string>
+  <string name="auth_create_address_terms">點選「建立位址」，即表示您同意 Proton 的<a href="https://proton.me/legal/terms">合約條款</a>。</string>
+  <string name="auth_create_address_error_credentials">憑證不應為空。</string>
+  <string name="auth_create_address_error_no_available_domain">無可用域名。</string>
+  <string name="auth_create_address_error_private_key">產生私鑰失敗。</string>
+  <string name="auth_create_address_error_signed_key_list">產生金鑰清單失敗。</string>
+  <string name="auth_create_address_error_setusername">關聯使用者名稱失敗。</string>
+  <string name="auth_create_address_error_username_unavailable">無法使用選擇的使用者名稱</string>
+  <string name="auth_mailbox_login_error_no_primary_key">找不到主金鑰。</string>
+  <string name="auth_mailbox_login_error_primary_key_error">主金鑰錯誤。</string>
+  <string name="auth_mailbox_login_error_invalid_passphrase">無效的密碼。</string>
+  <string name="auth_password_chooser_title">變更您的密碼</string>
+  <string name="auth_password_chooser_description">要以組織成員的身份使用 Proton 應用程式，您必須先使用瀏覽器登入 Proton 來變更您的密碼。</string>
+  <string name="auth_password_chooser_change">變更密碼</string>
+  <plurals name="auth_user_check_max_free_error">
+    <item quantity="other">僅允許 %d 個免費的 Proton 帳號。</item>
+  </plurals>
+  <string name="auth_user_check_delinquent_error">您的帳號目前因為發票過期而暫停。</string>
+  <string name="auth_user_check_delinquent_action">支付繳款單</string>
+  <string name="auth_account_not_found_error">帳號錯誤</string>
+  <string name="auth_one_account_all_services">一組帳號，Proton 服務無限用。</string>
+  <string name="auth_create_account">創建帳號</string>
+  <string name="auth_long_signup">請稍候……</string>
+  <string name="auth_long_login">正在登入，請稍候……</string>
+  <!-- signup related strings -->
+  <string name="auth_signup_create_account">創建您的 Proton 帳號</string>
+  <string name="auth_signup_current_email">改為使用您目前的電子信箱位址</string>
+  <string name="auth_signup_external_footnote">使用 Proton 位址，您可以使用所有 Proton 服務</string>
+  <string name="auth_signup_internal_footnote">您需要 Proton 位址才能使用 Proton Mail 與 Proton Calendar</string>
+  <string name="auth_signup_create_secure_proton_address">取得新的加密電子信箱</string>
+  <string name="auth_signup_username">使用者名稱</string>
+  <string name="auth_signup_domain">網域</string>
+  <string name="auth_signup_email">電子信箱</string>
+  <string name="auth_signup_next">下一個</string>
+  <string name="auth_signup_choose_password">創建您的密碼</string>
+  <string name="auth_signup_repeat_password">重複輸入密碼</string>
+  <string name="auth_signup_recovery_method_title">設定復原方式（可選項）</string>
+  <string name="auth_signup_recovery_method_title_mandatory">設定復原方式</string>
+  <string name="auth_signup_recovery_method_subtitle">如果您的帳號被鎖定，我們會傳送復原說明至此電郵位址或電話號碼</string>
+  <string name="auth_signup_recovery_method_subtitle_email_only">如果您的帳號被鎖定，我們會傳送復原說明至此電郵位址</string>
+  <string name="auth_signup_recovery_method_email">電子信箱</string>
+  <string name="auth_signup_recovery_method_phone">電話</string>
+  <string name="auth_signup_recovery_method_email_hint">復原電子郵件</string>
+  <string name="auth_signup_recovery_method_phone_hint">復原電話號碼</string>
+  <string name="auth_signup_terms_conditions">條款與細則</string>
+  <string name="auth_signup_privacy_policy">隱私權政策</string>
+  <string name="auth_signup_terms_conditions_privacy_policy_full">點擊下一步，即表示您同意 Proton 的<annotation link="terms">合約條款</annotation>與<annotation link="privacy">隱私權政策</annotation>。</string>
+  <string name="auth_signup_skip_recovery_title">略過復原方式？</string>
+  <string name="auth_signup_skip_recovery_description">復原方法可協助您存取您的帳號，以防您忘記您的密碼或被鎖在帳號之外。</string>
+  <string name="auth_signup_skip_recovery">略過</string>
+  <string name="auth_signup_set_recovery">設定復原方式</string>
+  <string name="auth_signup_no_connectivity">無網路連線可供顯示網頁。</string>
+  <string name="auth_signup_error_create_to_continue">請建立帳號以繼續</string>
+  <string name="auth_signup_error_create_to_continue_action_learn_more">瞭解詳情</string>
+  <string name="auth_signup_create_account_dialog_title">啟用您的訂閱</string>
+  <string name="auth_signup_create_account_dialog_text">已成功處理您的 Google Pay 付款。若要啟用您的訂閱，請建立您的 Proton 帳號。</string>
+  <string name="auth_signup_create_account_dialog_action_cancel">取消</string>
+  <string name="auth_signup_create_account_dialog_action_continue">繼續</string>
+  <string name="auth_signup_error_username_blank">使用者名稱不能為空。</string>
+  <string name="auth_signup_error_passwords_do_not_match">密碼不相符。</string>
+  <string name="auth_signup_validation_password_length">密碼應至少 8 個字元長。</string>
+  <string name="auth_signup_password_not_allowed">密碼太常見。使用不同的密碼。</string>
+  <string name="auth_signup_validation_password">密碼不能為空。</string>
+  <string name="auth_signup_your_account_is_being_setup">您的帳號即時創建中...</string>
+  <string name="auth_signup_please_wait">通常不超過一分鐘。</string>
+  <string name="auth_signup_replacement_code">尚未收到驗證碼？</string>
+  <string name="auth_signup_verify">驗證</string>
+  <string name="auth_signup_verification_code">驗證碼</string>
+  <string name="auth_signup_enter_code_subtitle">請輸入傳送至 %s 的驗證碼:</string>
+  <string name="auth_signup_error_human_verification_failed">真人驗證失敗。</string>
+  <string name="auth_signup_congratulations_subtitle">您的 Proton 帳號已成功創建。\n享受隱私的世界吧。</string>
+  <string name="auth_signup_congratulations">恭喜！</string>
+  <string name="auth_signup_start_using_proton">開始使用 Proton</string>
+  <string name="auth_signup_start_using_calendar">開始使用 Proton 行事曆</string>
+  <string name="auth_signup_start_using_mail">開始使用 Proton 電子信箱</string>
+  <string name="auth_signup_start_using_drive">開始使用 Proton 雲端硬碟</string>
+  <string name="auth_signup_start_using_vpn">開始使用 Proton VPN</string>
+  <string name="auth_signup_start_using_pass">開始使用 Proton Pass</string>
+  <string name="auth_signup_error_validation_recovery_destination">復原目標無效。</string>
+  <string name="auth_credentialless_vpn_no_logs">驗證無紀錄的VPN</string>
+  <string name="auth_credentialless_vpn_title">歡迎使用 Proton VPN</string>
+  <string name="auth_credentialless_vpn_subtitle">私密瀏覽、存取被封鎖的內容並享受數位自由。</string>
+  <string name="auth_credentialless_guest_button">以訪客身份繼續</string>
+  <string name="auth_credentialless_terms" comment="Please do not modify the &lt;annotation link=&quot;terms&quot;&gt; tag, only its contents.">使用此應用程式即表示您接受我們的<annotation link="terms">條款與條件</annotation>。</string>
+  <string name="auth_credentialless_settings_title">轉向隱私。</string>
+  <string name="auth_credentialless_settings_subtitle">使用 Proton 帳號免費取得密碼管理器、加密郵件與日曆，以及 1 GB 的雲端儲存空間。</string>
+</resources>

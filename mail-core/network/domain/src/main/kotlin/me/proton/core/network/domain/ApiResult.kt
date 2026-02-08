@@ -1,0 +1,304 @@
+/*
+ * Copyright (c) 2023 Proton AG
+ * This file is part of Proton AG and ProtonCore.
+ *
+ * ProtonCore is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * ProtonCore is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package me.proton.core.network.domain
+
+import kotlinx.serialization.json.JsonObject
+import me.proton.core.network.domain.deviceverification.DeviceVerificationMethods
+import me.proton.core.network.domain.humanverification.HumanVerificationAvailableMethods
+import me.proton.core.network.domain.scopes.MissingScopes
+import me.proton.core.util.kotlin.CoreLogger
+import kotlin.time.Duration
+
+/**
+ * Result of the safe API call.
+ *
+ * @param T value type of the successful call result.
+ */
+sealed class ApiResult<out T> {
+
+    /**
+     * Successful call result.
+     *
+     * @param T Value type.
+     * @property value Value.
+     */
+    class Success<T>(val value: T) : ApiResult<T>() {
+        override val valueOrNull get() = value
+        override val isSuccess: Boolean = true
+    }
+
+    /**
+     * Base class for error result.
+     * @param cause [Exception] exception that caused this error for debugging purposes.
+     */
+    sealed class Error(val cause: Throwable? = Exception("Unknown error")) : ApiResult<Nothing>() {
+        override val isSuccess: Boolean = false
+
+        /**
+         * HTTP error.
+         *
+         * @property httpCode HTTP code.
+         * @property message HTTP message.
+         * @property proton Proton-specific HTTP error data.
+         */
+        open class Http(
+            val httpCode: Int,
+            val message: String,
+            val proton: ProtonData? = null,
+            cause: Throwable? = null,
+            val retryAfter: Duration? = null,
+        ) : Error(cause) {
+
+            override fun toString() =
+                "${this::class.simpleName}: httpCode=$httpCode message=$message, proton=$proton cause=$cause"
+        }
+
+        // detekt warning here is fine, the human verification details is optional, and if present in the response it is
+        // set later, thus var.
+        data class ProtonData(
+            val code: Int,
+            val error: String,
+            var humanVerification: HumanVerificationAvailableMethods? = null,
+            var missingScopes: MissingScopes? = null,
+            var deviceVerification: DeviceVerificationMethods? = null,
+            val details: JsonObject? = null,
+        )
+
+        /**
+         * Parsing error. Should not normally happen.
+         */
+        class Parse(cause: Throwable?) : Error(cause) {
+
+            override fun toString() = "${this::class.simpleName} cause=$cause"
+        }
+
+        /**
+         * Base class for connection errors (no response available)
+         *
+         * @property isConnectedToNetwork Indicates if the device is connected to the network.
+         */
+        open class Connection(
+            val isConnectedToNetwork: Boolean = false,
+            cause: Throwable? = null
+        ) : Error(cause) {
+            override val isPotentialBlocking get() = isConnectedToNetwork
+
+            override fun toString() =
+                "${this::class.simpleName} potentialBlock=$isPotentialBlocking cause=$cause"
+        }
+
+        /**
+         * Connection timed out.
+         */
+        class Timeout(isConnectedToNetwork: Boolean, cause: Throwable? = null) : Connection(isConnectedToNetwork, cause)
+
+        /**
+         * Certificate verification failed.
+         */
+        class Certificate(cause: Throwable) : Connection(true, cause)
+
+        /**
+         * No connectivity.
+         */
+        class NoInternet(cause: Throwable? = null) : Connection(false, cause)
+    }
+
+    /**
+     * Value for successful calls or `null`.
+     */
+    open val valueOrNull: T? get() = null
+    abstract val isSuccess: Boolean
+
+    /**
+     * Value for successful calls or throw wrapped error if exist.
+     */
+    val valueOrThrow: T
+        get() {
+            throwIfError()
+            return checkNotNull(valueOrNull)
+        }
+
+    /**
+     * Returns the encapsulated [Throwable] exception if this instance is [Error] or `null` otherwise.
+     */
+    val exceptionOrNull: Throwable? get() = if (this is Error) cause else null
+
+    /**
+     * [true] for failed calls potentially caused by blocking.
+     */
+    open val isPotentialBlocking: Boolean get() = false
+
+    /**
+     * Throws exception if this instance is [Error].
+     */
+    fun throwIfError() {
+        if (this is Error) doThrow()
+    }
+}
+
+fun ApiResult.Error.doThrow() {
+    throw ApiException(this)
+}
+
+open class ApiException(val error: ApiResult.Error) : Exception(
+    /* message = */ (error as? ApiResult.Error.Http)?.proton?.error ?: error.cause?.message,
+    /* cause = */ error.cause
+)
+
+/**
+ * Checks if the [ApiException.error] is an [ApiResult.Error.Http] with the given
+ * proton [code] (e.g. one of the values in [ResponseCodes]).
+ */
+fun ApiException.hasProtonErrorCode(vararg code: Int): Boolean =
+    ((error as? ApiResult.Error.Http)?.proton?.code ?: 0) in code
+
+/**
+ * Return true if [ApiException.error] is a http error equals [code].
+ *
+ * @see ApiResult.isHttpError
+ */
+fun ApiException.isHttpError(code: Int): Boolean = error.isHttpError(code)
+
+/**
+ * Return true if [ApiResult] is a http error equals [code].
+ */
+fun <T> ApiResult<T>.isHttpError(code: Int): Boolean {
+    val httpError = this as? ApiResult.Error.Http
+    return httpError?.httpCode == code
+}
+
+/**
+ * Return true if [ApiResult] is an unauthorized error (401).
+ */
+fun <T> ApiResult<T>.isUnauthorized(): Boolean = isHttpError(HttpResponseCodes.HTTP_UNAUTHORIZED)
+
+/**
+ * Return true if [ApiException.error] is an unauthorized error (401).
+ */
+fun ApiException.isUnauthorized(): Boolean = isHttpError(HttpResponseCodes.HTTP_UNAUTHORIZED)
+
+/**
+ * Return true if [ApiException.error] is an unprocessable error (422).
+ */
+fun ApiException.isUnprocessable() = isHttpError(HttpResponseCodes.HTTP_UNPROCESSABLE)
+
+/**
+ * Return true if [ApiException.error] is a bad request error (400).
+ */
+fun ApiException.isBadRequest() = isHttpError(HttpResponseCodes.HTTP_BAD_REQUEST)
+
+/**
+ * Return true if [ApiException.error] is a force update error (5003/5005).
+ *
+ * @see ApiResult.isForceUpdate
+ */
+fun ApiException.isForceUpdate(): Boolean = error.isForceUpdate()
+
+/**
+ * Return true if [ApiResult] is a force update error (5003/5005).
+ */
+fun <T> ApiResult<T>.isForceUpdate(): Boolean {
+    val httpError = this as? ApiResult.Error.Http
+    return ResponseCodes.FORCE_UPDATE.contains(httpError?.proton?.code)
+}
+
+/**
+ * Returns true if exception was thrown after network fail potentially caused by blocking.
+ */
+fun Throwable.isPotentialBlocking() =
+    (this as? ApiException)?.error?.isPotentialBlocking == true
+
+/**
+ * Return true if [ApiException.error] is retryable (e.g. connection issue or http error 5XX).
+ *
+ * @see ApiResult.isRetryable
+ */
+fun ApiException.isRetryable() = error.isRetryable()
+
+fun ApiException.retryAfter(): Duration? = error.retryAfter()
+
+/**
+ * Return true if [ApiResult] is retryable (e.g. connection issue or http error 5XX).
+ */
+fun <T> ApiResult<T>.isRetryable(): Boolean = when (this) {
+    is ApiResult.Success,
+    is ApiResult.Error.Parse -> false
+    is ApiResult.Error.Certificate -> true
+    is ApiResult.Error.Connection -> true
+    is ApiResult.Error.Http -> when (httpCode) {
+        HttpResponseCodes.HTTP_MISDIRECTED_REQUEST -> true
+        HttpResponseCodes.HTTP_REQUEST_TIMEOUT -> true
+        HttpResponseCodes.HTTP_TOO_MANY_REQUESTS -> true
+        in 500..599 -> true
+        else -> false
+    }
+}
+
+fun <T> ApiResult<T>.retryAfter(): Duration? = (this as? ApiResult.Error.Http)?.retryAfter
+
+/**
+ * Performs the given [action] if this instance represents an [ApiResult.Error].
+ * Returns the original `Result` unchanged.
+ */
+inline fun <T> ApiResult<T>.onError(
+    action: (value: ApiResult.Error) -> Unit
+): ApiResult<T> {
+    if (this is ApiResult.Error) action(this)
+    return this
+}
+
+/**
+ * Performs the given [action] if this instance represents an [ApiResult.Success].
+ * Returns the original `Result` unchanged.
+ */
+inline fun <T> ApiResult<T>.onSuccess(
+    action: (value: T) -> Unit
+): ApiResult<T> {
+    if (this is ApiResult.Success) action(value)
+    return this
+}
+
+/**
+ * Performs the given [action] if this instance represents an [ApiResult.Error.Parse].
+ * Returns the original `Result` unchanged.
+ */
+inline fun <T> ApiResult<T>.onParseError(
+    action: (value: ApiResult.Error) -> Unit
+): ApiResult<T> = onError {
+    if (this is ApiResult.Error.Parse) action(it)
+    return this
+}
+
+/**
+ * Log the [ApiResult.Error.Parse.cause] if this instance represents an [ApiResult.Error.Parse].
+ * Returns the original `Result` unchanged.
+ */
+fun <T> ApiResult<T>.onParseErrorLog(
+    logTag: String
+): ApiResult<T> = onParseError {
+    if (it.cause != null) CoreLogger.e(logTag, it.cause)
+}
+
+/**
+ * Casts [this][Throwable] into [ApiException] and checks
+ * if the [ApiException.error] is an [ApiResult.Error.Http] with the given
+ * proton [code] (e.g. one of the values in [ResponseCodes]).
+ */
+fun Throwable.hasProtonErrorCode(code: Int): Boolean =
+    (this as? ApiException)?.hasProtonErrorCode(code) ?: false

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="core_report_bug_activity_title">Raportare problemă</string>
+  <string name="core_report_bug_close">Închidere</string>
+  <string name="core_report_bug_subject_field_hint">Subiect</string>
+  <string name="core_report_bug_subject_field_required">Introducere subiect</string>
+  <string name="core_report_bug_description_field_hint">Ce nu a funcționat corect? Minim 10 caractere.</string>
+  <string name="core_report_bug_description_field_placeholder">Vă rugăm să descrieți problema cât mai în detaliu posibil. Dacă a existat un mesaj de eroare, anunțați-ne ce spunea.</string>
+  <plurals name="core_report_bug_description_field_required">
+    <item quantity="one">Introduceți cel puțin %d caracter</item>
+    <item quantity="few">Introduceți cel puțin %d caractere</item>
+    <item quantity="other">Introduceți cel puțin %d de caractere</item>
+  </plurals>
+  <string name="core_report_bug_discard_changes_title">Închideți raportarea problemei?</string>
+  <string name="core_report_bug_discard_changes_description">Dacă părăsiți această pagină, raportul nu va fi salvat.</string>
+  <string name="core_report_bug_discard_changes_cancel">Continuare editare</string>
+  <string name="core_report_bug_discard_changes_confirm">Închidere fără salvare</string>
+  <plurals name="core_report_bug_form_field_too_long">
+    <item quantity="one">Maxim %d caracter</item>
+    <item quantity="few">Maxim %d caractere</item>
+    <item quantity="other">Maxim %d de caractere</item>
+  </plurals>
+  <string name="core_report_bug_general_error">A apărut o problemă. Reîncercați peste câteva minute.</string>
+  <string name="core_report_bug_send">Trimitere raport</string>
+  <string name="core_report_bug_success">Vă mulțumim pentru raport</string>
+  <string name="core_report_bug_attach_log">Atașare jurnal</string>
+</resources>

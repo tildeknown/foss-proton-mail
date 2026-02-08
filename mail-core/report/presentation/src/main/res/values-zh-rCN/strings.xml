@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="core_report_bug_activity_title">反馈问题</string>
+  <string name="core_report_bug_close">关闭</string>
+  <string name="core_report_bug_subject_field_hint">主题</string>
+  <string name="core_report_bug_subject_field_required">请填写主题</string>
+  <string name="core_report_bug_description_field_hint">您遇到了什么问题？请至少填写 10 个字符</string>
+  <string name="core_report_bug_description_field_placeholder">请尽可能详细地描述您的问题。如果看到错误提示，也请附上其内容。</string>
+  <plurals name="core_report_bug_description_field_required">
+    <item quantity="other">至少需输入 %d 个字符</item>
+  </plurals>
+  <string name="core_report_bug_discard_changes_title">关闭问题反馈？</string>
+  <string name="core_report_bug_discard_changes_description">如果离开此页面，您的反馈内容不会被保存。</string>
+  <string name="core_report_bug_discard_changes_cancel">继续编辑</string>
+  <string name="core_report_bug_discard_changes_confirm">关闭且不保存</string>
+  <plurals name="core_report_bug_form_field_too_long">
+    <item quantity="other">最多可输入 %d 个字符</item>
+  </plurals>
+  <string name="core_report_bug_general_error">出错了，请过几分钟再试。</string>
+  <string name="core_report_bug_send">提交反馈</string>
+  <string name="core_report_bug_success">感谢您的反馈</string>
+  <string name="core_report_bug_attach_log">附上日志</string>
+</resources>

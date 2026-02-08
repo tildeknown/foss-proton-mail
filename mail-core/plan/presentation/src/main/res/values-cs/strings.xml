@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="plans_select_a_plan">Vyberte tarif</string>
+  <string name="plans_select_a_plan_subtitle">Jeden tarif pro všechny Proton služby</string>
+  <string name="plans_fetching_general_error">Při stahování tarifů došlo k chybě.</string>
+  <string name="plans_payment_error">Došlo k chybě při platbě. Zkuste to prosím později nebo si vytvořte bezplatný tarif.</string>
+  <string name="plans_free_name">Free</string>
+  <string name="plan_price_monthly">za měsíc</string>
+  <string name="plan_price_annually">za rok</string>
+  <string name="plans_current_plan">Současný tarif</string>
+  <string name="plans_upgrade_plan">Přejít na vyšší tarif</string>
+  <string name="plans_subscription">Předplatné</string>
+  <string name="plans_renewal_date">Váš tarif bude automaticky obnoven &lt;b&gt;%s&lt;/b&gt;</string>
+  <string name="plans_expiration_date">Váš tarif vyprší &lt;b&gt;%s&lt;/b&gt;</string>
+  <string name="plans_pay_monthly">Platit měsíčně</string>
+  <string name="plans_pay_annually">Platit ročně</string>
+  <string name="plans_pay_biennially">Platit každé 2 roky</string>
+  <plurals name="plans_pay_other">
+    <item quantity="one">Platit za %d měsíc</item>
+    <item quantity="few">Platit za %d měsíce</item>
+    <item quantity="many">Platit za %d měsíců</item>
+    <item quantity="other">Platit za %d měsíců</item>
+  </plurals>
+  <string name="plans_billed_yearly">*Účtováno ročně %s</string>
+  <string name="plans_billed_monthly">Účtováno měsíčně</string>
+  <string name="plans_billing_monthly">Na měsíc</string>
+  <string name="plans_billing_yearly">Na rok</string>
+  <string name="plans_billing_two_years">Na dva roky</string>
+  <plurals name="plans_billing_other_period">
+    <item quantity="one">Na %d měsíc</item>
+    <item quantity="few">Na %d měsíce</item>
+    <item quantity="many">Na %d měsíců</item>
+    <item quantity="other">Na %d měsíců</item>
+  </plurals>
+  <string name="plans_upgrade_your_plan">Přejít na vyšší tarif</string>
+  <string name="plans_proton_for_free">Získejte Proton zdarma</string>
+  <string name="plans_get_proton">Získejte %s</string>
+  <string name="plans_manage_your_subscription">Spravujte své předplatné na <a href="https://account.protonmail.com">account.protonmail.com</a></string>
+  <string name="plans_used_space" comment="1 - used space (e.g. 300MB); 2 - max available space (e.g. 1GB)">%1$s z(e) %2$s</string>
+  <string name="plans_payments_info_not_available">není k dispozici</string>
+  <string name="plans_manage_your_subscription_google">Vaše předplatné spravuje služba Google Play.</string>
+  <string name="plans_manage_your_subscription_other">Vaše předplatné nelze spravovat v mobilní aplikaci.</string>
+  <string name="plans_autorenew_subscriptions">Prostřednictvím této aplikace je k dispozici pouze automaticky obnovované roční předplatné.</string>
+  <string name="plans_can_not_upgrade_from_mobile">Vaše předplatné nelze spravovat v aplikaci pro Android.</string>
+  <string name="plans_user_has_credits">Na vašem účtu máte kredity.</string>
+  <string name="plans_manage_subscription_play_store">Spravovat předplatné</string>
+  <string name="plans_no_upgrade_available">V současnosti není k dispozici žádné navýšení.</string>
+  <string name="plans_limited_offer">Časově omezená nabídka</string>
+  <string name="plans_subscription_base_storage_full_title">Vaše úložiště Mail je plné</string>
+  <string name="plans_subscription_base_storage_nearly_full_title">Vaše úložiště Mail je téměř plné</string>
+  <string name="plans_subscription_drive_storage_full_title">Vaše úložiště Drive je plné</string>
+  <string name="plans_subscription_drive_storage_nearly_full_title">Vaše úložiště Drive je téměř plné</string>
+  <string name="plans_subscription_storage_get_more">Získat více úložného prostoru</string>
+  <string name="plans_subscription_storage_full_description">Navyšte svůj tarif ve webové aplikaci a pokračujte v používání účtu bez přerušení.</string>
+  <!-- region all possible plan item types. this could be updated as per language requirements.-->
+  <plurals name="item_storage" comment="please do not modify the text between #">
+    <item quantity="one">#proton_storage# úložiště</item>
+    <item quantity="few">#proton_storage# úložiště</item>
+    <item quantity="many">#proton_storage# úložiště</item>
+    <item quantity="other">#proton_storage# úložiště</item>
+  </plurals>
+  <plurals name="item_storage_free" comment="please do not modify the text between #">
+    <item quantity="one">Až #proton_storage# úložiště</item>
+    <item quantity="few">Až #proton_storage# úložiště</item>
+    <item quantity="many">Až #proton_storage# úložiště</item>
+    <item quantity="other">Až #proton_storage# úložiště</item>
+  </plurals>
+  <plurals name="item_storage_multiuser" comment="please do not modify the text between #">
+    <item quantity="one">#proton_storage# úložiště / uživatel</item>
+    <item quantity="few">#proton_storage# úložiště / uživatel</item>
+    <item quantity="many">#proton_storage# úložiště / uživatel</item>
+    <item quantity="other">#proton_storage# úložiště / uživatel</item>
+  </plurals>
+  <plurals name="item_address" comment="please do not modify the test between #">
+    <item quantity="one">#proton_addresses# e-mailová adresa</item>
+    <item quantity="few">#proton_addresses# e-mailové adresy</item>
+    <item quantity="many">#proton_addresses# e-mailových adres</item>
+    <item quantity="other">#proton_addresses# e-mailových adres</item>
+  </plurals>
+  <plurals name="item_address_multiuser" comment="please do not modify the test between #">
+    <item quantity="one">#proton_addresses# adresa / uživatel</item>
+    <item quantity="few">#proton_addresses# adresy / uživatel</item>
+    <item quantity="many">#proton_addresses# adres / uživatel</item>
+    <item quantity="other">#proton_addresses# adres / uživatel</item>
+  </plurals>
+  <plurals name="item_address_current" comment="please do not modify the test between #">
+    <item quantity="one">%d z #proton_addresses# adresy</item>
+    <item quantity="few">%d ze #proton_addresses# adres</item>
+    <item quantity="many">%d z #proton_addresses# adres</item>
+    <item quantity="other">%d z #proton_addresses# adres</item>
+  </plurals>
+  <plurals name="item_domain" comment="please do not modify the test between #">
+    <item quantity="one">Podpora pro #proton_domains# vlastní e-mailovou doménu</item>
+    <item quantity="few">Podpora pro #proton_domains# vlastní e-mailové domény</item>
+    <item quantity="many">Podpora pro #proton_domains# vlastních e-mailových domén</item>
+    <item quantity="other">Podpora pro #proton_domains# vlastních e-mailových domén</item>
+  </plurals>
+  <plurals name="item_calendar" comment="please do not modify the test between #">
+    <item quantity="one">#proton_calendars# osobní kalendář</item>
+    <item quantity="few">#proton_calendars# osobní kalendáře</item>
+    <item quantity="many">#proton_calendars# osobních kalendářů</item>
+    <item quantity="other">#proton_calendars# osobních kalendářů</item>
+  </plurals>
+  <plurals name="item_calendar_current" comment="please do not modify the test between #">
+    <item quantity="one">%d z #proton_calendars# kalendáře</item>
+    <item quantity="few">%d ze #proton_calendars# kalendářů</item>
+    <item quantity="many">%d z #proton_calendars# kalendářů</item>
+    <item quantity="other">%d z #proton_calendars# kalendářů</item>
+  </plurals>
+  <plurals name="item_connections" comment="please do not modify the test between #">
+    <item quantity="one">Bezplatná VPN na jednom zařízení</item>
+    <item quantity="few">Vysokorychlostní VPN na #proton_vpn# zařízeních</item>
+    <item quantity="many">Vysokorychlostní VPN na #proton_vpn# zařízeních</item>
+    <item quantity="other">Vysokorychlostní VPN na #proton_vpn# zařízeních</item>
+  </plurals>
+  <plurals name="item_connections_highspeed" comment="please do not modify the test between #">
+    <item quantity="one">#proton_vpn# VPN vysokorychlostní připojení</item>
+    <item quantity="few">#proton_vpn# VPN vysokorychlostní připojení</item>
+    <item quantity="many">#proton_vpn# VPN vysokorychlostních připojení</item>
+    <item quantity="other">#proton_vpn# VPN vysokorychlostních připojení</item>
+  </plurals>
+  <plurals name="item_users" comment="please do not modify the test between #">
+    <item quantity="one">#proton_users# uživatel</item>
+    <item quantity="few">#proton_users# uživatelé</item>
+    <item quantity="many">#proton_users# uživatelů</item>
+    <item quantity="other">#proton_users# uživatelů</item>
+  </plurals>
+  <plurals name="item_users_current" comment="please do not modify the test between #">
+    <item quantity="one">%d z #proton_users# uživatele</item>
+    <item quantity="few">%d ze #proton_users# uživatelů</item>
+    <item quantity="many">%d z #proton_users# uživatelů</item>
+    <item quantity="other">%d z #proton_users# uživatelů</item>
+  </plurals>
+  <!-- endregion -->
+  <!-- region plans headers -->
+  <string name="plan_id_free_header">Základ pro soukromou a bezpečnou komunikaci.</string>
+  <string name="plan_id_plus_header">Plně vybavená e-mailová schránka s pokročilou ochranou.</string>
+  <string name="plan_id_vpnbasic_header">VPN Basic</string>
+  <string name="plan_id_vpnbasic_countries">63 zemí</string>
+  <string name="plan_id_vpnbasic_high_speed">Vysoká rychlost</string>
+  <string name="plan_id_vpnplus_adblock">Blokování reklam (NetShield)</string>
+  <string name="plan_id_vpnplus_streaming">Podpora streamovacích služeb</string>
+  <string name="plan_id_vpnplus_header">VPN Plus</string>
+  <string name="plan_id_vpnplus_countries">63 zemí</string>
+  <string name="plan_id_vpnplus_highest_speed">Nejvyšší rychlost</string>
+  <string name="plan_id_professional_header">Professional</string>
+  <string name="plan_id_professional_multiuser">Podpora pro více uživatelů</string>
+  <string name="plan_id_visionary_header">Visionary</string>
+  <string name="plan_id_family_header">Family</string>
+  <string name="plan_id_mail2022_header" comment="new_plans">Zabezpečený e-mail s pokročilými funkcemi pro každodenní komunikaci.</string>
+  <string name="plan_id_vpn2022_header" comment="new_plans">Vaše soukromí a bezpečnost jsou pro nás prioritou.</string>
+  <string name="plan_id_drive2022_header" comment="new_plans">Bezpečné kloudové úložiště, které vám umožňuje uchovávat, synchronizovat a sdílet soubory jednoduše a bezpečně.</string>
+  <string name="plan_id_bundle2022_header" comment="new_plans">Komplexní ochrana soukromí a zabezpečení se všemi službami Protonu dohromady.</string>
+  <string name="plan_id_pass2023_header" comment="new_plans">Pro pokročilou správu hesel a ochranu identity.</string>
+  <!-- endregion -->
+  <string-array name="supported_currencies">
+    <item>EUR</item>
+    <item>USD</item>
+    <item>CHF</item>
+  </string-array>
+  <!-- region plans hardcoded texts -->
+  <string name="unlimited_folders_labels_filters" comment="new_plans">Neomezený počet složek, štítků a filtrů</string>
+  <string name="highest_vpn_speed" comment="new_plans">Nejvyšší rychlost VPN</string>
+  <string name="servers_in_countries" comment="new_plans">1500+ serverů v 63 zemích</string>
+  <string name="ad_blocker" comment="new_plans">Vestavěné blokování reklam (NetShield)</string>
+  <string name="streaming_services_access" comment="new_plans">Globální přístup ke streamovacím službám</string>
+  <string name="secure_core" comment="new_plans">Servery Secure Core</string>
+  <string name="tor_vpn" comment="new_plans">TOR skrze VPN</string>
+  <string name="p2p_bittorrent" comment="new_plans">P2P/BitTorrent</string>
+  <string name="unlimited_logins_and_notes">Neomezený počet přihlášení a poznámek</string>
+  <string name="unlimited_devices">Neomezený počet zařízení</string>
+  <string name="integrated_2fa_authenticator">Integrované ověřování 2FA</string>
+  <string name="multiple_vaults">Několik trezorů</string>
+  <string name="unlimited_email_alias">Neomezený počet aliasů hide-my-email</string>
+  <string name="custom_email_alias_domains">Vlastní domény pro e-mailové aliasy</string>
+  <string name="multiple_forwarding_mailboxes">Několik e-mailových schránek přeposílání</string>
+  <string name="priority_support">Prioritní podpora</string>
+  <string name="one_vault">1 trezor</string>
+  <string name="ten_hide_my_email_aliases">10 aliasů hide-my-email</string>
+  <!-- endregion -->
+  <!-- region Plan entitlement tags -->
+  <string name="upgrade_storage_current_drive_storage">Drive: %d%% zaplněno</string>
+  <string name="upgrade_storage_current_mail_storage">Mail: %d%% zaplněno</string>
+  <string name="upgrade_storage_subtitle">Navýšit úložiště</string>
+  <!-- endregion -->
+  <!-- region Plan upgrade -->
+  <string name="plan_manage_subscription_title">Navýšit %s</string>
+  <string name="plan_manage_subscription_subtitle">Předplatné můžete spravovat v aplikaci %1$s. Otevřete %2$s a navyšte na %3$s.</string>
+  <string name="plan_manage_subscription_no_app_title">Nainstalovat %s</string>
+  <string name="plan_manage_subscription_no_app_subtitle">Předplatné můžete spravovat v aplikaci %1$s. Stáhněte si a nainstalujte nejnovější verzi %2$s a navyšte na %3$s.</string>
+  <string name="plan_manage_subscription_app_missing_got_it">Rozumím</string>
+  <string name="plan_welcome_price_message_monthly">Uvítací nabídka. Obnovuje se automaticky za %1$s/měsíc</string>
+  <string name="plan_welcome_price_message_annual">Uvítací nabídka. Obnovuje se automaticky za %1$s/rok</string>
+  <string name="plan_welcome_price_message_two_year">Uvítací nabídka. Obnovuje se automaticky za %1$s/2 roky</string>
+  <string name="plan_auto_renew_message_monthly">Předplatné se automaticky obnovuje za %1$s/měsíc</string>
+  <string name="plan_auto_renew_message_annual">Předplatné se automaticky obnovuje za %1$s/rok</string>
+  <string name="plan_auto_renew_message_two_years">Předplatné se automaticky obnovuje za %1$s/2 roky</string>
+  <string name="plan_welcome_price_message_other_fallback">Automatické obnovování předplatného</string>
+  <string name="subscription_renewal_info_monthly">Zvýhodněná cena %1$s platí první měsíc. Vaše předplatné se automaticky obnoví &lt;b&gt;%2$s&lt;/b&gt; za &lt;b&gt;%3$s&lt;/b&gt; každý měsíc.</string>
+  <string name="subscription_renewal_info_annual">Zvýhodněná cena %1$s platí první rok. Vaše předplatné se automaticky obnoví &lt;b&gt;%2$s&lt;/b&gt; za &lt;b&gt;%3$s&lt;/b&gt; každý rok.</string>
+  <string name="subscription_renewal_info_two_years">Zvýhodněná cena %1$s platí první rok. Vaše předplatné se automaticky obnoví &lt;b&gt;%2$s&lt;/b&gt; za &lt;b&gt;%3$s&lt;/b&gt; každé 2 roky.</string>
+</resources>

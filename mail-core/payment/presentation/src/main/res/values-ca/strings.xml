@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- region payment errors -->
+  <string name="payments_general_error">S\'ha produït un error.</string>
+  <string name="payments_no_connectivity">No hi ha connexió per mostrar la pàgina de confirmació de 3DS.</string>
+  <string name="payments_3ds_not_approved">L\'aprovació 3DS ha estat rebutjada.</string>
+  <string name="payments_error_card_name">Es requereix el nom a la targeta.</string>
+  <string name="payments_error_card_number">El número de targeta no és vàlid.</string>
+  <string name="payments_error_cvc">Introduïu un codi de seguretat vàlid.</string>
+  <string name="payments_error_session">Es necessita un ID de sessió vàlid per a subscriure a un usuari que ha iniciat la sessió.</string>
+  <string name="payments_error_signup_paymentmethod">No s\'ha pogut crear el compte amb el mètode de pagament existent.</string>
+  <string name="payments_error_invalid_session">Sessió invàlida.</string>
+  <string name="payments_no_payment_provider">No s\'ha trobat cap mitjà de pagament.</string>
+  <string name="payments_error_google_prices">Hi ha hagut un problema en recuperar els preus de Google Play Store en aquest moment.</string>
+  <string name="payments_error_subscription_managed_other_app">La subscripció és gestionada per una altra aplicació.</string>
+  <!-- endregion -->
+  <!-- region payment options -->
+  <string name="payments_choose_payment_method">Trieu el vostre mètode de pagament</string>
+  <string name="payments_add_credit_debit_card">Afegeix una targeta de crèdit/dèbit nova</string>
+  <string name="payments_pay" comment="Example: Pay 5EUR">Paga %s</string>
+  <string name="payments_pay_with" comment="Example: Pay with debit card">Paga amb</string>
+  <string name="payments_method_icon">Icona de mètode de pagament.</string>
+  <string name="payments_method_surcharge">*Les compres realitzades amb aquest mètode de pagament tenen un recàrrec.</string>
+  <string name="payments_method_terms_conditions">Comprar amb Google Pay vol dir que accepteu els termes i condicions de Google Pay i que accepteu configurar un pagament recurrent amb Google.</string>
+  <string name="payments_method_google">Google</string>
+  <string name="payments_method_continue">Continua</string>
+  <!-- endregion -->
+  <!-- region billing -->
+  <string name="payments_payment_details">Detalls del pagament</string>
+  <string name="payments_card_name">Nom a la targeta</string>
+  <string name="payments_card_number">Número de targeta</string>
+  <string name="payments_expiration_date">Data de caducitat</string>
+  <string name="payments_security_code">Codi de seguretat</string>
+  <string name="payments_postal_code">Codi postal</string>
+  <string name="payments_card_number_hint">0000 0000 0000 0000</string>
+  <string name="payments_expiration_date_hint">MM/AA</string>
+  <string name="payments_security_code_hint">123</string>
+  <string name="payments_country">País</string>
+  <string name="payments_get_plan">Obtingueu %s</string>
+  <string name="payments_paying_in_process">S\'està pagant</string>
+  <string name="payments_choose_country">Selecciona un país</string>
+  <string name="payment_cc_list_item">%1$s - %2$s (exp %3$s/%4$s)</string>
+  <string name="payment_paypal_list_item">PayPal</string>
+  <string name="payments_info_not_available">n/d</string>
+  <string name="payments_billing_monthly">Per 1 mes</string>
+  <string name="payments_billing_yearly">Durant 1 any</string>
+  <string name="payments_billing_two_years">Per 2 anys</string>
+  <string name="payment_use_google_pay_instead">Utilitza Google Pay</string>
+  <string name="payment_use_credit_card_instead">Utilitzeu una targeta de crèdit/dèbit</string>
+  <!-- endregion -->
+  <!-- region GIAP -->
+  <string name="payments_giap_unredeemed_title">Confirmeu la millora del compte</string>
+  <string name="payments_giap_unredeemed_description">S\'ha processat el vostre pagament de Google Pay, però el procés d\'actualització del compte s\'ha interromput. Voleu aplicar el pagament per millorar el vostre compte ara?</string>
+  <string name="payments_giap_unredeemed_confirm">Confirmar actualització</string>
+  <string name="payments_giap_redeem_success">S\'ha actualitzat el vostre compte</string>
+  <string name="payments_giap_redeem_error">No s\'ha pogut completar la millora. Torneu a provar-ho més tard.</string>
+  <!-- endregion -->
+  <!-- endregion -->
+</resources>

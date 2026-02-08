@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2025 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="emd_code_not_recognized">Kod anlaşılamadı. Yeniden deneyin.</string>
+  <string name="edm_code_verifying">Doğrulanıyor…</string>
+  <string name="edm_missing_camera_permission_headline">Kameraya erişme izni ver</string>
+  <string name="edm_missing_camera_permission_body">Kare kod ile oturum açmak için %1$s için kameraya erişme izni vermelisiniz. Bunu aygıt ayarlarınızdan yapabilirsiniz.</string>
+  <string name="edm_missing_camera_permission_footer">Kontrol her zaman sizde: Bunu istediğiniz zaman aygıt ayarlarınızdan değiştirebilirsiniz.</string>
+  <string name="edm_missing_camera_permission_settings">Ayarlar</string>
+  <string name="intro_origin_sign_in_title">Başka bir aygıtta oturum açın</string>
+  <string name="intro_origin_sign_in_subtitle">Kare kod ile nasıl oturum açılır</string>
+  <string name="intro_origin_sign_in_hint_1">1. Oturum açmak istediğiniz aygıtta herhangi bir Proton uygulamasını açın.</string>
+  <string name="intro_origin_sign_in_hint_2">2. Oturum açma ekranında, <b>Parolamı unuttum</b> veya <b>Oturum açarken sorun mu yaşıyorsunuz?</b> seçeneklerinden biri (mobil uygulamalarda <b>Yardım</b>) üzerine basın.</string>
+  <string name="intro_origin_sign_in_hint_3">3. <b>Kare kod ile oturum aç</b> üzerine basın. Bir kare kod görüntülenir.</string>
+  <string name="intro_origin_sign_in_hint_4">4. Bu aygıtta, <b>Kare kodu tara</b> üzerine basın ve kodu tarayın.</string>
+  <string name="intro_origin_sign_in_tips">Güvenlik ipuçları</string>
+  <string name="intro_origin_sign_in_tip_1">Kare kod içeren iletilere dikkat edin. Yalnızca kaynağına güvendiğiniz kodları tarayın.</string>
+  <string name="intro_origin_sign_in_tip_2">Proton, beklenmeyen bir şekilde kare kod ile oturum açmanız için sizinle görüşmez.</string>
+  <string name="intro_origin_sign_in_tip_3">Proton, <b>https://proton.me</b> veya resmi Proton uygulamasından olmayan bir kare kodunu taramanızı asla istemez.</string>
+  <string name="intro_origin_sign_in_begin">Kare kodu tarayın</string>
+  <string name="intro_origin_biometrics_title">İlerlemek için aygıtınızın kilidini açın</string>
+  <string name="manual_code_input_title">Kodu el ile yazın</string>
+  <string name="manual_code_input_description">Oturum açmak istediğiniz aygıtın koduna erişmek için oturum açma ekranının yardım menüsünde <b>Kare kod ile oturum aç</b> düğmesine ve ardından <b>Anahtarı el ile yazın</b> üzerine dokunun.</string>
+  <string name="manual_code_input_code_label">Kod</string>
+  <string name="manual_code_input_clear_code">Temizle</string>
+  <string name="manual_code_input_submit">İlerle</string>
+  <string name="origin_success_signed_in">Erişim paylaşıldı</string>
+  <string name="origin_success_ack">Ayarlara dön</string>
+  <string name="qr_code_scan_hint">Kare kodu çerçeve içine yerleştirin</string>
+  <string name="qr_code_scan_enter_manually">Kodu el ile yazın</string>
+  <string name="target_sign_in_title">Kare kod ile oturum aç</string>
+  <string name="target_sign_in_scan_code">Başka bir aygıt kullanarak oturum nasıl açılır</string>
+  <string name="target_sign_in_instruction_1">1. Proton hesap oturumunuz açık olan başka bir aygıtı alın</string>
+  <string name="target_sign_in_instruction_2">2. Bu aygıtta herhangi bir Proton uygulamasını açın ve <b>Ayarlar</b> bölümüne gidin</string>
+  <string name="target_sign_in_instruction_3">3. <b>Başka bir aygıtta oturum aç → Kare kodu tara</b> üzerine basın</string>
+  <string name="target_sign_in_instruction_4">4. Oturum açmak için kodu tarayın</string>
+  <string name="target_sign_in_error_title">Oturumunuz açılamadı</string>
+  <string name="target_sign_in_retryable_error">Yeni bir kare kod oluşturmayı deneyin.</string>
+  <string name="target_sign_in_passphrase_error">Lütfen başka bir oturum açma yöntemi deneyin.</string>
+  <string name="target_sign_in_error_new_qr">Kare kod oluştur</string>
+  <string name="target_sign_in_error_back_to_signin">Oturum açmaya dön</string>
+  <string name="target_sign_in_qr_code_failure">Kare kod yüklenemedi. Yeniden denemek için dokunun.</string>
+  <string name="target_sign_in_no_connection">Çevrim dışı gibi görünüyorsunuz. Lütfen bağlantınızı denetleyip yeniden deneyin.</string>
+  <string name="target_sign_in_learn_more">Ayrıntılı bilgi alın</string>
+</resources>

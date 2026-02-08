@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- region payment errors -->
+  <string name="payments_general_error">A apărut o eroare.</string>
+  <string name="payments_no_connectivity">Nu există conexiune pentru a afișa pagina de confirmare 3DS.</string>
+  <string name="payments_3ds_not_approved">Confirmarea 3DS a fost respinsă.</string>
+  <string name="payments_error_card_name">Numele de pe card este obligatoriu.</string>
+  <string name="payments_error_card_number">Număr de card nevalid.</string>
+  <string name="payments_error_cvc">Introduceți un cod de securitate valid.</string>
+  <string name="payments_error_session">Este necesar un ID de sesiune valid pentru abonarea unui utilizator conectat.</string>
+  <string name="payments_error_signup_paymentmethod">Nu se poate crea un cont cu metoda de plată existentă.</string>
+  <string name="payments_error_invalid_session">Sesiune nevalidă.</string>
+  <string name="payments_no_payment_provider">Nu s-a găsit un furnizor de plată activ.</string>
+  <string name="payments_error_google_prices">Problemă la preluarea prețurilor din Magazinul Google Play în acest moment.</string>
+  <string name="payments_error_subscription_managed_other_app">Abonamentul este gestionat de o altă aplicație.</string>
+  <!-- endregion -->
+  <!-- region payment options -->
+  <string name="payments_choose_payment_method">Alegeți metoda de plată</string>
+  <string name="payments_add_credit_debit_card">Adăugare card de credit/debit</string>
+  <string name="payments_pay" comment="Example: Pay 5EUR">Plătiți %s</string>
+  <string name="payments_pay_with" comment="Example: Pay with debit card">Plată cu</string>
+  <string name="payments_method_icon">Pictograma metodei de plată.</string>
+  <string name="payments_method_surcharge">* Plățile efectuate cu această metodă de plată implică o suprataxă.</string>
+  <string name="payments_method_terms_conditions">Cumpărând cu Google Pay înseamnă că acceptați termenii și condițiile Google Pay și sunteți de acord să stabiliți o plată recurentă cu Google.</string>
+  <string name="payments_method_google">Google</string>
+  <string name="payments_method_continue">Continuare</string>
+  <!-- endregion -->
+  <!-- region billing -->
+  <string name="payments_payment_details">Detalii plată</string>
+  <string name="payments_card_name">Titular card</string>
+  <string name="payments_card_number">Număr card</string>
+  <string name="payments_expiration_date">Dată expirare</string>
+  <string name="payments_security_code">Cod de securitate</string>
+  <string name="payments_postal_code">Cod poștal</string>
+  <string name="payments_card_number_hint">0000 0000 0000 0000</string>
+  <string name="payments_expiration_date_hint">LL/AA</string>
+  <string name="payments_security_code_hint">123</string>
+  <string name="payments_country">Țara</string>
+  <string name="payments_get_plan">Luați %s</string>
+  <string name="payments_paying_in_process">Se plătește</string>
+  <string name="payments_choose_country">Selectare țară</string>
+  <string name="payment_cc_list_item">%1$s - %2$s (dată expirare %3$s/%4$s)</string>
+  <string name="payment_paypal_list_item">PayPal</string>
+  <string name="payments_info_not_available">n/d</string>
+  <string name="payments_billing_monthly">Pentru o lună</string>
+  <string name="payments_billing_yearly">Pentru un an</string>
+  <string name="payments_billing_two_years">Pentru doi ani</string>
+  <string name="payment_use_google_pay_instead">Folosiți în schimb Google Pay</string>
+  <string name="payment_use_credit_card_instead">Folosiți în schimb un card de credit/debit</string>
+  <!-- endregion -->
+  <!-- region GIAP -->
+  <string name="payments_giap_unredeemed_title">Confirmare modificare cont</string>
+  <string name="payments_giap_unredeemed_description">Plata prin Google Pay a fost procesată, dar procesul de modificare al contului a fost întrerupt. Aplicați plata pentru a modifica acum contul?</string>
+  <string name="payments_giap_unredeemed_confirm">Confirmare modificare</string>
+  <string name="payments_giap_redeem_success">S-a reușit modificarea contului</string>
+  <string name="payments_giap_redeem_error">Nu se poate finaliza procesul de modificare. Reîncercați mai târziu.</string>
+  <!-- endregion -->
+  <!-- endregion -->
+</resources>

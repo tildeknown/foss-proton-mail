@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- base common presentation strings -->
+  <string name="presentation_browser_missing">Kan de browser niet vinden om de link te openen.</string>
+  <string name="presentation_force_update_title">Update vereist</string>
+  <string name="presentation_force_update_message">Deze versie van de app wordt niet langer ondersteund, werk hem bij om te blijven gebruiken.</string>
+  <string name="presentation_force_update_learn_more">Meer informatie</string>
+  <string name="presentation_force_update_update">Bijwerken</string>
+  <string name="presentation_market_missing">De applicatie kan niet gevonden worden. Ga naar de app-store en installeer de applicatie.</string>
+  <string name="presentation_authenticate">Authenticeren</string>
+  <string name="presentation_signin_to_continue">Log in om door te gaan</string>
+  <string name="presentation_alert_title">Waarschuwing</string>
+  <string name="presentation_alert_ok">OK</string>
+  <string name="presentation_alert_enter">Invoeren</string>
+  <string name="presentation_alert_cancel">Annuleren</string>
+  <string name="presentation_alert_continue">Doorgaan</string>
+  <string name="presentation_alert_submit">Versturen</string>
+  <!-- Common menu items -->
+  <string name="presentation_menu_item_title_report_a_bug">Meld een probleem</string>
+  <string name="presentation_menu_item_title_settings">Instellingen</string>
+  <string name="presentation_menu_item_title_subscription">Abonnement</string>
+  <string name="presentation_menu_item_title_sign_out">Uitloggen</string>
+  <!-- Other -->
+  <string name="presentation_back">Terug</string>
+  <string name="presentation_close">Sluiten</string>
+  <string name="presentation_retry">Opnieuw proberen</string>
+  <string name="presentation_skip">Overslaan</string>
+  <string name="presentation_phone_calling_code_template">+%s </string>
+  <string name="presentation_general_connection_error">Kon geen verbinding maken met de server.</string>
+  <string name="presentation_check_your_connection">Controleer uw verbinding</string>
+  <string name="presentation_connectivity_issues">Verbindingsproblemen</string>
+  <string name="presentation_field_required">Dit veld is verplicht.</string>
+  <string name="presentation_error_general">Er is iets fout gegaan.</string>
+  <plurals name="presentation_datetime_day">
+    <item quantity="one">%d dag</item>
+    <item quantity="other">%d dagen</item>
+  </plurals>
+  <plurals name="presentation_datetime_hour">
+    <item quantity="one">%d uur</item>
+    <item quantity="other">%d uren</item>
+  </plurals>
+  <plurals name="presentation_datetime_minute">
+    <item quantity="one">%d minuut</item>
+    <item quantity="other">%d minuten</item>
+  </plurals>
+  <plurals name="presentation_datetime_second">
+    <item quantity="one">%d seconde</item>
+    <item quantity="other">%d seconden</item>
+  </plurals>
+  <plurals name="presentation_datetime_millisecond">
+    <item quantity="one">%d milliseconde</item>
+    <item quantity="other">%d milliseconden</item>
+  </plurals>
+  <plurals name="presentation_datetime_microsecond">
+    <item quantity="one">%d microseconde</item>
+    <item quantity="other">%d microseconden</item>
+  </plurals>
+  <plurals name="presentation_datetime_nanosecond">
+    <item quantity="one">%d nanoseconde</item>
+    <item quantity="other">%d nanoseconden</item>
+  </plurals>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="crypto_keystore_error_title">Chyba šifrování</string>
+  <string name="crypto_keystore_error_message">Toto zařízení používá chybnou implementaci úložiště klíčů Android, které používáme k zabezpečení vašich dat. To znamená, že vaše data mohou být ohrožena, pokud útočník získá fyzický přístup k tomuto zařízení. Co byste chtěli udělat?</string>
+  <string name="crypto_keystore_error_continue_action">Pokračovat</string>
+  <string name="crypto_keystore_error_more_info_action">Získat více informací</string>
+  <string name="crypto_keystore_error_logout_action">Odhlásit se</string>
+  <string name="crypto_keystore_error_exit_action">Ukončit</string>
+</resources>

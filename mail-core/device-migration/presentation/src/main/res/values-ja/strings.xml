@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2025 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="emd_code_not_recognized">コードが認識できませんでした。もう一度やり直してください。</string>
+  <string name="edm_code_verifying">認証中…</string>
+  <string name="edm_missing_camera_permission_headline">カメラへのアクセスを許可</string>
+  <string name="edm_missing_camera_permission_body">QRコードでサインインするには、%1$sにカメラへのアクセスを許可する必要があります。これは端末の設定で行うことができます。</string>
+  <string name="edm_missing_camera_permission_footer">いつでもコントロールできます: デバイスの設定でいつでも変更できます。</string>
+  <string name="edm_missing_camera_permission_settings">設定</string>
+  <string name="intro_origin_sign_in_title">ほかのデバイスでサインイン</string>
+  <string name="intro_origin_sign_in_subtitle">QRコードでサインインする方法</string>
+  <string name="intro_origin_sign_in_hint_1">1. サインインしたいデバイスで任意の Proton アプリを開きます。</string>
+  <string name="intro_origin_sign_in_hint_2">2. サインイン画面で、<b>パスワードを忘れましたか</b> または <b>サインインに問題がありますか？</b> を選択してください。(モバイルアプリでは、<b>ヘルプ</b>を選択してください)。</string>
+  <string name="intro_origin_sign_in_hint_3">3. <b>QRコードでサインイン</b>を選択してください。QRコードが表示されます。</string>
+  <string name="intro_origin_sign_in_hint_4">4. このデバイスで、<b>QRコードをスキャン</b>を押し、コードをスキャンしてください</string>
+  <string name="intro_origin_sign_in_tips">セキュリティのヒント</string>
+  <string name="intro_origin_sign_in_tip_1">QRコード付きのメッセージにはご注意ください。ソースを信頼できる場合にのみ、コードをスキャンしてください。</string>
+  <string name="intro_origin_sign_in_tip_2">Proton が、QRコードでサインインするよう予期せずお客様に連絡することは決してありません。</string>
+  <string name="intro_origin_sign_in_tip_3">Protonが、<b>https://proton.me</b>または公式のProtonアプリ以外のQRコードをスキャンするようお客様に依頼することはありません。</string>
+  <string name="intro_origin_sign_in_begin">QRコードをスキャン</string>
+  <string name="intro_origin_biometrics_title">続行するにはデバイスのロックを解除してください</string>
+  <string name="manual_code_input_title">コードを手動で入力</string>
+  <string name="manual_code_input_description">サインインしたいデバイスのコードにアクセスするには、サインイン画面のヘルプメニューにある<b>QRコードでサインイン</b>ボタンをタップし、<b>キーを手動で入力</b>をタップしてください。</string>
+  <string name="manual_code_input_code_label">コード</string>
+  <string name="manual_code_input_clear_code">クリア</string>
+  <string name="manual_code_input_submit">続ける</string>
+  <string name="origin_success_signed_in">アクセスが共有されました</string>
+  <string name="origin_success_ack">設定に戻る</string>
+  <string name="qr_code_scan_hint">正方形内に QR コードを配置する</string>
+  <string name="qr_code_scan_enter_manually">コードを手動で入力</string>
+  <string name="target_sign_in_title">QRコードでサインイン</string>
+  <string name="target_sign_in_scan_code">ほかのデバイスを使ってサインインする方法</string>
+  <string name="target_sign_in_instruction_1">1. お客様のProtonアカウントにサインイン済みの別のデバイスを用意します</string>
+  <string name="target_sign_in_instruction_2">2. そのデバイスを使用して、いずれかのProtonアプリを開き、<b>設定</b>を選択してください。</string>
+  <string name="target_sign_in_instruction_3">3. <b>別のデバイスでサインイン → QRコードをスキャン</b> を選択してください</string>
+  <string name="target_sign_in_instruction_4">4. コードをスキャンし、サインインしてください</string>
+  <string name="target_sign_in_error_title">サインインできませんでした</string>
+  <string name="target_sign_in_retryable_error">新しいQRコードを生成してみてください。</string>
+  <string name="target_sign_in_passphrase_error">別のサインイン方法をお試しください。</string>
+  <string name="target_sign_in_error_new_qr">QRコードを生成</string>
+  <string name="target_sign_in_error_back_to_signin">サインインに戻る</string>
+  <string name="target_sign_in_qr_code_failure">QRコードを読み込めませんでした。タップして再試行してください。</string>
+  <string name="target_sign_in_no_connection">オフラインのようです。接続を確認して、もう一度お試しください。</string>
+  <string name="target_sign_in_learn_more">より詳しく</string>
+</resources>

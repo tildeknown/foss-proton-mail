@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- region payment errors -->
+  <string name="payments_general_error">خطایی رخ داد.</string>
+  <string name="payments_no_connectivity">ارتباط برای نمایش صفحه تایید پرداخت برقرار نیست.</string>
+  <string name="payments_3ds_not_approved">تایید 3DS رد شده است.</string>
+  <string name="payments_error_card_name">نام روی کارت الزامی است.</string>
+  <string name="payments_error_card_number">شماره کارت نامعتبر.</string>
+  <string name="payments_error_cvc">لطفا کد امنیتی معتبر وارد کنید.</string>
+  <string name="payments_error_session">هنگام تهیه اشتراک برای یک کاربر وارد شده، شناسه نشست معتبر ضروری است.</string>
+  <string name="payments_error_signup_paymentmethod">با روش پرداخت فعلی نمی توان ثبت‌نام کرد.</string>
+  <string name="payments_error_invalid_session">نشست نامعتبر.</string>
+  <string name="payments_no_payment_provider">هیچ ارائه دهنده سیستم پرداخت فعالی یافت نشد.</string>
+  <string name="payments_error_google_prices">مشکل در دریافت قیمت های Google Play Store</string>
+  <string name="payments_error_subscription_managed_other_app">Subscription managed by other app.</string>
+  <!-- endregion -->
+  <!-- region payment options -->
+  <string name="payments_choose_payment_method">روش پرداخت خود را انتخاب کنید</string>
+  <string name="payments_add_credit_debit_card">افزودن کارت اعتباری/ نقدی جدید</string>
+  <string name="payments_pay" comment="Example: Pay 5EUR">پرداخت %s</string>
+  <string name="payments_pay_with" comment="Example: Pay with debit card">پرداخت با</string>
+  <string name="payments_method_icon">آیکون روش پرداخت.</string>
+  <string name="payments_method_surcharge">*خرید از طریق این روش پرداخت منجر به اضافه بها می شود.</string>
+  <string name="payments_method_terms_conditions">خرید از طریق Google Play به این معناست که شما شرایط و ضوابط Google Play را قبول می کنید و پرداخت مکرر با Google را تایید می کنید.</string>
+  <string name="payments_method_google">Google</string>
+  <string name="payments_method_continue">ادامه</string>
+  <!-- endregion -->
+  <!-- region billing -->
+  <string name="payments_payment_details">جزئیات پرداخت</string>
+  <string name="payments_card_name">نام روی کارت</string>
+  <string name="payments_card_number">شماره كارت</string>
+  <string name="payments_expiration_date">تاریخ انقضا</string>
+  <string name="payments_security_code">کد امنیتی</string>
+  <string name="payments_postal_code">کد پستی</string>
+  <string name="payments_card_number_hint">0000 0000 0000 0000</string>
+  <string name="payments_expiration_date_hint">ماه/سال</string>
+  <string name="payments_security_code_hint">123</string>
+  <string name="payments_country">کشور</string>
+  <string name="payments_get_plan">دریافت %s</string>
+  <string name="payments_paying_in_process">در حال پرداخت</string>
+  <string name="payments_choose_country">انتخاب کشور</string>
+  <string name="payment_cc_list_item">%1$s - %2$s (تاریخ انقضاء %3$s/%4$s)</string>
+  <string name="payment_paypal_list_item">PayPal</string>
+  <string name="payments_info_not_available">در دسترس نیست</string>
+  <string name="payments_billing_monthly">برای ۱ ماه</string>
+  <string name="payments_billing_yearly">برای ۱ سال</string>
+  <string name="payments_billing_two_years">برای ۲ سال</string>
+  <string name="payment_use_google_pay_instead">به جای آن از Google Play استفاده کنید</string>
+  <string name="payment_use_credit_card_instead">به جای آن از کارت اعتباری/نقدی اسفاده کنید</string>
+  <!-- endregion -->
+  <!-- region GIAP -->
+  <string name="payments_giap_unredeemed_title">تایید ارتقا حساب کاربری</string>
+  <string name="payments_giap_unredeemed_description">پرداخت از طریق Google Play با موفقیت انجام شد، اما پروسه ارتقا حساب کاربری مختل شد. پرداخت خود را برای ارتقا حساب کاربری خود همین حالا اعمال می کنید؟</string>
+  <string name="payments_giap_unredeemed_confirm">تأیید ارتقا</string>
+  <string name="payments_giap_redeem_success">حساب کاربری شما با موفقیت ارتقا یافت</string>
+  <string name="payments_giap_redeem_error">ارتقا حساب کاربری کامل نشد. لطفا بعدا دوباره امتحان کنید.</string>
+  <!-- endregion -->
+  <!-- endregion -->
+</resources>

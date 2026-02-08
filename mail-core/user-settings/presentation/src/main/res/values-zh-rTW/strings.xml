@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- recovery email settings -->
+  <string name="settings_recovery_email_header">復原電郵位址</string>
+  <string name="settings_recovery_email_current">目前使用的復原電子郵件位址</string>
+  <string name="settings_recovery_email_new">新增的復原電子郵件位址</string>
+  <string name="settings_recovery_email_confirm">確認復原電子郵件位址</string>
+  <string name="settings_recovery_email_new_hint">請輸入電子郵件位址</string>
+  <string name="settings_recovery_email_confirm_hint">再次輸入電子郵件位址</string>
+  <string name="settings_save_second_password">儲存新的第二密碼</string>
+  <string name="settings_save_main_password">儲存新的主要密碼</string>
+  <string name="settings_save">儲存</string>
+  <string name="settings_password_required">輸入您的登入密碼</string>
+  <string name="settings_password_required_ok">確定</string>
+  <string name="settings_not_set">未設定</string>
+  <string name="settings_recovery_email_error_no_match">新增的復原電子郵件位址不一致</string>
+  <string name="settings_validation_email">電子郵件位址格式無效</string>
+  <string name="settings_general_error">出現錯誤</string>
+  <!-- login and mailbox password settings -->
+  <string name="settings_password_management_tab_main_password">主要密碼</string>
+  <string name="settings_password_management_tab_second_password">第二密碼</string>
+  <string name="settings_password_management_change_password_note">要變更您的任何一個密碼，都必須知道您的主密碼。<a href="https://account.proton.me/reset-password">忘記主密碼？</a></string>
+  <string name="settings_password_management_header">變更密碼</string>
+  <string name="settings_password_management_cannot_change_password">您不能自行變更備份密碼。請洽詢管理員。</string>
+  <string name="settings_main_password_hint_current">目前的主密碼</string>
+  <string name="settings_main_password_hint_new">新的主密碼</string>
+  <string name="settings_main_password_hint_new_confirm">確認新的主密碼</string>
+  <string name="settings_second_password_hint_current_main_password">目前的主密碼</string>
+  <string name="settings_second_password_hint_new">新的第二密碼</string>
+  <string name="settings_second_password_hint_new_confirm">確認新的第二密碼</string>
+  <string name="settings_change_password_error">變更密碼時出現錯誤</string>
+  <string name="settings_recovery_email_success">復原電子郵件位址已更新</string>
+  <string name="settings_password_management_success">密碼已更新</string>
+  <string name="settings_password_management_start_recovery">忘記或想不起您的密碼？</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- base common strings -->
+  <string name="human_verification_help">幫助</string>
+  <string name="human_verification_title">真人驗證</string>
+  <!-- To verify the entered code - action -->
+  <string name="human_verification_help_title">您需要人工驗證方面的協助嗎？</string>
+  <string name="sms_hint">XX XXX XX XX</string>
+  <!-- TODO: update correct strings below -->
+  <string name="human_verification_help_manual_title">申發邀請</string>
+  <string name="human_verification_help_manual">若您在創建帳號時遇上問題，請提出邀請需求，我們會在1個工作天內回覆。</string>
+  <string name="human_verification_help_website_title">造訪我們的說明中心</string>
+  <string name="human_verification_help_website">了解更多關於真人驗證的必要性。</string>
+</resources>

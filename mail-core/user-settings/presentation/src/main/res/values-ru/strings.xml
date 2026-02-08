@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- recovery email settings -->
+  <string name="settings_recovery_email_header">Резервный адрес электронной почты</string>
+  <string name="settings_recovery_email_current">Текущий резервный адрес электронной почты</string>
+  <string name="settings_recovery_email_new">Новый резервный адрес электронной почты</string>
+  <string name="settings_recovery_email_confirm">Подтвердить резервный адрес электронной почты</string>
+  <string name="settings_recovery_email_new_hint">Введите адрес электронной почты</string>
+  <string name="settings_recovery_email_confirm_hint">Повторно введите адрес электронной почты</string>
+  <string name="settings_save_second_password">Сохранить новый второй пароль</string>
+  <string name="settings_save_main_password">Сохранить новый основной пароль</string>
+  <string name="settings_save">Сохранить</string>
+  <string name="settings_password_required">Введите свой пароль для входа</string>
+  <string name="settings_password_required_ok">ОК</string>
+  <string name="settings_not_set">Не задано</string>
+  <string name="settings_recovery_email_error_no_match">Новые резервные адреса электронной почты не совпадают</string>
+  <string name="settings_validation_email">Неверный адрес электронной почты.</string>
+  <string name="settings_general_error">Произошла ошибка.</string>
+  <!-- login and mailbox password settings -->
+  <string name="settings_password_management_tab_main_password">Основной пароль</string>
+  <string name="settings_password_management_tab_second_password">Второй пароль</string>
+  <string name="settings_password_management_change_password_note">Чтобы изменить любой из ваших паролей, вам нужно знать свой основной пароль. <a href="https://account.proton.me/reset-password">Забыли основной пароль?</a></string>
+  <string name="settings_password_management_header">Изменить пароль</string>
+  <string name="settings_password_management_cannot_change_password">Вы не можете менять свой резервный пароль. Пожалуйста, обратитесь к своему администратору.</string>
+  <string name="settings_main_password_hint_current">Текущий основной пароль</string>
+  <string name="settings_main_password_hint_new">Новый основной пароль</string>
+  <string name="settings_main_password_hint_new_confirm">Подтвердить новый основной пароль</string>
+  <string name="settings_second_password_hint_current_main_password">Текущий основной пароль</string>
+  <string name="settings_second_password_hint_new">Новый второй пароль</string>
+  <string name="settings_second_password_hint_new_confirm">Подтвердить новый второй пароль</string>
+  <string name="settings_change_password_error">Произошла ошибка при смене пароля.</string>
+  <string name="settings_recovery_email_success">Резервный адрес электронной почты обновлён</string>
+  <string name="settings_password_management_success">Пароль обновлен</string>
+  <string name="settings_password_management_start_recovery">Не знаете свой текущий пароль?</string>
+</resources>

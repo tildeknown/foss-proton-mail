@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public name="core_feature_auth_signin_two_step_enabled" type="bool" />
+    <public name="core_feature_auth_sso_enabled" type="bool" />
+    <public name="core_feature_auth_sso_custom_tab_enabled" type="bool" />
+    <public name="core_feature_credential_less_enabled" type="bool" />
+    <public name="core_feature_common_password_check_enabled" type="bool" />
+    <public name="core_feature_fido2_enabled" type="bool" />
+</resources>

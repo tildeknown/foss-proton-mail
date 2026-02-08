@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- recovery email settings -->
+  <string name="settings_recovery_email_header">回復用のメールアドレス</string>
+  <string name="settings_recovery_email_current">現在の回復用メールアドレス</string>
+  <string name="settings_recovery_email_new">新しい回復用メールアドレス</string>
+  <string name="settings_recovery_email_confirm">回復用メールアドレスを確認</string>
+  <string name="settings_recovery_email_new_hint">メールアドレスを入力</string>
+  <string name="settings_recovery_email_confirm_hint">メールアドレスを再入力</string>
+  <string name="settings_save_second_password">新しいセカンドパスワードを保存</string>
+  <string name="settings_save_main_password">新しいメインパスワードを保存</string>
+  <string name="settings_save">保存</string>
+  <string name="settings_password_required">ログインパスワードを入力</string>
+  <string name="settings_password_required_ok">OK</string>
+  <string name="settings_not_set">未設定</string>
+  <string name="settings_recovery_email_error_no_match">新しい回復用メールアドレスが一致しません</string>
+  <string name="settings_validation_email">メールアドレスが無効です.</string>
+  <string name="settings_general_error">エラーが発生しました。</string>
+  <!-- login and mailbox password settings -->
+  <string name="settings_password_management_tab_main_password">メインパスワード</string>
+  <string name="settings_password_management_tab_second_password">セカンドパスワード</string>
+  <string name="settings_password_management_change_password_note">いずれかのパスワードを変更するには、メインパスワードが必要です。 <a href="https://account.proton.me/reset-password">メインパスワードをお忘れですか？</a></string>
+  <string name="settings_password_management_header">パスワードを変更する</string>
+  <string name="settings_password_management_cannot_change_password">バックアップパスワードは変更することができません。管理者にお問い合わせください。</string>
+  <string name="settings_main_password_hint_current">現在のメインパスワード</string>
+  <string name="settings_main_password_hint_new">新しいメインパスワード</string>
+  <string name="settings_main_password_hint_new_confirm">新しいメインパスワードを確認</string>
+  <string name="settings_second_password_hint_current_main_password">現在のメインパスワード</string>
+  <string name="settings_second_password_hint_new">新しいセカンドパスワード</string>
+  <string name="settings_second_password_hint_new_confirm">新しいセカンドパスワードを確認</string>
+  <string name="settings_change_password_error">パスワード変更に失敗しました。</string>
+  <string name="settings_recovery_email_success">回復用メールアドレスが更新されました</string>
+  <string name="settings_password_management_success">パスワードが更新されました。</string>
+  <string name="settings_password_management_start_recovery">現在のパスワードがわかりませんか?</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- recovery email settings -->
+  <string name="settings_recovery_email_header">E-post för återställning</string>
+  <string name="settings_recovery_email_current">Nuvarande e-postadress för återställning</string>
+  <string name="settings_recovery_email_new">Ny e-postadress för återställning</string>
+  <string name="settings_recovery_email_confirm">Bekräfta e-postadress för återställning</string>
+  <string name="settings_recovery_email_new_hint">Ange e-postadress</string>
+  <string name="settings_recovery_email_confirm_hint">Ange e-postadress igen</string>
+  <string name="settings_save_second_password">Spara nytt andralösenord</string>
+  <string name="settings_save_main_password">Spara nytt huvudlösenord</string>
+  <string name="settings_save">Spara</string>
+  <string name="settings_password_required">Ange ditt inloggningslösenord</string>
+  <string name="settings_password_required_ok">OK</string>
+  <string name="settings_not_set">Inte inställd</string>
+  <string name="settings_recovery_email_error_no_match">Nya e-postadresser för återställning matchar inte</string>
+  <string name="settings_validation_email">E-postadress är ogiltig.</string>
+  <string name="settings_general_error">Ett fel uppstod.</string>
+  <!-- login and mailbox password settings -->
+  <string name="settings_password_management_tab_main_password">Huvudlösenord</string>
+  <string name="settings_password_management_tab_second_password">Andra lösenord</string>
+  <string name="settings_password_management_change_password_note">För att ändra något av dina lösenord måste du känna till ditt huvudlösenord. <a href="https://account.proton.me/reset-password">Glömt ditt huvudlösenord?</a></string>
+  <string name="settings_password_management_header">Ändra lösenord</string>
+  <string name="settings_password_management_cannot_change_password">Du kan inte ändra ditt reservlösenord. Kontakta din administratör.</string>
+  <string name="settings_main_password_hint_current">Nuvarande huvudlösenord</string>
+  <string name="settings_main_password_hint_new">Nytt huvudlösenord</string>
+  <string name="settings_main_password_hint_new_confirm">Bekräfta nytt huvudlösenord</string>
+  <string name="settings_second_password_hint_current_main_password">Nuvarande huvudlösenord</string>
+  <string name="settings_second_password_hint_new">Nytt andralösenord</string>
+  <string name="settings_second_password_hint_new_confirm">Bekräfta nytt andralösenord</string>
+  <string name="settings_change_password_error">Ett fel uppstod vid ändring av lösenord.</string>
+  <string name="settings_recovery_email_success">E-postadress för återställning uppdaterad</string>
+  <string name="settings_password_management_success">Lösenord uppdaterat</string>
+  <string name="settings_password_management_start_recovery">Vet du inte ditt nuvarande lösenord?</string>
+</resources>

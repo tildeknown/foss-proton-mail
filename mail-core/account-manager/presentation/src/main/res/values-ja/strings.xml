@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="account_switcher_section_switch_to">切り替え:</string>
+  <string name="account_switcher_action_add_account">アカウントを追加</string>
+  <string name="account_switcher_action_sign_in">サインイン</string>
+  <string name="account_switcher_action_sign_out">サインアウト</string>
+  <string name="account_switcher_action_remove">削除</string>
+  <string name="account_list_item_chevron_content_description">アカウント変更を開く</string>
+  <string name="account_view_three_dots_content_description">オプション</string>
+  <string name="account_settings_header">アカウントの設定</string>
+  <string name="account_settings_item_header">ユーザー</string>
+  <string name="account_settings_list_header">アカウント</string>
+  <string name="account_settings_list_item_password_header">パスワードを変更する</string>
+  <string name="account_settings_list_item_password_hint_grace">パスワードのリセットを保留中</string>
+  <string name="account_settings_list_item_password_hint_insecure">パスワードのリセットを準備</string>
+  <string name="account_settings_list_item_recovery_header">回復用のメールアドレス</string>
+  <string name="account_settings_list_item_recovery_hint_not_set">未設定</string>
+  <string name="account_settings_list_item_security_keys_header">セキュリティキー</string>
+  <string name="account_settings_list_item_security_keys_hint_not_set">未設定</string>
+  <string name="account_settings_list_item_security_keys_hint_single">%s</string>
+  <plurals name="account_settings_list_item_security_keys_hint_many">
+    <item quantity="other">%d個のセキュリティーキーセット</item>
+  </plurals>
+  <string name="account_signout_dialog_title">サインアウトしますか？</string>
+  <string name="account_signout_dialog_text">アカウントに関連付けられたデータは、削除を選択しない限り、このデバイスに残ります。</string>
+  <string name="account_signout_dialog_delete_information">関連データをすべて削除</string>
+  <string name="account_signout_dialog_action_signout">サインアウト</string>
+  <string name="account_signout_dialog_action_cancel">キャンセル</string>
+</resources>

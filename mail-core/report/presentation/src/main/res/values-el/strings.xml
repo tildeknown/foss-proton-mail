@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="core_report_bug_activity_title">Αναφορά προβλήματος</string>
+  <string name="core_report_bug_close">Κλείσιμο</string>
+  <string name="core_report_bug_subject_field_hint">Θέμα</string>
+  <string name="core_report_bug_subject_field_required">Εισάγετε ένα θέμα</string>
+  <string name="core_report_bug_description_field_hint">Τι πήγε στραβά; Τουλάχιστον 10 χαρακτήρες</string>
+  <string name="core_report_bug_description_field_placeholder">Παρακαλούμε περιγράψτε το πρόβλημα με όση περισσότερη λεπτομέρεια μπορείτε. Αν εμφανίστηκε κάποιο μήνυμα σφάλματος, πείτε μας τι έλεγε.</string>
+  <plurals name="core_report_bug_description_field_required">
+    <item quantity="one">Εισάγετε τουλάχιστον %d χαρακτήρα</item>
+    <item quantity="other">Εισάγετε τουλάχιστον %d χαρακτήρες</item>
+  </plurals>
+  <string name="core_report_bug_discard_changes_title">Κλείσιμο αναφοράς σφάλματος;</string>
+  <string name="core_report_bug_discard_changes_description">Αν φύγετε από αυτήν τη σελίδα, η αναφορά σας δε θα αποθηκευτεί.</string>
+  <string name="core_report_bug_discard_changes_cancel">Συνέχεια σύνταξης</string>
+  <string name="core_report_bug_discard_changes_confirm">Κλείσιμο χωρίς αποθήκευση</string>
+  <plurals name="core_report_bug_form_field_too_long">
+    <item quantity="one">Μέχρι %d χαρακτήρας</item>
+    <item quantity="other">Μέχρι %d χαρακτήρες</item>
+  </plurals>
+  <string name="core_report_bug_general_error">Κάτι πήγε στραβά. Παρακαλούμε δοκιμάστε ξανά σε λίγα λεπτά.</string>
+  <string name="core_report_bug_send">Αποστολή αναφοράς</string>
+  <string name="core_report_bug_success">Σας ευχαριστούμε για την αναφορά σας</string>
+  <string name="core_report_bug_attach_log">Επισυνάψτε αρχείο καταγραφής</string>
+</resources>

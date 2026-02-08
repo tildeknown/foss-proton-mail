@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- Grace period - info -->
+  <string name="account_recovery_grace_period_info_title">Nulstilling af adgangskode anmodet</string>
+  <plurals name="account_recovery_grace_period_info_subtitle">
+    <item quantity="one">Der blev anmodet om nulstilling af adgangskoden for <b>%1$s</b>. Du kan ændre din adgangskode om %2$d time.\n\nHvis du ikke har foretaget denne anmodning, skal du annullere den nu.</item>
+    <item quantity="other">Der blev anmodet om nulstilling af adgangskoden for <b>%1$s</b>. Du kan ændre din adgangskode om %2$d timer.\n\nHvis du ikke har foretaget denne anmodning, skal du annullere den nu.</item>
+  </plurals>
+  <!-- Grace period - cancellation form -->
+  <string name="account_recovery_cancel_title">Annullér nulstilling af adgangskode?</string>
+  <string name="account_recovery_cancel_subtitle">Indtast din adgangskode for at annullere.</string>
+  <string name="account_recovery_cancel_password_label">Nuværende adgangskode</string>
+  <string name="account_recovery_cancel_password_placeholder">Adgangskode</string>
+  <string name="account_recovery_cancel_now">Annullér nulstilling af adgangskode</string>
+  <string name="account_recovery_cancel_back">Tilbage</string>
+  <!-- Account recovery cancelled -->
+  <string name="account_recovery_cancelled_title">Nulstilling af adgangskode annulleret</string>
+  <string name="account_recovery_cancelled_subtitle">Hvis du aldrig har bedt om at ændre din adgangskode, kan din konto være i fare.\n\nBeskyt din konto ved at ændre din adgangskode.</string>
+  <!-- Password change period -->
+  <string name="account_recovery_password_started_title">Nulstilling af adgangskode tilgængelig</string>
+  <string name="account_recovery_password_started_subtitle">For at nulstille din adgangskode skal du vende tilbage til den enhed og browser, hvorfra du anmodede om nulstilling af din adgangskode.\n\nDet skal du gøre før %s.\n\nHvis du ikke har bedt om at nulstille din adgangskode, skal du annullere nulstillingen nu.</string>
+  <string name="account_recovery_password_started_self_initiated_subtitle">Du kan nu nulstille din adgangskode.\n\nDu skal gøre det senest %s.\n\n Hvis du ikke har bestilt nulstilling af adgangskoden, skal du annullere anmodningen nu.</string>
+  <!-- Recovery window ended -->
+  <string name="account_recovery_window_ended_title">Nulstilling af adgangskode udløbet</string>
+  <string name="account_recovery_window_ended_subtitle">Du er nødt til at anmode om en ny nulstilling af adgangskoden til %s.</string>
+  <!-- Other -->
+  <string name="account_recovery_cancel">Annullér anmodning</string>
+  <string name="account_recovery_dismiss">Forstået</string>
+  <string name="account_recovery_reset">Nulstil adgangskode</string>
+  <!-- Account Recovery Info -->
+  <string name="account_recovery_info_grace_title">Nulstilling af adgangskode anmodet</string>
+  <string name="account_recovery_info_grace_subtitle">Du kan nulstille din adgangskode om %1s.</string>
+  <string name="account_recovery_info_grace_description">For at sikre, at det virkelig er dig, der forsøger at nulstille din adgangskode, venter vi 72 timer, før vi godkender anmodninger.\n\nHvis du ikke har bedt om at nulstille din adgangskode, skal du annullere denne anmodning nu.</string>
+  <string name="account_recovery_info_cancelled_title">Nulstilling af adgangskode annulleret</string>
+  <string name="account_recovery_info_cancelled_subtitle">Der blev fremsat et ønske om nulstilling af adgangskode på %1s.</string>
+  <string name="account_recovery_info_cancelled_description">Såfremt du ikke genkender denne anmodning, kan det betyde, at nogen har opnået adgang til din Proton-konto.\n\nBeskyt din konto nu.</string>
+  <string name="account_recovery_info_insecure_title">Nulstilling af adgangskode tilgængelig</string>
+  <string name="account_recovery_info_insecure_subtitle">Du kan nu nulstille adgangskoden. Nulstillingen er tilgængelig indtil %1s.</string>
+  <string name="account_recovery_info_insecure_description">Foretog du ikke denne anmodning?\n\nHvis du ikke bad om at nulstille din adgangskode, skal du annullere anmodningen nu.</string>
+  <!-- Password Reset Dialog -->
+  <string name="account_recovery_reset_dialog_title">Nulstil adgangskode?</string>
+  <string name="account_recovery_reset_dialog_text">"Af sikkerhedsmæssige årsager skal du vente 72 timer, før du kan ændre adgangskoden til %1s.\n\nHvis du har konfigureret en gendannelsesmetode, kan du prøve kontogendannelse i stedet. Sådan kan du ændre adgangskoden med det samme."</string>
+  <string name="account_recovery_reset_dialog_action_request_reset">Anmod om nulstilling af adgangskode</string>
+  <string name="account_recovery_reset_dialog_action_use_recovery">Brug gendannelsesmetode</string>
+  <string name="account_recovery_reset_dialog_action_use_recovery_hint">Ændr din adgangskode i webbrowseren uden at vente i sikkerhedsperioden.</string>
+  <string name="account_recovery_reset_dialog_action_request_reset_success">Nulstilling af adgangskode anmodet</string>
+</resources>

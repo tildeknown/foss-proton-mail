@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="core_report_bug_activity_title">Nahlásit problém</string>
+  <string name="core_report_bug_close">Zavřít</string>
+  <string name="core_report_bug_subject_field_hint">Předmět</string>
+  <string name="core_report_bug_subject_field_required">Zadejte předmět</string>
+  <string name="core_report_bug_description_field_hint">Co se pokazilo? Minimálně 10 znaků</string>
+  <string name="core_report_bug_description_field_placeholder">Popište problém co nejpodrobněji. Pokud se objevila chybová zpráva, uveďte, co v ní bylo napsáno.</string>
+  <plurals name="core_report_bug_description_field_required">
+    <item quantity="one">Zadejte alespoň %d znak</item>
+    <item quantity="few">Zadejte alespoň %d znaky</item>
+    <item quantity="many">Zadejte alespoň %d znaků</item>
+    <item quantity="other">Zadejte alespoň %d znaků</item>
+  </plurals>
+  <string name="core_report_bug_discard_changes_title">Zavřít hlášení o chybě?</string>
+  <string name="core_report_bug_discard_changes_description">Pokud opustíte tuto stránku, vaše zpráva nebude uložena.</string>
+  <string name="core_report_bug_discard_changes_cancel">Pokračovat v psaní</string>
+  <string name="core_report_bug_discard_changes_confirm">Zavřít bez uložení</string>
+  <plurals name="core_report_bug_form_field_too_long">
+    <item quantity="one">Maximálně %d znak</item>
+    <item quantity="few">Maximálně %d znaky</item>
+    <item quantity="many">Maximálně %d znaků</item>
+    <item quantity="other">Maximálně %d znaků</item>
+  </plurals>
+  <string name="core_report_bug_general_error">Něco se pokazilo. Prosím zkuste to znovu za několik minut.</string>
+  <string name="core_report_bug_send">Odeslat hlášení</string>
+  <string name="core_report_bug_success">Děkujeme za Vaši zprávu</string>
+  <string name="core_report_bug_attach_log">Připojit log</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <string name="forgot_username_link">https://account.proton.me/forgot-username</string>
+    <string name="forgot_password_link">https://account.proton.me/reset-password</string>
+    <string name="common_login_problems_link">https://proton.me/support/common-login-problems</string>
+    <string name="contact_support_link">https://proton.me/support/contact</string>
+    <string name="login_link">https://account.proton.me/login</string>
+    <string name="external_account_help_link">https://proton.me/support/external-accounts</string>
+    <string name="vpn_no_logs_link" translatable="false">https://protonvpn.com/blog/no-logs-audit/</string>
+    <string name="confirm_password_2fa_security_key" translatable="false">https://proton.me/support/two-factor-authentication-2fa</string>
+</resources>

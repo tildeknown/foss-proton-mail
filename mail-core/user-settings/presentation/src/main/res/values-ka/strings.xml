@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- recovery email settings -->
+  <string name="settings_recovery_email_header">აღდგენის ელფოსტა</string>
+  <string name="settings_recovery_email_current">მიმდინარე აღდგენის ელფოსტის მისამართი</string>
+  <string name="settings_recovery_email_new">ახალი აღდგენის ელფოსტის მისამართი</string>
+  <string name="settings_recovery_email_confirm">დაადასტურეთ აღდგენის ელფოსტის მისამართი</string>
+  <string name="settings_recovery_email_new_hint">შეიყვანეთ ელფოსტის მისამართი</string>
+  <string name="settings_recovery_email_confirm_hint">თავიდან შეიყვანეთ ელფოსტის მისამართი</string>
+  <string name="settings_save_second_password">ახალი მეორე პაროლის შენახვა</string>
+  <string name="settings_save_main_password">ახალი მთავარი პაროლის შენახვა</string>
+  <string name="settings_save">შენახვა</string>
+  <string name="settings_password_required">შეიყვანეთ თქვენი პაროლი</string>
+  <string name="settings_password_required_ok">დიახ</string>
+  <string name="settings_not_set">დაყენებული არაა</string>
+  <string name="settings_recovery_email_error_no_match">ახალი აღდგენის ელფოსტები ერთმანეთს არ ემთხვევა</string>
+  <string name="settings_validation_email">ელფოსტის მისამართი არასწორია.</string>
+  <string name="settings_general_error">ნაპოვნია შეცდომა.</string>
+  <!-- login and mailbox password settings -->
+  <string name="settings_password_management_tab_main_password">მთავარი პაროლი</string>
+  <string name="settings_password_management_tab_second_password">მეორე პაროლი</string>
+  <string name="settings_password_management_change_password_note">იმისათვის, რომ თქვენი პაროლებიდან სასურველი შეცვალოთ, მთავარი პაროლი უნდა გახსოვდეთ. <a href="https://account.proton.me/reset-password">დაგავიწყდათ თქვენი მთავარი პაროლი?</a></string>
+  <string name="settings_password_management_header">პაროლის შეცვლა</string>
+  <string name="settings_password_management_cannot_change_password">თქვენი მარქაფი პაროლის შეცვლა არ შეგიძლიათ. დაუკავშირდით თქვენს ადმინისტრატორს.</string>
+  <string name="settings_main_password_hint_current">მიმდინარე მთავარი პაროლი</string>
+  <string name="settings_main_password_hint_new">ახალი მთავარი პაროლი</string>
+  <string name="settings_main_password_hint_new_confirm">დაადასტურეთ ახალი მთავარი პაროლი</string>
+  <string name="settings_second_password_hint_current_main_password">მიმდინარე მთავარი პაროლი</string>
+  <string name="settings_second_password_hint_new">ახალი მეორე პაროლი</string>
+  <string name="settings_second_password_hint_new_confirm">დაადასტურეთ ახალი მეორე პაროლი</string>
+  <string name="settings_change_password_error">შეცდომა პაროლის შეცვლისას.</string>
+  <string name="settings_recovery_email_success">აღდგენის ელფოსტის მისამართი განახლდა</string>
+  <string name="settings_password_management_success">პაროლი განახლებულია</string>
+  <string name="settings_password_management_start_recovery">არ იცით თქვენი მიმდინარე პაროლი?</string>
+</resources>

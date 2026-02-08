@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="plans_select_a_plan">Seleccioni un pla</string>
+  <string name="plans_select_a_plan_subtitle">Un pla per a tots els serveis de Proton</string>
+  <string name="plans_fetching_general_error">S\'ha produït un error en obtenir els plans.</string>
+  <string name="plans_payment_error">S\'ha produït un error de pagament. Torneu-ho a provar més tard o creeu un compte gratuït.</string>
+  <string name="plans_free_name">Gratuït</string>
+  <string name="plan_price_monthly">al mes</string>
+  <string name="plan_price_annually">per any</string>
+  <string name="plans_current_plan">Pla actual</string>
+  <string name="plans_upgrade_plan">Milloreu-vos el pla</string>
+  <string name="plans_subscription">Subscripció</string>
+  <string name="plans_renewal_date">El vostre pla s\'autorenovarà el &lt;b&gt;%s&lt;/b&gt;</string>
+  <string name="plans_expiration_date">El pla caducarà el &lt;b&gt;%s&lt;/b&gt;</string>
+  <string name="plans_pay_monthly">Pagament mensual</string>
+  <string name="plans_pay_annually">Pagament anual</string>
+  <string name="plans_pay_biennially">Pagament cada 2 anys</string>
+  <plurals name="plans_pay_other">
+    <item quantity="one">Pagament per %d mes</item>
+    <item quantity="other">Pagament per %d mesos</item>
+  </plurals>
+  <string name="plans_billed_yearly">*Facturat anualment a %s</string>
+  <string name="plans_billed_monthly">Facturat mensualment</string>
+  <string name="plans_billing_monthly">Durant 1 mes</string>
+  <string name="plans_billing_yearly">Durant 1 any</string>
+  <string name="plans_billing_two_years">Durant 2 anys</string>
+  <plurals name="plans_billing_other_period">
+    <item quantity="one">Per a %d mes</item>
+    <item quantity="other">Per a %d mesos</item>
+  </plurals>
+  <string name="plans_upgrade_your_plan">Milloreu el pla</string>
+  <string name="plans_proton_for_free">Obtingueu Proton gratuïtament</string>
+  <string name="plans_get_proton">Obtingueu %s</string>
+  <string name="plans_manage_your_subscription">Gestioneu la subscripció en <a href="https://account.proton.me">account.proton.me</a></string>
+  <string name="plans_used_space" comment="1 - used space (e.g. 300MB); 2 - max available space (e.g. 1GB)">%1$s de %2$s</string>
+  <string name="plans_payments_info_not_available">n/d</string>
+  <string name="plans_manage_your_subscription_google">La vostra subscripció és gestionada per Google Play.</string>
+  <string name="plans_manage_your_subscription_other">La vostra subscripció no es pot gestionar des de l\'aplicació mòbil.</string>
+  <string name="plans_autorenew_subscriptions">Només les subscripcions anuals de renovació automàtica estan disponibles mitjançant aquesta aplicació.</string>
+  <string name="plans_can_not_upgrade_from_mobile">La vostra subscripció no es pot gestionar des de l\'aplicació d\'Android.</string>
+  <string name="plans_user_has_credits">Teniu crèdits al vostre compte.</string>
+  <string name="plans_manage_subscription_play_store">Gestiona la subscripció</string>
+  <string name="plans_no_upgrade_available">No hi ha cap millora disponible actualment.</string>
+  <string name="plans_limited_offer">Oferta per temps limitat.</string>
+  <string name="plans_subscription_base_storage_full_title">El vostre emmagatzematge de correu és ple.</string>
+  <string name="plans_subscription_base_storage_nearly_full_title">El vostre emmagatzematge de correu és gairebé ple.</string>
+  <string name="plans_subscription_drive_storage_full_title">El vostre emmagatzematge de Drive és ple.</string>
+  <string name="plans_subscription_drive_storage_nearly_full_title">El vostre emmagatzematge de Drive és gairebé ple.</string>
+  <string name="plans_subscription_storage_get_more">Aconseguiu més emmagatzematge</string>
+  <string name="plans_subscription_storage_full_description">Milloreu el pla a l\'aplicació web per a continuar utilitzant el vostre compte sense interrupcions.</string>
+  <!-- region all possible plan item types. this could be updated as per language requirements.-->
+  <plurals name="item_storage" comment="please do not modify the text between #">
+    <item quantity="one">#proton_storage# d\'emmagatzematge</item>
+    <item quantity="other">#proton_storage# d\'emmagatzematge</item>
+  </plurals>
+  <plurals name="item_storage_free" comment="please do not modify the text between #">
+    <item quantity="one">Fins a #proton_storage# d\'emmagatzematge</item>
+    <item quantity="other">Fins a #proton_storage# d\'emmagatzematge</item>
+  </plurals>
+  <plurals name="item_storage_multiuser" comment="please do not modify the text between #">
+    <item quantity="one">#proton_storage# emmagatzematge / usuari</item>
+    <item quantity="other">#proton_storage# emmagatzematge / usuari</item>
+  </plurals>
+  <plurals name="item_address" comment="please do not modify the test between #">
+    <item quantity="one">#proton_addresses# adreça de correu</item>
+    <item quantity="other">#proton_addresses# adreces de correu</item>
+  </plurals>
+  <plurals name="item_address_multiuser" comment="please do not modify the test between #">
+    <item quantity="one">#proton_addresses# adreça / usuari</item>
+    <item quantity="other">#proton_addresses# adreces / usuari</item>
+  </plurals>
+  <plurals name="item_address_current" comment="please do not modify the test between #">
+    <item quantity="one">%d de #proton_addresses# adreça</item>
+    <item quantity="other">%d de #proton_addresses# adreces</item>
+  </plurals>
+  <plurals name="item_domain" comment="please do not modify the test between #">
+    <item quantity="one">Suport per a #proton_domains# domini de correu electrònic personalitzat</item>
+    <item quantity="other">Suport per a #proton_domains# dominis de correu electrònic personalitzats</item>
+  </plurals>
+  <plurals name="item_calendar" comment="please do not modify the test between #">
+    <item quantity="one">#proton_calendars# calendari personal</item>
+    <item quantity="other">#proton_calendars# calendaris personals</item>
+  </plurals>
+  <plurals name="item_calendar_current" comment="please do not modify the test between #">
+    <item quantity="one">%d calendari de #proton_calendars#</item>
+    <item quantity="other">%d calendaris de #proton_calendars#</item>
+  </plurals>
+  <plurals name="item_connections" comment="please do not modify the test between #">
+    <item quantity="one">VPN gratuïta en un sol dispositiu</item>
+    <item quantity="other">VPN d\'alta velocitat en #proton_vpn# dispositius</item>
+  </plurals>
+  <plurals name="item_connections_highspeed" comment="please do not modify the test between #">
+    <item quantity="one">#proton_vpn# connexió VPN d\'alta velocitat</item>
+    <item quantity="other">#proton_vpn# connexions VPN d\'alta velocitat</item>
+  </plurals>
+  <plurals name="item_users" comment="please do not modify the test between #">
+    <item quantity="one">#proton_users# usuari</item>
+    <item quantity="other">#proton_users# usuaris</item>
+  </plurals>
+  <plurals name="item_users_current" comment="please do not modify the test between #">
+    <item quantity="one">%d de #proton_users# usuari</item>
+    <item quantity="other">%d de #proton_users# usuaris</item>
+  </plurals>
+  <!-- endregion -->
+  <!-- region plans headers -->
+  <string name="plan_id_free_header">La base de les comunicacions privades i segures.</string>
+  <string name="plan_id_plus_header">Bústia de correu completa amb protecció avançada.</string>
+  <string name="plan_id_vpnbasic_header">VPN Basic</string>
+  <string name="plan_id_vpnbasic_countries">63 països</string>
+  <string name="plan_id_vpnbasic_high_speed">Alta velocitat</string>
+  <string name="plan_id_vpnplus_adblock">Bloquejador d\'anuncis (NetShield)</string>
+  <string name="plan_id_vpnplus_streaming">Suport de serveis d\'estríming</string>
+  <string name="plan_id_vpnplus_header">VPN Plus</string>
+  <string name="plan_id_vpnplus_countries">63 països</string>
+  <string name="plan_id_vpnplus_highest_speed">La velocitat mes alta</string>
+  <string name="plan_id_professional_header">Professional</string>
+  <string name="plan_id_professional_multiuser">Suport multiusuari</string>
+  <string name="plan_id_visionary_header">Visionary</string>
+  <string name="plan_id_family_header">Família</string>
+  <string name="plan_id_mail2022_header" comment="new_plans">Correu electrònic segur amb característiques avançades per a les vostres comunicacions diàries.</string>
+  <string name="plan_id_vpn2022_header" comment="new_plans">La vostra privadesa i seguretat són la nostra prioritat.</string>
+  <string name="plan_id_drive2022_header" comment="new_plans">Emmagatzematge al núvol segur que us permet emmagatzemar, sincronitzar i compartir fitxers de manera fàcil i segura.</string>
+  <string name="plan_id_bundle2022_header" comment="new_plans">Privadesa i seguretat integrals amb tots els serveis de Proton combinats.</string>
+  <string name="plan_id_pass2023_header" comment="new_plans">Per a una gestió de contrasenyes i identitat del més alt nivell.</string>
+  <!-- endregion -->
+  <string-array name="supported_currencies">
+    <item>EUR</item>
+    <item>USD</item>
+    <item>CHF</item>
+  </string-array>
+  <!-- region plans hardcoded texts -->
+  <string name="unlimited_folders_labels_filters" comment="new_plans">Carpetes, etiquetes i filtres il·limitats</string>
+  <string name="highest_vpn_speed" comment="new_plans">La velocitat VPN més alta</string>
+  <string name="servers_in_countries" comment="new_plans">Més de 1500 servidors en 63 països</string>
+  <string name="ad_blocker" comment="new_plans">Bloquejador d\'anuncis integrat (NetShield)</string>
+  <string name="streaming_services_access" comment="new_plans">Accediu a serveis d\'estríming en tot el món</string>
+  <string name="secure_core" comment="new_plans">Servidors Secure Core</string>
+  <string name="tor_vpn" comment="new_plans">Tor sobre VPN</string>
+  <string name="p2p_bittorrent" comment="new_plans">P2P/BitTorrent</string>
+  <string name="unlimited_logins_and_notes">Nombre il·limitat d\'inicis de sessió i de notes</string>
+  <string name="unlimited_devices">Dispositius il·limitats</string>
+  <string name="integrated_2fa_authenticator">Autenticador de doble factor (A2F) integrat</string>
+  <string name="multiple_vaults">Diverses caixes fortes</string>
+  <string name="unlimited_email_alias">Nombre il·limitat d\'àlies hide-my-email</string>
+  <string name="custom_email_alias_domains">Dominis personalitzats per a àlies de correu electrònic</string>
+  <string name="multiple_forwarding_mailboxes">Diverses bústies de reenviament</string>
+  <string name="priority_support">Suport prioritari</string>
+  <string name="one_vault"> 1 caixa forta</string>
+  <string name="ten_hide_my_email_aliases">10 àlies de hide-my-email</string>
+  <!-- endregion -->
+  <!-- region Plan entitlement tags -->
+  <string name="upgrade_storage_current_drive_storage">Ús de Drive: %d%%</string>
+  <string name="upgrade_storage_current_mail_storage">El correu %d%% és ple</string>
+  <string name="upgrade_storage_subtitle">Millora l\'emmagatzematge</string>
+  <!-- endregion -->
+  <!-- region Plan upgrade -->
+  <string name="plan_manage_subscription_title">Milloreu el pla en %s</string>
+  <string name="plan_manage_subscription_subtitle">Podeu gestionar la vostra subscripció en l\'aplicació %1$s. Obriu %2$s per millorar el pla a %3$s.</string>
+  <string name="plan_manage_subscription_no_app_title">Instal·la %s</string>
+  <string name="plan_manage_subscription_no_app_subtitle">Podeu gestionar la vostra subscripció en l\'aplicació %1$s. Descarregueu i instal·leu la versió més recent de %2$s per millorar el pla a %3$s.</string>
+  <string name="plan_manage_subscription_app_missing_got_it">Entesos</string>
+  <string name="plan_welcome_price_message_monthly">Oferta de benvinguda. Es renova automàticament a %1$s/mes.</string>
+  <string name="plan_welcome_price_message_annual">Oferta de benvinguda. Es renova automàticament a %1$s/any.</string>
+  <string name="plan_welcome_price_message_two_year">Oferta de benvinguda. Es renova automàticament a %1$s per 2 anys.</string>
+  <string name="plan_auto_renew_message_monthly">La subscripció es renova automàticament a %1$s/mes.</string>
+  <string name="plan_auto_renew_message_annual">La subscripció es renova automàticament a %1$s/any.</string>
+  <string name="plan_auto_renew_message_two_years">La subscripció es renova automàticament a %1$s/2 anys.</string>
+  <string name="plan_welcome_price_message_other_fallback">La subscripció es renova automàticament.</string>
+  <string name="subscription_renewal_info_monthly">El preu amb descompte de %1$s és vàlid durant el primer mes. La vostra subscripció es renova automàticament el &lt;b&gt;%2$s&lt;/b&gt; a &lt;b&gt;%3$s&lt;/b&gt; cada mes.</string>
+  <string name="subscription_renewal_info_annual">El preu amb descompte de %1$s és vàlid durant el primer any. La vostra subscripció es renova automàticament el &lt;b&gt;%2$s&lt;/b&gt; a &lt;b&gt;%3$s&lt;/b&gt; cada any.</string>
+  <string name="subscription_renewal_info_two_years">El preu amb descompte de %1$s és vàlid durant el primer any. La vostra subscripció es renova automàticament el &lt;b&gt;%2$s&lt;/b&gt; a &lt;b&gt;%3$s&lt;/b&gt; cada 2 anys.</string>
+</resources>

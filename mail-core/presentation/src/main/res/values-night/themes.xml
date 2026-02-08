@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2021 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+
+    <style name="ProtonTheme" parent="ProtonThemeBase">
+        <item name="proton_text_accent">?attr/brand_lighten_20</item>
+        <item name="proton_icon_accent">?attr/brand_lighten_20</item>
+
+        <item name="proton_interaction_norm">?attr/brand_norm</item>
+        <item name="proton_interaction_norm_pressed">?attr/brand_lighten_20</item>
+        <item name="proton_interaction_norm_disabled">?attr/brand_darken_40</item>
+    </style>
+
+    <style name="ProtonTheme.Pass">
+        <item name="brand_norm">@color/cornflower_blue_pass</item>
+        <item name="brand_lighten_20">@color/portage_pass</item>
+        <item name="proton_background_norm">@color/pass_bg</item>
+        <item name="materialButtonStyle">@style/ProtonButton.Rounded</item>
+        <item name="materialButtonOutlinedStyle">@style/ProtonButton.OutlinedButton.Rounded</item>
+        <item name="outlinedButtonStyle">@style/ProtonButton.OutlinedButton.Rounded</item>
+    </style>
+
+    <style name="ProtonTheme.Splash.Pass">
+        <item name="windowSplashScreenBackground">@color/pass_bg</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_logo_pass_no_bg_scaled</item>
+        <item name="postSplashScreenTheme">@style/ProtonTheme.Pass</item>
+    </style>
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- region payment errors -->
+  <string name="payments_general_error">エラーが発生しました。</string>
+  <string name="payments_no_connectivity">3DS 確認ページを表示するための接続がありません。</string>
+  <string name="payments_3ds_not_approved">3DS の承認は却下されました。</string>
+  <string name="payments_error_card_name">カードの名義人を入力してください。</string>
+  <string name="payments_error_card_number">無効なカード番号です。</string>
+  <string name="payments_error_cvc">有効なセキュリティ コードを入力してください。</string>
+  <string name="payments_error_session">サインインしたユーザーを購読する際には、有効なセッションIDが必要です。</string>
+  <string name="payments_error_signup_paymentmethod">既存の支払い方法でサインアップできませんでした。</string>
+  <string name="payments_error_invalid_session">無効なセッションです。</string>
+  <string name="payments_no_payment_provider">有効な支払い方法が見つかりません。</string>
+  <string name="payments_error_google_prices">現在、Google Play ストアの価格を取得する際に問題が発生しています。</string>
+  <string name="payments_error_subscription_managed_other_app">他のアプリで管理されているサブスクリプション。</string>
+  <!-- endregion -->
+  <!-- region payment options -->
+  <string name="payments_choose_payment_method">支払方法を選択してください</string>
+  <string name="payments_add_credit_debit_card">新しいクレジットカードまたはデビットカードを追加</string>
+  <string name="payments_pay" comment="Example: Pay 5EUR">%s を支払う</string>
+  <string name="payments_pay_with" comment="Example: Pay with debit card">お支払い方法</string>
+  <string name="payments_method_icon">支払い方法アイコン</string>
+  <string name="payments_method_surcharge">*この支払い方法での購入には追加料金がかかります。</string>
+  <string name="payments_method_terms_conditions">Google Pay で購入することで Google Pay の利用規約に同意し、Google による定期購入が有効になります。</string>
+  <string name="payments_method_google">Google</string>
+  <string name="payments_method_continue">続行</string>
+  <!-- endregion -->
+  <!-- region billing -->
+  <string name="payments_payment_details">支払いの詳細</string>
+  <string name="payments_card_name">カード名義人</string>
+  <string name="payments_card_number">カード番号</string>
+  <string name="payments_expiration_date">有効期限</string>
+  <string name="payments_security_code">セキュリティコード</string>
+  <string name="payments_postal_code">郵便番号</string>
+  <string name="payments_card_number_hint">0000 0000 0000 0000</string>
+  <string name="payments_expiration_date_hint">MM/YY</string>
+  <string name="payments_security_code_hint">123</string>
+  <string name="payments_country">国</string>
+  <string name="payments_get_plan">%s を入手</string>
+  <string name="payments_paying_in_process">決済中</string>
+  <string name="payments_choose_country">国を選択</string>
+  <string name="payment_cc_list_item">%1$s - %2$s (期限 %3$s/%4$s)</string>
+  <string name="payment_paypal_list_item">PayPal</string>
+  <string name="payments_info_not_available">なし</string>
+  <string name="payments_billing_monthly">1ヶ月間</string>
+  <string name="payments_billing_yearly">1 年間</string>
+  <string name="payments_billing_two_years">2年間</string>
+  <string name="payment_use_google_pay_instead">代わりに Google Pay を使用</string>
+  <string name="payment_use_credit_card_instead">代わりにクレジット/デビットカードを使用</string>
+  <!-- endregion -->
+  <!-- region GIAP -->
+  <string name="payments_giap_unredeemed_title">アカウントのアップグレードを確認</string>
+  <string name="payments_giap_unredeemed_description">Google Pay でのお支払いは正常に処理されましたが、アカウントのアップグレード処理が中断されました。今すぐ支払いを適用してアカウントをアップグレードしますか？</string>
+  <string name="payments_giap_unredeemed_confirm">アップグレードを確認</string>
+  <string name="payments_giap_redeem_success">アカウントは正常にアップグレードされました</string>
+  <string name="payments_giap_redeem_error">アップグレードを完了できませんでした。再度お試しください。</string>
+  <!-- endregion -->
+  <!-- endregion -->
+</resources>

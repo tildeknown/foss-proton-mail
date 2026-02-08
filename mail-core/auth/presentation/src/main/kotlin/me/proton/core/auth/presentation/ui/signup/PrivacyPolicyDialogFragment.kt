@@ -1,0 +1,102 @@
+/*
+ * Copyright (c) 2024 Proton AG
+ * This file is part of Proton AG and ProtonCore.
+ *
+ * ProtonCore is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * ProtonCore is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package me.proton.core.auth.presentation.ui.signup
+
+import android.graphics.Bitmap
+import android.os.Bundle
+import android.view.View
+import android.webkit.WebView
+import androidx.fragment.app.viewModels
+import androidx.lifecycle.flowWithLifecycle
+import androidx.lifecycle.lifecycleScope
+import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.flow.launchIn
+import kotlinx.coroutines.flow.onEach
+import me.proton.core.auth.presentation.R
+import me.proton.core.auth.presentation.databinding.FragmentPrivacyPolicyBinding
+import me.proton.core.auth.presentation.viewmodel.signup.TermsConditionsViewModel
+import me.proton.core.network.domain.NetworkPrefs
+import me.proton.core.network.domain.client.ExtraHeaderProvider
+import me.proton.core.presentation.ui.ProtonDialogFragment
+import me.proton.core.network.presentation.ui.webview.ProtonWebViewClient
+import me.proton.core.presentation.utils.errorSnack
+import me.proton.core.presentation.utils.viewBinding
+import javax.inject.Inject
+
+@AndroidEntryPoint
+class PrivacyPolicyDialogFragment : ProtonDialogFragment(R.layout.fragment_privacy_policy) {
+
+    @Inject
+    internal lateinit var customWebViewClient: CustomWebViewClient
+
+    private val viewModel by viewModels<TermsConditionsViewModel>()
+    private val binding by viewBinding(FragmentPrivacyPolicyBinding::bind)
+
+    private val urlToLoad: String by lazy {
+        getString(R.string.core_feature_auth_signup_url_privacy_policy)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        binding.toolbar.setNavigationOnClickListener { dismissAllowingStateLoss() }
+        binding.webView.setAllowForceDark()
+        customWebViewClient.progress = binding.progress
+
+        viewModel.networkState
+            .flowWithLifecycle(viewLifecycleOwner.lifecycle)
+            .onEach { connected ->
+                if (connected) {
+                    binding.webView.apply {
+                        webViewClient = customWebViewClient
+                        loadUrl(urlToLoad)
+                    }
+                } else {
+                    binding.root.errorSnack(R.string.auth_signup_no_connectivity)
+                }
+            }
+            .launchIn(lifecycleScope)
+    }
+
+    override fun onDestroyView() {
+        customWebViewClient.progress = null
+        super.onDestroyView()
+    }
+
+    override fun onBackPressed() {
+        dismissAllowingStateLoss()
+    }
+
+    internal class CustomWebViewClient @Inject constructor(
+        extraHeaderProvider: ExtraHeaderProvider,
+        networkPrefs: NetworkPrefs
+    ) : ProtonWebViewClient(networkPrefs, extraHeaderProvider) {
+        var progress: View? = null
+
+        override fun onPageStarted(view: WebView?, url: String?, favicon: Bitmap?) {
+            super.onPageStarted(view, url, favicon)
+            progress?.visibility = View.VISIBLE
+        }
+
+        override fun onPageFinished(view: WebView?, url: String?) {
+            super.onPageFinished(view, url)
+            progress?.visibility = View.GONE
+        }
+    }
+}

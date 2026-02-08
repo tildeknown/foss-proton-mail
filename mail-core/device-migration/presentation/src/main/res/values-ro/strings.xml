@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2025 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="emd_code_not_recognized">Cod nerecunoscut. Reîncercați.</string>
+  <string name="edm_code_verifying">Se verifică…</string>
+  <string name="edm_missing_camera_permission_headline">Permiteți accesul camerei</string>
+  <string name="edm_missing_camera_permission_body">Pentru a vă conecta cu un Cod QR, trebuie să permiteți aplicației %1$s să vă acceseze camera. Puteți face acest lucru în setările dispozitivului.</string>
+  <string name="edm_missing_camera_permission_footer">Aveți control permanent: puteți modifica asta oricând în setările dispozitivului.</string>
+  <string name="edm_missing_camera_permission_settings">Setări</string>
+  <string name="intro_origin_sign_in_title">Conectare pe alt dispozitiv</string>
+  <string name="intro_origin_sign_in_subtitle">Cum să vă conectați cu Cod QR</string>
+  <string name="intro_origin_sign_in_hint_1">1. Deschideți orice aplicație Proton pe dispozitivul pe care doriți să vă conectați.</string>
+  <string name="intro_origin_sign_in_hint_2">2. Pe ecranul de conectare, selectați <b>Am uitat parola</b> sau <b>Probleme la conectare</b> (pe aplicațiile mobile, selectați <b>Ajutor</b>).</string>
+  <string name="intro_origin_sign_in_hint_3">3. Selectați <b>Conectare cu cod QR</b>. Va apărea un cod QR.</string>
+  <string name="intro_origin_sign_in_hint_4">4. Pe acest dispozitiv, apăsați <b>Scanare cod QR</b> și scanați codul.</string>
+  <string name="intro_origin_sign_in_tips">Sfaturi de securitate</string>
+  <string name="intro_origin_sign_in_tip_1">Aveți grijă la mesajele cu coduri QR. Scanați un cod doar dacă aprobați sursa.</string>
+  <string name="intro_origin_sign_in_tip_2">Proton nu vă va contacta niciodată în mod neașteptat cerându-vă să vă conectați cu un cod QR.</string>
+  <string name="intro_origin_sign_in_tip_3">Proton nu vă va cere niciodată să scanați un cod QR care să nu provină de la <b>https://proton.me</b> sau o aplicație oficială Proton.</string>
+  <string name="intro_origin_sign_in_begin">Scanare cod QR</string>
+  <string name="intro_origin_biometrics_title">Deblocați dispozitivul pentru a continua</string>
+  <string name="manual_code_input_title">Introducere manuală cod</string>
+  <string name="manual_code_input_description">Pentru a accesa codul dispozitivului de la care doriți să vă conectați, atingeți butonul <b>Conectare cu cod QR</b> din meniul de ajutor al ecranului de conectare, apoi atingeți <b>Introducere manuală cod</b>.</string>
+  <string name="manual_code_input_code_label">Cod</string>
+  <string name="manual_code_input_clear_code">Golire</string>
+  <string name="manual_code_input_submit">Continuare</string>
+  <string name="origin_success_signed_in">Acces partajat</string>
+  <string name="origin_success_ack">Înapoi la setări</string>
+  <string name="qr_code_scan_hint">Plasați codul QR în chenar</string>
+  <string name="qr_code_scan_enter_manually">Introducere manuală cod</string>
+  <string name="target_sign_in_title">Conectare cu cod QR</string>
+  <string name="target_sign_in_scan_code">Cum să vă conectați folosind alt dispozitiv</string>
+  <string name="target_sign_in_instruction_1">1. Obțineți un alt dispozitiv care este conectat la contul Proton</string>
+  <string name="target_sign_in_instruction_2">2. Folosind acel dispozitiv, deschideți orice aplicație Proton și selectați <b>Setări</b></string>
+  <string name="target_sign_in_instruction_3">3. Selectați <b>Conectare pe alt dispozitiv → Scanare cod QR</b></string>
+  <string name="target_sign_in_instruction_4">4. Scanați codul pentru a vă conecta</string>
+  <string name="target_sign_in_error_title">Nu s-a putut autentifica</string>
+  <string name="target_sign_in_retryable_error">Încercați să generați un cod QR nou.</string>
+  <string name="target_sign_in_passphrase_error">Încercați altă metodă de conectare.</string>
+  <string name="target_sign_in_error_new_qr">Generare cod QR</string>
+  <string name="target_sign_in_error_back_to_signin">Înapoi la autentificare</string>
+  <string name="target_sign_in_qr_code_failure">Codul QR nu s-a putut încărca. Atingeți pentru a reîncerca.</string>
+  <string name="target_sign_in_no_connection">Se pare că nu aveți conexiune. Verificați conexiunea și reîncercați.</string>
+  <string name="target_sign_in_learn_more">Detalii</string>
+</resources>

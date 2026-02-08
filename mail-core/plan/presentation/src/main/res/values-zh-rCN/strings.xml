@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="plans_select_a_plan">选择套餐</string>
+  <string name="plans_select_a_plan_subtitle">套餐对所有 Proton 服务均有效</string>
+  <string name="plans_fetching_general_error">获取套餐失败。</string>
+  <string name="plans_payment_error">发生支付错误。请稍后再试或创建免费计划。</string>
+  <string name="plans_free_name">Free</string>
+  <string name="plan_price_monthly">每月</string>
+  <string name="plan_price_annually">每年</string>
+  <string name="plans_current_plan">当前套餐</string>
+  <string name="plans_upgrade_plan">升级您的套餐</string>
+  <string name="plans_subscription">订阅</string>
+  <string name="plans_renewal_date">您的套餐将在 &lt;b&gt;%s&lt;/b&gt; 自动续费</string>
+  <string name="plans_expiration_date">您的套餐将在 &lt;b&gt;%s&lt;/b&gt; 失效</string>
+  <string name="plans_pay_monthly">每月支付</string>
+  <string name="plans_pay_annually">每年支付</string>
+  <string name="plans_pay_biennially">每两年付费</string>
+  <plurals name="plans_pay_other">
+    <item quantity="other">支付 %d 个月</item>
+  </plurals>
+  <string name="plans_billed_yearly">* 按每年 %s 收费</string>
+  <string name="plans_billed_monthly">按月计费</string>
+  <string name="plans_billing_monthly">1 个月</string>
+  <string name="plans_billing_yearly">1 年</string>
+  <string name="plans_billing_two_years">2 年</string>
+  <plurals name="plans_billing_other_period">
+    <item quantity="other">%d 个月</item>
+  </plurals>
+  <string name="plans_upgrade_your_plan">升级您的套餐</string>
+  <string name="plans_proton_for_free">免费注册 Proton</string>
+  <string name="plans_get_proton">开通 %s</string>
+  <string name="plans_manage_your_subscription">在 <a href="https://account.proton.me">account.proton.me</a> 上管理您的订阅</string>
+  <string name="plans_used_space" comment="1 - used space (e.g. 300MB); 2 - max available space (e.g. 1GB)">共 %2$s ，已使用 %1$s</string>
+  <string name="plans_payments_info_not_available">不适用</string>
+  <string name="plans_manage_your_subscription_google">您的订阅将由 Google Play 商店管理。</string>
+  <string name="plans_manage_your_subscription_other">无法在移动端应用中管理您的订阅。</string>
+  <string name="plans_autorenew_subscriptions">此应用仅提供自动续订年度订阅。</string>
+  <string name="plans_can_not_upgrade_from_mobile">在 Android 应用程序中无法管理您的订阅。</string>
+  <string name="plans_user_has_credits">您的账户上有积分。</string>
+  <string name="plans_manage_subscription_play_store">管理订阅</string>
+  <string name="plans_no_upgrade_available">当前无可用升级。</string>
+  <string name="plans_limited_offer">限时优惠</string>
+  <string name="plans_subscription_base_storage_full_title">您的 Proton Mail 存储空间已满</string>
+  <string name="plans_subscription_base_storage_nearly_full_title">您的 Proton Mail 存储空间快满了</string>
+  <string name="plans_subscription_drive_storage_full_title">您的 Proton Drive 存储空间已满</string>
+  <string name="plans_subscription_drive_storage_nearly_full_title">您的 Proton Drive 存储空间快满了</string>
+  <string name="plans_subscription_storage_get_more">获得更多存储空间</string>
+  <string name="plans_subscription_storage_full_description">在网页版本的程序中升级您的计划，以便继续不间断地使用您的账户。</string>
+  <!-- region all possible plan item types. this could be updated as per language requirements.-->
+  <plurals name="item_storage" comment="please do not modify the text between #">
+    <item quantity="other">#proton_storage# 存储空间</item>
+  </plurals>
+  <plurals name="item_storage_free" comment="please do not modify the text between #">
+    <item quantity="other">高达 #proton_storage# 的存储空间</item>
+  </plurals>
+  <plurals name="item_storage_multiuser" comment="please do not modify the text between #">
+    <item quantity="other">#proton_storage# 存储空间 / 用户</item>
+  </plurals>
+  <plurals name="item_address" comment="please do not modify the test between #">
+    <item quantity="other">#proton_addresses# 个邮箱地址</item>
+  </plurals>
+  <plurals name="item_address_multiuser" comment="please do not modify the test between #">
+    <item quantity="other">#proton_addresses# 个邮箱地址 / 用户</item>
+  </plurals>
+  <plurals name="item_address_current" comment="please do not modify the test between #">
+    <item quantity="other">地址数量：%d / #proton_addresses#</item>
+  </plurals>
+  <plurals name="item_domain" comment="please do not modify the test between #">
+    <item quantity="other">支持 #proton_domains# 个自有域名</item>
+  </plurals>
+  <plurals name="item_calendar" comment="please do not modify the test between #">
+    <item quantity="other">#proton_calendars# 份私人日历</item>
+  </plurals>
+  <plurals name="item_calendar_current" comment="please do not modify the test between #">
+    <item quantity="other">%d / #proton_calendars# 份日历</item>
+  </plurals>
+  <plurals name="item_connections" comment="please do not modify the test between #">
+    <item quantity="other">#proton_vpn# 台设备可同时接入高速 VPN</item>
+  </plurals>
+  <plurals name="item_connections_highspeed" comment="please do not modify the test between #">
+    <item quantity="other">#proton_vpn# 台设备可接入高速 VPN</item>
+  </plurals>
+  <plurals name="item_users" comment="please do not modify the test between #">
+    <item quantity="other">#proton_users# 位用户</item>
+  </plurals>
+  <plurals name="item_users_current" comment="please do not modify the test between #">
+    <item quantity="other">%d / #proton_users# 位用户</item>
+  </plurals>
+  <!-- endregion -->
+  <!-- region plans headers -->
+  <string name="plan_id_free_header">基础的私密和安全通信功能。</string>
+  <string name="plan_id_plus_header">防护等级更高的全功能邮箱。</string>
+  <string name="plan_id_vpnbasic_header">VPN Basic</string>
+  <string name="plan_id_vpnbasic_countries">63 个国家和地区</string>
+  <string name="plan_id_vpnbasic_high_speed">速度较快</string>
+  <string name="plan_id_vpnplus_adblock">广告拦截（NetShield）</string>
+  <string name="plan_id_vpnplus_streaming">支持流媒体服务</string>
+  <string name="plan_id_vpnplus_header">VPN Plus</string>
+  <string name="plan_id_vpnplus_countries">63 个国家和地区</string>
+  <string name="plan_id_vpnplus_highest_speed">速度最快</string>
+  <string name="plan_id_professional_header">Professional</string>
+  <string name="plan_id_professional_multiuser">支持多用户</string>
+  <string name="plan_id_visionary_header">Visionary</string>
+  <string name="plan_id_family_header">Family</string>
+  <string name="plan_id_mail2022_header" comment="new_plans">包含多种高级功能的安全邮箱，充分满足您的日常通讯需求。</string>
+  <string name="plan_id_vpn2022_header" comment="new_plans">您的隐私和安全是我们的首要任务。</string>
+  <string name="plan_id_drive2022_header" comment="new_plans">安全的云存储，让您轻松安全地存储、同步和共享文件。</string>
+  <string name="plan_id_bundle2022_header" comment="new_plans">各项 Proton 服务深度融合，为您提供全方位的隐私保护。</string>
+  <string name="plan_id_pass2023_header" comment="new_plans">用于下一级密码管理和身份保护。</string>
+  <!-- endregion -->
+  <string-array name="supported_currencies">
+    <item>EUR</item>
+    <item>USD</item>
+    <item>CHF</item>
+  </string-array>
+  <!-- region plans hardcoded texts -->
+  <string name="unlimited_folders_labels_filters" comment="new_plans">不限量文件夹、标签和筛选规则</string>
+  <string name="highest_vpn_speed" comment="new_plans">最快的 VPN 速度</string>
+  <string name="servers_in_countries" comment="new_plans">63 个国家与地区的 1500 多个服务器</string>
+  <string name="ad_blocker" comment="new_plans">内置广告过滤器（NetShield）</string>
+  <string name="streaming_services_access" comment="new_plans">畅享全球流媒体服务</string>
+  <string name="secure_core" comment="new_plans">安全的核心服务器</string>
+  <string name="tor_vpn" comment="new_plans">Tor + VPN</string>
+  <string name="p2p_bittorrent" comment="new_plans">P2P/BitTorrent</string>
+  <string name="unlimited_logins_and_notes">无限登录和笔记</string>
+  <string name="unlimited_devices">无设备数量限制</string>
+  <string name="integrated_2fa_authenticator">集成 2FA 验证器</string>
+  <string name="multiple_vaults">多个保险库</string>
+  <string name="unlimited_email_alias">无限 Hide-my-email 别名</string>
+  <string name="custom_email_alias_domains">在邮箱别名中使用自有域名</string>
+  <string name="multiple_forwarding_mailboxes">多个转发邮箱</string>
+  <string name="priority_support">优先支持</string>
+  <string name="one_vault">1 个保险库</string>
+  <string name="ten_hide_my_email_aliases">10个 Hide-my-email 别名</string>
+  <!-- endregion -->
+  <!-- region Plan entitlement tags -->
+  <string name="upgrade_storage_current_drive_storage">云盘：已使用 %d%%</string>
+  <string name="upgrade_storage_current_mail_storage">邮件：已占用 %d%%</string>
+  <string name="upgrade_storage_subtitle">付费扩容</string>
+  <!-- endregion -->
+  <!-- region Plan upgrade -->
+  <string name="plan_manage_subscription_title">在 %s 中升级</string>
+  <string name="plan_manage_subscription_subtitle">您可以在 %1$s 应用程序中管理您的订阅。打开 %2$s，升级到 %3$s。</string>
+  <string name="plan_manage_subscription_no_app_title">安装 %s</string>
+  <string name="plan_manage_subscription_no_app_subtitle">您可以在 %1$s 应用程序中管理您的订阅。下载并安装最新版本的 %2$s 以升级到 %3$s。</string>
+  <string name="plan_manage_subscription_app_missing_got_it">了解</string>
+  <string name="plan_welcome_price_message_monthly">首期优惠价，到期后自动续费，每月%1$s</string>
+  <string name="plan_welcome_price_message_annual">首期优惠价，到期后自动续费，每年%1$s</string>
+  <string name="plan_welcome_price_message_two_year">首期优惠价，到期后自动续费，每2年%1$s</string>
+  <string name="plan_auto_renew_message_monthly">订阅将按每月%1$s自动续订</string>
+  <string name="plan_auto_renew_message_annual">订阅将按每年%1$s自动续订</string>
+  <string name="plan_auto_renew_message_two_years">订阅将按每2年%1$s自动续订</string>
+  <string name="plan_welcome_price_message_other_fallback">订阅自动续订</string>
+  <string name="subscription_renewal_info_monthly">%1$s 折扣价只适用于第一个月。您的订阅将于每月 &lt;b&gt;%2$s&lt;/b&gt; 日 &lt;b&gt;%3$s&lt;/b&gt; 时自动续订。</string>
+  <string name="subscription_renewal_info_annual">%1$s 折扣价只适用于第一年。您的订阅将于每年 &lt;b&gt;%2$s&lt;/b&gt; 月 &lt;b&gt;%3$s&lt;/b&gt; 日自动续订。</string>
+  <string name="subscription_renewal_info_two_years">%1$s的优惠价仅限首年有效。您的订阅将每2年于&lt;b&gt;%2$s&lt;/b&gt;的&lt;b&gt;%3$s&lt;/b&gt;自动续订。</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- recovery email settings -->
+  <string name="settings_recovery_email_header">Wiederherstellungs-E-Mail-Adresse</string>
+  <string name="settings_recovery_email_current">Aktuelle Wiederherstellungs-E-Mail-Adresse</string>
+  <string name="settings_recovery_email_new">Neue Wiederherstellungs-E-Mail-Adresse</string>
+  <string name="settings_recovery_email_confirm">Wiederherstellungs-E-Mail-Adresse bestätigen</string>
+  <string name="settings_recovery_email_new_hint">E‐Mail‐Adresse eingeben</string>
+  <string name="settings_recovery_email_confirm_hint">E-Mail-Adresse erneut eingeben</string>
+  <string name="settings_save_second_password">Neues zusätzliches Passwort speichern</string>
+  <string name="settings_save_main_password">Speichere neues primäres Passwort</string>
+  <string name="settings_save">Speichern</string>
+  <string name="settings_password_required">Anmeldepasswort eingeben</string>
+  <string name="settings_password_required_ok">OK</string>
+  <string name="settings_not_set">Nicht festgelegt</string>
+  <string name="settings_recovery_email_error_no_match">Neue Wiederherstellungs-E-Mail-Adressen stimmen nicht überein</string>
+  <string name="settings_validation_email">E-Mail-Adresse ist ungültig.</string>
+  <string name="settings_general_error">Ein Fehler ist aufgetreten.</string>
+  <!-- login and mailbox password settings -->
+  <string name="settings_password_management_tab_main_password">Primäres Passwort</string>
+  <string name="settings_password_management_tab_second_password">Zusätzliches Passwort</string>
+  <string name="settings_password_management_change_password_note">Um irgendeines deiner Passwörter zu ändern, musst du dein primäres Passwort kennen. <a href="https://account.proton.me/reset-password">Dein primäres Passwort vergessen?</a></string>
+  <string name="settings_password_management_header">Passwort ändern</string>
+  <string name="settings_password_management_cannot_change_password">Du kannst dein Sicherungskennwort nicht ändern. Bitte wende dich an deinen Administrator.</string>
+  <string name="settings_main_password_hint_current">Akutelles primäres Passwort</string>
+  <string name="settings_main_password_hint_new">Neues primäres Passwort</string>
+  <string name="settings_main_password_hint_new_confirm">Neues primäres Passwort bestätigen</string>
+  <string name="settings_second_password_hint_current_main_password">Akutelles primäres Passwort</string>
+  <string name="settings_second_password_hint_new">Neues zusätzliches Passwort</string>
+  <string name="settings_second_password_hint_new_confirm">Neues zusätzliches Passwort bestätigen</string>
+  <string name="settings_change_password_error">Das Ändern des Passworts ist fehlgeschlagen.</string>
+  <string name="settings_recovery_email_success">E-Mail-Adresse für die Wiederherstellung aktualisiert</string>
+  <string name="settings_password_management_success">Passwort wurde aktualisiert</string>
+  <string name="settings_password_management_start_recovery">Du kennst dein aktuelles Passwort nicht?</string>
+</resources>

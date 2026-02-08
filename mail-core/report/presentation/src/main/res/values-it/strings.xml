@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="core_report_bug_activity_title">Segnala un problema</string>
+  <string name="core_report_bug_close">Chiudi</string>
+  <string name="core_report_bug_subject_field_hint">Oggetto</string>
+  <string name="core_report_bug_subject_field_required">Inserisci un oggetto</string>
+  <string name="core_report_bug_description_field_hint">Cosa è successo?</string>
+  <string name="core_report_bug_description_field_placeholder">Descrivi il problema nel modo più dettagliato possibile. Se è stato mostrato un messaggio di errore, scrivi pure cosa ha detto.</string>
+  <plurals name="core_report_bug_description_field_required">
+    <item quantity="one">Inserisci almeno %d carattere</item>
+    <item quantity="other">Inserisci almeno %d caratteri</item>
+  </plurals>
+  <string name="core_report_bug_discard_changes_title">Chiudi la segnalazione</string>
+  <string name="core_report_bug_discard_changes_description">Sei sicuro di voler chiudere questa segnalazione di bug senza salvarla?</string>
+  <string name="core_report_bug_discard_changes_cancel">Continua a scrivere</string>
+  <string name="core_report_bug_discard_changes_confirm">Chiudi senza salvare</string>
+  <plurals name="core_report_bug_form_field_too_long">
+    <item quantity="one">Massimo %d carattere</item>
+    <item quantity="other">Massimo %d caratteri</item>
+  </plurals>
+  <string name="core_report_bug_general_error">Si è verificato un errore</string>
+  <string name="core_report_bug_send">Invia la segnalazione</string>
+  <string name="core_report_bug_success">Grazie per la segnalazione</string>
+  <string name="core_report_bug_attach_log">Allega il registro degli eventi</string>
+</resources>

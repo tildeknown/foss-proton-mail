@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- base common presentation strings -->
+  <string name="presentation_browser_missing">リンクを開くブラウザーが見つかりません。</string>
+  <string name="presentation_force_update_title">更新が必要です</string>
+  <string name="presentation_force_update_message">このバージョンのアプリはサポートされていません。使用を継続するには更新してください。</string>
+  <string name="presentation_force_update_learn_more">詳細</string>
+  <string name="presentation_force_update_update">更新</string>
+  <string name="presentation_market_missing">デバイスにアプリケーションが見つかりません。アプリストアに移動し、アプリケーションをインストールしてください。</string>
+  <string name="presentation_authenticate">認証</string>
+  <string name="presentation_signin_to_continue">サインインして続行</string>
+  <string name="presentation_alert_title">警告</string>
+  <string name="presentation_alert_ok">OK</string>
+  <string name="presentation_alert_enter">入力</string>
+  <string name="presentation_alert_cancel">キャンセル</string>
+  <string name="presentation_alert_continue">続行</string>
+  <string name="presentation_alert_submit">送信</string>
+  <!-- Common menu items -->
+  <string name="presentation_menu_item_title_report_a_bug">問題を報告</string>
+  <string name="presentation_menu_item_title_settings">設定</string>
+  <string name="presentation_menu_item_title_subscription">サブスクリプション</string>
+  <string name="presentation_menu_item_title_sign_out">サインアウト</string>
+  <!-- Other -->
+  <string name="presentation_back">戻る</string>
+  <string name="presentation_close">閉じる</string>
+  <string name="presentation_retry">再試行</string>
+  <string name="presentation_skip">スキップ</string>
+  <string name="presentation_phone_calling_code_template">+%s</string>
+  <string name="presentation_general_connection_error">サーバーに接続できません。</string>
+  <string name="presentation_check_your_connection">接続をご確認ください</string>
+  <string name="presentation_connectivity_issues">接続の問題</string>
+  <string name="presentation_field_required">この項目の入力は必須です。</string>
+  <string name="presentation_error_general">エラーが発生しました。</string>
+  <plurals name="presentation_datetime_day">
+    <item quantity="other">%d 日</item>
+  </plurals>
+  <plurals name="presentation_datetime_hour">
+    <item quantity="other">%d 時間</item>
+  </plurals>
+  <plurals name="presentation_datetime_minute">
+    <item quantity="other">%d 分</item>
+  </plurals>
+  <plurals name="presentation_datetime_second">
+    <item quantity="other">%d 秒</item>
+  </plurals>
+  <plurals name="presentation_datetime_millisecond">
+    <item quantity="other">%d ミリ秒</item>
+  </plurals>
+  <plurals name="presentation_datetime_microsecond">
+    <item quantity="other">%d マイクロ秒</item>
+  </plurals>
+  <plurals name="presentation_datetime_nanosecond">
+    <item quantity="other">%d ナノ秒</item>
+  </plurals>
+</resources>

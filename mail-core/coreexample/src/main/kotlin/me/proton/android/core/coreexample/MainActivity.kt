@@ -1,0 +1,306 @@
+/*
+ * Copyright (c) 2020 Proton Technologies AG
+ * This file is part of Proton Technologies AG and ProtonCore.
+ *
+ * ProtonCore is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * ProtonCore is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package me.proton.android.core.coreexample
+
+import android.annotation.SuppressLint
+import android.content.Intent
+import android.os.Bundle
+import android.widget.Button
+import androidx.activity.result.ActivityResultLauncher
+import androidx.activity.viewModels
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.WindowInsetsCompat.Type
+import androidx.core.view.setPadding
+import androidx.core.view.updatePadding
+import androidx.lifecycle.flowWithLifecycle
+import androidx.lifecycle.lifecycleScope
+import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.launchIn
+import kotlinx.coroutines.flow.onEach
+import kotlinx.coroutines.launch
+import me.proton.android.core.coreexample.api.CoreExampleRepository
+import me.proton.android.core.coreexample.databinding.ActivityMainBinding
+import me.proton.android.core.coreexample.ui.ComposeViewsActivity
+import me.proton.android.core.coreexample.ui.ContactsActivity
+import me.proton.android.core.coreexample.ui.CustomViewsActivity
+import me.proton.android.core.coreexample.ui.FeatureFlagsActivity
+import me.proton.android.core.coreexample.ui.LabelsActivity
+import me.proton.android.core.coreexample.ui.PushesActivity
+import me.proton.android.core.coreexample.ui.TextStylesActivity
+import me.proton.android.core.coreexample.viewmodel.AccountViewModel
+import me.proton.android.core.coreexample.viewmodel.MailMessageViewModel
+import me.proton.android.core.coreexample.viewmodel.MailSettingsViewModel
+import me.proton.android.core.coreexample.viewmodel.PlansViewModel
+import me.proton.android.core.coreexample.viewmodel.PublicAddressViewModel
+import me.proton.android.core.coreexample.viewmodel.ReportsViewModel
+import me.proton.android.core.coreexample.viewmodel.SecureScopesViewModel
+import me.proton.android.core.coreexample.viewmodel.UserAddressKeyViewModel
+import me.proton.android.core.coreexample.viewmodel.UserKeyViewModel
+import me.proton.android.core.coreexample.viewmodel.UserSettingsViewModel
+import me.proton.core.account.domain.entity.Account
+import me.proton.core.accountmanager.presentation.viewmodel.AccountSwitcherViewModel
+import me.proton.core.accountrecovery.presentation.compose.entity.AccountRecoveryDialogInput
+import me.proton.core.accountrecovery.presentation.compose.ui.AccountRecoveryDialogActivity
+import me.proton.core.devicemigration.domain.usecase.IsEasyDeviceMigrationAvailable
+import me.proton.core.devicemigration.presentation.DeviceMigrationInput
+import me.proton.core.devicemigration.presentation.StartDeviceMigration
+import me.proton.core.devicemigration.presentation.StartMigrationFromTargetDevice
+import me.proton.core.notification.presentation.deeplink.DeeplinkManager
+import me.proton.core.notification.presentation.deeplink.onActivityCreate
+import me.proton.core.presentation.ui.ProtonViewBindingActivity
+import me.proton.core.presentation.ui.alert.ForceUpdateActivity
+import me.proton.core.presentation.utils.enableProtonEdgeToEdge
+import me.proton.core.presentation.utils.onClick
+import me.proton.core.presentation.utils.showToast
+import me.proton.core.presentation.utils.successSnack
+import me.proton.core.util.kotlin.exhaustive
+import javax.inject.Inject
+
+@AndroidEntryPoint
+class MainActivity : ProtonViewBindingActivity<ActivityMainBinding>(ActivityMainBinding::inflate) {
+
+    @Inject
+    lateinit var coreExampleRepository: CoreExampleRepository
+
+    @Inject
+    lateinit var deeplinkManager: DeeplinkManager
+
+    @Inject
+    lateinit var isEasyDeviceMigrationAvailable: IsEasyDeviceMigrationAvailable
+
+    private val accountViewModel: AccountViewModel by viewModels()
+    private val reportsViewModel: ReportsViewModel by viewModels()
+    private val plansViewModel: PlansViewModel by viewModels()
+    private val accountSwitcherViewModel: AccountSwitcherViewModel by viewModels()
+    private val mailMessageViewModel: MailMessageViewModel by viewModels()
+    private val mailSettingsViewModel: MailSettingsViewModel by viewModels()
+    private val userKeyViewModel: UserKeyViewModel by viewModels()
+    private val userAddressKeyViewModel: UserAddressKeyViewModel by viewModels()
+    private val publicAddressViewModel: PublicAddressViewModel by viewModels()
+    private val settingsViewModel: UserSettingsViewModel by viewModels()
+    private val secureScopesViewModel: SecureScopesViewModel by viewModels()
+
+    private lateinit var deviceMigrationLauncher: ActivityResultLauncher<DeviceMigrationInput>
+    private lateinit var targetDeviceMigrationLauncher: ActivityResultLauncher<Unit>
+
+    @SuppressLint("SetTextI18n")
+    override fun onCreate(savedInstanceState: Bundle?) {
+        installSplashScreen().setKeepOnScreenCondition {
+            accountViewModel.state.value !is AccountViewModel.State.AccountList
+        }
+        enableProtonEdgeToEdge()
+        super.onCreate(savedInstanceState)
+        deeplinkManager.onActivityCreate(this, savedInstanceState)
+
+        accountViewModel.register(this)
+        reportsViewModel.register(this)
+        plansViewModel.register(this)
+        settingsViewModel.register(this)
+
+        deviceMigrationLauncher = registerForActivityResult(StartDeviceMigration()) { result ->
+            showToast("DeviceMigrationActivity result: $result")
+        }
+        targetDeviceMigrationLauncher = registerForActivityResult(StartMigrationFromTargetDevice()) { result ->
+            showToast("TargetDeviceMigrationActivity result: $result")
+        }
+
+        ViewCompat.setOnApplyWindowInsetsListener(binding.root) { v, windowInsets ->
+            val gap = resources.getDimensionPixelSize(R.dimen.parent_padding)
+            val insets = windowInsets.getInsets(Type.systemBars())
+            v.updatePadding(
+                left = gap + insets.left,
+                top = gap + insets.top,
+                right = gap + insets.right,
+                bottom = gap + insets.bottom
+            )
+            WindowInsetsCompat.CONSUMED
+        }
+
+        with(binding) {
+            customViews.onClick { startActivity(Intent(this@MainActivity, CustomViewsActivity::class.java)) }
+            composeUi.onClick { startActivity(Intent(this@MainActivity, ComposeViewsActivity::class.java)) }
+            accountViewModel.getPrimaryUserId().onEach { userId ->
+                val enabled = isEasyDeviceMigrationAvailable(userId)
+                deviceMigrationOrigin.isEnabled = userId != null && enabled
+                deviceMigrationOrigin.onClick {
+                    if (userId != null) deviceMigrationLauncher.launch(DeviceMigrationInput(userId))
+                }
+            }.launchIn(lifecycleScope)
+
+            lifecycleScope.launch {
+                deviceMigrationTarget.isEnabled = isEasyDeviceMigrationAvailable(userId = null)
+                deviceMigrationTarget.onClick {
+                    targetDeviceMigrationLauncher.launch(Unit)
+                }
+            }
+
+            accountRecoveryDialog.onClick {
+                lifecycleScope.launch(Dispatchers.IO) {
+                    accountViewModel.getPrimaryUserId().first().let {
+                        if (it == null) return@launch
+                        AccountRecoveryDialogActivity.start(this@MainActivity, AccountRecoveryDialogInput(it.id))
+                    }
+                }
+            }
+            textStyles.onClick { startActivity(Intent(this@MainActivity, TextStylesActivity::class.java)) }
+            addAccount.onClick { accountViewModel.add() }
+            signIn.onClick { accountViewModel.signIn() }
+            signUp.onClick { accountViewModel.signUp() }
+            forceUpdate.onClick {
+                startActivity(ForceUpdateActivity(this@MainActivity, "Error Message coming from the API."))
+            }
+            triggerHumanVer.onClick {
+                lifecycleScope.launch(Dispatchers.IO) {
+                    accountViewModel.getPrimaryUserId().first().let {
+                        coreExampleRepository.triggerHumanVerification(it)
+                    }
+                }
+            }
+            usernameAvailable.onClick {
+                lifecycleScope.launch(Dispatchers.IO) {
+                    coreExampleRepository.usernameAvailable()
+                }
+            }
+            sendDirect.onClick { mailMessageViewModel.sendDirect() }
+            featureFlags.onClick { startActivity(FeatureFlagsActivity.intent(this@MainActivity)) }
+            plans.onClick { plansViewModel.onPlansClicked() }
+            plansUpgrade.onClick { plansViewModel.onPlansUpgradeClicked(this@MainActivity) }
+            plansCurrent.onClick { plansViewModel.onCurrentPlanClicked(this@MainActivity) }
+
+            settingsRecovery.onClick { settingsViewModel.onUpdateRecoveryEmailClicked() }
+            settingsPassword.onClick { settingsViewModel.onPasswordManagementClicked() }
+
+            triggerConfirmPasswordLocked.onClick { secureScopesViewModel.triggerLockedScope() }
+            triggerConfirmPasswordPass.onClick { secureScopesViewModel.triggerPasswordScope() }
+            lockScope.onClick { secureScopesViewModel.removeScopes() }
+
+            accountPrimaryView.setViewModel(accountSwitcherViewModel)
+            accountSwitcherViewModel.onAction()
+                .flowWithLifecycle(lifecycle)
+                .onEach {
+                    when (it) {
+                        is AccountSwitcherViewModel.Action.Add -> accountViewModel.signIn()
+                        is AccountSwitcherViewModel.Action.SignIn -> accountViewModel.signIn(it.account.username)
+                        is AccountSwitcherViewModel.Action.SignOut -> accountViewModel.signOut(it.account.userId)
+                        is AccountSwitcherViewModel.Action.Remove -> accountViewModel.remove(it.account.userId)
+                        is AccountSwitcherViewModel.Action.SetPrimary -> accountViewModel.setAsPrimary(it.account.userId)
+                    }
+                }.launchIn(lifecycleScope)
+
+            bugReport.onClick { reportsViewModel.reportBugs(waitForServer = false) }
+            bugReportWaiting.onClick { reportsViewModel.reportBugs(waitForServer = true) }
+            contacts.onClick { startActivity(Intent(this@MainActivity, ContactsActivity::class.java)) }
+            labels.onClick { startActivity(Intent(this@MainActivity, LabelsActivity::class.java)) }
+            pushs.onClick { startActivity(Intent(this@MainActivity, PushesActivity::class.java)) }
+        }
+
+        accountViewModel.state
+            .flowWithLifecycle(lifecycle)
+            .distinctUntilChanged()
+            .onEach { state ->
+                when (state) {
+                    is AccountViewModel.State.Processing -> Unit
+                    is AccountViewModel.State.LoginNeeded -> accountViewModel.add()
+                    is AccountViewModel.State.AccountList -> displayAccounts(state.accounts)
+                }.exhaustive
+            }.launchIn(lifecycleScope)
+
+        accountViewModel.secureSessionScopes
+            .flowWithLifecycle(lifecycle)
+            .distinctUntilChanged()
+            .onEach { binding.scopeStatus.text = it.toString() }
+            .launchIn(lifecycleScope)
+
+        secureScopesViewModel.state
+            .flowWithLifecycle(lifecycle)
+            .distinctUntilChanged()
+            .onEach { binding.triggerStatus.text = it }
+            .launchIn(lifecycleScope)
+
+        reportsViewModel.bugReportSent
+            .flowWithLifecycle(lifecycle)
+            .onEach { binding.root.successSnack(it) }
+            .launchIn(lifecycleScope)
+
+        plansViewModel.state
+            .flowWithLifecycle(lifecycle)
+            .onEach { binding.plansUpgrade.isEnabled = it.isUpgradeAvailable }
+            .launchIn(lifecycleScope)
+
+        mailMessageViewModel.getState()
+            .flowWithLifecycle(lifecycle)
+            .distinctUntilChanged()
+            .onEach { showToast("MailMessage: $it") }
+            .launchIn(lifecycleScope)
+
+        mailSettingsViewModel.getMailSettingsState()
+            .flowWithLifecycle(lifecycle)
+            .distinctUntilChanged()
+            .onEach {
+                if (it is MailSettingsViewModel.MailSettingsState.Error) {
+                    showToast("MailSettings: $it")
+                }
+            }.launchIn(lifecycleScope)
+
+        userKeyViewModel.getUserKeyState()
+            .flowWithLifecycle(lifecycle)
+            .distinctUntilChanged()
+            .onEach {
+                if (it is UserKeyViewModel.UserKeyState.Error) {
+                    showToast("UserKey: $it")
+                }
+            }.launchIn(lifecycleScope)
+
+        userAddressKeyViewModel.getUserAddressKeyState()
+            .flowWithLifecycle(lifecycle)
+            .distinctUntilChanged()
+            .onEach {
+                if (it is UserAddressKeyViewModel.UserAddressKeyState.Error) {
+                    showToast("UserAddressKey: $it")
+                }
+            }.launchIn(lifecycleScope)
+
+        publicAddressViewModel.getPublicAddressState()
+            .flowWithLifecycle(lifecycle)
+            .distinctUntilChanged()
+            .onEach {
+                if (it is PublicAddressViewModel.PublicAddressState.Error) {
+                    showToast("PublicAddress: $it")
+                }
+            }.launchIn(lifecycleScope)
+    }
+
+    @SuppressLint("SetTextI18n")
+    private fun displayAccounts(accounts: List<Account>) {
+        binding.accountsLayout.removeAllViews()
+        accounts.forEach { account ->
+            binding.accountsLayout.addView(
+                Button(this@MainActivity).apply {
+                    text = "${account.username} -> ${account.state}/${account.sessionState}"
+                    onClick { accountViewModel.onAccountClicked(account.userId) }
+                }
+            )
+        }
+    }
+}

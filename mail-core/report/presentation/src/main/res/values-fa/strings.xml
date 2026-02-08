@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="core_report_bug_activity_title">گزارش یک مشکل</string>
+  <string name="core_report_bug_close">بستن</string>
+  <string name="core_report_bug_subject_field_hint">موضوع</string>
+  <string name="core_report_bug_subject_field_required">یک موضوع وارد کنید</string>
+  <string name="core_report_bug_description_field_hint">چه اشتباهی پیش آمد؟ حداقل ۱۰ نویسه</string>
+  <string name="core_report_bug_description_field_placeholder">لطفا مشکل را تا جایی که میتوانید با جزئیات شرح دهید. اگر با پیام خطا رو به رو شدید، به ما بگویید که پیام چه میگفت.</string>
+  <plurals name="core_report_bug_description_field_required">
+    <item quantity="one">حداقل %d نویسه وارد کنید</item>
+    <item quantity="other">حداقل %d نویسه وارد کنید</item>
+  </plurals>
+  <string name="core_report_bug_discard_changes_title">بستن گزارش اشکال؟</string>
+  <string name="core_report_bug_discard_changes_description">اگر شما این صفحه را ترک کنید، گزارش شما ذخیره نمیشود.</string>
+  <string name="core_report_bug_discard_changes_cancel">ادامه نوشتن</string>
+  <string name="core_report_bug_discard_changes_confirm">بستن بدون دخیره کردن</string>
+  <plurals name="core_report_bug_form_field_too_long">
+    <item quantity="one">حداکثر %d نویسه</item>
+    <item quantity="other">حداکثر %d نویسه</item>
+  </plurals>
+  <string name="core_report_bug_general_error">مشکلی پیش آمد، لطفا چند دقیقه بعد دوباره امتحان کنید.</string>
+  <string name="core_report_bug_send">ارسال گزارش</string>
+  <string name="core_report_bug_success">از گزارش شما متشکریم</string>
+  <string name="core_report_bug_attach_log">Attach log</string>
+</resources>

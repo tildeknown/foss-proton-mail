@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- recovery email settings -->
+  <string name="settings_recovery_email_header">Adres pomocniczy</string>
+  <string name="settings_recovery_email_current">Obecny adres pomocniczy</string>
+  <string name="settings_recovery_email_new">Nowy adres pomocniczy</string>
+  <string name="settings_recovery_email_confirm">Potwierdź adres pomocniczy</string>
+  <string name="settings_recovery_email_new_hint">Wpisz adres e-mail</string>
+  <string name="settings_recovery_email_confirm_hint">Wpisz ponownie adres e-mail</string>
+  <string name="settings_save_second_password">Zapisz nowe drugie hasło</string>
+  <string name="settings_save_main_password">Zapisz nowe główne hasło</string>
+  <string name="settings_save">Zapisz</string>
+  <string name="settings_password_required">Wpisz hasło logowania</string>
+  <string name="settings_password_required_ok">OK</string>
+  <string name="settings_not_set">Nie ustawiono</string>
+  <string name="settings_recovery_email_error_no_match">Adresy pomocnicze nie pasują do siebie</string>
+  <string name="settings_validation_email">Adres e-mail jest nieprawidłowy.</string>
+  <string name="settings_general_error">Wystąpił błąd.</string>
+  <!-- login and mailbox password settings -->
+  <string name="settings_password_management_tab_main_password">Główne hasło</string>
+  <string name="settings_password_management_tab_second_password">Drugie hasło</string>
+  <string name="settings_password_management_change_password_note">Aby zmienić którekolwiek z haseł, musisz znać hasło główne. <a href="https://account.proton.me/reset-password">Nie pamiętasz głównego hasła?</a></string>
+  <string name="settings_password_management_header">Zmień hasło</string>
+  <string name="settings_password_management_cannot_change_password">Nie możesz zmienić hasła zapasowego. Skontaktuj się z administratorem.</string>
+  <string name="settings_main_password_hint_current">Obecne główne hasło</string>
+  <string name="settings_main_password_hint_new">Nowe główne hasło</string>
+  <string name="settings_main_password_hint_new_confirm">Potwierdź nowe główne hasło</string>
+  <string name="settings_second_password_hint_current_main_password">Obecne główne hasło</string>
+  <string name="settings_second_password_hint_new">Nowe drugie hasło</string>
+  <string name="settings_second_password_hint_new_confirm">Potwierdź nowe drugie hasło</string>
+  <string name="settings_change_password_error">Wystąpił błąd podczas zmiany hasła.</string>
+  <string name="settings_recovery_email_success">Adres pomocniczy został zaktualizowany</string>
+  <string name="settings_password_management_success">Hasło zostało zaktualizowane</string>
+  <string name="settings_password_management_start_recovery">Nie pamiętasz hasła?</string>
+</resources>

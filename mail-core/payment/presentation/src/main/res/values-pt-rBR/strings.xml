@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- region payment errors -->
+  <string name="payments_general_error">Ocorreu um erro.</string>
+  <string name="payments_no_connectivity">Sem conectividade para exibir a página de confirmação 3DS.</string>
+  <string name="payments_3ds_not_approved">A aprovação 3DS foi rejeitada.</string>
+  <string name="payments_error_card_name">Obrigatório o nome no cartão.</string>
+  <string name="payments_error_card_number">O número do cartão não é válido.</string>
+  <string name="payments_error_cvc">Entre um código de segurança válido.</string>
+  <string name="payments_error_session">Um ID de sessão válido é necessário ao fazer a assinatura de um usuário conectado.</string>
+  <string name="payments_error_signup_paymentmethod">Não foi possível criar uma conta com o método de pagamento existente.</string>
+  <string name="payments_error_invalid_session">A sessão não é válida.</string>
+  <string name="payments_no_payment_provider">Não encontramos nenhum meio de pagamento.</string>
+  <string name="payments_error_google_prices">Problema ao recuperar os preços da Google Play Store no momento.</string>
+  <string name="payments_error_subscription_managed_other_app">A assinatura está gerenciada por outro aplicativo.</string>
+  <!-- endregion -->
+  <!-- region payment options -->
+  <string name="payments_choose_payment_method">Escolha seu método de pagamento</string>
+  <string name="payments_add_credit_debit_card">Adicionar um cartão de crédito/débito</string>
+  <string name="payments_pay" comment="Example: Pay 5EUR">Pagar %s</string>
+  <string name="payments_pay_with" comment="Example: Pay with debit card">Pagar com</string>
+  <string name="payments_method_icon">Ícone do método de pagamento.</string>
+  <string name="payments_method_surcharge">*As compras efetuadas com esta forma de pagamento têm um custo adicional.</string>
+  <string name="payments_method_terms_conditions">Comprar com o Google Pay significa que você aceita os termos e condições do Google Pay e concorda em configurar um pagamento recorrente com o Google.</string>
+  <string name="payments_method_google">Google</string>
+  <string name="payments_method_continue">Continuar</string>
+  <!-- endregion -->
+  <!-- region billing -->
+  <string name="payments_payment_details">Detalhes do pagamento</string>
+  <string name="payments_card_name">Nome no cartão</string>
+  <string name="payments_card_number">Número do cartão</string>
+  <string name="payments_expiration_date">Data de expiração</string>
+  <string name="payments_security_code">Código de segurança</string>
+  <string name="payments_postal_code">CEP</string>
+  <string name="payments_card_number_hint">0000 0000 0000 0000</string>
+  <string name="payments_expiration_date_hint">MM/AA</string>
+  <string name="payments_security_code_hint">123</string>
+  <string name="payments_country">País</string>
+  <string name="payments_get_plan">Obter %s</string>
+  <string name="payments_paying_in_process">Pagando</string>
+  <string name="payments_choose_country">Selecionar país</string>
+  <string name="payment_cc_list_item">%1$s - %2$s (validade %4$s/%3$s)</string>
+  <string name="payment_paypal_list_item">PayPal</string>
+  <string name="payments_info_not_available">n/a</string>
+  <string name="payments_billing_monthly">Por 1 mês</string>
+  <string name="payments_billing_yearly">Por 1 ano</string>
+  <string name="payments_billing_two_years">Por 2 anos</string>
+  <string name="payment_use_google_pay_instead">Usar o Google Pay em vez disso</string>
+  <string name="payment_use_credit_card_instead">Em vez disso, use um cartão de crédito/débito</string>
+  <!-- endregion -->
+  <!-- region GIAP -->
+  <string name="payments_giap_unredeemed_title">Confirmar upgrade da conta</string>
+  <string name="payments_giap_unredeemed_description">Seu pagamento no Google Pay foi processado, mas o processo de atualização da conta foi interrompido. Aplicar o pagamento para atualizar sua conta agora?</string>
+  <string name="payments_giap_unredeemed_confirm">Confirmar upgrade</string>
+  <string name="payments_giap_redeem_success">Sua conta foi atualizada</string>
+  <string name="payments_giap_redeem_error">Não é possível completar o upgrade. Tente novamente mais tarde.</string>
+  <!-- endregion -->
+  <!-- endregion -->
+</resources>

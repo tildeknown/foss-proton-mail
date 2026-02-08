@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="core_report_bug_activity_title">Ein Problem melden</string>
+  <string name="core_report_bug_close">Schließen</string>
+  <string name="core_report_bug_subject_field_hint">Betreff</string>
+  <string name="core_report_bug_subject_field_required">Betreff eingeben</string>
+  <string name="core_report_bug_description_field_hint">Was ist vorgefallen? Mindestens 10 Zeichen</string>
+  <string name="core_report_bug_description_field_placeholder">Bitte beschreibe das Problem so detailliert wie möglich. Wenn es eine Fehlermeldung gab, teile uns diese bitte mit.</string>
+  <plurals name="core_report_bug_description_field_required">
+    <item quantity="one">Mindestens %d Zeichen eingeben</item>
+    <item quantity="other">Mindestens %d Zeichen eingeben</item>
+  </plurals>
+  <string name="core_report_bug_discard_changes_title">Fehlerbericht schließen?</string>
+  <string name="core_report_bug_discard_changes_description">Wenn du diese Seite verlässt, wird dein Bericht nicht gespeichert.</string>
+  <string name="core_report_bug_discard_changes_cancel">Bearbeitung fortsetzen</string>
+  <string name="core_report_bug_discard_changes_confirm">Schließen ohne Speichern</string>
+  <plurals name="core_report_bug_form_field_too_long">
+    <item quantity="one">Höchstens %d Zeichen</item>
+    <item quantity="other">Höchstens %d Zeichen</item>
+  </plurals>
+  <string name="core_report_bug_general_error">Da ist etwas schief gelaufen. Bitte versuche es in ein paar Minuten erneut.</string>
+  <string name="core_report_bug_send">Bericht senden</string>
+  <string name="core_report_bug_success">Vielen Dank für deinen Bericht</string>
+  <string name="core_report_bug_attach_log">Protokoll hinzufügen</string>
+</resources>

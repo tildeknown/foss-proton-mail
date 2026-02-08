@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- recovery email settings -->
+  <string name="settings_recovery_email_header">Helyreállítási e-mail cím</string>
+  <string name="settings_recovery_email_current">Jelenlegi helyreállítási e-mail cím</string>
+  <string name="settings_recovery_email_new">Új helyreállítási e-mail cím</string>
+  <string name="settings_recovery_email_confirm">Hagyja jóvá a visszaállítási e-mail címet.</string>
+  <string name="settings_recovery_email_new_hint">Adja meg az e-mail címet</string>
+  <string name="settings_recovery_email_confirm_hint">Adja meg ismét az e-mail címet</string>
+  <string name="settings_save_second_password">Új második jelszó mentése</string>
+  <string name="settings_save_main_password">Új fő jelszó mentése</string>
+  <string name="settings_save">Mentés</string>
+  <string name="settings_password_required">Adja meg a bejelentkezési jelszavát</string>
+  <string name="settings_password_required_ok">OK</string>
+  <string name="settings_not_set">Nincs beállítva</string>
+  <string name="settings_recovery_email_error_no_match">Az új helyreállítási címek nem egyeznek</string>
+  <string name="settings_validation_email">Az e-mail cím érvénytelen.</string>
+  <string name="settings_general_error">Hiba történt.</string>
+  <!-- login and mailbox password settings -->
+  <string name="settings_password_management_tab_main_password">Fő jelszó</string>
+  <string name="settings_password_management_tab_second_password">Második jelszó</string>
+  <string name="settings_password_management_change_password_note">Bármelyik jelszava megváltoztatásához ismernie kell fő jelszavát. <a href="https://account.proton.me/reset-password">Elfelejtette fő jelszavát?</a></string>
+  <string name="settings_password_management_header">Jelszó módosítása</string>
+  <string name="settings_password_management_cannot_change_password">Nem tudja megváltoztatni a biztonsági jelszavát. Vegye fel a kapcsolatot az ön adminisztrátorával.</string>
+  <string name="settings_main_password_hint_current">Jelenlegi fő jelszó</string>
+  <string name="settings_main_password_hint_new">Új fő jelszó</string>
+  <string name="settings_main_password_hint_new_confirm">Erősítse meg az új fő jelszavát</string>
+  <string name="settings_second_password_hint_current_main_password">Jelenlegi fő jelszó</string>
+  <string name="settings_second_password_hint_new">Új második jelszó</string>
+  <string name="settings_second_password_hint_new_confirm">Erősítse meg új második jelszavát</string>
+  <string name="settings_change_password_error">Hiba történt a jelszó megváltoztatása közben.</string>
+  <string name="settings_recovery_email_success">Helyreállítási e-mail cím frissítve</string>
+  <string name="settings_password_management_success">Jelszó frissítve</string>
+  <string name="settings_password_management_start_recovery">Nem tudja a jelenlegi jelszavát?</string>
+</resources>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="plans_select_a_plan">Bir tarife seçin</string>
+  <string name="plans_select_a_plan_subtitle">Tüm Proton hizmetleri için tek tarife</string>
+  <string name="plans_fetching_general_error">Tarifeler alınırken bir sorun çıktı.</string>
+  <string name="plans_payment_error">Bir ödeme sorunu çıktı. Lütfen bir süre sonra yeniden deneyin ya da ücretsiz bir tarife oluşturun.</string>
+  <string name="plans_free_name">Ücretsiz</string>
+  <string name="plan_price_monthly">aylık</string>
+  <string name="plan_price_annually">yıllık</string>
+  <string name="plans_current_plan">Geçerli tarife</string>
+  <string name="plans_upgrade_plan">Tarifenizi yükseltin</string>
+  <string name="plans_subscription">Abonelik</string>
+  <string name="plans_renewal_date">Tarifeniz &lt;b&gt;%s&lt;/b&gt; tarihinde otomatik olarak yenilenecek</string>
+  <string name="plans_expiration_date">Tarifeniz &lt;b&gt;%s&lt;/b&gt; tarihinde bitecek</string>
+  <string name="plans_pay_monthly">Aylık ödeme</string>
+  <string name="plans_pay_annually">Yıllık ödeme</string>
+  <string name="plans_pay_biennially">2 yılda bir ödeme</string>
+  <plurals name="plans_pay_other">
+    <item quantity="one">%d aylık ödeme</item>
+    <item quantity="other">%d aylık ödeme</item>
+  </plurals>
+  <string name="plans_billed_yearly">*%s tutarında yıllık faturalanır</string>
+  <string name="plans_billed_monthly">Aylık faturalanır</string>
+  <string name="plans_billing_monthly">Bir aylık</string>
+  <string name="plans_billing_yearly">Bir yıllık</string>
+  <string name="plans_billing_two_years">İki yıllık</string>
+  <plurals name="plans_billing_other_period">
+    <item quantity="one">%d aylık</item>
+    <item quantity="other">%d aylık</item>
+  </plurals>
+  <string name="plans_upgrade_your_plan">Tarifenizi yükseltin</string>
+  <string name="plans_proton_for_free">Ücretsiz olarak Proton kullanın</string>
+  <string name="plans_get_proton">%s alın</string>
+  <string name="plans_manage_your_subscription">Aboneliğinizi <a href="https://account.proton.me">account.proton.me</a> adresinden yönetin</string>
+  <string name="plans_used_space" comment="1 - used space (e.g. 300MB); 2 - max available space (e.g. 1GB)">%1$s / %2$s</string>
+  <string name="plans_payments_info_not_available">kullanılamıyor</string>
+  <string name="plans_manage_your_subscription_google">Aboneliğiniz Google Play tarafından yönetiliyor.</string>
+  <string name="plans_manage_your_subscription_other">Aboneliğiniz mobil uygulama içinden yönetilemez.</string>
+  <string name="plans_autorenew_subscriptions">Bu uygulamada yalnızca otomatik yenilenen yıllık abonelikler kullanılabilir.</string>
+  <string name="plans_can_not_upgrade_from_mobile">Aboneliğiniz Android uygulaması içinden yönetilemez.</string>
+  <string name="plans_user_has_credits">Hesabınızda krediniz var.</string>
+  <string name="plans_manage_subscription_play_store">Abonelik yönetimi</string>
+  <string name="plans_no_upgrade_available">Şu anda yayınlanmış bir güncelleme yok.</string>
+  <string name="plans_limited_offer">Sınırlı süreli teklif</string>
+  <string name="plans_subscription_base_storage_full_title">Mail depolama alanınız dolu</string>
+  <string name="plans_subscription_base_storage_nearly_full_title">Mail depolama alanınız dolmak üzere</string>
+  <string name="plans_subscription_drive_storage_full_title">Drive depolama alanınız dolu</string>
+  <string name="plans_subscription_drive_storage_nearly_full_title">Drive depolama alanınız dolmak üzere</string>
+  <string name="plans_subscription_storage_get_more">Daha fazla depolama alanı edinin</string>
+  <string name="plans_subscription_storage_full_description">Hesabınızı herhangi bir kesinti olmadan kullanmayı sürdürmek için internet uygulamasından tarifenizi yükseltin.</string>
+  <!-- region all possible plan item types. this could be updated as per language requirements.-->
+  <plurals name="item_storage" comment="please do not modify the text between #">
+    <item quantity="one">#proton_storage# depolama alanı</item>
+    <item quantity="other">#proton_storage# depolama alanı</item>
+  </plurals>
+  <plurals name="item_storage_free" comment="please do not modify the text between #">
+    <item quantity="one">#proton_storage# boyutuna kadar depolama alanı</item>
+    <item quantity="other">#proton_storage# boyutuna kadar depolama alanı</item>
+  </plurals>
+  <plurals name="item_storage_multiuser" comment="please do not modify the text between #">
+    <item quantity="one">#proton_storage# depolama alanı / kullanıcı</item>
+    <item quantity="other">#proton_storage# depolama alanı / kullanıcı</item>
+  </plurals>
+  <plurals name="item_address" comment="please do not modify the test between #">
+    <item quantity="one">#proton_addresses# e-posta adresi</item>
+    <item quantity="other">#proton_addresses# e-posta adresi</item>
+  </plurals>
+  <plurals name="item_address_multiuser" comment="please do not modify the test between #">
+    <item quantity="one">#proton_addresses# adres / kullanıcı</item>
+    <item quantity="other">#proton_addresses# adres / kullanıcı</item>
+  </plurals>
+  <plurals name="item_address_current" comment="please do not modify the test between #">
+    <item quantity="one">%d / #proton_addresses# adres</item>
+    <item quantity="other">%d / #proton_addresses# adres</item>
+  </plurals>
+  <plurals name="item_domain" comment="please do not modify the test between #">
+    <item quantity="one">#proton_domains# özel e-posta etki alanı desteği</item>
+    <item quantity="other">#proton_domains# özel e-posta etki alanı desteği</item>
+  </plurals>
+  <plurals name="item_calendar" comment="please do not modify the test between #">
+    <item quantity="one">#proton_calendars# kişisel takvim</item>
+    <item quantity="other">#proton_calendars# kişisel takvim</item>
+  </plurals>
+  <plurals name="item_calendar_current" comment="please do not modify the test between #">
+    <item quantity="one">%d / #proton_calendars# takvim</item>
+    <item quantity="other">%d / #proton_calendars# takvim</item>
+  </plurals>
+  <plurals name="item_connections" comment="please do not modify the test between #">
+    <item quantity="one">Tek bir aygıt için ücretsiz VPN</item>
+    <item quantity="other">#proton_vpn# aygıt için yüksek hızlı VPN</item>
+  </plurals>
+  <plurals name="item_connections_highspeed" comment="please do not modify the test between #">
+    <item quantity="one">#proton_vpn# yüksek hızlı VPN bağlantısı</item>
+    <item quantity="other">#proton_vpn# yüksek hızlı VPN bağlantısı</item>
+  </plurals>
+  <plurals name="item_users" comment="please do not modify the test between #">
+    <item quantity="one">#proton_users# kullanıcı</item>
+    <item quantity="other">#proton_users# kullanıcı</item>
+  </plurals>
+  <plurals name="item_users_current" comment="please do not modify the test between #">
+    <item quantity="one">%d / #proton_users# kullanıcı</item>
+    <item quantity="other">%d / #proton_users# kullanıcı</item>
+  </plurals>
+  <!-- endregion -->
+  <!-- region plans headers -->
+  <string name="plan_id_free_header">Gizli ve güvenli iletişimin temelleri.</string>
+  <string name="plan_id_plus_header">Gelişmiş koruma ile tam özellikli posta kutusu.</string>
+  <string name="plan_id_vpnbasic_header">VPN Basic</string>
+  <string name="plan_id_vpnbasic_countries">63 ülke</string>
+  <string name="plan_id_vpnbasic_high_speed">Yüksek hız</string>
+  <string name="plan_id_vpnplus_adblock">Reklam engelleyici (NetShield)</string>
+  <string name="plan_id_vpnplus_streaming">Yayın akışı hizmeti desteği</string>
+  <string name="plan_id_vpnplus_header">VPN Plus</string>
+  <string name="plan_id_vpnplus_countries">63 ülke</string>
+  <string name="plan_id_vpnplus_highest_speed">En yüksek hız</string>
+  <string name="plan_id_professional_header">Professional</string>
+  <string name="plan_id_professional_multiuser">Çok kullanıcı desteği</string>
+  <string name="plan_id_visionary_header">Visionary</string>
+  <string name="plan_id_family_header">Family</string>
+  <string name="plan_id_mail2022_header" comment="new_plans">Günlük iletişim gereksinimleriniz için gelişmiş özellikleri olan güvenli e-posta.</string>
+  <string name="plan_id_vpn2022_header" comment="new_plans">Gizliliğinizi korumak ve güvenliğinizi sağlamak önceliğimizdir.</string>
+  <string name="plan_id_drive2022_header" comment="new_plans">Dosyaları kolayca ve güvenle saklama, eşitleme ve paylaşmayı sağlayan güvenli bulut depolama alanı.</string>
+  <string name="plan_id_bundle2022_header" comment="new_plans">Tüm Proton hizmetlerinin bir arada olduğu kapsamlı gizlilik ve güvenlik.</string>
+  <string name="plan_id_pass2023_header" comment="new_plans">Gelecek nesil parola yönetimi ve kimlik koruması için.</string>
+  <!-- endregion -->
+  <string-array name="supported_currencies">
+    <item>EUR</item>
+    <item>USD</item>
+    <item>CHF</item>
+  </string-array>
+  <!-- region plans hardcoded texts -->
+  <string name="unlimited_folders_labels_filters" comment="new_plans">Sınırsız sayıda klasör, etiket, süzgeç</string>
+  <string name="highest_vpn_speed" comment="new_plans">En yüksek VPN hızı</string>
+  <string name="servers_in_countries" comment="new_plans">63 ülkede 1500 üzerinde sunucu</string>
+  <string name="ad_blocker" comment="new_plans">Yerleşik reklam engelleyici (NetShield)</string>
+  <string name="streaming_services_access" comment="new_plans">Tüm dünyadaki yayın akışı hizmetlerine erişim</string>
+  <string name="secure_core" comment="new_plans">Secure Core sunucuları</string>
+  <string name="tor_vpn" comment="new_plans">VPN üzerinden Tor</string>
+  <string name="p2p_bittorrent" comment="new_plans">P2P/BitTorrent</string>
+  <string name="unlimited_logins_and_notes">Sınırsız sayıda oturum açma bilgisi ve not</string>
+  <string name="unlimited_devices">Sınırsız sayıda aygıt</string>
+  <string name="integrated_2fa_authenticator">Bütünleşik iki adımlı kimlik doğrulayıcı</string>
+  <string name="multiple_vaults">Birden çok kasa</string>
+  <string name="unlimited_email_alias">Sınırsız sayıda hide-my-email takma adı</string>
+  <string name="custom_email_alias_domains">E-posta takma adları için özel etki alanları</string>
+  <string name="multiple_forwarding_mailboxes">Çok sayıda iletme e-posta kutusu</string>
+  <string name="priority_support">Öncelikli destek</string>
+  <string name="one_vault">1 kasa</string>
+  <string name="ten_hide_my_email_aliases">10 hide-my-email takma adı</string>
+  <!-- endregion -->
+  <!-- region Plan entitlement tags -->
+  <string name="upgrade_storage_current_drive_storage">Drive: %d%% dolu</string>
+  <string name="upgrade_storage_current_mail_storage">Mail: %d%% dolu</string>
+  <string name="upgrade_storage_subtitle">Depolama alanını artır</string>
+  <!-- endregion -->
+  <!-- region Plan upgrade -->
+  <string name="plan_manage_subscription_title">%s içinde yükselt</string>
+  <string name="plan_manage_subscription_subtitle">Aboneliğinizi %1$s uygulamasından yönetebilirsiniz. %3$s tarifesine yükseltmek için %2$s açın.</string>
+  <string name="plan_manage_subscription_no_app_title">%s kur</string>
+  <string name="plan_manage_subscription_no_app_subtitle">Aboneliğinizi %1$s uygulamasından yönetebilirsiniz. %3$s tarifesine yükseltmek için güncel %2$s sürümünü indirip kurun.</string>
+  <string name="plan_manage_subscription_app_missing_got_it">Anladım</string>
+  <string name="plan_welcome_price_message_monthly">Karşılama teklifi. %1$s/ay tutar ile otomatik olarak yenilenir</string>
+  <string name="plan_welcome_price_message_annual">Karşılama teklifi. %1$s/yıl tutar ile otomatik olarak yenilenir</string>
+  <string name="plan_welcome_price_message_two_year">Karşılama teklifi. %1$s/2 yıl tutar ile otomatik olarak yenilenir.</string>
+  <string name="plan_auto_renew_message_monthly">Abonelik %1$s/ay tutar ile otomatik olarak yenilenir</string>
+  <string name="plan_auto_renew_message_annual">Abonelik %1$s/yıl tutar ile otomatik olarak yenilenir</string>
+  <string name="plan_auto_renew_message_two_years">Abonelik %1$s/2 yıl tutar ile otomatik olarak yenilenir</string>
+  <string name="plan_welcome_price_message_other_fallback">Abonelik otomatik olarak yenilenir</string>
+  <string name="subscription_renewal_info_monthly">%1$s indirimli tutar ilk ay için geçerlidir. Aboneliğiniz her ay &lt;b&gt;%2$s&lt;/b&gt; tarihinde 
+&lt;b&gt;%3$s&lt;/b&gt; saatinde otomatik olarak yenilenir.</string>
+  <string name="subscription_renewal_info_annual">%1$s indirimli tutar ilk yıl için geçerlidir. Aboneliğiniz her yıl &lt;b&gt;%2$s&lt;/b&gt; tarihinde 
+&lt;b&gt;%3$s&lt;/b&gt; saatinde otomatik olarak yenilenir.</string>
+  <string name="subscription_renewal_info_two_years">%1$s indirimli tutar ilk yıl için geçerlidir. Aboneliğiniz iki yılda bir &lt;b&gt;%2$s&lt;/b&gt; tarihinde 
+&lt;b&gt;%3$s&lt;/b&gt; saatinde otomatik olarak yenilenir.</string>
+</resources>

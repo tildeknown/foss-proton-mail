@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- region payment errors -->
+  <string name="payments_general_error">Der opstod en fejl.</string>
+  <string name="payments_no_connectivity">Ingen forbindelse til at vise 3DS-bekræftelsesside.</string>
+  <string name="payments_3ds_not_approved">3DS-godkendelse er blevet afvist.</string>
+  <string name="payments_error_card_name">Navn på kort er påkrævet.</string>
+  <string name="payments_error_card_number">Ugyldigt kortnummer.</string>
+  <string name="payments_error_cvc">Indtast en gyldig sikkerhedskode.</string>
+  <string name="payments_error_session">Gyldigt sessions-ID er nødvendigt ved oprettelse af abonnement for en bruger, som er logget ind.</string>
+  <string name="payments_error_signup_paymentmethod">Kunne ikke tilmelde med eksisterende betalingsmetode.</string>
+  <string name="payments_error_invalid_session">Ugyldig session.</string>
+  <string name="payments_no_payment_provider">Ingen aktiv betalingsudbyder fundet.</string>
+  <string name="payments_error_google_prices">Problemer med at hente Google Play Store-priser i øjeblikket.</string>
+  <string name="payments_error_subscription_managed_other_app">Abonnement administreres af anden app.</string>
+  <!-- endregion -->
+  <!-- region payment options -->
+  <string name="payments_choose_payment_method">Vælg din betalingsmetode</string>
+  <string name="payments_add_credit_debit_card">Tilføj nyt kredit-/betalingskort</string>
+  <string name="payments_pay" comment="Example: Pay 5EUR">Betal %s</string>
+  <string name="payments_pay_with" comment="Example: Pay with debit card">Betal med</string>
+  <string name="payments_method_icon">Ikon for betalingsmetode.</string>
+  <string name="payments_method_surcharge">*Ved køb med denne betalingsmetode pålægges et tillægsgebyr.</string>
+  <string name="payments_method_terms_conditions">Ved køb med Google Pay accepterer du Google Pay\'s vilkår og betingelser og indvilliger i at oprette en gentagende betaling med Google.</string>
+  <string name="payments_method_google">Google</string>
+  <string name="payments_method_continue">Fortsæt</string>
+  <!-- endregion -->
+  <!-- region billing -->
+  <string name="payments_payment_details">Betalingsdetaljer</string>
+  <string name="payments_card_name">Navn på kort</string>
+  <string name="payments_card_number">Kortnummer</string>
+  <string name="payments_expiration_date">Udløbsdato</string>
+  <string name="payments_security_code">Sikkerhedskode</string>
+  <string name="payments_postal_code">Postnummer</string>
+  <string name="payments_card_number_hint">0000 0000 0000 0000</string>
+  <string name="payments_expiration_date_hint">MM/ÅÅ</string>
+  <string name="payments_security_code_hint">123</string>
+  <string name="payments_country">Land</string>
+  <string name="payments_get_plan">Få %s</string>
+  <string name="payments_paying_in_process">Betaler</string>
+  <string name="payments_choose_country">Vælg land</string>
+  <string name="payment_cc_list_item">%1$s - %2$s (Udløber %3$s/%4$s)</string>
+  <string name="payment_paypal_list_item">PayPal</string>
+  <string name="payments_info_not_available">Ikke tilgængelig</string>
+  <string name="payments_billing_monthly">I 1 måned</string>
+  <string name="payments_billing_yearly">I 1 år</string>
+  <string name="payments_billing_two_years">I 2 år</string>
+  <string name="payment_use_google_pay_instead">Brug Google Pay i stedet</string>
+  <string name="payment_use_credit_card_instead">Brug kredit/debetkort i stedet</string>
+  <!-- endregion -->
+  <!-- region GIAP -->
+  <string name="payments_giap_unredeemed_title">Bekræft kontoopgradering</string>
+  <string name="payments_giap_unredeemed_description">Din Google Pay-betaling blev færdigbehandlet, men opgraderingsprocessen for kontoen blev afbrudt. Anvend betalingen til at opgradere din konto nu?</string>
+  <string name="payments_giap_unredeemed_confirm">Bekræft opgradering</string>
+  <string name="payments_giap_redeem_success">Din konto er blevet opgraderet</string>
+  <string name="payments_giap_redeem_error">Opgraderingen kan ikke fuldføres. Prøv venligst igen senere.</string>
+  <!-- endregion -->
+  <!-- endregion -->
+</resources>

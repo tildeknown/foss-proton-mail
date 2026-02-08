@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="plans_select_a_plan">Veldu áskriftarleið</string>
+  <string name="plans_select_a_plan_subtitle">One plan for all Proton services</string>
+  <string name="plans_fetching_general_error">Villa kom upp við að sækja áskriftarleiðir.</string>
+  <string name="plans_payment_error">A payment error occurred. Please try again later or create a free plan.</string>
+  <string name="plans_free_name">Free</string>
+  <string name="plan_price_monthly">á mánuði</string>
+  <string name="plan_price_annually">á ári</string>
+  <string name="plans_current_plan">Núverandi áskriftarleið</string>
+  <string name="plans_upgrade_plan">Uppfærðu áskriftina þína</string>
+  <string name="plans_subscription">Áskrift</string>
+  <string name="plans_renewal_date">Áskriftin þín mun endurnýjast sjálfkrafa þann &lt;b&gt;%s&lt;/b&gt;</string>
+  <string name="plans_expiration_date">Your plan will expire on &lt;b&gt;%s&lt;/b&gt;</string>
+  <string name="plans_pay_monthly">Pay monthly</string>
+  <string name="plans_pay_annually">Pay annually</string>
+  <string name="plans_pay_biennially">Pay every 2 years</string>
+  <plurals name="plans_pay_other">
+    <item quantity="one">Pay for %d month</item>
+    <item quantity="other">Pay for %d months</item>
+  </plurals>
+  <string name="plans_billed_yearly">*Billed annually at %s</string>
+  <string name="plans_billed_monthly">Billed monthly</string>
+  <string name="plans_billing_monthly">Í 1 mánuð</string>
+  <string name="plans_billing_yearly">Í 1 ár</string>
+  <string name="plans_billing_two_years">Í 2 ár</string>
+  <plurals name="plans_billing_other_period">
+    <item quantity="one">Í %d mánuð</item>
+    <item quantity="other">Í %d mánuði</item>
+  </plurals>
+  <string name="plans_upgrade_your_plan">Uppfærðu áskriftina þína</string>
+  <string name="plans_proton_for_free">Fáðu Proton ókeypis</string>
+  <string name="plans_get_proton">Fáðu %s</string>
+  <string name="plans_manage_your_subscription">Manage your subscription at <a href="https://account.proton.me">account.proton.me</a></string>
+  <string name="plans_used_space" comment="1 - used space (e.g. 300MB); 2 - max available space (e.g. 1GB)">%1$s af %2$s</string>
+  <string name="plans_payments_info_not_available">ekki tiltækt</string>
+  <string name="plans_manage_your_subscription_google">Your subscription is managed by Google Play.</string>
+  <string name="plans_manage_your_subscription_other">Your subscription can’t be managed inside the mobile app.</string>
+  <string name="plans_autorenew_subscriptions">Only auto-renewing annual subscriptions are available via this app.</string>
+  <string name="plans_can_not_upgrade_from_mobile">Your subscription can\'t be managed inside the Android app.</string>
+  <string name="plans_user_has_credits">You have credits on your account.</string>
+  <string name="plans_manage_subscription_play_store">Manage subscription</string>
+  <string name="plans_no_upgrade_available">There is currently no upgrade available.</string>
+  <string name="plans_limited_offer">Limited time offer</string>
+  <string name="plans_subscription_base_storage_full_title">Your Mail storage is full</string>
+  <string name="plans_subscription_base_storage_nearly_full_title">Your Mail storage is almost full</string>
+  <string name="plans_subscription_drive_storage_full_title">Your Drive storage is full</string>
+  <string name="plans_subscription_drive_storage_nearly_full_title">Your Drive storage is almost full</string>
+  <string name="plans_subscription_storage_get_more">Get more storage</string>
+  <string name="plans_subscription_storage_full_description">Upgrade your plan in the web app to continue to use your account without interruptions.</string>
+  <!-- region all possible plan item types. this could be updated as per language requirements.-->
+  <plurals name="item_storage" comment="please do not modify the text between #">
+    <item quantity="one">#proton_storage# geymslurými</item>
+    <item quantity="other">#proton_storage# geymslurými</item>
+  </plurals>
+  <plurals name="item_storage_free" comment="please do not modify the text between #">
+    <item quantity="one">Allt að #proton_storage# geymslupláss</item>
+    <item quantity="other">Allt að #proton_storage# geymslupláss</item>
+  </plurals>
+  <plurals name="item_storage_multiuser" comment="please do not modify the text between #">
+    <item quantity="one">#proton_storage# storage / user</item>
+    <item quantity="other">#proton_storage# storage / user</item>
+  </plurals>
+  <plurals name="item_address" comment="please do not modify the test between #">
+    <item quantity="one">#proton_addresses# netfang</item>
+    <item quantity="other">#proton_addresses# netföng</item>
+  </plurals>
+  <plurals name="item_address_multiuser" comment="please do not modify the test between #">
+    <item quantity="one">#proton_addresses# address / user</item>
+    <item quantity="other">#proton_addresses# addresses / user</item>
+  </plurals>
+  <plurals name="item_address_current" comment="please do not modify the test between #">
+    <item quantity="one">%d of #proton_addresses# address</item>
+    <item quantity="other">%d of #proton_addresses# addresses</item>
+  </plurals>
+  <plurals name="item_domain" comment="please do not modify the test between #">
+    <item quantity="one">Support for #proton_domains# custom email domain</item>
+    <item quantity="other">Support for #proton_domains# custom email domains</item>
+  </plurals>
+  <plurals name="item_calendar" comment="please do not modify the test between #">
+    <item quantity="one">#proton_calendars# persónulegt dagatal</item>
+    <item quantity="other">#proton_calendars# persónuleg dagatöl</item>
+  </plurals>
+  <plurals name="item_calendar_current" comment="please do not modify the test between #">
+    <item quantity="one">%d af #proton_calendars# dagatali</item>
+    <item quantity="other">%d af #proton_calendars# dagatölum</item>
+  </plurals>
+  <plurals name="item_connections" comment="please do not modify the test between #">
+    <item quantity="one">Frítt VPN á einu tæki</item>
+    <item quantity="other">Háhraða VPN á #proton_vpn# tækjum</item>
+  </plurals>
+  <plurals name="item_connections_highspeed" comment="please do not modify the test between #">
+    <item quantity="one">#proton_vpn# háhraða VPN tenging</item>
+    <item quantity="other">#proton_vpn# háhraða VPN tengingar</item>
+  </plurals>
+  <plurals name="item_users" comment="please do not modify the test between #">
+    <item quantity="one">#proton_users# notandi</item>
+    <item quantity="other">#proton_users# notendur</item>
+  </plurals>
+  <plurals name="item_users_current" comment="please do not modify the test between #">
+    <item quantity="one">%d af #proton_users# notanda</item>
+    <item quantity="other">%d af #proton_users# notendum</item>
+  </plurals>
+  <!-- endregion -->
+  <!-- region plans headers -->
+  <string name="plan_id_free_header">The basic for private and secure communications.</string>
+  <string name="plan_id_plus_header">Full-featured mailbox with advanced protection.</string>
+  <string name="plan_id_vpnbasic_header">VPN Basic</string>
+  <string name="plan_id_vpnbasic_countries">63 lönd</string>
+  <string name="plan_id_vpnbasic_high_speed">Hár hraði</string>
+  <string name="plan_id_vpnplus_adblock">Auglýsingabani (NetShield)</string>
+  <string name="plan_id_vpnplus_streaming">Streaming service support</string>
+  <string name="plan_id_vpnplus_header">VPN Plus</string>
+  <string name="plan_id_vpnplus_countries">63 lönd</string>
+  <string name="plan_id_vpnplus_highest_speed">Mesti hraði</string>
+  <string name="plan_id_professional_header">Professional</string>
+  <string name="plan_id_professional_multiuser">Fjölnotendastuðningur</string>
+  <string name="plan_id_visionary_header">Visionary</string>
+  <string name="plan_id_family_header">Family</string>
+  <string name="plan_id_mail2022_header" comment="new_plans">Öruggur tölvupóstur með háþróuðum eiginleikum fyrir dagleg samskipti þín.</string>
+  <string name="plan_id_vpn2022_header" comment="new_plans">Your privacy and security are our priority.</string>
+  <string name="plan_id_drive2022_header" comment="new_plans">Secure cloud storage that lets you store, sync and share files easily and securely.</string>
+  <string name="plan_id_bundle2022_header" comment="new_plans">Comprehensive privacy and security with all Proton services combined.</string>
+  <string name="plan_id_pass2023_header" comment="new_plans">For next-level password management and identity protection.</string>
+  <!-- endregion -->
+  <string-array name="supported_currencies">
+    <item>EUR</item>
+    <item>USD</item>
+    <item>CHF</item>
+  </string-array>
+  <!-- region plans hardcoded texts -->
+  <string name="unlimited_folders_labels_filters" comment="new_plans">Ótakmarkaðar möppur, merkimiðar og síur</string>
+  <string name="highest_vpn_speed" comment="new_plans">Hámarks VPN hraði</string>
+  <string name="servers_in_countries" comment="new_plans">1500+ netþjónar í 63 löndum</string>
+  <string name="ad_blocker" comment="new_plans">Innbyggður auglýsingabani (NetShield)</string>
+  <string name="streaming_services_access" comment="new_plans">Aðgangur að streymisþjónustu um allan heim</string>
+  <string name="secure_core" comment="new_plans">Öruggir Core netþjónar</string>
+  <string name="tor_vpn" comment="new_plans">Tor yfir VPN</string>
+  <string name="p2p_bittorrent" comment="new_plans">P2P/BitTorrent</string>
+  <string name="unlimited_logins_and_notes">Unlimited logins and notes</string>
+  <string name="unlimited_devices">Unlimited devices</string>
+  <string name="integrated_2fa_authenticator">Integrated 2FA authenticator</string>
+  <string name="multiple_vaults">Multiple vaults</string>
+  <string name="unlimited_email_alias">Unlimited hide-my-email aliases</string>
+  <string name="custom_email_alias_domains">Custom domains for email aliases</string>
+  <string name="multiple_forwarding_mailboxes">Multiple forwarding mailboxes</string>
+  <string name="priority_support">Forgangsstuðningur</string>
+  <string name="one_vault">1 vault</string>
+  <string name="ten_hide_my_email_aliases">10 hide-my-email aliases</string>
+  <!-- endregion -->
+  <!-- region Plan entitlement tags -->
+  <string name="upgrade_storage_current_drive_storage">Drive: %d%% full</string>
+  <string name="upgrade_storage_current_mail_storage">Mail: %d%% full</string>
+  <string name="upgrade_storage_subtitle">Uppfæra geymslurými</string>
+  <!-- endregion -->
+  <!-- region Plan upgrade -->
+  <string name="plan_manage_subscription_title">Upgrade in %s</string>
+  <string name="plan_manage_subscription_subtitle">You can manage your subscription in %1$s application. Open %2$s to upgrade to %3$s.</string>
+  <string name="plan_manage_subscription_no_app_title">Install %s</string>
+  <string name="plan_manage_subscription_no_app_subtitle">You can manage your subscription in %1$s application. Download and install the latest version of %2$s to upgrade to %3$s.</string>
+  <string name="plan_manage_subscription_app_missing_got_it">Náði því</string>
+  <string name="plan_welcome_price_message_monthly">Welcome offer. Auto renews at %1$s/month</string>
+  <string name="plan_welcome_price_message_annual">Welcome offer. Auto renews at %1$s/year</string>
+  <string name="plan_welcome_price_message_two_year">Welcome offer. Auto renews at %1$s/2 years</string>
+  <string name="plan_auto_renew_message_monthly">Subscription auto renews at %1$s/month</string>
+  <string name="plan_auto_renew_message_annual">Subscription auto renews at %1$s/year</string>
+  <string name="plan_auto_renew_message_two_years">Subscription auto renews at %1$s/2 years</string>
+  <string name="plan_welcome_price_message_other_fallback">Subscription auto renews</string>
+  <string name="subscription_renewal_info_monthly">The discounted price of %1$s is valid for the first month. Your subscription automatically renews on &lt;b&gt;%2$s&lt;/b&gt; at &lt;b&gt;%3$s&lt;/b&gt; every month.</string>
+  <string name="subscription_renewal_info_annual">The discounted price of %1$s is valid for the first year. Your subscription automatically renews on &lt;b&gt;%2$s&lt;/b&gt; at &lt;b&gt;%3$s&lt;/b&gt; every year.</string>
+  <string name="subscription_renewal_info_two_years">The discounted price of %1$s is valid for the first year. Your subscription automatically renews on &lt;b&gt;%2$s&lt;/b&gt; at &lt;b&gt;%3$s&lt;/b&gt; every 2 years.</string>
+</resources>

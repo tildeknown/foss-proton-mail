@@ -1,0 +1,158 @@
+/*
+ * Copyright (c) 2023 Proton AG
+ * This file is part of Proton AG and ProtonCore.
+ *
+ * ProtonCore is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * ProtonCore is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+package me.proton.core.plan.data.repository
+
+import io.github.reactivecircus.cache4k.Cache
+import me.proton.core.domain.entity.AppStore
+import me.proton.core.domain.entity.SessionUserId
+import me.proton.core.network.data.ApiProvider
+import me.proton.core.network.domain.TimeoutOverride
+import me.proton.core.network.domain.onParseErrorLog
+import me.proton.core.payment.domain.features.IsPaymentsV5Enabled
+import me.proton.core.payment.domain.entity.Currency
+import me.proton.core.payment.domain.entity.PaymentTokenEntity
+import me.proton.core.payment.domain.entity.SubscriptionCycle
+import me.proton.core.payment.domain.entity.SubscriptionStatus
+import me.proton.core.payment.domain.repository.PlanQuantity
+import me.proton.core.plan.data.api.PlansApi
+import me.proton.core.plan.data.api.request.CheckSubscription
+import me.proton.core.plan.data.api.request.CreateSubscription
+import me.proton.core.plan.data.api.response.toDynamicPlan
+import me.proton.core.plan.data.usecase.GetSessionUserIdForPaymentApi
+import me.proton.core.plan.domain.LogTag
+import me.proton.core.plan.domain.PlanIconsEndpointProvider
+import me.proton.core.plan.domain.entity.DynamicPlans
+import me.proton.core.plan.domain.entity.DynamicSubscription
+import me.proton.core.plan.domain.entity.Subscription
+import me.proton.core.plan.domain.repository.PlansRepository
+import me.proton.core.user.domain.UserManager
+import me.proton.core.user.domain.extension.isNullOrCredentialLess
+import me.proton.core.util.kotlin.coroutine.result
+import javax.inject.Inject
+import javax.inject.Singleton
+import kotlin.time.Duration.Companion.minutes
+
+@Singleton
+class PlansRepositoryImpl @Inject constructor(
+    private val apiProvider: ApiProvider,
+    private val endpointProvider: PlanIconsEndpointProvider,
+    private val getSessionUserIdForPaymentApi: GetSessionUserIdForPaymentApi,
+    private val userManager: UserManager,
+    private val isPaymentsV5Enabled: IsPaymentsV5Enabled,
+) : PlansRepository {
+
+    private val dynamicPlansCache =
+        Cache.Builder<String, DynamicPlans>().expireAfterWrite(1.minutes).build()
+
+    private val subscriptionCache =
+        Cache.Builder<String, List<DynamicSubscription>>().expireAfterWrite(1.minutes).build()
+
+    private fun clearCaches() {
+        dynamicPlansCache.invalidateAll()
+        subscriptionCache.invalidateAll()
+    }
+
+    private suspend fun getRemoteDynamicPlans(
+        sessionUserId: SessionUserId?,
+        appStore: AppStore,
+    ): DynamicPlans = result("getDynamicPlans") {
+        apiProvider.get<PlansApi>(sessionUserId).invoke {
+            val response = getDynamicPlans(appStore.value)
+            DynamicPlans(
+                defaultCycle = response.defaultCycle,
+                plans = response.plans.mapIndexed { index, resource ->
+                    resource.toDynamicPlan(endpointProvider.get(), index)
+                }.sortedBy { plan -> plan.order }
+            )
+        }.onParseErrorLog(LogTag.DYN_PLANS_PARSE).valueOrThrow
+    }
+
+    override suspend fun getDynamicPlans(
+        sessionUserId: SessionUserId?,
+        appStore: AppStore,
+    ): DynamicPlans = dynamicPlansCache.get(sessionUserId?.id ?: "") {
+        getRemoteDynamicPlans(sessionUserId, appStore)
+    }
+
+    @Deprecated("This check is no longer necessary")
+    override suspend fun validateSubscription(
+        sessionUserId: SessionUserId?,
+        codes: List<String>?,
+        plans: PlanQuantity,
+        currency: Currency,
+        cycle: SubscriptionCycle
+    ): SubscriptionStatus = result("validateSubscription") {
+        apiProvider.get<PlansApi>(getSessionUserIdForPaymentApi(sessionUserId)).invoke {
+            val requestBody = CheckSubscription(codes, plans, currency.name, cycle.value)
+            if (isPaymentsV5Enabled(sessionUserId)) {
+                validateSubscriptionV5(requestBody).toSubscriptionStatus()
+            } else {
+                validateSubscription(requestBody).toSubscriptionStatus()
+            }
+        }.valueOrThrow
+    }
+
+    override suspend fun getSubscription(sessionUserId: SessionUserId): Subscription? =
+        apiProvider.get<PlansApi>(sessionUserId).invoke {
+            getCurrentSubscription().subscription.toSubscription()
+        }.valueOrThrow
+
+    override suspend fun getDynamicSubscriptions(
+        sessionUserId: SessionUserId
+    ): List<DynamicSubscription> = subscriptionCache.get(sessionUserId.id) {
+        if (sessionUserId.isNullOrCredentialLess(userManager)) {
+            listOf(DynamicSubscription(name = null, title = "", description = ""))
+        } else {
+            result("getDynamicSubscriptions") {
+                apiProvider.get<PlansApi>(sessionUserId).invoke {
+                    getDynamicSubscriptions().subscriptions.map { it.toDynamicSubscription(endpointProvider.get()) }
+                }.onParseErrorLog(me.proton.core.payment.domain.LogTag.DYN_SUB_PARSE).valueOrThrow
+            }
+        }
+    }
+
+    override suspend fun createOrUpdateSubscription(
+        sessionUserId: SessionUserId,
+        payment: PaymentTokenEntity?,
+        plans: PlanQuantity,
+        cycle: SubscriptionCycle,
+    ): Subscription = result("createOrUpdateSubscription") {
+        /**
+         * Please note: currency is hardcoded for now. This property is not actually used in the
+         * Back End system. It is due to be removed, but for now is still required. When is is no
+         * longer required, this implementation must be updated.
+         */
+        apiProvider.get<PlansApi>(sessionUserId).invoke {
+            val requestBody = CreateSubscription(
+                currency = Currency.CHF.name,
+                paymentToken = payment?.token?.value,
+                plans = plans,
+                cycle = cycle.value
+            )
+            val timeout = TimeoutOverride(readTimeoutSeconds = 30)
+            if (isPaymentsV5Enabled(sessionUserId)) {
+                createUpdateSubscriptionV5(timeout, requestBody).subscription.toSubscription()
+            } else {
+                createUpdateSubscription(timeout, requestBody).subscription.toSubscription()
+            }
+        }.valueOrThrow.apply {
+            clearCaches()
+        }
+    }
+}

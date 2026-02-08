@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- Grace period - info -->
+  <string name="account_recovery_grace_period_info_title">Jelszó visszaállítási kérelem történt</string>
+  <plurals name="account_recovery_grace_period_info_subtitle">
+    <item quantity="one">A jelszó visszaállítását kérelmezte a(z) <b>%1$s</b> címhez. A jelszót %2$d órán belül megváltoztathatja.\n\nHa nem ön kérte a visszaállítást, szakítsa meg.</item>
+    <item quantity="other">A jelszó visszaállítását kérelmezte a(z) <b>%1$s</b> címhez. A jelszót %2$d órán belül megváltoztathatja.\n\nHa nem ön kérte a visszaállítást, szakítsa meg.</item>
+  </plurals>
+  <!-- Grace period - cancellation form -->
+  <string name="account_recovery_cancel_title">Jelszó visszaállítás megszakítása?</string>
+  <string name="account_recovery_cancel_subtitle">A törléshez adja meg jelszavát.</string>
+  <string name="account_recovery_cancel_password_label">Jelenlegi jelszó</string>
+  <string name="account_recovery_cancel_password_placeholder">Jelszó</string>
+  <string name="account_recovery_cancel_now">Jelszó visszaállítás megszakítása</string>
+  <string name="account_recovery_cancel_back">Vissza</string>
+  <!-- Account recovery cancelled -->
+  <string name="account_recovery_cancelled_title">Jelszó visszaállítás megszakítva</string>
+  <string name="account_recovery_cancelled_subtitle">Ha nem Ön kérte a jelszó visszaállítását, fiókja veszélyben lehet.\n\nBiztosítsa fiókját jelszava megváltoztatásával.</string>
+  <!-- Password change period -->
+  <string name="account_recovery_password_started_title">Jelszó visszaállítás elérhető</string>
+  <string name="account_recovery_password_started_subtitle">Jelszava visszaállításához térjen vissza arra az eszközre és böngészőre, amelyről a jelszó visszaállítását kezdeményezte.\n\nEzt még %s előtt szükséges végrehajtania.\n\nAmennyiben nem Ön kérte a jelszava visszaállítását, szakítsa meg a visszaállítást most.</string>
+  <string name="account_recovery_password_started_self_initiated_subtitle">Most már visszaállíthatja a jelszavát.\n\nEzt %s előtt kell megtennie.\n\nHa nem kérte a jelszó visszaállítását, szakítsa meg a folyamatot most.</string>
+  <!-- Recovery window ended -->
+  <string name="account_recovery_window_ended_title">Jelszó visszaállítási kérelem lejárt</string>
+  <string name="account_recovery_window_ended_subtitle">Újra kell kérelmeznie a jelszó visszaállítást ehhez: %s.</string>
+  <!-- Other -->
+  <string name="account_recovery_cancel">Kérelem törlése</string>
+  <string name="account_recovery_dismiss">Rendben</string>
+  <string name="account_recovery_reset">Jelszó visszaállítása</string>
+  <!-- Account Recovery Info -->
+  <string name="account_recovery_info_grace_title">Jelszó visszaállítási kérelem történt</string>
+  <string name="account_recovery_info_grace_subtitle">A jelszavát %1s múlva állíthatja vissza.</string>
+  <string name="account_recovery_info_grace_description">Annak ellenőrzésére, hogy valóban Ön próbálja visszaállítani a jelszavát, 72 órát várni kell a kérések jóváhagyásáig.\n\nHa nem Ön kérelmezte a visszaállítást, abban az esetben most megszakíthatja azt.</string>
+  <string name="account_recovery_info_cancelled_title">Jelszó visszaállítás megszakítva</string>
+  <string name="account_recovery_info_cancelled_subtitle">Jelszó visszaállítási kérelem érkezett ekkor: %1s.</string>
+  <string name="account_recovery_info_cancelled_description">Ha nem ismeri fel ezt a kérelmet, az is lehetséges, hogy valaki hozzáfér a Proton fiókjához.\n\nBiztosítsa a fiókját most.</string>
+  <string name="account_recovery_info_insecure_title">Jelszó visszaállítás elérhető</string>
+  <string name="account_recovery_info_insecure_subtitle">Most már visszaállíthatja a jelszavát. Ezt %1s előtt kell megtennie.</string>
+  <string name="account_recovery_info_insecure_description">Nem ön kezdeményezte?\n\nHa nem ön kérte a jelszava visszaállítását, szakítsa meg a folyamatot most.</string>
+  <!-- Password Reset Dialog -->
+  <string name="account_recovery_reset_dialog_title">Jelszó visszaállítása?</string>
+  <string name="account_recovery_reset_dialog_text">"Biztonsági okokból, 72 órát várnia kell mielőtt a megváltoztathatja a jelszavát: %1s.\n\nHa van helyreállítási módszere beállítva, használja inkább a fiók helyreállítást. Azzal azonnal megadhat egy új jelszót."</string>
+  <string name="account_recovery_reset_dialog_action_request_reset">Jelszóváltoztatás kérése</string>
+  <string name="account_recovery_reset_dialog_action_use_recovery">Helyreállítási mód használata</string>
+  <string name="account_recovery_reset_dialog_action_use_recovery_hint">Módosítsa jelszavát a webböngészőben anélkül, hogy végig várná a biztonsági időszakot.</string>
+  <string name="account_recovery_reset_dialog_action_request_reset_success">Jelszó visszaállítási kérelem történt</string>
+</resources>

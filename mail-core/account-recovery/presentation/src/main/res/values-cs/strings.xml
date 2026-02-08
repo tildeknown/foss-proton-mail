@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- Grace period - info -->
+  <string name="account_recovery_grace_period_info_title">Vyžádáno resetování hesla</string>
+  <plurals name="account_recovery_grace_period_info_subtitle">
+    <item quantity="one">Pro <b>%1$s</b> bylo vyžádáno resetování hesla. Heslo si můžete změnit za %2$d hodinu.\n\nPokud jste o změnu nepožádali, zrušte resetování nyní.</item>
+    <item quantity="few">Pro <b>%1$s</b> bylo vyžádáno resetování hesla. Heslo si můžete změnit za %2$d hodiny.\n\nPokud jste o změnu nepožádali, zrušte resetování nyní.</item>
+    <item quantity="many">Pro <b>%1$s</b> bylo vyžádáno resetování hesla. Heslo si můžete změnit za %2$d hodin.\n\nPokud jste o změnu nepožádali, zrušte resetování nyní.</item>
+    <item quantity="other">Pro <b>%1$s</b> bylo vyžádáno resetování hesla. Heslo si můžete změnit za %2$d hodin.\n\nPokud jste o změnu nepožádali, zrušte resetování nyní.</item>
+  </plurals>
+  <!-- Grace period - cancellation form -->
+  <string name="account_recovery_cancel_title">Zrušit resetování hesla?</string>
+  <string name="account_recovery_cancel_subtitle">Zadejte své heslo pro zrušení.</string>
+  <string name="account_recovery_cancel_password_label">Aktuální heslo</string>
+  <string name="account_recovery_cancel_password_placeholder">Heslo</string>
+  <string name="account_recovery_cancel_now">Zrušit resetování hesla</string>
+  <string name="account_recovery_cancel_back">Zpět</string>
+  <!-- Account recovery cancelled -->
+  <string name="account_recovery_cancelled_title">Resetování hesla zrušeno</string>
+  <string name="account_recovery_cancelled_subtitle">Pokud jste o změnu hesla nikdy nepožádali, může být váš účet ohrožen.\n\nZabezpečte si svůj účet změnou hesla.</string>
+  <!-- Password change period -->
+  <string name="account_recovery_password_started_title">Resetování hesla je k dispozici</string>
+  <string name="account_recovery_password_started_subtitle">Chcete-li resetovat své heslo, použijte znovu zařízení, aplikaci nebo prohlížeč, ze kterého jste zadali požadavek na reset hesla.\n\nToto je potřeba provést před %s.\n\nPokud jste o reset hesla nepožádali, tak požadavek zrušte.</string>
+  <string name="account_recovery_password_started_self_initiated_subtitle">Nyní můžete resetovat své heslo.\n\nToto je potřeba provést před %s.\n\nPokud jste o reset hesla nepožádali, tak požadavek zrušte.</string>
+  <!-- Recovery window ended -->
+  <string name="account_recovery_window_ended_title">Resetování hesla vypršelo</string>
+  <string name="account_recovery_window_ended_subtitle">Budete muset požádat o nové resetování hesla pro %s.</string>
+  <!-- Other -->
+  <string name="account_recovery_cancel">Zrušit žádost</string>
+  <string name="account_recovery_dismiss">Rozumím</string>
+  <string name="account_recovery_reset">Resetovat heslo</string>
+  <!-- Account Recovery Info -->
+  <string name="account_recovery_info_grace_title">Vyžádáno resetování hesla</string>
+  <string name="account_recovery_info_grace_subtitle">Své heslo můžete resetovat za %1s.</string>
+  <string name="account_recovery_info_grace_description">Abychom měli jistotu, že se o reset hesla pokoušíte skutečně vy, čekáme před schválením požadavku 72 hodin.\n\nPokud jste o reset hesla nepožádali, tak požadavek zrušte.</string>
+  <string name="account_recovery_info_cancelled_title">Resetování hesla zrušeno</string>
+  <string name="account_recovery_info_cancelled_subtitle">Požadavek na reset hesla byl zaslán %1s.</string>
+  <string name="account_recovery_info_cancelled_description">Pokud tento požadavek nerozpoznáte, může to znamenat, že k vašemu účtu Proton má přístup někdo jiný.\n\nZabezpečte si ihned svůj účet.</string>
+  <string name="account_recovery_info_insecure_title">Resetování hesla je k dispozici</string>
+  <string name="account_recovery_info_insecure_subtitle">Nyní si můžete resetovat heslo. Reset hesla bude dostupný do %1s.</string>
+  <string name="account_recovery_info_insecure_description">Nejde o váš požadavek?\n\nPokud jste o reset hesla nepožádali, můžete nyní požadavek zrušit.</string>
+  <!-- Password Reset Dialog -->
+  <string name="account_recovery_reset_dialog_title">Resetovat heslo?</string>
+  <string name="account_recovery_reset_dialog_text">"Z důvodu ochrany musíte počkat 72 hodin, než bude možné změnit heslo pro %1s.\n\nPokud máte nastavenu metodu obnovení účtu, zkuste místo toho obnovení účtu, které vám umožní resetovat heslo bez čekání."</string>
+  <string name="account_recovery_reset_dialog_action_request_reset">Požádat o resetování hesla</string>
+  <string name="account_recovery_reset_dialog_action_use_recovery">Použít metodu obnovení</string>
+  <string name="account_recovery_reset_dialog_action_use_recovery_hint">Změňte si heslo ve vašem internetovém prohlížeči, aniž byste museli čekat na bezpečnostní lhůtu.</string>
+  <string name="account_recovery_reset_dialog_action_request_reset_success">Vyžádáno resetování hesla</string>
+</resources>

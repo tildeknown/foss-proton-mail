@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2024 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="auth_login_details">Unesite podatke svog računa za Proton.</string>
+  <string name="auth_login_sign_in">Prijavi se</string>
+  <string name="auth_login_help">Pomoć</string>
+  <string name="auth_login_close">Zatvori</string>
+  <string name="auth_login_continue">Nastavi</string>
+  <string name="auth_login_forgot_username">Zaboravili ste korisničko ime</string>
+  <string name="auth_login_forgot_password">Zaboravili ste lozinku</string>
+  <string name="auth_login_welcome">Dobro došli</string>
+  <string name="auth_login_username">Korisničko ime ili e-pošta</string>
+  <string name="auth_login_password">Unesite lozinku</string>
+  <string name="auth_login_assistive_text">Molimo upišite vašu Proton e-poštu ili korisničko ime.</string>
+  <string name="auth_login_confirmation_code">Kôd za potvrdu</string>
+  <string name="auth_login_use_backup_password">Use backup password instead</string>
+  <string name="auth_login_ask_admin_for_help">Zatraži pomoć od administratora</string>
+  <string name="auth_login_approve_signin_another_device">Potvrdi prijavu s drugog uređaja</string>
+  <string name="auth_login_approve_signin_another_device_subtitle">Da bismo bili sigurni da ste to Vi, provjerite kôd za potvrdu i odobrite prijavu s drugog uređaja.</string>
+  <string name="auth_login_share_confirmation_code_with_admin">Podijelite kôd za potvrdu s Vašim administratorom</string>
+  <string name="auth_login_share_confirmation_code_with_admin_subtitle">Da bismo bili sigurni da se Vi pokušavate prijaviti, podijelite kôd za potvrdu s Vašim administratorom %1$s koji će potvrditi zahtjev za %2$s.</string>
+  <string name="auth_login_signin_requested">Zatražena je prijava na drugom uređaju. Jeste li to Vi?</string>
+  <string name="auth_login_signin_requested_subtitle">Unesite kôd za potvrdu koji smo poslali na Vaš drugi uređaj za %1$s.</string>
+  <string name="auth_login_signin_requested_note">Ako niste poslali ovaj zahtjev, otkažite ga sada.</string>
+  <string name="auth_login_signin_invalid_confirmation_code">Nevažeći kôd za potvrdu</string>
+  <string name="auth_login_signin_invalid_character">Nevažeći znak</string>
+  <string name="auth_login_yes_it_was_me">Da, to sam ja</string>
+  <string name="auth_login_no_it_wasnt_me">Ne, to nisam ja</string>
+  <string name="auth_login_devices_available">Dostupni uređaji</string>
+  <string name="auth_login_no_devices_available">Nema dostupnih uređaja</string>
+  <string name="auth_login_device_last_used_duration_ago">Posljednji puta korišteno prije %s</string>
+  <string name="auth_login_device_last_used_on_date">Posljednji puta korišteno %s</string>
+  <string name="auth_login_cancel">Odustani</string>
+  <string name="auth_login_not_available">Nije primjenjivo</string>
+  <string name="auth_login_troubleshhot">Rješavanje problema</string>
+  <string name="auth_login_external_account_unsupported_title">Potrebna Proton adresa</string>
+  <string name="auth_login_external_account_unsupported_message">Get a Proton Mail address linked to this account in your Proton web settings.</string>
+  <string name="auth_login_external_account_unsupported_help_action">Saznajte više</string>
+  <string name="auth_password_chooser_title">Promijenite vašu lozinku</string>
+  <string name="auth_password_chooser_description">Da biste koristili Proton aplikaciju kao član organizacije, prvo morate promijeniti vašu lozinku prijavom u Proton preko pretraživača.</string>
+  <string name="auth_password_chooser_change">Promijeni lozinku</string>
+  <string name="auth_login_sso_main_signing_you_in">Prijavljujemo vas</string>
+  <string name="auth_login_sso_main_to_your_organization">to your organization</string>
+  <string name="backup_password_input_password_empty">Lozinka ne može biti prazna</string>
+  <string name="backup_password_input_action_continue">Nastavi</string>
+  <string name="backup_password_input_action_help">Pitaj administratora za pomoć</string>
+  <string name="backup_password_input_label">Rezervna lozinka</string>
+  <string name="backup_password_input_subtitle">Da bismo bili sigurni da ste to Vi, unesite Vašu rezervnu lozinku.</string>
+  <string name="backup_password_input_title">Unesite rezervnu lozinku</string>
+  <string name="backup_password_setup_title" comment="1 - company name">Join %1$s</string>
+  <string name="backup_password_setup_subtitle" comment="1 - email address of organization's admin">%1$s added you to their Proton organization.</string>
+  <string name="backup_password_setup_description">Postavite rezervnu lozinku za dodatni sloj zaštite.</string>
+  <string name="backup_password_setup_password_label">Rezervna lozinka</string>
+  <string name="backup_password_setup_repeat_password_label">Ponovite rezervnu lozinku</string>
+  <string name="backup_password_setup_continue_action">Nastavi</string>
+  <string name="backup_password_setup_password_too_short">Lozinka mora imati najmanje 8 znakova.</string>
+  <string name="backup_password_setup_password_too_common">Password too common. Use a different password.</string>
+  <string name="backup_password_setup_password_not_matching">Lozinke se ne poklapaju.</string>
+  <string name="backup_password_change_title">Set backup password</string>
+  <string name="backup_password_change_description">This password adds an extra layer of protection and allows you to sign in if you get locked out. Make sure to keep it somewhere safe.</string>
+  <string name="backup_password_invalid">Invalid backup password.</string>
+  <string name="backup_password_no_primary_key">No Primary Key.</string>
+  <string name="backup_password_no_key_salts">No Key Salts.</string>
+  <string name="auth_login_back_to_sign_in">Back to sign-in</string>
+  <string name="auth_login_access_denied">Access Denied</string>
+  <string name="auth_login_access_denied_contact_admin">Contact your administrator if the problem persists.</string>
+  <string name="auth_login_access_granted">Access granted</string>
+  <string name="auth_login_access_granted_info">For your security, you have been signed out of all your other active devices. Before accessing your account, you’ll need to enter a new backup password.</string>
+  <string name="auth_login_ask_admin_for_access">Ask your administrator for access?</string>
+  <string name="auth_login_ask_admin_device_id_error">Device error</string>
+  <string name="auth_login_ask_admin_for_access_note">This will sign you out of your other devices and you will have to create a new backup password.</string>
+</resources>

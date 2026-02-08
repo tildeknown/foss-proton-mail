@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2020 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+
+    <style name="ProtonTheme.AddAccount">
+        <!-- ProtonTheme.AddAccount attributes override -->
+        <item name="add_account_illustration">@drawable/welcome_header_mail</item>
+        <item name="add_account_title">@string/welcome_title</item>
+        <item name="add_account_subtitle">@string/welcome_subtitle</item>
+        <item name="add_account_logo_height">@dimen/add_account_product_logo_height_default</item>
+        <item name="add_account_icon">@drawable/logo_mail_with_text</item>
+    </style>
+
+    <style name="ProtonTheme.Mail.AddAccount">
+        <!-- ProtonTheme.AddAccount attributes override -->
+        <item name="add_account_illustration">@drawable/welcome_header_mail</item>
+        <item name="add_account_subtitle">@string/welcome_subtitle_mail_alt</item>
+        <item name="add_account_logo_height">@dimen/add_account_product_logo_height_default</item>
+        <item name="add_account_icon">@drawable/logo_mail_with_text</item>
+    </style>
+
+    <style name="ProtonTheme.Calendar.AddAccount">
+        <!-- ProtonTheme.AddAccount attributes override -->
+        <item name="add_account_illustration">@drawable/welcome_header_calendar</item>
+        <item name="add_account_subtitle">@string/welcome_subtitle_calendar_alt</item>
+        <item name="add_account_logo_height">@dimen/add_account_product_logo_height_calendar</item>
+        <item name="add_account_icon">@drawable/logo_calendar_with_text</item>
+    </style>
+
+    <style name="ProtonTheme.Drive.AddAccount">
+        <!-- ProtonTheme.AddAccount attributes override -->
+        <item name="add_account_illustration">@drawable/welcome_header_drive</item>
+        <item name="add_account_subtitle">@string/welcome_subtitle_drive_alt</item>
+        <item name="add_account_logo_height">@dimen/add_account_product_logo_height_default</item>
+        <item name="add_account_icon">@drawable/logo_drive_with_text</item>
+    </style>
+
+    <style name="ProtonTheme.Vpn.AddAccount">
+        <!-- ProtonTheme.AddAccount attributes override -->
+        <item name="add_account_illustration">@drawable/welcome_header_vpn</item>
+        <item name="add_account_subtitle">@string/welcome_subtitle_vpn_alt</item>
+        <item name="add_account_logo_height">@dimen/add_account_product_logo_height_default</item>
+        <item name="add_account_icon">@drawable/logo_vpn_with_text</item>
+    </style>
+
+    <style name="ProtonTheme.Pass.AddAccount">
+        <!-- ProtonTheme.AddAccount attributes override -->
+        <item name="add_account_illustration">@drawable/welcome_header_pass</item>
+        <item name="add_account_subtitle">@string/welcome_subtitle_pass_alt</item>
+        <item name="add_account_logo_height">@dimen/add_account_product_logo_height_default</item>
+        <item name="add_account_icon">@drawable/logo_pass_with_text</item>
+    </style>
+
+    <style name="AuthContent">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingStart">@dimen/auth_parent_default_padding</item>
+        <item name="android:paddingEnd">@dimen/auth_parent_default_padding</item>
+    </style>
+
+</resources>

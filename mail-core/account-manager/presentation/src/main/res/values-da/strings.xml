@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="account_switcher_section_switch_to">Skift til</string>
+  <string name="account_switcher_action_add_account">Tilføj konto</string>
+  <string name="account_switcher_action_sign_in">Log ind</string>
+  <string name="account_switcher_action_sign_out">Log ud</string>
+  <string name="account_switcher_action_remove">Fjern</string>
+  <string name="account_list_item_chevron_content_description">Åbn kontoskifter</string>
+  <string name="account_view_three_dots_content_description">Valgmuligheder</string>
+  <string name="account_settings_header">Kontoindstillinger</string>
+  <string name="account_settings_item_header">Bruger</string>
+  <string name="account_settings_list_header">Konto</string>
+  <string name="account_settings_list_item_password_header">Skift adgangskode</string>
+  <string name="account_settings_list_item_password_hint_grace">Nulstilling af adgangskode afventes</string>
+  <string name="account_settings_list_item_password_hint_insecure">Nulstilling af adgangskode klar</string>
+  <string name="account_settings_list_item_recovery_header">E-mail til gendannelse</string>
+  <string name="account_settings_list_item_recovery_hint_not_set">Ikke angivet</string>
+  <string name="account_settings_list_item_security_keys_header">Sikkerhedsnøgler</string>
+  <string name="account_settings_list_item_security_keys_hint_not_set">Ikke angivet</string>
+  <string name="account_settings_list_item_security_keys_hint_single">%s</string>
+  <plurals name="account_settings_list_item_security_keys_hint_many">
+    <item quantity="one">%d sikkerhedsnøgle angivet</item>
+    <item quantity="other">%d sikkerhedsnøgler angivet</item>
+  </plurals>
+  <string name="account_signout_dialog_title">Log ud?</string>
+  <string name="account_signout_dialog_text">Data, der er knyttet til din konto, forbliver på denne enhed, medmindre du vælger at slette dem.</string>
+  <string name="account_signout_dialog_delete_information">Fjern alle tilknyttede data</string>
+  <string name="account_signout_dialog_action_signout">Log ud</string>
+  <string name="account_signout_dialog_action_cancel">Annuller</string>
+</resources>

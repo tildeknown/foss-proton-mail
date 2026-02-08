@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="plans_select_a_plan">Selecteer een abonnement</string>
+  <string name="plans_select_a_plan_subtitle">Één abonnement voor alle Proton diensten</string>
+  <string name="plans_fetching_general_error">Er is een fout opgetreden bij het ophalen van de abonnementen.</string>
+  <string name="plans_payment_error">De betaling is niet gelukt. Probeer later nog eens, of start een gratis account.</string>
+  <string name="plans_free_name">Gratis</string>
+  <string name="plan_price_monthly">maandelijks</string>
+  <string name="plan_price_annually">per jaar</string>
+  <string name="plans_current_plan">Huidig abonnement</string>
+  <string name="plans_upgrade_plan">Upgrade uw abonnement</string>
+  <string name="plans_subscription">Abonnement</string>
+  <string name="plans_renewal_date">Uw abonnement wordt automatisch verlengd op &lt;b&gt;%s&lt;/b&gt;</string>
+  <string name="plans_expiration_date">Uw abonnement verloopt op &lt;b&gt;%s&lt;/b&gt;</string>
+  <string name="plans_pay_monthly">Maandelijks betalen</string>
+  <string name="plans_pay_annually">Jaarlijks betalen</string>
+  <string name="plans_pay_biennially">Betaal elke 2 jaar</string>
+  <plurals name="plans_pay_other">
+    <item quantity="one">Betaal voor %d maand</item>
+    <item quantity="other">Betaal voor %d maanden</item>
+  </plurals>
+  <string name="plans_billed_yearly">*Jaarlijks gefactureerd op %s</string>
+  <string name="plans_billed_monthly">Maandelijks gefactureerd</string>
+  <string name="plans_billing_monthly">Voor 1 maand</string>
+  <string name="plans_billing_yearly">Voor 1 jaar</string>
+  <string name="plans_billing_two_years">Voor 2 jaar</string>
+  <plurals name="plans_billing_other_period">
+    <item quantity="one">Voor %d maand</item>
+    <item quantity="other">Voor %d maanden</item>
+  </plurals>
+  <string name="plans_upgrade_your_plan">Upgrade uw abonnement</string>
+  <string name="plans_proton_for_free">Krijg Proton gratis</string>
+  <string name="plans_get_proton">Kies %s</string>
+  <string name="plans_manage_your_subscription">Beheer uw abonnement op <a href="https://account.proton.me">account.proton.me</a></string>
+  <string name="plans_used_space" comment="1 - used space (e.g. 300MB); 2 - max available space (e.g. 1GB)">%1$s van %2$s</string>
+  <string name="plans_payments_info_not_available">n.v.t.</string>
+  <string name="plans_manage_your_subscription_google">Uw abonnement wordt beheerd door Google Play.</string>
+  <string name="plans_manage_your_subscription_other">Uw abonnement kan niet beheerd worden in de mobiele app.</string>
+  <string name="plans_autorenew_subscriptions">Enkel abonnementen met automatische jaarlijkse verlenging zijn beschikbaar via deze app.</string>
+  <string name="plans_can_not_upgrade_from_mobile">Uw abonnement kan niet beheerd worden in de Android-app.</string>
+  <string name="plans_user_has_credits">U heeft credits op uw account.</string>
+  <string name="plans_manage_subscription_play_store">Abonnement beheren</string>
+  <string name="plans_no_upgrade_available">Er is momenteel geen upgrade beschikbaar.</string>
+  <string name="plans_limited_offer">Tijdelijke aanbieding</string>
+  <string name="plans_subscription_base_storage_full_title">Uw mail opslag is vol</string>
+  <string name="plans_subscription_base_storage_nearly_full_title">Uw mail opslag is bijna vol</string>
+  <string name="plans_subscription_drive_storage_full_title">Uw online opslag is vol</string>
+  <string name="plans_subscription_drive_storage_nearly_full_title">Uw online opslag is bijna vol</string>
+  <string name="plans_subscription_storage_get_more">Krijg meer opslag</string>
+  <string name="plans_subscription_storage_full_description">Upgrade uw abonnement in de webapp om uw account zonder onderbrekingen te blijven gebruiken.</string>
+  <!-- region all possible plan item types. this could be updated as per language requirements.-->
+  <plurals name="item_storage" comment="please do not modify the text between #">
+    <item quantity="one">#proton_storage# opslagruimte</item>
+    <item quantity="other">#proton_storage# opslagruimte</item>
+  </plurals>
+  <plurals name="item_storage_free" comment="please do not modify the text between #">
+    <item quantity="one">Tot #proton_storage# opslag</item>
+    <item quantity="other">Tot #proton_storage# opslag</item>
+  </plurals>
+  <plurals name="item_storage_multiuser" comment="please do not modify the text between #">
+    <item quantity="one">#proton_storage# opslagruimte / gebruiker</item>
+    <item quantity="other">#proton_storage# opslagruimte / gebruiker</item>
+  </plurals>
+  <plurals name="item_address" comment="please do not modify the test between #">
+    <item quantity="one">#proton_addresses# e-mailadres</item>
+    <item quantity="other">#proton_addresses# e-mailadressen</item>
+  </plurals>
+  <plurals name="item_address_multiuser" comment="please do not modify the test between #">
+    <item quantity="one">#proton_addresses# adres / gebruiker</item>
+    <item quantity="other">#proton_addresses# adressen / gebruiker</item>
+  </plurals>
+  <plurals name="item_address_current" comment="please do not modify the test between #">
+    <item quantity="one">%d van #proton_addresses# adres</item>
+    <item quantity="other">%d van #proton_addresses# adressen</item>
+  </plurals>
+  <plurals name="item_domain" comment="please do not modify the test between #">
+    <item quantity="one">Ondersteuning voor #proton_domains# aangepast e-maildomein</item>
+    <item quantity="other">Ondersteuning voor #proton_domains# aangepaste e-maildomeinen</item>
+  </plurals>
+  <plurals name="item_calendar" comment="please do not modify the test between #">
+    <item quantity="one">#proton_calendars# persoonlijke agenda</item>
+    <item quantity="other">#proton_calendars# persoonlijke agenda\'s</item>
+  </plurals>
+  <plurals name="item_calendar_current" comment="please do not modify the test between #">
+    <item quantity="one">%d van #proton_calendars# agenda</item>
+    <item quantity="other">%d van #proton_calendars# agenda\'s</item>
+  </plurals>
+  <plurals name="item_connections" comment="please do not modify the test between #">
+    <item quantity="one">Gratis VPN op één apparaat</item>
+    <item quantity="other">Supersnelle VPN op #proton_vpn#-toestellen</item>
+  </plurals>
+  <plurals name="item_connections_highspeed" comment="please do not modify the test between #">
+    <item quantity="one">#proton_vpn# hogesnelheidsverbinding met VPN</item>
+    <item quantity="other">#proton_vpn# hogesnelheidsverbindingen met VPN</item>
+  </plurals>
+  <plurals name="item_users" comment="please do not modify the test between #">
+    <item quantity="one">#proton_users# gebruiker</item>
+    <item quantity="other">#proton_users# gebruikers</item>
+  </plurals>
+  <plurals name="item_users_current" comment="please do not modify the test between #">
+    <item quantity="one">%d van #proton_users# gebruiker</item>
+    <item quantity="other">%d van #proton_users# gebruikers</item>
+  </plurals>
+  <!-- endregion -->
+  <!-- region plans headers -->
+  <string name="plan_id_free_header">De basis voor privé-en veilige communicatie.</string>
+  <string name="plan_id_plus_header">Full-featured mailbox met geavanceerde beveiliging.</string>
+  <string name="plan_id_vpnbasic_header">VPN Basic</string>
+  <string name="plan_id_vpnbasic_countries">63 landen</string>
+  <string name="plan_id_vpnbasic_high_speed">Hoge snelheid</string>
+  <string name="plan_id_vpnplus_adblock">Advertentieblokkering (NetShield)</string>
+  <string name="plan_id_vpnplus_streaming">Streamingdienst ondersteuning</string>
+  <string name="plan_id_vpnplus_header">VPN Plus</string>
+  <string name="plan_id_vpnplus_countries">63 landen</string>
+  <string name="plan_id_vpnplus_highest_speed">Hoogste snelheid</string>
+  <string name="plan_id_professional_header">Professional</string>
+  <string name="plan_id_professional_multiuser">Ondersteuning voor meerdere gebruikers</string>
+  <string name="plan_id_visionary_header">Visionary</string>
+  <string name="plan_id_family_header">Family</string>
+  <string name="plan_id_mail2022_header" comment="new_plans">Veilige e-mail met geavanceerde functies voor uw dagelijkse communicatie.</string>
+  <string name="plan_id_vpn2022_header" comment="new_plans">Uw privacy en veiligheid zijn onze prioriteit.</string>
+  <string name="plan_id_drive2022_header" comment="new_plans">Veilige cloudopslag die u alles laat opslaan, synchroniseren, en u makkelijk en veilig bestanden laat delen.</string>
+  <string name="plan_id_bundle2022_header" comment="new_plans">Uitgebreide privacy en beveiliging met alle Proton-diensten gecombineerd.</string>
+  <string name="plan_id_pass2023_header" comment="new_plans">Voor wachtwoordbeheer en identiteitsbescherming op een hoger niveau.</string>
+  <!-- endregion -->
+  <string-array name="supported_currencies">
+    <item>EUR</item>
+    <item>USD</item>
+    <item>CHF</item>
+  </string-array>
+  <!-- region plans hardcoded texts -->
+  <string name="unlimited_folders_labels_filters" comment="new_plans">Ongelimiteerde mappen, labels en filters</string>
+  <string name="highest_vpn_speed" comment="new_plans">Hoogste VPN-snelheid</string>
+  <string name="servers_in_countries" comment="new_plans">1500+ servers in 63 landen</string>
+  <string name="ad_blocker" comment="new_plans">Ingebouwde adblocker (NetShield)</string>
+  <string name="streaming_services_access" comment="new_plans">Wereldwijde toegang tot streamingdiensten</string>
+  <string name="secure_core" comment="new_plans">Secure Core-servers</string>
+  <string name="tor_vpn" comment="new_plans">Tor via VPN</string>
+  <string name="p2p_bittorrent" comment="new_plans">P2P/BitTorrent</string>
+  <string name="unlimited_logins_and_notes">Onbeperkt aantal wachtwoorden en notities</string>
+  <string name="unlimited_devices">Onbeperkt aantal apparaten</string>
+  <string name="integrated_2fa_authenticator">Geïntegreerde 2FA-authenticator</string>
+  <string name="multiple_vaults">Meerdere kluizen</string>
+  <string name="unlimited_email_alias">Onbeperkt aantal hide-my-email-aliassen</string>
+  <string name="custom_email_alias_domains">Aangepaste domeinen voor e-mailalliassen</string>
+  <string name="multiple_forwarding_mailboxes">Meerdere doorstuurpostvakken</string>
+  <string name="priority_support">Prioriteitsondersteuning</string>
+  <string name="one_vault">1 kluis</string>
+  <string name="ten_hide_my_email_aliases">10 hide-my-email aliassen</string>
+  <!-- endregion -->
+  <!-- region Plan entitlement tags -->
+  <string name="upgrade_storage_current_drive_storage">Drive: %d%% vol</string>
+  <string name="upgrade_storage_current_mail_storage">Mail: %d%% vol</string>
+  <string name="upgrade_storage_subtitle">Opslag upgraden</string>
+  <!-- endregion -->
+  <!-- region Plan upgrade -->
+  <string name="plan_manage_subscription_title">Upgraden naar %s</string>
+  <string name="plan_manage_subscription_subtitle">U kunt uw abonnement beheren in %1$s toepassing. Open %2$s om te upgraden naar %3$s.</string>
+  <string name="plan_manage_subscription_no_app_title">Installeer %s</string>
+  <string name="plan_manage_subscription_no_app_subtitle">U kunt uw abonnement beheren in %1$s toepassing. Download en installeer de nieuwste versie van %2$s om te upgraden naar %3$s.</string>
+  <string name="plan_manage_subscription_app_missing_got_it">Begrepen</string>
+  <string name="plan_welcome_price_message_monthly">Welkomstaanbieding. Verlengt automatisch voor %1$s/maand</string>
+  <string name="plan_welcome_price_message_annual">Welkomstaanbieding. Verlengt automatisch voor %1$s/jaar</string>
+  <string name="plan_welcome_price_message_two_year">Welkomstaanbieding. Verlengt automatisch voor %1$s/2 jaar</string>
+  <string name="plan_auto_renew_message_monthly">Abonnement wordt automatisch verlengd voor %1$s/maand</string>
+  <string name="plan_auto_renew_message_annual">Abonnement wordt automatisch verlengd voor %1$s/jaar</string>
+  <string name="plan_auto_renew_message_two_years">Abonnement wordt automatisch verlengd voor %1$s/2 jaar</string>
+  <string name="plan_welcome_price_message_other_fallback">Abonnement wordt automatisch verlengd</string>
+  <string name="subscription_renewal_info_monthly">De verlaagde prijs van %1$s is geldig voor de eerste maand. Uw abonnement wordt automatisch verlengd op &lt;b&gt;%2$s&lt;/b&gt; aan &lt;b&gt;%3$s&lt;/b&gt; elke maand.</string>
+  <string name="subscription_renewal_info_annual">De verlaagde prijs van %1$s is geldig voor het eerste jaar. Uw abonnement wordt elk jaar automatisch verlengd op &lt;b&gt;%2$s&lt;/b&gt; aan &lt;b&gt;%3$s&lt;/b&gt;</string>
+  <string name="subscription_renewal_info_two_years">De verlaagde prijs van %1$s is geldig voor het eerste jaar. Uw abonnement wordt elke 2 jaar automatisch verlengd op &lt;b&gt;%2$s&lt;/b&gt; aan &lt;b&gt;%3$s&lt;/b&gt;</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="core_report_bug_activity_title">Rapportera ett problem</string>
+  <string name="core_report_bug_close">Stäng</string>
+  <string name="core_report_bug_subject_field_hint">Ämne</string>
+  <string name="core_report_bug_subject_field_required">Ange ett ämne</string>
+  <string name="core_report_bug_description_field_hint">Vad gick fel? Minst 10 tecken</string>
+  <string name="core_report_bug_description_field_placeholder">Beskriv problemet så detaljerat du kan. Om det fanns ett felmeddelande, låt oss veta vad det stod.</string>
+  <plurals name="core_report_bug_description_field_required">
+    <item quantity="one">Ange minst %d tecken</item>
+    <item quantity="other">Ange minst %d tecken</item>
+  </plurals>
+  <string name="core_report_bug_discard_changes_title">Stäng felrapport?</string>
+  <string name="core_report_bug_discard_changes_description">Om du lämnar denna sida kommer din rapport inte att sparas.</string>
+  <string name="core_report_bug_discard_changes_cancel">Fortsätt skriva</string>
+  <string name="core_report_bug_discard_changes_confirm">Stäng utan att spara</string>
+  <plurals name="core_report_bug_form_field_too_long">
+    <item quantity="one">Maximalt %d tecken</item>
+    <item quantity="other">Maximalt %d tecken</item>
+  </plurals>
+  <string name="core_report_bug_general_error">Något gick fel. Försök igen om några minuter.</string>
+  <string name="core_report_bug_send">Skicka rapport</string>
+  <string name="core_report_bug_success">Tack för din rapport</string>
+  <string name="core_report_bug_attach_log">Bifoga logg</string>
+</resources>

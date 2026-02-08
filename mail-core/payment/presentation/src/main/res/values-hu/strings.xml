@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- region payment errors -->
+  <string name="payments_general_error">Hiba történt.</string>
+  <string name="payments_no_connectivity">Nincs kapcsolat az erős ügyfél-hitelesítés betöltéséhez.</string>
+  <string name="payments_3ds_not_approved">Erős ügyfél-hitelesítés elutasítva.</string>
+  <string name="payments_error_card_name">Kártyára írt név megadása kötelező.</string>
+  <string name="payments_error_card_number">Érvénytelen kártyaszám.</string>
+  <string name="payments_error_cvc">Adjon meg egy érvényes biztonsági kódot.</string>
+  <string name="payments_error_session">Érvényes munkafolyamat azonosító szükséges, belépett felhasználó előfizetése esetén.</string>
+  <string name="payments_error_signup_paymentmethod">Előfizetés nem sikerült a jelenlegi fizetési móddal.</string>
+  <string name="payments_error_invalid_session">Érvénytelen munkafolyamat.</string>
+  <string name="payments_no_payment_provider">Nem található aktív fizétési szolgáltató.</string>
+  <string name="payments_error_google_prices">Jelenleg probléma van a Google Play Áruház árainak lekérdezésével.</string>
+  <string name="payments_error_subscription_managed_other_app">Más alkalmazás által kezelt előfizetés.</string>
+  <!-- endregion -->
+  <!-- region payment options -->
+  <string name="payments_choose_payment_method">Válasszon fizetési módot</string>
+  <string name="payments_add_credit_debit_card">Új bankkártya hozzáadása</string>
+  <string name="payments_pay" comment="Example: Pay 5EUR">%s fizetése</string>
+  <string name="payments_pay_with" comment="Example: Pay with debit card">Fizetés a következővel</string>
+  <string name="payments_method_icon">Fizetési mód ikon.</string>
+  <string name="payments_method_surcharge">*Ez a fizetési mód további tranzakciós díjat von maga után.</string>
+  <string name="payments_method_terms_conditions">Google Payjel való fizetés esetén elfogadja a Google Pay felhasználási feltételeit és beleegyezik, hogy ismétlődő fizetés kerüljön beállításra a Google-nál.</string>
+  <string name="payments_method_google">Google</string>
+  <string name="payments_method_continue">Folytatás</string>
+  <!-- endregion -->
+  <!-- region billing -->
+  <string name="payments_payment_details">Fizetés részletei</string>
+  <string name="payments_card_name">A kártyán szereplő név</string>
+  <string name="payments_card_number">Kártyaszám</string>
+  <string name="payments_expiration_date">Lejárati dátum</string>
+  <string name="payments_security_code">Biztonsági kód</string>
+  <string name="payments_postal_code">Irányítószám</string>
+  <string name="payments_card_number_hint">0000 0000 0000 0000</string>
+  <string name="payments_expiration_date_hint">HH/ÉÉ</string>
+  <string name="payments_security_code_hint">123</string>
+  <string name="payments_country">Ország</string>
+  <string name="payments_get_plan">%s beszerzése</string>
+  <string name="payments_paying_in_process">Fizetés</string>
+  <string name="payments_choose_country">Válasszon országot</string>
+  <string name="payment_cc_list_item">%1$s - %2$s (Lej. %3$s/%4$s)</string>
+  <string name="payment_paypal_list_item">PayPal</string>
+  <string name="payments_info_not_available">nem elérhető</string>
+  <string name="payments_billing_monthly">1 hónapra</string>
+  <string name="payments_billing_yearly">1 évre</string>
+  <string name="payments_billing_two_years">2 évre</string>
+  <string name="payment_use_google_pay_instead">Inkább a Google Pay használata</string>
+  <string name="payment_use_credit_card_instead">Inkább bankkártya használata</string>
+  <!-- endregion -->
+  <!-- region GIAP -->
+  <string name="payments_giap_unredeemed_title">Nagyobb csomagra váltás jóváhagyása</string>
+  <string name="payments_giap_unredeemed_description">A Google Pay fizetés sikeresen megtörtént, de a fiók frissítési folyamata megszakadt. Alkalmazza a kifizetést a fiók azonnali előfizetésére?</string>
+  <string name="payments_giap_unredeemed_confirm">Csomagváltás megerősítése</string>
+  <string name="payments_giap_redeem_success">Fiókja sikeresen frissült</string>
+  <string name="payments_giap_redeem_error">Nem sikerült befejezni a nagyobb csomagra váltást. Kérjük próbálja újra később.</string>
+  <!-- endregion -->
+  <!-- endregion -->
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="account_switcher_section_switch_to">Prepnúť na</string>
+  <string name="account_switcher_action_add_account">Pridať účet</string>
+  <string name="account_switcher_action_sign_in">Prihlásiť sa</string>
+  <string name="account_switcher_action_sign_out">Odhlásiť sa</string>
+  <string name="account_switcher_action_remove">Odstrániť</string>
+  <string name="account_list_item_chevron_content_description">Otvoriť prepínač účtov</string>
+  <string name="account_view_three_dots_content_description">Možnosti</string>
+  <string name="account_settings_header">Nastavenia účtu</string>
+  <string name="account_settings_item_header">Používateľ</string>
+  <string name="account_settings_list_header">Účet</string>
+  <string name="account_settings_list_item_password_header">Zmeniť heslo</string>
+  <string name="account_settings_list_item_password_hint_grace">Čaká sa na obnovenie hesla</string>
+  <string name="account_settings_list_item_password_hint_insecure">Obnovenie hesla pripravené</string>
+  <string name="account_settings_list_item_recovery_header">Email na obnovenie</string>
+  <string name="account_settings_list_item_recovery_hint_not_set">Nenastavené</string>
+  <string name="account_settings_list_item_security_keys_header">Bezpečnostné kľúče</string>
+  <string name="account_settings_list_item_security_keys_hint_not_set">Nenastavené</string>
+  <string name="account_settings_list_item_security_keys_hint_single">%s</string>
+  <plurals name="account_settings_list_item_security_keys_hint_many">
+    <item quantity="one">%d bezpečnostný kľúč nastavený</item>
+    <item quantity="few">%d bezpečnostné kľúče nastavené</item>
+    <item quantity="many">%d bezpečnostných kľúčov nastavených</item>
+    <item quantity="other">%d bezpečnostných kľúčov nastavených</item>
+  </plurals>
+  <string name="account_signout_dialog_title">Odhlásiť?</string>
+  <string name="account_signout_dialog_text">Údaje spojené s vaším účtom zostanú v tomto zariadení, pokiaľ sa nerozhodnete ich vymazať.</string>
+  <string name="account_signout_dialog_delete_information">Odstrániť všetky súvisiace údaje</string>
+  <string name="account_signout_dialog_action_signout">Odhlásiť</string>
+  <string name="account_signout_dialog_action_cancel">Zrušiť</string>
+</resources>

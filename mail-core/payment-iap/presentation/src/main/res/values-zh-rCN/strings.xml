@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="payments_iap_surcharge_info">* 包括额外的供应商费用和税收的附加费用。</string>
+  <string name="payments_iap_terms_conditions">如果您点击了“使用 Google Pay 购买”，视为您接受 Google Pay 的条款和条件，并同意使用 Google 设立定期付款。</string>
+  <string name="payments_iap_invalid_google_plan">所选等级名称无效，请重新操作。</string>
+  <string name="payments_iap_error_google_plan_price">Google 产品价格存在问题，请重新操作。</string>
+  <string name="payments_iap_error_fetching_google_plan">获取 Google 产品失败，请重新操作。</string>
+  <string name="payments_iap_error_already_owned">您已拥有此产品，请重新选择。</string>
+  <string name="payments_iap_error_billing_client_unavailable">Google计费客户端目前不可用或已断开连接。</string>
+  <string name="payments_iap_general_error">发生了错误，请重新开始过程。</string>
+</resources>

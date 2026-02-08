@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="core_report_bug_activity_title">Notifica un problema</string>
+  <string name="core_report_bug_close">Tanca</string>
+  <string name="core_report_bug_subject_field_hint">Assumpte</string>
+  <string name="core_report_bug_subject_field_required">Introduïu un assumpte</string>
+  <string name="core_report_bug_description_field_hint">Quin és el problema? Mínim 10 caràcters</string>
+  <string name="core_report_bug_description_field_placeholder">Descriviu el problema amb el major detall possible. Si hi ha hagut un missatge d\'error, feu-nos saber què deia.</string>
+  <plurals name="core_report_bug_description_field_required">
+    <item quantity="one">Introduïu almenys %d caràcter</item>
+    <item quantity="other">Introduïu almenys %d caràcters</item>
+  </plurals>
+  <string name="core_report_bug_discard_changes_title">Voleu tancar l\'informe d\'error?</string>
+  <string name="core_report_bug_discard_changes_description">Si abandoneu la pàgina, l\'informe no es desarà.</string>
+  <string name="core_report_bug_discard_changes_cancel">Continuar escrivint</string>
+  <string name="core_report_bug_discard_changes_confirm">Tanca sense desar</string>
+  <plurals name="core_report_bug_form_field_too_long">
+    <item quantity="one">Màxim %d caràcter</item>
+    <item quantity="other">Màxim %d caràcters</item>
+  </plurals>
+  <string name="core_report_bug_general_error">Alguna cosa ha anat malament. Torneu-ho a provar d\'aquí a uns minuts.</string>
+  <string name="core_report_bug_send">Envia l\'informe</string>
+  <string name="core_report_bug_success">Gràcies pel vostre informe</string>
+  <string name="core_report_bug_attach_log">Adjunti el registre</string>
+</resources>

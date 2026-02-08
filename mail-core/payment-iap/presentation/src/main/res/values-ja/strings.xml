@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2022 Proton Technologies AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="payments_iap_surcharge_info">* 追加プロバイダー料金および税金が含まれます。</string>
+  <string name="payments_iap_terms_conditions">「Google Payで購入」をタップすると、Google Payの利用規約に同意し、Googleとの定期的な支払いを設定することに同意したことになります。</string>
+  <string name="payments_iap_invalid_google_plan">無効なプラン名が選択されました。処理をやり直してください。</string>
+  <string name="payments_iap_error_google_plan_price">Googleの商品価格に問題があります。処理をやり直してください。</string>
+  <string name="payments_iap_error_fetching_google_plan">Google製品の取得に問題があります。処理をやり直してください。</string>
+  <string name="payments_iap_error_already_owned">この商品はすでにお持ちです。別の商品を選択してください。</string>
+  <string name="payments_iap_error_billing_client_unavailable">Google でのお支払いは現在利用できません。</string>
+  <string name="payments_iap_general_error">エラーが発生しました。処理をやり直してください。</string>
+</resources>

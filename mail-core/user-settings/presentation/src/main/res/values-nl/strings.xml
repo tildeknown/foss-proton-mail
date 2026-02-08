@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- recovery email settings -->
+  <string name="settings_recovery_email_header">Herstel-e-mailadres</string>
+  <string name="settings_recovery_email_current">Huidig herstel-e-mailadres</string>
+  <string name="settings_recovery_email_new">Nieuw herstel-e-mailadres</string>
+  <string name="settings_recovery_email_confirm">Bevestig herstel e-mailadres</string>
+  <string name="settings_recovery_email_new_hint">Vul e-mailadres in</string>
+  <string name="settings_recovery_email_confirm_hint">Voer e-mailadres opnieuw in</string>
+  <string name="settings_save_second_password">Nieuw tweede wachtwoord opslaan</string>
+  <string name="settings_save_main_password">Nieuw hoofdwachtwoord opslaan</string>
+  <string name="settings_save">Opslaan</string>
+  <string name="settings_password_required">Voer uw wachtwoord in</string>
+  <string name="settings_password_required_ok">OK</string>
+  <string name="settings_not_set">Niet ingesteld</string>
+  <string name="settings_recovery_email_error_no_match">Nieuwe herstel-e-mails komen niet overeen</string>
+  <string name="settings_validation_email">E-mailadres is ongeldig.</string>
+  <string name="settings_general_error">Er is iets fout gegaan.</string>
+  <!-- login and mailbox password settings -->
+  <string name="settings_password_management_tab_main_password">Hoofdwachtwoord</string>
+  <string name="settings_password_management_tab_second_password">Tweede wachtwoord</string>
+  <string name="settings_password_management_change_password_note">Om een van uw wachtwoorden te veranderen, moet u uw hoofdwachtwoord weten. <a href="https://account.proton.me/reset-password">Hoofdwachtwoord vergeten?</a></string>
+  <string name="settings_password_management_header">Wachtwoord wijzigen</string>
+  <string name="settings_password_management_cannot_change_password">U kunt uw back-up wachtwoord niet wijzigen. Neem contact op met uw beheerder.</string>
+  <string name="settings_main_password_hint_current">Huidig hoofdwachtwoord</string>
+  <string name="settings_main_password_hint_new">Nieuw hoofdwachtwoord</string>
+  <string name="settings_main_password_hint_new_confirm">Bevestig nieuw hoofdwachtwoord</string>
+  <string name="settings_second_password_hint_current_main_password">Huidig hoofdwachtwoord</string>
+  <string name="settings_second_password_hint_new">Nieuw tweede wachtwoord</string>
+  <string name="settings_second_password_hint_new_confirm">Bevestig nieuw tweede wachtwoord</string>
+  <string name="settings_change_password_error">Er is een fout opgetreden bij het wijzigen van het wachtwoord.</string>
+  <string name="settings_recovery_email_success">Herstel-e-mailadres gewijzigd</string>
+  <string name="settings_password_management_success">Wachtwoord bijgewerkt</string>
+  <string name="settings_password_management_start_recovery">Wachtwoord vergeten?</string>
+</resources>

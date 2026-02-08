@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- recovery email settings -->
+  <string name="settings_recovery_email_header">E-post for gjenoppretting</string>
+  <string name="settings_recovery_email_current">Gjeldende e-postadresse for gjenoppretting</string>
+  <string name="settings_recovery_email_new">Ny gjenopprettings-e-postadresse</string>
+  <string name="settings_recovery_email_confirm">Bekreft ny e-postadresse for gjenoppretting</string>
+  <string name="settings_recovery_email_new_hint">Skriv inn e-postadresse</string>
+  <string name="settings_recovery_email_confirm_hint">Skriv inn e-postadressen på nytt</string>
+  <string name="settings_save_second_password">Lagre nytt andre passord</string>
+  <string name="settings_save_main_password">Lagre nytt hovedpassord</string>
+  <string name="settings_save">Lagre</string>
+  <string name="settings_password_required">Skriv inn påloggingspassordet ditt</string>
+  <string name="settings_password_required_ok">OK</string>
+  <string name="settings_not_set">Ikke angitt</string>
+  <string name="settings_recovery_email_error_no_match">Ny gjenopprettings-e-post samsvarer ikke</string>
+  <string name="settings_validation_email">E-postadressen er ugyldig</string>
+  <string name="settings_general_error">En feil oppstod</string>
+  <!-- login and mailbox password settings -->
+  <string name="settings_password_management_tab_main_password">Hovedpassord</string>
+  <string name="settings_password_management_tab_second_password">Andre passord</string>
+  <string name="settings_password_management_change_password_note">Hvis du vil endre et av passordene dine, må du vite hovedpassordet ditt. <a href="https://account.proton.me/reset-password">Glemt hovedpassordet ditt?</a></string>
+  <string name="settings_password_management_header">Endre passord</string>
+  <string name="settings_password_management_cannot_change_password">Du kan ikke endre reservepassordet. Ta kontakt med administratoren din.</string>
+  <string name="settings_main_password_hint_current">Gjeldende hovedpassord</string>
+  <string name="settings_main_password_hint_new">Nytt hovedpassord</string>
+  <string name="settings_main_password_hint_new_confirm">Bekreft nytt hovedpassord</string>
+  <string name="settings_second_password_hint_current_main_password">Gjeldende hovedpassord</string>
+  <string name="settings_second_password_hint_new">Nytt andre passord</string>
+  <string name="settings_second_password_hint_new_confirm">Bekreft nytt andre passord</string>
+  <string name="settings_change_password_error">Det har oppstått en feil ved endring av passord.</string>
+  <string name="settings_recovery_email_success">Gjennopprettings-e-postadressen oppdatert</string>
+  <string name="settings_password_management_success">Passord oppdatert</string>
+  <string name="settings_password_management_start_recovery">Vet du ikke hva ditt nåværende passord er?</string>
+</resources>

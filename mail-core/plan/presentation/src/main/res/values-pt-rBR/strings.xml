@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="plans_select_a_plan">Escolher um plano</string>
+  <string name="plans_select_a_plan_subtitle">Um plano para todos os serviços da Proton</string>
+  <string name="plans_fetching_general_error">Ocorreu um erro ao buscar os planos.</string>
+  <string name="plans_payment_error">Ocorreu um erro de pagamento. Tente novamente mais tarde ou crie um plano gratuito.</string>
+  <string name="plans_free_name">Grátis</string>
+  <string name="plan_price_monthly">por mês</string>
+  <string name="plan_price_annually">por ano</string>
+  <string name="plans_current_plan">Plano atual</string>
+  <string name="plans_upgrade_plan">Faça upgrade de seu plano</string>
+  <string name="plans_subscription">Assinatura</string>
+  <string name="plans_renewal_date">Seu plano será automaticamente renovado em &lt;b&gt;%s&lt;/b&gt;</string>
+  <string name="plans_expiration_date">Seu plano expira em &lt;b&gt;%s&lt;/b&gt;</string>
+  <string name="plans_pay_monthly">Pagar mensalmente</string>
+  <string name="plans_pay_annually">Pagar anualmente</string>
+  <string name="plans_pay_biennially">Pagar a cada 2 anos</string>
+  <plurals name="plans_pay_other">
+    <item quantity="one">Pagar por %d mês</item>
+    <item quantity="other">Pagar por %d meses</item>
+  </plurals>
+  <string name="plans_billed_yearly">*Cobrado anualmente em %s</string>
+  <string name="plans_billed_monthly">Cobrado mensalmente</string>
+  <string name="plans_billing_monthly">Por 1 mês</string>
+  <string name="plans_billing_yearly">Por 1 ano</string>
+  <string name="plans_billing_two_years">Por 2 anos</string>
+  <plurals name="plans_billing_other_period">
+    <item quantity="one">Por %d mês</item>
+    <item quantity="other">Por %d meses</item>
+  </plurals>
+  <string name="plans_upgrade_your_plan">Faça upgrade do seu plano</string>
+  <string name="plans_proton_for_free">Obter Proton grátis</string>
+  <string name="plans_get_proton">Obter %s</string>
+  <string name="plans_manage_your_subscription">Gerencie a sua assinatura em <a href="https://account.proton.me">account.proton.me</a></string>
+  <string name="plans_used_space" comment="1 - used space (e.g. 300MB); 2 - max available space (e.g. 1GB)">%1$s de %2$s</string>
+  <string name="plans_payments_info_not_available">n/a</string>
+  <string name="plans_manage_your_subscription_google">Sua assinatura é gerenciada pela Google Play.</string>
+  <string name="plans_manage_your_subscription_other">Não é possível gerenciar sua assinatura no aplicativo móvel.</string>
+  <string name="plans_autorenew_subscriptions">Apenas assinaturas anuais com renovação automática estão disponíveis por meio deste aplicativo.</string>
+  <string name="plans_can_not_upgrade_from_mobile">Sua assinatura não pode ser gerenciada no aplicativo Android.</string>
+  <string name="plans_user_has_credits">Você tem créditos na sua conta.</string>
+  <string name="plans_manage_subscription_play_store">Gerenciar a assinatura</string>
+  <string name="plans_no_upgrade_available">Não há atualizações disponíveis.</string>
+  <string name="plans_limited_offer">Oferta por tempo limitado</string>
+  <string name="plans_subscription_base_storage_full_title">Seu armazenamento do Mail está cheio</string>
+  <string name="plans_subscription_base_storage_nearly_full_title">Seu armazenamento do Mail está quase cheio</string>
+  <string name="plans_subscription_drive_storage_full_title">Seu armazenamento do Drive está cheio</string>
+  <string name="plans_subscription_drive_storage_nearly_full_title">Seu armazenamento do Drive está quase cheio</string>
+  <string name="plans_subscription_storage_get_more">Obter mais armazenamento</string>
+  <string name="plans_subscription_storage_full_description">Use o aplicativo web para fazer upgrade do seu plano e continuar a usar sua conta sem interrupções.</string>
+  <!-- region all possible plan item types. this could be updated as per language requirements.-->
+  <plurals name="item_storage" comment="please do not modify the text between #">
+    <item quantity="one">#proton_storage# de armazenamento</item>
+    <item quantity="other">#proton_storage# de armazenamento</item>
+  </plurals>
+  <plurals name="item_storage_free" comment="please do not modify the text between #">
+    <item quantity="one">Até #proton_storage# de armazenamento</item>
+    <item quantity="other">Até #proton_storage# de armazenamento</item>
+  </plurals>
+  <plurals name="item_storage_multiuser" comment="please do not modify the text between #">
+    <item quantity="one">#proton_storage# de armazenamento / usuário</item>
+    <item quantity="other">#proton_storage# de armazenamento / usuário</item>
+  </plurals>
+  <plurals name="item_address" comment="please do not modify the test between #">
+    <item quantity="one">#proton_addresses# endereço de e-mail</item>
+    <item quantity="other">#proton_addresses# endereços de e-mail</item>
+  </plurals>
+  <plurals name="item_address_multiuser" comment="please do not modify the test between #">
+    <item quantity="one">#proton_addresses# endereço / usuário</item>
+    <item quantity="other">#proton_addresses# endereços / usuário</item>
+  </plurals>
+  <plurals name="item_address_current" comment="please do not modify the test between #">
+    <item quantity="one">%d de #proton_addresses# endereço</item>
+    <item quantity="other">%d de #proton_addresses# endereços</item>
+  </plurals>
+  <plurals name="item_domain" comment="please do not modify the test between #">
+    <item quantity="one">Suporte para #proton_domains# domínio de e-mail personalizado</item>
+    <item quantity="other">Suporte para #proton_domains# domínios de e-mail personalizados</item>
+  </plurals>
+  <plurals name="item_calendar" comment="please do not modify the test between #">
+    <item quantity="one">#proton_calendars# calendário pessoal</item>
+    <item quantity="other">#proton_calendars# calendários pessoais</item>
+  </plurals>
+  <plurals name="item_calendar_current" comment="please do not modify the test between #">
+    <item quantity="one">%d de #proton_calendars# calendário</item>
+    <item quantity="other">%d de #proton_calendars# calendários</item>
+  </plurals>
+  <plurals name="item_connections" comment="please do not modify the test between #">
+    <item quantity="one">VPN gratuita em um único dispositivo</item>
+    <item quantity="other">VPN de alta velocidade em #proton_vpn# dispositivos</item>
+  </plurals>
+  <plurals name="item_connections_highspeed" comment="please do not modify the test between #">
+    <item quantity="one">#proton_vpn# conexão VPN de alta velocidade</item>
+    <item quantity="other">#proton_vpn# conexões VPN de alta velocidade</item>
+  </plurals>
+  <plurals name="item_users" comment="please do not modify the test between #">
+    <item quantity="one">#proton_users# usuário</item>
+    <item quantity="other">#proton_users# usuários</item>
+  </plurals>
+  <plurals name="item_users_current" comment="please do not modify the test between #">
+    <item quantity="one">%d de #proton_users# usuário</item>
+    <item quantity="other">%d de #proton_users# usuários</item>
+  </plurals>
+  <!-- endregion -->
+  <!-- region plans headers -->
+  <string name="plan_id_free_header">O básico para comunicações seguras e privadas.</string>
+  <string name="plan_id_plus_header">Caixa de entrada completa com proteção avançada.</string>
+  <string name="plan_id_vpnbasic_header">VPN Basic</string>
+  <string name="plan_id_vpnbasic_countries">63 países</string>
+  <string name="plan_id_vpnbasic_high_speed">Alta velocidade</string>
+  <string name="plan_id_vpnplus_adblock">Bloqueador de anúncios (NetShield)</string>
+  <string name="plan_id_vpnplus_streaming">Suporte a serviços de streaming</string>
+  <string name="plan_id_vpnplus_header">VPN Plus</string>
+  <string name="plan_id_vpnplus_countries">63 países</string>
+  <string name="plan_id_vpnplus_highest_speed">Velocidade máxima</string>
+  <string name="plan_id_professional_header">Professional</string>
+  <string name="plan_id_professional_multiuser">Suporte para múltiplos usuários</string>
+  <string name="plan_id_visionary_header">Visionary</string>
+  <string name="plan_id_family_header">Family</string>
+  <string name="plan_id_mail2022_header" comment="new_plans">E-mail seguro com recursos avançados para suas comunicações do dia a dia.</string>
+  <string name="plan_id_vpn2022_header" comment="new_plans">Sua privacidade e segurança são nossa prioridade.</string>
+  <string name="plan_id_drive2022_header" comment="new_plans">Armazenamento em nuvem seguro que permite armazenar, sincronizar e compartilhar arquivos com facilidade e segurança.</string>
+  <string name="plan_id_bundle2022_header" comment="new_plans">Privacidade e segurança abrangentes com todos os serviços da Proton combinados.</string>
+  <string name="plan_id_pass2023_header" comment="new_plans">Para um gerenciamento de senhas e proteção de identidade de nível superior.</string>
+  <!-- endregion -->
+  <string-array name="supported_currencies">
+    <item>EUR</item>
+    <item>USD</item>
+    <item>CHF</item>
+  </string-array>
+  <!-- region plans hardcoded texts -->
+  <string name="unlimited_folders_labels_filters" comment="new_plans">Pastas ilimitadas, marcadores e filtros</string>
+  <string name="highest_vpn_speed" comment="new_plans">Velocidade máxima de VPN</string>
+  <string name="servers_in_countries" comment="new_plans">1500+ servidores em 63 países</string>
+  <string name="ad_blocker" comment="new_plans">Bloqueador de anúncios integrado (NetShield)</string>
+  <string name="streaming_services_access" comment="new_plans">Acesso global a serviços de streaming</string>
+  <string name="secure_core" comment="new_plans">Servidores Secure Core</string>
+  <string name="tor_vpn" comment="new_plans">Tor sobre VPN</string>
+  <string name="p2p_bittorrent" comment="new_plans">P2P/BitTorrent</string>
+  <string name="unlimited_logins_and_notes">Notas e senhas ilimitadas</string>
+  <string name="unlimited_devices">Dispositivos ilimitados</string>
+  <string name="integrated_2fa_authenticator">Autenticador A2F integrado</string>
+  <string name="multiple_vaults">Múltiplos cofres</string>
+  <string name="unlimited_email_alias">Aliases ilimitados do hide-my-email</string>
+  <string name="custom_email_alias_domains">Domínios customizados para encaminhamento de mensagens</string>
+  <string name="multiple_forwarding_mailboxes">Múltiplos redirecionadores de emails</string>
+  <string name="priority_support">Suporte prioritário</string>
+  <string name="one_vault">1 cofre</string>
+  <string name="ten_hide_my_email_aliases">10 aliases do hide-my-email</string>
+  <!-- endregion -->
+  <!-- region Plan entitlement tags -->
+  <string name="upgrade_storage_current_drive_storage">Uso do Drive: %d%%</string>
+  <string name="upgrade_storage_current_mail_storage">Uso do Mail: %d%%</string>
+  <string name="upgrade_storage_subtitle">Fazer upgrade do armazenamento</string>
+  <!-- endregion -->
+  <!-- region Plan upgrade -->
+  <string name="plan_manage_subscription_title">Faça upgrade em %s</string>
+  <string name="plan_manage_subscription_subtitle">Você pode gerenciar sua assinatura no aplicativo %1$s . Abra %2$s para melhorar para o plano %3$s.</string>
+  <string name="plan_manage_subscription_no_app_title">Instalar %s</string>
+  <string name="plan_manage_subscription_no_app_subtitle">Você pode gerenciar sua assinatura no aplicativo %1$s . Baixe e instale a versão mais recente do %2$s para melhorar para o plano %3$s.</string>
+  <string name="plan_manage_subscription_app_missing_got_it">Entendi</string>
+  <string name="plan_welcome_price_message_monthly">Oferta de boas-vindas. Renovação automática por %1$s/mês</string>
+  <string name="plan_welcome_price_message_annual">Oferta de boas-vindas. Renovação automática por %1$s/ano</string>
+  <string name="plan_welcome_price_message_two_year">Oferta de boas-vindas. Renovação automática por %1$s/ 2 anos</string>
+  <string name="plan_auto_renew_message_monthly">A assinatura é renovada automaticamente por %1$s/mês</string>
+  <string name="plan_auto_renew_message_annual">A assinatura é renovada automaticamente por %1$s/ano</string>
+  <string name="plan_auto_renew_message_two_years">A assinatura é renovada automaticamente por %1$s/ 2 anos</string>
+  <string name="plan_welcome_price_message_other_fallback">A assinatura é renovada automaticamente</string>
+  <string name="subscription_renewal_info_monthly">O preço com desconto de %1$s é válido para o primeiro mês. Sua assinatura será renovada automaticamente em &lt;b&gt;%2$s&lt;/b&gt; em &lt;b&gt;%3$s&lt;/b&gt; todos os meses.</string>
+  <string name="subscription_renewal_info_annual">O preço com desconto de %1$s é válido para o primeiro ano. Sua assinatura será renovada automaticamente em &lt;b&gt;%2$s&lt;/b&gt; em &lt;b&gt;%3$s&lt;/b&gt; todos os anos.</string>
+  <string name="subscription_renewal_info_two_years">O preço com desconto de %1$s é válido para o primeiro ano. Sua assinatura será renovada automaticamente em &lt;b&gt;%2$s&lt;/b&gt; em &lt;b&gt;%3$s&lt;/b&gt; todos os 2 anos.</string>
+</resources>

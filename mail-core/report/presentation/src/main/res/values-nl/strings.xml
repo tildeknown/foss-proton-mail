@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2021 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <string name="core_report_bug_activity_title">Meld een probleem</string>
+  <string name="core_report_bug_close">Sluiten</string>
+  <string name="core_report_bug_subject_field_hint">Onderwerp</string>
+  <string name="core_report_bug_subject_field_required">Voer een onderwerp in</string>
+  <string name="core_report_bug_description_field_hint">Wat liep er fout? Minimum 10 tekens</string>
+  <string name="core_report_bug_description_field_placeholder">Beschrijf het probleem in zoveel mogelijk detail als u kan. Als er een foutmelding was, laat ons dan weten wat er stond.</string>
+  <plurals name="core_report_bug_description_field_required">
+    <item quantity="one">Voer minstens %d teken in</item>
+    <item quantity="other">Voer minstens %d tekens in</item>
+  </plurals>
+  <string name="core_report_bug_discard_changes_title">Bugmelding sluiten?</string>
+  <string name="core_report_bug_discard_changes_description">Als u deze pagina verlaat, zal uw melding niet bewaard worden.</string>
+  <string name="core_report_bug_discard_changes_cancel">Blijf schrijven</string>
+  <string name="core_report_bug_discard_changes_confirm">Sluiten zonder opslaan</string>
+  <plurals name="core_report_bug_form_field_too_long">
+    <item quantity="one">Maximum %d teken</item>
+    <item quantity="other">Maximum %d tekens</item>
+  </plurals>
+  <string name="core_report_bug_general_error">Er ging iets mis. Probeer het over enkele minuten opnieuw.</string>
+  <string name="core_report_bug_send">Verstuur melding</string>
+  <string name="core_report_bug_success">Hartelijk dank voor uw melding</string>
+  <string name="core_report_bug_attach_log">Logbestand toevoegen</string>
+</resources>

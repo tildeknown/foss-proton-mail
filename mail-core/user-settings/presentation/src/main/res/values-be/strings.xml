@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2023 Proton AG
+  ~ This file is part of Proton AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+<resources>
+  <!-- recovery email settings -->
+  <string name="settings_recovery_email_header">Электронная пошта для аднаўлення доступу</string>
+  <string name="settings_recovery_email_current">Бягучы адрас электроннай пошты для аднаўлення доступу</string>
+  <string name="settings_recovery_email_new">Новы адрас электроннай пошты для аднаўлення доступу</string>
+  <string name="settings_recovery_email_confirm">Пацвердзіць адрас электроннай пошты для аднаўлення доступу</string>
+  <string name="settings_recovery_email_new_hint">Увядзіце адрас электроннай пошты</string>
+  <string name="settings_recovery_email_confirm_hint">Увядзіце адрас электроннай пошты яшчэ раз</string>
+  <string name="settings_save_second_password">Захаваць новы другі пароль</string>
+  <string name="settings_save_main_password">Захаваць новы галоўны пароль</string>
+  <string name="settings_save">Захаваць</string>
+  <string name="settings_password_required">Увядзіце ваш пароль уваходу</string>
+  <string name="settings_password_required_ok">OK</string>
+  <string name="settings_not_set">Не зададзена</string>
+  <string name="settings_recovery_email_error_no_match">Новыя адрасы электроннай пошты для аднаўлення доступу не супадаюць</string>
+  <string name="settings_validation_email">Памылковы адрас электроннай пошты.</string>
+  <string name="settings_general_error">Адбылася памылка.</string>
+  <!-- login and mailbox password settings -->
+  <string name="settings_password_management_tab_main_password">Галоўны пароль</string>
+  <string name="settings_password_management_tab_second_password">Другі пароль</string>
+  <string name="settings_password_management_change_password_note">Вы павінны ведаць свой галоўны пароль, каб змяніць любы з вашых пароляў. <a href="https://account.proton.me/reset-password">Забылі свой галоўны пароль?</a></string>
+  <string name="settings_password_management_header">Змяніць пароль</string>
+  <string name="settings_password_management_cannot_change_password">У вас няма магчымасці змяніць свой рэзервовы пароль. Звяжыцеся са сваім адміністратарам.</string>
+  <string name="settings_main_password_hint_current">Бягучы галоўны пароль</string>
+  <string name="settings_main_password_hint_new">Новы галоўны пароль</string>
+  <string name="settings_main_password_hint_new_confirm">Пацвердзіць новы галоўны пароль</string>
+  <string name="settings_second_password_hint_current_main_password">Бягучы галоўны пароль</string>
+  <string name="settings_second_password_hint_new">Новы другі пароль</string>
+  <string name="settings_second_password_hint_new_confirm">Пацвердзіць новы другі пароль</string>
+  <string name="settings_change_password_error">Адбылася памылка пры змяненні пароля.</string>
+  <string name="settings_recovery_email_success">Адрас электроннай пошты для аднаўлення доступу абноўлены</string>
+  <string name="settings_password_management_success">Пароль абноўлены</string>
+  <string name="settings_password_management_start_recovery">Не ведаеце свой бягучы пароль?</string>
+</resources>

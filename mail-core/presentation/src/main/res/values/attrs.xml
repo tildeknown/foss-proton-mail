@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2020 Proton Technologies AG
+  ~ This file is part of Proton Technologies AG and ProtonCore.
+  ~
+  ~ ProtonCore is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ ProtonCore is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with ProtonCore.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <declare-styleable name="AppTheme">
+        <!-- Brand specific attributes -->
+        <attr name="brand_norm" format="reference" />
+        <attr name="brand_darken_40" format="reference" />
+        <attr name="brand_darken_20" format="reference" />
+        <attr name="brand_lighten_40" format="reference" />
+        <attr name="brand_lighten_20" format="reference" />
+
+        <!-- App specific attributes -->
+        <attr name="proton_text_norm" format="reference" />
+        <attr name="proton_text_weak" format="reference" />
+        <attr name="proton_text_hint" format="reference" />
+        <attr name="proton_text_disabled" format="reference" />
+        <attr name="proton_text_inverted" format="reference" />
+        <attr name="proton_text_accent" format="reference" />
+        <attr name="proton_icon_norm" format="reference" />
+        <attr name="proton_icon_weak" format="reference" />
+        <attr name="proton_icon_hint" format="reference" />
+        <attr name="proton_icon_disabled" format="reference" />
+        <attr name="proton_icon_inverted" format="reference" />
+        <attr name="proton_icon_accent" format="reference" />
+        <attr name="proton_interaction_weak" format="reference" />
+        <attr name="proton_interaction_weak_pressed" format="reference" />
+        <attr name="proton_interaction_weak_disabled" format="reference" />
+        <attr name="proton_interaction_strong" format="reference" />
+        <attr name="proton_interaction_strong_pressed" format="reference" />
+        <attr name="proton_interaction_norm" format="reference" />
+        <attr name="proton_interaction_norm_pressed" format="reference" />
+        <attr name="proton_interaction_norm_disabled" format="reference" />
+        <attr name="proton_background_norm" format="reference" />
+        <attr name="proton_background_secondary" format="reference" />
+        <attr name="proton_background_deep" format="reference" />
+        <attr name="proton_separator_norm" format="reference" />
+        <attr name="proton_notification_norm" format="reference" />
+        <attr name="proton_notification_error" format="reference" />
+        <attr name="proton_notification_success" format="reference" />
+        <attr name="proton_notification_warning" format="reference" />
+        <attr name="proton_blender_norm" format="reference" />
+        <attr name="proton_sidebar_background" format="reference" />
+        <attr name="proton_sidebar_interaction_weak_norm" format="reference" />
+        <attr name="proton_sidebar_interaction_weak_pressed" format="reference" />
+        <attr name="proton_sidebar_separator" format="reference" />
+        <attr name="proton_sidebar_text_norm" format="reference" />
+        <attr name="proton_sidebar_text_weak" format="reference" />
+        <attr name="proton_sidebar_icon_norm" format="reference" />
+        <attr name="proton_sidebar_icon_weak" format="reference" />
+        <attr name="proton_sidebar_interaction_pressed" format="reference" />
+        <attr name="proton_floaty_background" format="reference"/>
+        <attr name="proton_floaty_pressed" format="reference"/>
+        <attr name="proton_floaty_text" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="ProtonProgressButton">
+        <!-- Whether the loading state must be set on click. Default is true -->
+        <attr name="autoLoading" format="boolean" />
+        <attr name="initialState" format="enum">
+            <enum name="idle" value="0" />
+            <enum name="loading" value="1" />
+        </attr>
+        <!-- This must be an animated drawable -->
+        <attr name="progressDrawable" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ProtonInput">
+        <attr name="android:text" />
+        <attr name="android:hint" />
+        <attr name="android:imeOptions" />
+        <attr name="android:inputType" />
+        <attr name="android:digits" />
+        <attr name="android:enabled" />
+        <attr name="android:minLines" />
+        <attr name="android:maxLength" />
+        <attr name="label" format="string" />
+        <attr name="help" format="string" />
+        <attr name="suffix" format="string" />
+        <attr name="prefix" format="string" />
+        <attr name="actionMode" format="enum">
+            <enum name="none" value="0" />
+            <enum name="clear_text" value="1" />
+            <enum name="password_toggle" value="2" />
+            <enum name="custom_icon" value="3" />
+        </attr>
+        <!-- Same as textAlignment, but set on the internal EditText -->
+        <attr name="editTextAlignment" format="integer">
+            <enum name="inherit" value="0" />
+            <enum name="gravity" value="1" />
+            <enum name="textStart" value="2" />
+            <enum name="textEnd" value="3" />
+            <enum name="center" value="4" />
+            <enum name="viewStart" value="5" />
+            <enum name="viewEnd" value="6" />
+        </attr>
+        <!-- Same as textDirection, but set on the internal EditText -->
+        <attr name="editTextDirection" format="integer">
+            <enum name="inherit" value="0" />
+            <enum name="firstStrong" value="1" />
+            <enum name="anyRtl" value="2" />
+            <enum name="ltr" value="3" />
+            <enum name="rtl" value="4" />
+            <enum name="locale" value="5" />
+            <enum name="firstStrongLtr" value="6" />
+            <enum name="firstStrongRtl" value="7" />
+        </attr>
+        <attr name="endIconDrawable" format="reference" />
+        <attr name="passwordClearable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ProtonAutoCompleteInput">
+        <attr name="android:text" />
+        <attr name="android:hint" />
+        <attr name="android:inputType" />
+        <attr name="android:enabled" />
+        <attr name="label" />
+        <attr name="help" />
+        <attr name="suffix" />
+        <attr name="prefix" />
+    </declare-styleable>
+
+    <attr name="outlinedButtonStyle" format="reference"/>
+</resources>
