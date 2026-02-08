@@ -6,26 +6,28 @@ FOSS version
 
 - [x] remove detekt
 - [x] remove fastlane
-- [ ] remove firebase
 - [x] remove sentry
-- [ ] remove google services
-- [ ] remove unit-tests
+- [ ] remove firebase
+- [ ] remove google services (switch to ntfy)
+- [ ] remove benchmark
+- [ ] remove unit-tests (coverage)
 - [ ] copy all the proton remote dependencies
+- [ ] unlimited free accounts
 - [ ] build workflow for github actions
 
 ## Build instructions
 - Install and configure the environment (two options available)
   - [Android Studio bundle](https://developer.android.com/studio/install)
   - [Standalone Android tools](https://developer.android.com/tools)
-- Install and configure Java 17+ (not needed for Android Studio bundle as it's included)
+- Install and configure Java 17 (not needed for Android Studio bundle as it's included)
   - Install Java 17 with `brew install openjdk@17` | `apt install openjdk-17-jdk`
   - Set Java 17 as the current version by using the `JAVA_HOME` environment variable
 - Clone this repository (Use `git clone git@github.com:tildeknown/foss-proton-mail.git`)
 - Ensure [Git LFS](https://git-lfs.com/) is installed (`git lfs install`) for snapshot test assets
 - Setup `google-services.json` file by running `./scripts/setup_google_services.sh`
 - Build with any of the following:
-  - Execute `./gradlew assembleAlphaDebug` to build the debug version
-  - Execute `./gradlew assembleAlphaRelease` to build the release version
+  - Execute `./gradlew assembleProdDebug` to build the debug version
+  - Execute `./gradlew assembleProdRelease` to build the release version
 
 License
 -------
