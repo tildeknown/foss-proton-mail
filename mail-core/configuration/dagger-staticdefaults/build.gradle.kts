@@ -37,7 +37,6 @@ dependencies {
         project(Module.kotlinUtil)
     )
 
-    testImplementation(
         mockk,
         junit
     )

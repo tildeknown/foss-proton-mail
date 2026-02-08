@@ -17,7 +17,6 @@
  */
 
 import org.gradle.kotlin.dsl.implementation
-import org.gradle.kotlin.dsl.testImplementation
 import studio.forface.easygradle.dsl.*
 
 plugins {
@@ -44,9 +43,4 @@ dependencies {
     implementation(`coroutines-core`)
     implementation(project(Module.domain))
     implementation(project(Module.kotlinUtil))
-    testImplementation(`coroutines-test`)
-    testImplementation(junit)
-    testImplementation(`kotlin-test`)
-    testImplementation(mockk)
-    testImplementation(project(Module.kotlinTest))
 }

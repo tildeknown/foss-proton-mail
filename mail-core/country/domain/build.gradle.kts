@@ -38,7 +38,6 @@ dependencies {
         `javax-inject`
     )
 
-    testImplementation(
         `coroutines-test`,
         junit,
         `kotlin-test`,

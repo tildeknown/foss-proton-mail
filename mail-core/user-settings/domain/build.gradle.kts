@@ -51,7 +51,6 @@ dependencies {
         `serialization-json`
     )
 
-    testImplementation(
         project(Module.kotlinTest),
         project(Module.networkDomain),
         `coroutines-test`,

@@ -52,7 +52,6 @@ dependencies {
         project(Module.userDomain),
     )
 
-    testImplementation(
         project(Module.kotlinTest),
         `coroutines-test`,
         junit,

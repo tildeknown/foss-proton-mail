@@ -44,7 +44,6 @@ dependencies {
         googlePlayFido
     )
 
-    testImplementation(
         `coroutines-test`,
         `kotlin-test`,
         mockk

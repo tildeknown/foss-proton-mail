@@ -20,7 +20,6 @@ import studio.forface.easygradle.dsl.api
 import studio.forface.easygradle.dsl.`coroutines-test`
 import studio.forface.easygradle.dsl.`kotlin-test`
 import studio.forface.easygradle.dsl.mockk
-import studio.forface.easygradle.dsl.testImplementation
 
 plugins {
     protonKotlinLibrary
@@ -48,14 +47,12 @@ dependencies {
         project(Module.kotlinUtil)
     )
 
-    testImplementation(
         `coroutines-test`,
         junit,
         `kotlin-test`,
         mockk
     )
 
-    testImplementation(
         project(Module.kotlinTest),
         `coroutines-test`,
         junit,

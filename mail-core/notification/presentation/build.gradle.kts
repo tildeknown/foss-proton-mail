@@ -51,7 +51,6 @@ dependencies {
         `datastorePreferences`
     )
 
-    testImplementation(
         project(Module.kotlinTest),
         project(Module.notificationTest),
         `android-test-core`,

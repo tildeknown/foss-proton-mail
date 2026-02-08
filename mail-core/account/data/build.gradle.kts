@@ -53,7 +53,6 @@ dependencies {
         `room-ktx`
     )
 
-    testImplementation(
         `coroutines-test`,
         junit,
         mockk,

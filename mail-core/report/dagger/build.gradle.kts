@@ -36,7 +36,6 @@ android {
 }
 
 dependencies {
-    androidTestImplementation(
         `android-test-core`,
         `android-test-runner`,
         `kotlin-test-junit`,

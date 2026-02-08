@@ -332,7 +332,6 @@ dependencies {
     )
 
     // Test
-    testImplementation(
         project(Module.androidTest),
         `hilt-android-testing`,
         junit,
@@ -351,7 +350,6 @@ dependencies {
         `hilt-android-compiler`
     )
 
-    androidTestImplementation(
         project(Module.androidInstrumentedTest),
         project(Module.paymentIapTest),
         project(Module.planTest),

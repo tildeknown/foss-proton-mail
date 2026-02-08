@@ -80,7 +80,6 @@ dependencies {
         `lifecycle-runtime`
     )
 
-    testImplementation(
         project(Module.androidTest),
         project(Module.kotlinTest),
         `android-arch-testing`,

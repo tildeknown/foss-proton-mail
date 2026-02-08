@@ -41,7 +41,6 @@ dependencies {
         project(Module.authFidoDomain),
     )
 
-    testImplementation(
         junit,
         `kotlin-test`,
         mockk,

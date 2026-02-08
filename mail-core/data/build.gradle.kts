@@ -50,7 +50,6 @@ dependencies {
         cache4k
     )
 
-    testImplementation(
         project(Module.kotlinTest),
         `coroutines-test`,
         junit,

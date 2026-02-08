@@ -73,7 +73,6 @@ dependencies {
         `lifecycle-viewModel`,
     )
 
-    testImplementation(
         project(Module.androidTest),
         project(Module.kotlinTest),
         `android-arch-testing`,

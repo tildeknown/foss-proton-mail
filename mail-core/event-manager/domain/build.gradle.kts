@@ -45,7 +45,6 @@ dependencies {
         `coroutines-core`,
     )
 
-    testImplementation(
         `coroutines-test`,
         `kotlin-test`,
         mockk

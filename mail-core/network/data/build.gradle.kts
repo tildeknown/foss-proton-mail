@@ -64,7 +64,6 @@ dependencies {
         `retrofit-kotlin-serialization`,
     )
 
-    testImplementation(
         project(Module.cryptoCommon),
         project(Module.kotlinTest),
         project(Module.networkDagger),

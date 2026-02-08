@@ -54,7 +54,6 @@ dependencies {
         `compose-ui`,
     )
 
-    testImplementation(
         `android-arch-testing`,
         `coroutines-test`,
         `kotlin-test`,

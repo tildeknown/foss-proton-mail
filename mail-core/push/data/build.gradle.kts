@@ -63,7 +63,6 @@ dependencies {
         `android-work-runtime`,
     )
 
-    testImplementation(
         project(Module.accountData),
         project(Module.accountDomain),
         project(Module.cryptoAndroid),

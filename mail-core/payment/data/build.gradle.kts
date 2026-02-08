@@ -58,7 +58,6 @@ dependencies {
         `serialization-json`,
     )
 
-    testImplementation(
         project(Module.kotlinTest),
         project(Module.paymentTest),
         `coroutines-test`,
@@ -68,7 +67,6 @@ dependencies {
         `serialization-json`
     )
 
-    androidTestImplementation(
         `kotlin-test-junit`
     )
 }

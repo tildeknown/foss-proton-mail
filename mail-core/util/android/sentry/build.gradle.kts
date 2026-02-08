@@ -65,7 +65,6 @@ dependencies {
         timber
     )
 
-    testImplementation(
         `kotlin-test`,
         mockk
     )

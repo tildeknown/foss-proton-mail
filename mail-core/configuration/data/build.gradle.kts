@@ -39,12 +39,10 @@ dependencies {
     implementation(project(Module.featureFlagDomain))
     implementation(project(Module.networkData))
 
-    testImplementation(
         junit,
         mockk
     )
 
-    androidTestImplementation(
         junit,
         `android-test-core-ktx`,
         `android-test-runner`,

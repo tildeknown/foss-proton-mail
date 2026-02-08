@@ -52,7 +52,6 @@ dependencies {
         `serialization-core`,
     )
 
-    testImplementation(
         junit,
         `kotlin-test`,
         mockk

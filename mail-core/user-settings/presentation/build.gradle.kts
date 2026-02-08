@@ -84,7 +84,6 @@ dependencies {
         `lifecycle-viewModel`,
     )
 
-    testImplementation(
         project(Module.androidTest),
         project(Module.kotlinTest),
         project(Module.networkDomain),

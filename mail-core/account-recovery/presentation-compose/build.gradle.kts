@@ -84,7 +84,6 @@ dependencies {
         `compose-ui-tooling`,
     )
 
-    androidTestImplementation(
         `android-test-runner`,
         `compose-ui-test`,
         `compose-ui-test-junit`,
@@ -95,7 +94,6 @@ dependencies {
         `kotlin-test`
     )
 
-    testImplementation(
         project(Module.androidTest),
         project(Module.kotlinTest),
         project(Module.notificationTest),

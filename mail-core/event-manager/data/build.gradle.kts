@@ -73,7 +73,6 @@ dependencies {
         `room-ktx`
     )
 
-    testImplementation(
         project(Module.contactData),
         project(Module.keyData),
         project(Module.kotlinTest),

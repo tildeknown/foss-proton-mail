@@ -36,7 +36,6 @@ dependencies {
         `hilt-android`,
     )
 
-    testImplementation(
         `kotlin-test`,
         mockk
     )

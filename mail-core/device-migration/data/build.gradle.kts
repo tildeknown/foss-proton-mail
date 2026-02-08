@@ -44,7 +44,6 @@ dependencies {
         project(Module.userSettingsDomain),
     )
 
-    testImplementation(
         `coroutines-test`,
         `kotlin-test`,
         mockk,

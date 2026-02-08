@@ -63,7 +63,6 @@ dependencies {
         store5
     )
 
-    testImplementation(
         project(Module.androidTest),
         project(Module.accountData),
         project(Module.accountDomain),

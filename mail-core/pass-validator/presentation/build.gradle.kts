@@ -59,7 +59,6 @@ dependencies {
         `compose-ui-tooling`,
     )
 
-    testImplementation(
         project(Module.kotlinTest),
         `coroutines-test`,
         junit,

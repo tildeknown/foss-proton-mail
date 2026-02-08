@@ -61,7 +61,6 @@ dependencies {
         retrofit,
     )
 
-    testImplementation(
         project(Module.kotlinTest),
         `android-arch-testing`,
         `android-work-testing`,

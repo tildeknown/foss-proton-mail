@@ -51,7 +51,6 @@ dependencies {
         `serialization-core`
     )
 
-    testImplementation(
         project(Module.androidTest),
         project(Module.kotlinTest),
         `coroutines-test`,

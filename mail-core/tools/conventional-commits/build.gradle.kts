@@ -48,5 +48,4 @@ dependencies {
     implementation("com.github.ajalt.clikt:clikt:3.4.0")
     implementation("org.parboiled:parboiled-java:1.4.1")
     implementation("org.slf4j:slf4j-nop:1.7.36")
-    testImplementation("org.jetbrains.kotlin:kotlin-test")
 }

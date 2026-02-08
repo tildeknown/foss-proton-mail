@@ -91,7 +91,6 @@ dependencies {
         `zxing-core`,
     )
 
-    testImplementation(
         project(Module.kotlinTest),
         `coroutines-test`,
         junit,

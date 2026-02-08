@@ -63,7 +63,6 @@ dependencies {
         project(Module.userData),
     )
 
-    testImplementation(
         project(Module.androidTest),
         project(Module.kotlinTest),
         `android-work-testing`,

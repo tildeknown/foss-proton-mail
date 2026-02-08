@@ -60,7 +60,6 @@ dependencies {
         material,
     )
 
-    testImplementation(
         project(Module.androidTest),
         project(Module.networkDomain),
         project(Module.kotlinTest),

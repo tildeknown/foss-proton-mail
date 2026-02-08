@@ -65,7 +65,6 @@ dependencies {
         `dagger`,
     )
 
-    testImplementation(
         project(Module.kotlinTest),
         `coroutines-test`,
         junit,

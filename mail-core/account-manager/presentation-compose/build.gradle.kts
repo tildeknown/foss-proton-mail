@@ -68,7 +68,6 @@ dependencies {
         `compose-ui-unit`,
     )
 
-    testImplementation(
         project(Module.kotlinTest),
         `coroutines-test`,
         `kotlin-test`,

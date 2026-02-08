@@ -71,7 +71,6 @@ dependencies {
 
     kaptTest(`room-compiler`)
 
-    testImplementation(
         project(Module.cryptoCommon),
         project(Module.cryptoAndroid),
         project(Module.accountData),

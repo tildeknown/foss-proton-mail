@@ -60,7 +60,6 @@ dependencies {
         `serialization-json`
     )
 
-    testImplementation(
         project(Module.androidTest),
         project(Module.kotlinTest),
         `android-test-core-ktx`,

@@ -77,11 +77,9 @@ dependencies {
         project(Module.userDomain),
     )
 
-    androidTestImplementation(project(Module.androidTest)) {
         exclude(mockk)
     }
 
-    androidTestImplementation(
         project(Module.androidInstrumentedTest),
         project(Module.kotlinTest),
         junit,
@@ -91,7 +89,6 @@ dependencies {
         project(Module.cryptoAndroid),
     )
 
-    testImplementation(
         project(Module.kotlinTest),
         `coroutines-test`,
         junit,

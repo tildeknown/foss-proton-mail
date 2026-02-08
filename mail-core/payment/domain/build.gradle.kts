@@ -47,7 +47,6 @@ dependencies {
         `serialization-core`,
     )
 
-    testImplementation(
         `coroutines-test`,
         junit,
         `kotlin-test`,

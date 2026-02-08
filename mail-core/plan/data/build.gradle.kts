@@ -68,7 +68,6 @@ dependencies {
         cache4k
     )
 
-    testImplementation(
         project(Module.kotlinTest),
         project(Module.paymentTest),
         `coroutines-test`,

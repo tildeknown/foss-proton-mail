@@ -60,7 +60,6 @@ dependencies {
         retrofit,
     )
 
-    testImplementation(
         project(Module.kotlinTest),
         `coroutines-test`,
         junit,

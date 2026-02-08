@@ -61,7 +61,6 @@ dependencies {
         `coroutines-core`,
     )
 
-    testImplementation(
         project(Module.kotlinTest),
         `coroutines-test`,
         junit,

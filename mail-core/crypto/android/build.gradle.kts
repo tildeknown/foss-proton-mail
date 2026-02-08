@@ -51,17 +51,14 @@ dependencies {
         `android-golib`,
     )
 
-    testImplementation(
         junit,
         `kotlin-test`,
         mockk
     )
 
-    androidTestImplementation(project(Module.androidTest)) {
         exclude(mockk) // We're including `mock-android` instead.
     }
 
-    androidTestImplementation(
         project(Module.androidInstrumentedTest),
         project(Module.androidTest),
         project(Module.kotlinTest),

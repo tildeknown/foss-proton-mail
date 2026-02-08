@@ -17,7 +17,6 @@
  */
 
 import org.gradle.kotlin.dsl.implementation
-import org.gradle.kotlin.dsl.testImplementation
 import studio.forface.easygradle.dsl.*
 
 plugins {
@@ -49,9 +48,4 @@ dependencies {
     implementation(`serialization-core`)
     implementation(`serialization-json`)
     implementation(project(Module.networkDomain))
-    testImplementation(`coroutines-test`)
-    testImplementation(junit)
-    testImplementation(`kotlin-test`)
-    testImplementation(mockk)
-    testImplementation(project(Module.kotlinTest))
 }

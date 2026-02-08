@@ -72,7 +72,6 @@ dependencies {
         store5
     )
 
-    testImplementation(
         project(Module.androidTest),
         project(Module.kotlinTest),
         `coroutines-test`,

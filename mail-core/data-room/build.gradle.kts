@@ -48,7 +48,6 @@ dependencies {
         `room-ktx`
     )
 
-    testImplementation(
         junit
     )
 }

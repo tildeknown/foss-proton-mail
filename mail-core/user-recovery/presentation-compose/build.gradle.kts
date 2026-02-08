@@ -79,7 +79,6 @@ dependencies {
         `compose-ui-tooling`,
     )
 
-    androidTestImplementation(
         `android-test-runner`,
         `compose-ui-test`,
         `compose-ui-test-junit`,
@@ -89,7 +88,6 @@ dependencies {
         `kotlin-test`
     )
 
-    testImplementation(
         project(Module.kotlinTest),
         `kotlin-test`,
         mockk,

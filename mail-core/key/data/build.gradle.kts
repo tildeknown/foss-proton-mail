@@ -62,14 +62,12 @@ dependencies {
         store5
     )
 
-    androidTestImplementation(
         project(Module.androidInstrumentedTest),
         project(Module.cryptoAndroid),
         `android-golib`,
         `kotlin-test`
     )
 
-    testImplementation(
         project(Module.androidTest),
         project(Module.kotlinTest),
         `coroutines-test`,

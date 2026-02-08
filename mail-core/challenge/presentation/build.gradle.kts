@@ -48,7 +48,6 @@ dependencies {
         `android-ktx`,
     )
 
-    testImplementation(
         `android-test-core-ktx`,
         `kotlin-test`,
         robolectric

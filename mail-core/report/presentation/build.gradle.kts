@@ -62,7 +62,6 @@ dependencies {
         `lifecycle-viewModel`
     )
 
-    testImplementation(
         project(Module.kotlinTest),
         `coroutines-test`,
         junit,

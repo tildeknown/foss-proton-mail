@@ -50,7 +50,6 @@ dependencies {
         `coroutines-core`
     )
 
-    testImplementation(
         `coroutines-test`,
         junit,
         `kotlin-test`,
