@@ -79,9 +79,6 @@ zxing-embedded = "4.3.0"
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 google-devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp-symbol-processing-api" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
-proton-core-coverage = { id = "me.proton.core.gradle-plugins.coverage", version.ref = "proton-core-plugin" }
-proton-core-coverage-config = { id = "me.proton.core.gradle-plugins.coverage-config", version.ref = "proton-core-plugin" }
-proton-core-global-coverage = { id = "me.proton.core.gradle-plugins.global-coverage", version.ref = "proton-core-plugin" }
 
 [libraries]
 # Classpath dependencies

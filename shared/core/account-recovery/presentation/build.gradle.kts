@@ -76,8 +76,4 @@ dependencies {
     implementation(project(":presentation-compose"))
 
     kapt(libs.bundles.app.annotationProcessors)
-
-    testImplementation(kotlin("test"))
-    testImplementation(libs.bundles.test)
-    testImplementation(libs.proton.rust.core)
 }

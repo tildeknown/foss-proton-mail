@@ -57,8 +57,4 @@ dependencies {
 
     implementation(libs.bundles.module.data)
     implementation(libs.proton.core.domain)
-
-    testImplementation(project(":test:utils"))
-    testImplementation(libs.bundles.test)
-    testImplementation(libs.proton.rust.core)
 }

@@ -57,7 +57,4 @@ dependencies {
 
     implementation(libs.timber)
     implementation(libs.proton.core.user.domain)
-
-    testImplementation(project(":test:test-data"))
-    testImplementation(libs.bundles.test)
 }

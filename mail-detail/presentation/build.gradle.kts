@@ -96,6 +96,4 @@ dependencies {
     implementation(project(":mail-featureflags:domain"))
     implementation(project(":mail-upselling:presentation"))
     implementation(project(":mail-upselling:domain"))
-    testImplementation(libs.bundles.test)
-    testImplementation(project(":test:test-data"))
 }

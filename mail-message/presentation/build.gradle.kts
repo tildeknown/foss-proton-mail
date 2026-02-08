@@ -85,8 +85,4 @@ dependencies {
     implementation(project(":mail-padlocks:presentation"))
     implementation(project(":presentation-compose"))
     implementation(project(":mail-session:domain"))
-
-    testImplementation(libs.bundles.test)
-    testImplementation(project(":test:test-data"))
-    androidTestImplementation(libs.bundles.test.androidTest)
 }

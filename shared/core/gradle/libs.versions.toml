@@ -36,8 +36,6 @@ proton-core-legacy-presentation-compose = { group = "me.proton.core", name = "pr
 turbine = { group = "app.cash.turbine", name = "turbine", version.ref = "turbine" }
 
 [plugins]
-core-coverage = { id = "me.proton.core.gradle-plugins.coverage-config", version.ref = "core-gradle-plugins" }
-core-tests = { id = "me.proton.core.gradle-plugins.tests", version.ref = "core-gradle-plugins" }
 hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 paparazzi = { id = "app.cash.paparazzi", version.ref = "paparazzi" }

@@ -1,6 +1,5 @@
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import studio.forface.easygradle.dsl.compileOnly
-import studio.forface.easygradle.dsl.testImplementation
 
 /*
  * Copyright (C) 2024 Proton AG
@@ -83,7 +82,4 @@ dependencies {
     implementation(project(":shared:core:account:domain"))
 
     kapt(libs.bundles.app.annotationProcessors)
-
-    testImplementation(libs.bundles.test)
-    testImplementation(libs.proton.rust.core)
 }

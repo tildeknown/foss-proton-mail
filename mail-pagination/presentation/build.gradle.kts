@@ -59,6 +59,4 @@ dependencies {
     implementation(project(":mail-pagination:domain"))
     implementation(project(":design-system"))
     implementation(project(":presentation-compose"))
-
-    testImplementation(libs.bundles.test)
 }

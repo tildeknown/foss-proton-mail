@@ -55,10 +55,4 @@ dependencies {
     implementation(project(":mail-message:domain"))
     implementation(project(":mail-padlocks:domain"))
     implementation(project(":mail-featureflags:domain"))
-
-    testImplementation(libs.bundles.test)
-    // Used to access sample test data (here instead of test-data as shared with compose previews / android tests)
-    testImplementation(project(":mail-common:domain"))
-    testImplementation(project(":test:test-data"))
-    testImplementation(project(":test:utils"))
 }

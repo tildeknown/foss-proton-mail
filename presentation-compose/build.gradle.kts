@@ -55,7 +55,6 @@ dependencies {
     implementation(libs.lottie.compose)
 
     debugImplementation(libs.bundles.app.debug)
-    testImplementation(libs.bundles.test)
 
     compileOnly(libs.paparazzi)
     implementation(project(":design-system"))

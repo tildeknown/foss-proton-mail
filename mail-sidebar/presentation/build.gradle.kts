@@ -80,8 +80,4 @@ dependencies {
     implementation(project(":uicomponents"))
     implementation(project(":presentation-compose"))
     implementation(libs.haze)
-
-    testImplementation(libs.bundles.test)
-    testImplementation(libs.proton.rust.core)
-    testImplementation(project(":test:test-data"))
 }

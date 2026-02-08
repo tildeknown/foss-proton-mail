@@ -75,7 +75,4 @@ dependencies {
     implementation(project(":shared:core:payment:domain"))
 
     kapt(libs.bundles.app.annotationProcessors)
-
-    testImplementation(kotlin("test"))
-    testImplementation(libs.bundles.test)
 }

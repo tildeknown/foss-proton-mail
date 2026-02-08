@@ -55,7 +55,4 @@ dependencies {
     compileOnly(libs.proton.rust.core)
     implementation(libs.bundles.module.data)
     implementation(libs.proton.core.domain)
-
-    testImplementation(libs.bundles.test)
-    testImplementation(libs.proton.rust.core)
 }

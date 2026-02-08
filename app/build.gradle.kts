@@ -27,7 +27,6 @@ plugins {
     kotlin("kapt")
     id("com.google.devtools.ksp")
     id("dagger.hilt.android.plugin")
-    id("org.jetbrains.kotlinx.kover")
     id("me.proton.core.gradle-plugins.environment-config") version libs.versions.proton.core.plugin.get()
     id("org.jetbrains.kotlin.plugin.compose")
     id("app-config-plugin")
@@ -54,9 +53,6 @@ android {
         versionCode = AppConfiguration.versionCode.get()
         versionName = AppConfiguration.versionName.get()
 
-        testInstrumentationRunner = AppConfiguration.testInstrumentationRunner.get()
-        testInstrumentationRunnerArguments["clearPackageData"] = "true"
-
         protonEnvironment {
             apiPrefix = "mail-api"
         }
@@ -64,10 +60,6 @@ android {
         buildConfigField("String", "RUST_SDK_VERSION", "\"${libs.versions.proton.rust.core.get()}\"")
 
         setAssetLinksResValue("proton.me")
-    }
-
-    testOptions {
-        execution = "ANDROIDX_TEST_ORCHESTRATOR"
     }
 
     signingConfigs {
@@ -90,13 +82,11 @@ android {
 
         debug {
             isDebuggable = true
-            enableUnitTestCoverage = false
             isMinifyEnabled = false
             manifestPlaceholders["isFcmServiceEnabled"] = isFcmServiceEnabled
         }
         release {
             isDebuggable = false
-            enableUnitTestCoverage = false
             isMinifyEnabled = true
 
             proguardFiles(
@@ -106,15 +96,6 @@ android {
 
             manifestPlaceholders["isFcmServiceEnabled"] = isFcmServiceEnabled
             signingConfig = signingConfigs["debug"]
-        }
-        create("benchmark") {
-            initWith(getByName("release"))
-            signingConfig = signingConfigs.getByName("debug")
-            matchingFallbacks += listOf("release")
-            manifestPlaceholders["isFcmServiceEnabled"] = false
-            defaultConfig {
-                testInstrumentationRunnerArguments["androidx.benchmark.fullTracing.enable"] = "true"
-            }
         }
     }
 
@@ -173,10 +154,6 @@ android {
 
     sourceSets {
         getByName("main").java.srcDirs("src/main/kotlin")
-        getByName("test").java.srcDirs("src/test/kotlin")
-        getByName("androidTest").java.srcDirs("src/androidTest/kotlin", "src/uiTest/kotlin")
-        getByName("androidTest").assets.srcDirs("src/uiTest/assets")
-        getByName("androidTest").res.srcDirs("src/uiTest/res")
         getByName("dev").res.srcDirs("src/dev/res")
         getByName("alpha").res.srcDirs("src/alpha/res")
     }
@@ -253,33 +230,6 @@ dependencies {
     kapt(libs.bundles.app.annotationProcessors)
 
     coreLibraryDesugaring(libs.android.tools.desugarJdkLibs)
-
-    // To see the traces as results we need to include Perfetto.
-    // We should not include in the production as it increases the APK size.
-    val benchmarkImplementation by configurations
-    benchmarkImplementation(libs.androidx.tracing)
-    benchmarkImplementation(libs.androidx.tracing.compose.runtime)
-    benchmarkImplementation(libs.androidx.tracing.perfetto)
-    benchmarkImplementation(libs.androidx.tracing.perfetto.binary)
-    // Also include configDaggerStatic to provide the required Hilt bindings in benchmark.
-    benchmarkImplementation(libs.proton.core.configuration.dagger.static)
-
-    testImplementation(libs.bundles.test)
-    testImplementation(project(":test:test-data"))
-    testImplementation(project(":test:utils"))
-
-    androidTestImplementation(libs.bundles.test.androidTest)
-    androidTestImplementation(project(":test:annotations"))
-    androidTestImplementation(project(":test:robot:core"))
-    androidTestImplementation(project(":test:robot:ksp:annotations"))
-    androidTestImplementation(project(":test:test-data"))
-    androidTestImplementation(project(":test:network-mocks"))
-    androidTestImplementation(project(":test:utils"))
-    androidTestImplementation(project(":uicomponents")) // Needed for shared test tags.
-
-    androidTestUtil(libs.androidx.test.orchestrator)
-    kaptAndroidTest(libs.dagger.hilt.compiler)
-    kspAndroidTest(project(":test:robot:ksp:processor"))
 }
 
 fun String?.toBuildConfigValue() = if (this != null) "\"$this\"" else "null"

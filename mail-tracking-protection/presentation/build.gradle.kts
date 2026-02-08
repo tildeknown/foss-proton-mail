@@ -76,7 +76,4 @@ dependencies {
     implementation(project(":uicomponents"))
     implementation(project(":design-system"))
     implementation(project(":presentation-compose"))
-
-    testImplementation(project(":test:utils"))
-    testImplementation(libs.bundles.test)
 }

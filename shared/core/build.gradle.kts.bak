@@ -20,7 +20,6 @@ plugins {
     alias(libs.plugins.hilt.android) apply false
     alias(libs.plugins.jetbrains.kotlin.android) apply false
     alias(libs.plugins.paparazzi) apply false
-    alias(libs.plugins.core.coverage)
     alias(libs.plugins.core.tests)
     id("me.proton.core.root") // local plugin
 }

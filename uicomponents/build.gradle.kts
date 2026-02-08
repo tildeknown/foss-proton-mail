@@ -56,7 +56,6 @@ dependencies {
     implementation(libs.bundles.module.presentation)
     implementation(libs.bundles.compose)
 
-    testImplementation(libs.bundles.test)
     implementation(project(":design-system"))
     implementation(project(":presentation-compose"))
 

@@ -45,8 +45,6 @@ include(":shared:core:payment-google:presentation")
 
 includeBuild("build-plugin")
 include(":app")
-include(":benchmark")
-include(":coverage")
 
 include(":mail-attachments:dagger")
 include(":mail-attachments:data")
@@ -172,14 +170,6 @@ include(":mail-crash-record:domain")
 include(":uicomponents")
 include(":design-system")
 include(":presentation-compose")
-
-include(":test:annotations")
-include(":test:network-mocks")
-include(":test:robot:core")
-include(":test:robot:ksp:annotations")
-include(":test:robot:ksp:processor")
-include(":test:test-data")
-include(":test:utils")
 
 buildCache {
     val remoteCacheUrl = providers.environmentVariable("GRADLE_REMOTE_CACHE_URL").orNull

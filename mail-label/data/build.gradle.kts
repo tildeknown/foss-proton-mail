@@ -61,9 +61,4 @@ dependencies {
     implementation(project(":mail-common:data"))
     implementation(project(":mail-common:domain"))
     implementation(project(":mail-snooze:domain"))
-
-    testImplementation(project(":test:utils"))
-    testImplementation(project(":test:test-data"))
-    testImplementation(libs.proton.rust.core)
-    testImplementation(libs.bundles.test)
 }

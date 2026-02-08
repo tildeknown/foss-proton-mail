@@ -54,5 +54,4 @@ dependencies {
     implementation(libs.bundles.module.presentation)
 
     debugImplementation(libs.bundles.app.debug)
-    testImplementation(libs.bundles.test)
 }

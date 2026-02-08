@@ -65,9 +65,4 @@ dependencies {
     implementation(project(":mail-session:domain"))
     implementation(project(":mail-session:data"))
     implementation(project(":mail-pin-lock:domain"))
-
-    testImplementation(libs.proton.rust.core)
-    testImplementation(project(":test:utils"))
-    testImplementation(project(":test:test-data"))
-    testImplementation(libs.bundles.test)
 }

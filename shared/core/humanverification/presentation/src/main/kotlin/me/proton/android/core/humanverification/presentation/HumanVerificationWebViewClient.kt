@@ -27,7 +27,6 @@ import android.webkit.WebView
 import kotlinx.coroutines.runBlocking
 import me.proton.android.core.humanverification.presentation.webview.ProtonWebViewClient
 import me.proton.core.util.kotlin.CoreLogger
-import me.proton.core.util.kotlin.annotation.ExcludeFromCoverage
 import me.proton.core.util.kotlin.takeIfNotBlank
 import uniffi.proton_mail_uniffi.ChallengeLoader
 import uniffi.proton_mail_uniffi.ChallengeLoaderGetResult
@@ -115,7 +114,7 @@ class HumanVerificationWebViewClient(
     }
 }
 
-@ExcludeFromCoverage
+
 sealed class WebResponseError {
 
     data class Http(val response: WebResourceResponse) : WebResponseError()

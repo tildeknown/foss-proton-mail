@@ -18,7 +18,6 @@
 
 package me.proton.android.core.humanverification.domain
 
-import me.proton.core.util.kotlin.annotation.ExcludeFromCoverage
 import javax.inject.Inject
 import javax.inject.Singleton
 
@@ -28,7 +27,6 @@ interface HumanVerificationExternalInput {
 
 @Singleton
 @Suppress("UseDataClass")
-@ExcludeFromCoverage
 class HumanVerificationExternalInputImpl @Inject constructor() : HumanVerificationExternalInput {
     override var recoveryEmail: String? = null
 }

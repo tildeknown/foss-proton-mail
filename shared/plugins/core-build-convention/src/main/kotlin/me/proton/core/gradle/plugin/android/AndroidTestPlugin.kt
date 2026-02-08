@@ -26,7 +26,6 @@ import org.gradle.api.Project
 
 public class AndroidTestPlugin : BaseAndroidPlugin<AndroidTestExtension>() {
     override val androidPluginId: String get() = PluginIds.ANDROID_TEST
-    override val applyCoveragePlugin: Boolean = false
 
     override fun createConventionSettings(): AndroidConventionSettings =
         object : AndroidConventionSettings {

@@ -85,8 +85,4 @@ dependencies {
     implementation(libs.haze)
     implementation(libs.timber)
     implementation(libs.proton.core.presentationCompose)
-
-    testImplementation(project(":test:test-data"))
-    testImplementation(project(":test:utils"))
-    testImplementation(libs.bundles.test)
 }

@@ -64,11 +64,4 @@ dependencies {
     implementation(project(":mail-message:domain"))
     implementation(project(":mail-padlocks:data"))
     implementation(project(":mail-padlocks:domain"))
-
-    testImplementation(libs.proton.rust.core)
-    testImplementation(libs.bundles.test)
-    testImplementation(libs.proton.core.testAndroidInstrumented)
-    testImplementation(libs.androidx.work.runtimeKtx)
-    testImplementation(project(":test:test-data"))
-    testImplementation(project(":test:utils"))
 }

@@ -83,8 +83,4 @@ dependencies {
 
     implementation(libs.androidx.startup.runtime)
     debugImplementation(libs.androidx.compose.ui.tooling)
-
-    testImplementation(libs.bundles.test)
-    testImplementation(libs.proton.rust.core)
-    testImplementation(kotlin("test"))
 }

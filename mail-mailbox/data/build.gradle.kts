@@ -58,9 +58,4 @@ dependencies {
     implementation(project(":mail-common:domain"))
     implementation(project(":mail-label:data"))
     implementation(project(":mail-label:domain"))
-
-    testImplementation(libs.proton.rust.core)
-    testImplementation(project(":test:test-data"))
-    testImplementation(libs.bundles.test)
-    testImplementation(project(":test:utils"))
 }

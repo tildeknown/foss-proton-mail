@@ -30,7 +30,6 @@ import org.gradle.plugin.use.PluginId
 public abstract class BaseAndroidPlugin<E> :
     BuildConventionPlugin() where E : KotlinConventionSettings {
     protected abstract val androidPluginId: String
-    protected open val applyCoveragePlugin: Boolean = true
     protected abstract fun createConventionSettings(): AndroidConventionSettings
     protected abstract fun createPluginExtension(target: Project): E
 
@@ -41,9 +40,5 @@ public abstract class BaseAndroidPlugin<E> :
         val ext = createPluginExtension(target)
         target.applyAndroidConvention(createConventionSettings())
         target.applyKotlinConvention(ext)
-
-        if (applyCoveragePlugin) {
-            target.pluginManager.apply(PluginIds.PROTON_COVERAGE)
-        }
     }
 }

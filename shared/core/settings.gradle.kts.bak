@@ -47,5 +47,4 @@ rootProject.name = "Core"
 
 include(
     ":auth:presentation",
-    ":coverage",
 )

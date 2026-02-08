@@ -63,8 +63,4 @@ dependencies {
     implementation(libs.kotlinx.datetime)
     implementation(libs.timber)
     implementation(libs.proton.core.user.domain)
-
-    testImplementation(project(":test:test-data"))
-    testImplementation(project(":test:utils"))
-    testImplementation(libs.bundles.test)
 }

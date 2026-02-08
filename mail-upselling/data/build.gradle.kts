@@ -56,8 +56,4 @@ dependencies {
     implementation(project(":mail-common:domain"))
     implementation(project(":mail-upselling:domain"))
     implementation(libs.arrow.core)
-
-    testImplementation(project(":test:test-data"))
-    testImplementation(project(":test:utils"))
-    testImplementation(libs.bundles.test)
 }

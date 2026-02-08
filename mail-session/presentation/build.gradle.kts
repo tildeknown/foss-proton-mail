@@ -48,12 +48,8 @@ android {
 dependencies {
     implementation(libs.bundles.module.presentation)
 
-    testImplementation(libs.bundles.test)
-
     implementation(project(":mail-common:presentation"))
     implementation(project(":mail-session:domain"))
     implementation(project(":design-system"))
     implementation(project(":presentation-compose"))
-
-    testImplementation(project(":test:test-data"))
 }

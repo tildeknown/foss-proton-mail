@@ -49,6 +49,4 @@ dependencies {
     implementation(project(":mail-common:domain"))
 
     implementation(libs.bundles.module.domain)
-
-    testImplementation(libs.bundles.test)
 }

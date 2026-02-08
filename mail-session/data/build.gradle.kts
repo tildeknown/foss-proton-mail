@@ -63,9 +63,4 @@ dependencies {
     implementation(project(":mail-session:domain"))
     implementation(project(":shared:core:account:domain"))
     implementation(project(":shared:core:humanverification:domain"))
-
-    testImplementation(project(":test:utils"))
-    testImplementation(project(":test:test-data"))
-    testImplementation(libs.proton.rust.core)
-    testImplementation(libs.bundles.test)
 }

@@ -89,9 +89,4 @@ dependencies {
     implementation(project(":mail-featureflags:domain"))
 
     debugImplementation(libs.bundles.compose.debug)
-
-    testImplementation(libs.bundles.test)
-    testImplementation(project(":test:test-data"))
-    testImplementation(project(":test:utils"))
-    androidTestImplementation(libs.bundles.test.androidTest)
 }

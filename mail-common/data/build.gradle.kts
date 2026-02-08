@@ -58,7 +58,4 @@ dependencies {
     implementation(libs.proton.core.user.domain)
 
     implementation(project(":mail-common:domain"))
-
-    testImplementation(libs.bundles.test)
-    testImplementation(project(":test:utils"))
 }

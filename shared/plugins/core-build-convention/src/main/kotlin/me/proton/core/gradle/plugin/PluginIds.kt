@@ -27,6 +27,5 @@ internal object PluginIds {
     const val KAPT = "org.jetbrains.kotlin.kapt"
     const val KOTLIN_ANDROID = "org.jetbrains.kotlin.android"
     const val KOTLIN_JVM = "org.jetbrains.kotlin.jvm"
-    const val PROTON_COVERAGE = "me.proton.core.gradle-plugins.coverage"
     const val PAPARAZZI = "app.cash.paparazzi"
 }

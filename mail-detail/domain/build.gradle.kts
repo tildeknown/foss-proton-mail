@@ -57,7 +57,4 @@ dependencies {
     implementation(project(":mail-message:domain"))
     implementation(project(":mail-featureflags:domain"))
     implementation(project(":mail-settings:domain"))
-
-    testImplementation(libs.bundles.test)
-    testImplementation(project(":test:test-data"))
 }

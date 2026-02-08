@@ -56,11 +56,4 @@ dependencies {
     implementation(project(":mail-session:domain"))
     implementation(project(":mail-common:domain"))
     implementation(project(":mail-contact:domain"))
-
-    testImplementation(libs.bundles.test)
-    testImplementation(project(":test:test-data"))
-    testImplementation(project(":mail-common:domain"))
-    testImplementation(project(":test:utils"))
-    testImplementation(libs.proton.rust.core)
-    testImplementation(libs.bundles.test.androidTest)
 }

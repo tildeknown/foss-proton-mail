@@ -56,8 +56,4 @@ dependencies {
     implementation(project(":mail-common:domain"))
     implementation(project(":mail-bugreport:domain"))
     implementation(project(":mail-session:domain"))
-
-    testImplementation(project(":test:utils"))
-    testImplementation(libs.bundles.test)
-    testImplementation(libs.proton.rust.core)
 }

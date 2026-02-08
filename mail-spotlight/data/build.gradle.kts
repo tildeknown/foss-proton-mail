@@ -51,6 +51,4 @@ dependencies {
     implementation(project(":mail-spotlight:domain"))
 
     implementation(libs.bundles.module.data)
-
-    testImplementation(libs.bundles.test)
 }

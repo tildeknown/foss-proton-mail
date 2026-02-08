@@ -88,8 +88,4 @@ dependencies {
     implementation(project(":shared:core:device-migration:presentation"))
 
     debugImplementation(libs.androidx.compose.ui.tooling)
-
-    testImplementation(libs.bundles.test)
-    testImplementation(libs.proton.rust.core)
-    testImplementation(kotlin("test"))
 }

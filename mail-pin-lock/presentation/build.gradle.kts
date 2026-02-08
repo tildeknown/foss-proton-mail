@@ -76,10 +76,4 @@ dependencies {
     implementation(project(":uicomponents"))
     implementation(project(":design-system"))
     implementation(project(":presentation-compose"))
-
-    testImplementation(libs.bundles.test)
-    testImplementation(libs.kotlin.serialization.json)
-    testImplementation(project(":test:test-data"))
-    testImplementation(project(":test:utils"))
-    testImplementation(libs.proton.rust.core)
 }

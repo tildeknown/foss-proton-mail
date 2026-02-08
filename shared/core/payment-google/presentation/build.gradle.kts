@@ -64,7 +64,4 @@ dependencies {
     implementation(project(":shared:core:payment-google:data"))
 
     kapt(libs.bundles.app.annotationProcessors)
-
-    testImplementation(kotlin("test"))
-    testImplementation(libs.bundles.test)
 }

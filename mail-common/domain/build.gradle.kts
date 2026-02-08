@@ -50,9 +50,4 @@ dependencies {
     implementation(libs.bundles.module.domain)
     implementation(libs.proton.core.key.domain)
     implementation(libs.proton.core.user.domain)
-
-    testImplementation(libs.bundles.test)
-    testImplementation(libs.proton.rust.core)
-    testImplementation(project(":test:test-data"))
-    testImplementation(project(":test:utils"))
 }

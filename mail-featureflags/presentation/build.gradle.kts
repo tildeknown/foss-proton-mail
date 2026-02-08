@@ -70,8 +70,4 @@ dependencies {
     implementation(project(":presentation-compose"))
 
     implementation(libs.bundles.module.presentation)
-
-    testImplementation(libs.bundles.test)
-    testImplementation(project(":test:test-data"))
-    testImplementation(project(":test:utils"))
 }

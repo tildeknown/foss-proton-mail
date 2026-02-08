@@ -55,9 +55,4 @@ dependencies {
     implementation(project(":mail-featureflags:domain"))
     implementation(project(":mail-session:data"))
     implementation(project(":mail-session:domain"))
-
-    testImplementation(libs.proton.rust.core)
-    testImplementation(libs.bundles.test)
-    testImplementation(project(":test:utils"))
-    testImplementation(project(":test:test-data"))
 }
