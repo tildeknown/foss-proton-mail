@@ -7,10 +7,9 @@ FOSS version
 - [x] remove detekt
 - [x] remove fastlane
 - [x] remove sentry
-- [ ] remove firebase
-- [ ] remove google services (switch to ntfy)
-- [ ] remove benchmark
-- [ ] remove unit-tests (coverage)
+- [x] remove benchmark
+- [x] remove unit-tests (coverage)
+- [ ] setup ntfy (remove firebase)
 - [ ] copy all the proton remote dependencies
 - [ ] unlimited free accounts
 - [ ] build workflow for github actions
