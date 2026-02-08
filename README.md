@@ -25,7 +25,7 @@ FOSS version
 - Setup `google-services.json` file by running `./scripts/setup_google_services.sh`
 - Build with any of the following:
   - Execute `./gradlew assembleAlphaDebug` to build the debug version
-  - Execute `./gradlew build` to build the release version
+  - Execute `./gradlew assembleAlphaRelease` to build the release version
 
 License
 -------
