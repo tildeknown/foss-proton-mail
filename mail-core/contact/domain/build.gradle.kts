@@ -31,7 +31,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 dependencies {
     api(

@@ -22,8 +22,6 @@ plugins {
     `java-gradle-plugin`
 }
 
-publishOption.shouldBePublishedAsPlugin = false
-
 gradlePlugin {
     plugins {
         create("rootProjectPlugin") {
@@ -69,9 +67,12 @@ gradlePlugin {
     }
 }
 
-kotlin {
-    explicitApiWarning()
-}
+// kotlin {
+//     explicitApiWarning()
+// }
+// compileDebugKotlin {
+//     kotlinOptions.suppressWarnings = true
+// }
 
 repositories {
     google()

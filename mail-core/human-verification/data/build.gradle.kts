@@ -33,7 +33,6 @@ protonCoverage {
     lineCoveragePercentage.set(96)
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 android {
     namespace = "me.proton.core.humanverification.data"

@@ -25,7 +25,6 @@ plugins {
     alias(libs.plugins.kotlin.gradle)
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 repositories {
     mavenCentral()

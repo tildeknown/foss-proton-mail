@@ -42,7 +42,6 @@ android {
     namespace = "me.proton.core.keytransparency.data"
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 dependencies {
     implementation(

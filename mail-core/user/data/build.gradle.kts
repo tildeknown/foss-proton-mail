@@ -38,7 +38,6 @@ android {
     namespace = "me.proton.core.user.data"
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 dependencies {
     api(

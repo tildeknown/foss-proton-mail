@@ -33,7 +33,6 @@ protonCoverage {
     lineCoveragePercentage.set(23)
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 android {
     namespace = "me.proton.core.accountmanager.presentation"

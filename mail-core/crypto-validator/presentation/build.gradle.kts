@@ -29,7 +29,6 @@ protonCoverage {
     lineCoveragePercentage.set(78)
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 android {
     namespace = "me.proton.core.crypto.validator.presentation"

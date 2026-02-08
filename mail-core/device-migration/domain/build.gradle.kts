@@ -22,7 +22,6 @@ plugins {
     protonKotlinLibrary
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 dependencies {
     api(

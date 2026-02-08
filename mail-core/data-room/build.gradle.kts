@@ -31,7 +31,6 @@ protonCoverage {
     lineCoveragePercentage.set(13)
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 android {
     namespace = "me.proton.core.data.room"

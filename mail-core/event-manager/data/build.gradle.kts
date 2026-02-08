@@ -37,7 +37,6 @@ protonDagger {
     workManagerHiltIntegration = true
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 android {
     namespace = "me.proton.core.eventmanager.data"

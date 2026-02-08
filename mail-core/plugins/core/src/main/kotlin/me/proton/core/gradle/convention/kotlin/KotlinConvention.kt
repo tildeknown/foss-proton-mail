@@ -26,6 +26,7 @@ import org.gradle.kotlin.dsl.withType
 import org.jetbrains.kotlin.gradle.dsl.ExplicitApiMode
 import org.jetbrains.kotlin.gradle.dsl.kotlinExtension
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 internal class KotlinConvention : BuildConvention<KotlinConventionSettings> {
     private val defaultCompilerArgs: List<String>
@@ -48,9 +49,12 @@ internal class KotlinConvention : BuildConvention<KotlinConventionSettings> {
     }
 
     private fun KotlinCompile.applyConvention(commonConfig: CommonConfigurationExtension) {
-        kotlinOptions {
-            freeCompilerArgs = freeCompilerArgs + defaultCompilerArgs
-            jvmTarget = commonConfig.jvmTarget.get().toString()
+        compilerOptions {
+            freeCompilerArgs.addAll(defaultCompilerArgs)
+
+            jvmTarget.set(
+                JvmTarget.fromTarget(commonConfig.jvmTarget.get().toString())
+            )
         }
     }
 

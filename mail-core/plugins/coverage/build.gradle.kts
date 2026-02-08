@@ -34,7 +34,6 @@ val functionalTest: SourceSet by sourceSets.creating {
     java.srcDir(file("src/functionalTest"))
 }
 
-publishOption.shouldBePublishedAsPlugin = true
 
 gradlePlugin {
     plugins {

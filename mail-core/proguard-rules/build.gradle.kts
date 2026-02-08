@@ -21,4 +21,3 @@ plugins {
 }
 
 protonCoverage.disabled.set(true)
-publishOption.shouldBePublishedAsLib = true

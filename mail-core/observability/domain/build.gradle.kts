@@ -29,7 +29,6 @@ protonCoverage {
     lineCoveragePercentage.set(47)
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 kotlin {
     sourceSets {

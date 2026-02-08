@@ -26,7 +26,6 @@ plugins {
     kotlin("plugin.serialization")
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 protonCoverage {
     branchCoveragePercentage.set(61)

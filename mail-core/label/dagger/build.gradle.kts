@@ -28,7 +28,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 android {
     namespace = "me.proton.core.label.dagger"

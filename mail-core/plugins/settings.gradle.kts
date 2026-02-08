@@ -18,8 +18,6 @@
 
 rootProject.name = "CoreGradlePlugins"
 
-includeBuild("publish-core-plugins")
-
 include(
     "core",
     "coverage",
@@ -27,7 +25,6 @@ include(
     "jacoco",
     "tests",
     "include-core-build",
-    "publish-core-libraries",
     "environment-configuration",
     "mock-proxy"
 )

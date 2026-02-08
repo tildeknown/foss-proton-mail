@@ -30,7 +30,6 @@ protonCoverage {
     lineCoveragePercentage.set(75)
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 android {
     namespace = "me.proton.core.payment.presentation"

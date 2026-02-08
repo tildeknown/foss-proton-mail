@@ -20,7 +20,6 @@ plugins {
     protonAndroidLibrary
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 android {
     namespace = "me.proton.core.accountrecovery.presentation"

@@ -33,7 +33,6 @@ protonCoverage {
     lineCoveragePercentage.set(8)
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 android {
     namespace = "me.proton.core.util.android.workmanager"

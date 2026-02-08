@@ -26,7 +26,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 protonCoverage {
     branchCoveragePercentage.set(77)

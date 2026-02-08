@@ -29,7 +29,6 @@ protonCoverage {
     lineCoveragePercentage.set(51)
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 android {
     namespace = "me.proton.core.telemetry.presentation"

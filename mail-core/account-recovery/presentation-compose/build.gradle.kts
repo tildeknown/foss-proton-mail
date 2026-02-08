@@ -30,7 +30,6 @@ protonCoverage {
     lineCoveragePercentage.set(71)
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 android {
     namespace = "me.proton.core.accountrecovery.presentation.compose"

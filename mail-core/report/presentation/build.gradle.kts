@@ -31,7 +31,6 @@ protonCoverage {
     lineCoveragePercentage.set(67)
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 android {
     namespace = "me.proton.core.report.presentation"

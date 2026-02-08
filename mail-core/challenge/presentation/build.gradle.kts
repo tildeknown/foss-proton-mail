@@ -30,7 +30,6 @@ protonCoverage {
     lineCoveragePercentage.set(40)
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 android {
     namespace = "me.proton.core.challenge.presentation"

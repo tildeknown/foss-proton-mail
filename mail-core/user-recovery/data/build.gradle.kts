@@ -33,7 +33,6 @@ protonCoverage {
     lineCoveragePercentage.set(94)
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 protonDagger {
     workManagerHiltIntegration = true

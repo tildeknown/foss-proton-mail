@@ -32,7 +32,6 @@ protonCoverage {
     lineCoveragePercentage.set(0)
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 android {
     namespace = "me.proton.core.presentation.compose.tv"

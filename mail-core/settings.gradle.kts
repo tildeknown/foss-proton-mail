@@ -23,8 +23,8 @@ val (projects, modules) = rootDir.projectsAndModules()
 val namedProjects = projects.map { it to it.replace("/", "-") }
 val namedModules = modules.map { it to it.drop(1).replace(":", "-") }
 
-println("Projects: ${namedProjects.sortedBy { it.first }.joinToString { "${it.first} as ${it.second}" } }")
-println("Modules: ${namedModules.sortedBy { it.first }.joinToString { "${it.first} as ${it.second}" } }")
+// println("Projects: ${namedProjects.sortedBy { it.first }.joinToString { "${it.first} as ${it.second}" } }")
+// println("Modules: ${namedModules.sortedBy { it.first }.joinToString { "${it.first} as ${it.second}" } }")
 
 for ((p, n) in namedProjects) includeBuild(p) { name = n }
 for (m in modules) include(m)
@@ -86,8 +86,8 @@ fun File.projectsAndModules(): Pair<Set<String>, Set<String>> {
     return formattedProjects to modules
 }
 
-buildCache {
-    local {
-        removeUnusedEntriesAfterDays = 3
-    }
-}
+// buildCache {
+//     local {
+//         removeUnusedEntriesAfterDays = 3
+//     }
+// }

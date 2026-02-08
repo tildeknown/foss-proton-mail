@@ -22,7 +22,6 @@ plugins {
     `java-gradle-plugin`
 }
 
-publishOption.shouldBePublishedAsPlugin = true
 
 gradlePlugin {
     plugins {

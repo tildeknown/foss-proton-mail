@@ -25,7 +25,6 @@ plugins {
     id("kotlin-parcelize")
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 android {
     namespace = "me.proton.core.devicemigration.presentation"

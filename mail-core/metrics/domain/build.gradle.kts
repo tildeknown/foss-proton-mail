@@ -23,7 +23,6 @@ plugins {
     kotlin("plugin.serialization")
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 dependencies {
     api(

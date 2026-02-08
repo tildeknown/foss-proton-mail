@@ -31,7 +31,6 @@ protonCoverage {
     lineCoveragePercentage.set(21)
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 dependencies {
     api(

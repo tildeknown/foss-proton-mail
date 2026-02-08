@@ -23,7 +23,6 @@ plugins {
     protonAndroidLibrary
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 protonCoverage {
     branchCoveragePercentage.set(45)

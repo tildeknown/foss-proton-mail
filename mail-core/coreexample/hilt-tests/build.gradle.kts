@@ -32,7 +32,6 @@ protonDagger {
     workManagerHiltIntegration = true
 }
 
-publishOption.shouldBePublishedAsLib = false
 
 android {
     namespace = "me.proton.android.core.coreexample.hilttests"

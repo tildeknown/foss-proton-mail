@@ -22,4 +22,3 @@ plugins {
     protonKotlinLibrary
 }
 
-publishOption.shouldBePublishedAsLib = true

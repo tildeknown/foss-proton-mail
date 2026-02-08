@@ -23,7 +23,6 @@ plugins {
     protonDagger
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 protonCoverage {
     branchCoveragePercentage.set(17)

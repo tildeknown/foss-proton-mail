@@ -33,7 +33,6 @@ protonCoverage {
     lineCoveragePercentage.set(11)
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 android {
     namespace = "me.proton.core.crypto.android"

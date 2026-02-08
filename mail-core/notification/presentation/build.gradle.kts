@@ -29,7 +29,6 @@ protonCoverage {
     lineCoveragePercentage.set(79)
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 android {
     namespace = "me.proton.core.notification.presentation"

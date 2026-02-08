@@ -34,7 +34,6 @@ protonCoverage {
     lineCoveragePercentage.set(31)
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 android {
     namespace = "me.proton.core.contact.data"

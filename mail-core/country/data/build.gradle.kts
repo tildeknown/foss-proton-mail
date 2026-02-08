@@ -32,7 +32,6 @@ protonCoverage {
     lineCoveragePercentage.set(100)
 }
 
-publishOption.shouldBePublishedAsLib = true
 
 android {
     namespace = "me.proton.core.country.data"
