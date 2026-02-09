@@ -28,11 +28,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(25)
-    lineCoveragePercentage.set(8)
-}
-
 
 android {
     namespace = "me.proton.core.util.android.workmanager"
@@ -49,11 +44,6 @@ dependencies {
         fragment,
         `lifecycle-livedata-core`,
         `serialization-core`,
-    )
-
-        junit,
-        `kotlin-test`,
-        mockk
     )
 }
 

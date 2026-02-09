@@ -24,7 +24,6 @@ import me.proton.core.gradle.plugin.BuildConventionPlugin
 import me.proton.core.gradle.plugin.PluginIds
 import me.proton.core.gradle.plugin.applyAndroidConvention
 import me.proton.core.gradle.plugin.applyKotlinConvention
-import me.proton.core.gradle.plugins.coverage.ProtonCoveragePlugin
 import org.gradle.api.Project
 
 public abstract class BaseAndroidPlugin<E> : BuildConventionPlugin() where E : KotlinConventionSettings {
@@ -43,9 +42,5 @@ public abstract class BaseAndroidPlugin<E> : BuildConventionPlugin() where E : K
         val ext = createPluginExtension(target)
         target.applyAndroidConvention(createConventionSettings())
         target.applyKotlinConvention(ext)
-
-        if (applyCoveragePlugin) {
-            target.pluginManager.apply(ProtonCoveragePlugin::class.java)
-        }
     }
 }

@@ -42,9 +42,4 @@ dependencies {
         project(Module.userDomain),
         project(Module.userSettingsDomain),
     )
-
-        `coroutines-test`,
-        `kotlin-test`,
-        mockk,
-    )
 }

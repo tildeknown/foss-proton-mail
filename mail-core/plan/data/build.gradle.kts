@@ -28,11 +28,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(46)
-    lineCoveragePercentage.set(52)
-}
-
 protonDagger {
     workManagerHiltIntegration = true
 }
@@ -65,14 +60,5 @@ dependencies {
         serialization("core"),
         `serialization-json`,
         cache4k
-    )
-
-        project(Module.kotlinTest),
-        project(Module.paymentTest),
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk,
-        turbine
     )
 }

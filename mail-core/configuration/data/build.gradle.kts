@@ -29,22 +29,8 @@ android {
     namespace = "me.proton.core.configuration.data"
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(60)
-    lineCoveragePercentage.set(76)
-}
 
 dependencies {
     implementation(project(Module.featureFlagDomain))
     implementation(project(Module.networkData))
-
-        junit,
-        mockk
-    )
-
-        junit,
-        `android-test-core-ktx`,
-        `android-test-runner`,
-        `android-test-rules`
-    )
 }

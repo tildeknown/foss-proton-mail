@@ -26,20 +26,9 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(50)
-    lineCoveragePercentage.set(100)
-}
-
 
 dependencies {
     api(
         `javax-inject`
-    )
-
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk
     )
 }

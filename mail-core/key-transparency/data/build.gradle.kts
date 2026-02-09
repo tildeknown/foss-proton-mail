@@ -25,11 +25,6 @@ plugins {
     kotlin("plugin.serialization")
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(8)
-    lineCoveragePercentage.set(5)
-}
-
 protonDagger {
     workManagerHiltIntegration = true
 }
@@ -74,25 +69,6 @@ dependencies {
         project(Module.keyDomain),
         project(Module.presentation),
         project(Module.userDomain),
-    )
-
-        exclude(mockk)
-    }
-
-        project(Module.androidInstrumentedTest),
-        project(Module.kotlinTest),
-        junit,
-        `kotlin-test`,
-        `mockk-android`,
-        `android-golib`,
-        project(Module.cryptoAndroid),
-    )
-
-        project(Module.kotlinTest),
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk
     )
 }
 

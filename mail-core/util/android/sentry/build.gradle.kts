@@ -23,12 +23,6 @@ plugins {
     protonAndroidLibrary
 }
 
-
-protonCoverage {
-    branchCoveragePercentage.set(45)
-    lineCoveragePercentage.set(64)
-}
-
 android {
     namespace = "me.proton.core.util.android.sentry"
 
@@ -40,7 +34,7 @@ android {
         buildConfigField(
             "String",
             "CORE_VERSION",
-            computeVersionNameFromBranchName(CORE_RELEASE_BRANCH_PREFIX).toBuildConfigValue()
+            "36.2.0"
         )
     }
 }
@@ -62,9 +56,5 @@ dependencies {
         sentry,
         `sentry-android-core`,
         timber
-    )
-
-        `kotlin-test`,
-        mockk
     )
 }

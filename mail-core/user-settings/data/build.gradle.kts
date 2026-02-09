@@ -28,11 +28,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(58)
-    lineCoveragePercentage.set(83)
-}
-
 
 protonDagger {
     workManagerHiltIntegration = true
@@ -71,17 +66,4 @@ dependencies {
         `room-ktx`,
         store5
     )
-
-        project(Module.androidTest),
-        project(Module.kotlinTest),
-        `android-work-testing`,
-        `coroutines-test`,
-        `hilt-android-testing`,
-        junit,
-        `kotlin-test`,
-        mockk,
-        robolectric
-    )
-
-    kaptTest(`hilt-android-compiler`)
 }

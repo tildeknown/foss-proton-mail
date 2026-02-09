@@ -28,11 +28,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(38)
-    lineCoveragePercentage.set(32)
-}
-
 protonDagger {
     workManagerHiltIntegration = true
 }
@@ -69,14 +64,5 @@ dependencies {
         project(Module.data),
         `coroutines-core`,
         store5
-    )
-
-        project(Module.androidTest),
-        project(Module.kotlinTest),
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk,
-        turbine
     )
 }

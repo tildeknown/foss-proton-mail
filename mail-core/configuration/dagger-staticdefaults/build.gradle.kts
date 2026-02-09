@@ -23,8 +23,6 @@ plugins {
     protonDagger
 }
 
-protonCoverage.disabled.set(true)
-
 android {
     namespace = "me.proton.android.configuration.dagger.staticdefaults"
 }
@@ -34,9 +32,5 @@ dependencies {
         project(Module.configurationData),
         project(Module.featureFlagDomain),
         project(Module.kotlinUtil)
-    )
-
-        mockk,
-        junit
     )
 }

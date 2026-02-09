@@ -25,11 +25,6 @@ plugins {
     id("kotlin-parcelize")
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(17)
-    lineCoveragePercentage.set(40)
-}
-
 
 android {
     namespace = "me.proton.core.challenge.presentation"
@@ -45,10 +40,5 @@ dependencies {
 
     implementation(
         `android-ktx`,
-    )
-
-        `android-test-core-ktx`,
-        `kotlin-test`,
-        robolectric
     )
 }

@@ -27,11 +27,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(0)
-    lineCoveragePercentage.set(0)
-}
-
 
 android {
     namespace = "me.proton.core.presentation.compose.tv"
@@ -50,14 +45,5 @@ dependencies {
 
     debugImplementation(
         `compose-ui-tooling`,
-    )
-
-        `android-test-runner`,
-        `compose-ui-test`,
-        `compose-ui-test-junit`,
-        `compose-ui-test-manifest`,
-        junit,
-        `junit-ktx`,
-        `kotlin-test`
     )
 }

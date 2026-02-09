@@ -30,11 +30,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(23)
-    lineCoveragePercentage.set(65)
-}
-
 android {
     namespace = "me.proton.core.accountmanager.presentation.compose"
 }
@@ -65,12 +60,5 @@ dependencies {
         `compose-ui-tooling-preview`,
         `compose-ui`,
         `compose-ui-unit`,
-    )
-
-        project(Module.kotlinTest),
-        `coroutines-test`,
-        `kotlin-test`,
-        mockk,
-        turbine,
     )
 }

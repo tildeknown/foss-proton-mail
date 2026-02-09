@@ -29,11 +29,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(21)
-    lineCoveragePercentage.set(49)
-}
-
 
 android {
     namespace = "me.proton.core.usersettings.presentation.compose"
@@ -73,21 +68,5 @@ dependencies {
 
     debugImplementation(
         `compose-ui-tooling`,
-    )
-
-        `android-test-runner`,
-        `compose-ui-test`,
-        `compose-ui-test-junit`,
-        `compose-ui-test-manifest`,
-        `junit`,
-        `junit-ktx`,
-        `kotlin-test`
-    )
-
-        project(kotlinTest),
-        `coroutines-test`,
-        `kotlin-test`,
-        mockk,
-        turbine,
     )
 }

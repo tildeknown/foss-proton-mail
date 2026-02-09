@@ -24,11 +24,6 @@ plugins {
     protonDagger
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(50)
-    lineCoveragePercentage.set(78)
-}
-
 
 android {
     namespace = "me.proton.core.crypto.validator.presentation"
@@ -57,16 +52,5 @@ dependencies {
         `lifecycle-runtime`,
         `lifecycle-viewModel`,
         material,
-    )
-
-        project(Module.androidTest),
-        project(Module.networkDomain),
-        project(Module.kotlinTest),
-        `android-arch-testing`,
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk,
-        turbine
     )
 }

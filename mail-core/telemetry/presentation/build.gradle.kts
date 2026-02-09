@@ -24,11 +24,6 @@ plugins {
     protonDagger
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(50)
-    lineCoveragePercentage.set(51)
-}
-
 
 android {
     namespace = "me.proton.core.telemetry.presentation"
@@ -51,11 +46,5 @@ dependencies {
         `activity-compose`,
         `compose-runtime`,
         `compose-ui`,
-    )
-
-        `android-arch-testing`,
-        `coroutines-test`,
-        `kotlin-test`,
-        mockk,
     )
 }

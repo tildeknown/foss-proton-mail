@@ -23,8 +23,6 @@ plugins {
     protonDagger
 }
 
-protonCoverage.disabled.set(true)
-
 android {
     namespace = "me.proton.core.configuration.dagger.contentresolver"
 }

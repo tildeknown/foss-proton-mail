@@ -30,11 +30,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(34)
-    lineCoveragePercentage.set(32)
-}
-
 
 android {
     namespace = "me.proton.core.presentation"
@@ -69,17 +64,6 @@ dependencies {
         `lifecycle-livedata-core`,
         `lifecycle-runtime`,
         `lifecycle-process`,
-    )
-
-    // Test
-        project(Module.androidTest),
-        project(Module.kotlinTest),
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk,
-        robolectric,
-        turbine
     )
 
     // Lint - off temporary

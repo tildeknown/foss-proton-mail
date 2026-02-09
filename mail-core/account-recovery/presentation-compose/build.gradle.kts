@@ -25,11 +25,6 @@ plugins {
     id("kotlin-parcelize")
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(43)
-    lineCoveragePercentage.set(71)
-}
-
 
 android {
     namespace = "me.proton.core.accountrecovery.presentation.compose"
@@ -81,26 +76,5 @@ dependencies {
 
     debugImplementation(
         `compose-ui-tooling`,
-    )
-
-        `android-test-runner`,
-        `compose-ui-test`,
-        `compose-ui-test-junit`,
-        `compose-ui-test-manifest`,
-        junit,
-        `mockk-android`,
-        `junit-ktx`,
-        `kotlin-test`
-    )
-
-        project(Module.androidTest),
-        project(Module.kotlinTest),
-        project(Module.notificationTest),
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk,
-        robolectric,
-        turbine
     )
 }

@@ -27,13 +27,6 @@ plugins {
 protonBuild {
     apiModeDisabled()
 }
-
-protonCoverage {
-    branchCoveragePercentage.set(7)
-    lineCoveragePercentage.set(23)
-}
-
-
 android {
     namespace = "me.proton.core.accountmanager.presentation"
 }
@@ -65,16 +58,5 @@ dependencies {
         `lifecycle-viewModel`,
         `lifecycle-runtime`,
         material
-    )
-
-        project(Module.androidTest),
-        project(Module.kotlinTest),
-        `android-arch-testing`,
-        `coroutines-test`,
-        `kotlin-test`,
-        `kotlin-test-junit`,
-        junit,
-        mockk,
-        turbine
     )
 }

@@ -23,12 +23,6 @@ plugins {
     protonAndroidLibrary
 }
 
-
-protonCoverage {
-    branchCoveragePercentage.set(96)
-    lineCoveragePercentage.set(83)
-}
-
 android {
     namespace = "me.proton.core.util.android.datetime"
 }
@@ -39,17 +33,5 @@ dependencies {
         project(Module.kotlinUtil),
         `androidx-core`,
         `coroutines-core`
-    )
-
-        project(Module.androidTest),
-        project(Module.kotlinTest),
-        `android-arch-testing`,
-        `android-test-core`,
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk,
-        robolectric,
-        turbine
     )
 }

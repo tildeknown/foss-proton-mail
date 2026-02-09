@@ -25,11 +25,6 @@ plugins {
     id("kotlin-parcelize")
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(59)
-    lineCoveragePercentage.set(75)
-}
-
 
 android {
     namespace = "me.proton.core.paymentiap.presentation"
@@ -71,15 +66,5 @@ dependencies {
 
         // Other
         `googlePlayBilling`
-    )
-
-        project(Module.androidTest),
-        project(Module.kotlinTest),
-        `android-arch-testing`,
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk,
-        turbine
     )
 }

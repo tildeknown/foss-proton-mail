@@ -45,10 +45,6 @@ fun getProperty(key: String): String {
     return System.getenv(key) ?: privateProperties.getProperty(key, "")
 }
 
-protonCoverage {
-    disabled.set(true)
-}
-
 android {
     namespace = "me.proton.core.configuration.configurator"
 
@@ -81,7 +77,6 @@ dependencies {
         project(Module.presentation),
         project(Module.networkData),
         project(Module.networkDagger),
-        project(Module.quark),
         `compose-material-icons-core`,
         datastore,
         datastorePreferences,

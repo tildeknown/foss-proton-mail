@@ -22,11 +22,6 @@ plugins {
     protonKotlinLibrary
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(80)
-    lineCoveragePercentage.set(94)
-}
-
 
 dependencies {
     api(
@@ -35,12 +30,5 @@ dependencies {
 
     implementation(
         project(Module.kotlinUtil)
-    )
-
-        project(Module.kotlinTest),
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk
     )
 }

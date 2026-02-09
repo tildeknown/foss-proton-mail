@@ -29,11 +29,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(31)
-    lineCoveragePercentage.set(37)
-}
-
 android {
     namespace = "me.proton.core.user.data"
 }
@@ -73,32 +68,5 @@ dependencies {
         `room-ktx`,
         store5,
         cache4k
-    )
-
-        exclude(mockk) // We're including `mock-android` instead.
-    }
-
-        project(Module.androidInstrumentedTest),
-        project(Module.auth),
-        project(Module.accountManager),
-        project(Module.accountManagerDataDb),
-        project(Module.cryptoAndroid),
-        project(Module.userSettings),
-        project(Module.accountRecoveryDomain),
-        project(Module.contact),
-        project(Module.eventManager),
-        project(Module.kotlinTest),
-        `kotlin-test`,
-        `mockk-android`,
-        turbine,
-        `android-golib`
-    )
-
-        project(Module.androidTest),
-        project(Module.kotlinTest),
-        junit,
-        `kotlin-test`,
-        mockk,
-        turbine,
     )
 }

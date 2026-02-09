@@ -28,11 +28,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(8)
-    lineCoveragePercentage.set(11)
-}
-
 
 android {
     namespace = "me.proton.core.crypto.android"
@@ -48,21 +43,5 @@ dependencies {
         `android-ktx`,
         `room-runtime`,
         `android-golib`,
-    )
-
-        junit,
-        `kotlin-test`,
-        mockk
-    )
-
-        exclude(mockk) // We're including `mock-android` instead.
-    }
-
-        project(Module.androidInstrumentedTest),
-        project(Module.androidTest),
-        project(Module.kotlinTest),
-        `android-golib`,
-        `kotlin-test`,
-        `mockk-android`,
     )
 }

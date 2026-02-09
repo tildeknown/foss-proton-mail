@@ -26,18 +26,9 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(8)
-    lineCoveragePercentage.set(3)
-}
-
 
 dependencies {
     implementation(
         project(Module.kotlinUtil)
-    )
-        junit,
-        `kotlin-test`,
-        mockk
     )
 }

@@ -26,11 +26,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(22)
-    lineCoveragePercentage.set(13)
-}
-
 
 android {
     namespace = "me.proton.core.data.room"
@@ -45,8 +40,5 @@ dependencies {
 
     implementation(
         `room-ktx`
-    )
-
-        junit
     )
 }

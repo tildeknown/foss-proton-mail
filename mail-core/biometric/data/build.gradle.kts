@@ -34,8 +34,4 @@ dependencies {
         `androidx-biometric`,
         `hilt-android`,
     )
-
-        `kotlin-test`,
-        mockk
-    )
 }

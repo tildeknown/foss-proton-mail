@@ -31,6 +31,11 @@ import java.util.Locale
 
 typealias ConfigMatrix = List<Pair<String, EnvironmentConfig>>
 
+fun String.capitalized(): String =
+    replaceFirstChar { c ->
+        if (c.isLowerCase()) c.titlecase() else c.toString()
+    }
+
 class ProtonEnvironmentConfigurationPlugin : Plugin<Project> {
 
     override fun apply(target: Project) {
@@ -51,11 +56,19 @@ class ProtonEnvironmentConfigurationPlugin : Plugin<Project> {
      */
     private fun handleConfigurations(project: Project) {
         project.extensions.getByType(BaseExtension::class.java).apply {
-            val flavors = flavorDimensionList.mapNotNull { dimension ->
-                productFlavors.filter { it.dimension == dimension }
-                    .takeIf { it.isNotEmpty() }
-                    ?.map { it.name.capitalized() to it.environmentConfiguration }
-            }
+            val flavors: List<ConfigMatrix> =
+                flavorDimensionList.mapNotNull { dimension ->
+                    val matchingFlavors = productFlavors
+                        .filter { it.dimension == dimension }
+
+                    if (matchingFlavors.isEmpty()) {
+                        null
+                    } else {
+                        matchingFlavors.map { flavor ->
+                            flavor.name.capitalized() to flavor.environmentConfiguration
+                        }
+                    }
+                }
 
             if (flavors.isEmpty()) {
                 buildTypes.forEach {

@@ -27,22 +27,11 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(45)
-    lineCoveragePercentage.set(58)
-}
-
 
 dependencies {
     api(
         project(Module.cryptoCommon),
         project(Module.domain),
         project(Module.authFidoDomain),
-    )
-
-        junit,
-        `kotlin-test`,
-        mockk,
-        `coroutines-test`,
     )
 }

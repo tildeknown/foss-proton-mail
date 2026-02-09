@@ -28,11 +28,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(83)
-    lineCoveragePercentage.set(94)
-}
-
 
 protonDagger {
     workManagerHiltIntegration = true
@@ -61,19 +56,4 @@ dependencies {
         project(Module.kotlinUtil),
         project(Module.userData),
     )
-
-        project(Module.androidTest),
-        project(Module.kotlinTest),
-        `android-work-testing`,
-        `coroutines-test`,
-        `hilt-android-testing`,
-        junit,
-        `kotlin-test`,
-        mockk,
-        robolectric,
-        turbine,
-        `android-work-testing`
-    )
-
-    kaptTest(`hilt-android-compiler`)
 }

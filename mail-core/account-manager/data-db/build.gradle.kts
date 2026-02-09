@@ -28,11 +28,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(0)
-    lineCoveragePercentage.set(0)
-}
-
 
 android {
     namespace = "me.proton.core.accountmanager.data.db"

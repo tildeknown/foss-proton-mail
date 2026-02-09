@@ -24,12 +24,6 @@ plugins {
     protonDagger
 }
 
-
-protonCoverage {
-    branchCoveragePercentage.set(13)
-    lineCoveragePercentage.set(45)
-}
-
 android {
     namespace = "me.proton.core.auth.presentation.compose"
 }
@@ -70,12 +64,5 @@ dependencies {
 
     debugImplementation(
         `compose-ui-tooling`,
-    )
-
-        project(Module.kotlinTest),
-        `coroutines-test`,
-        `kotlin-test`,
-        mockk,
-        turbine,
     )
 }

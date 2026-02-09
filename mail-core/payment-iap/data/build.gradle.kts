@@ -24,11 +24,6 @@ plugins {
     protonDagger
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(57)
-    lineCoveragePercentage.set(61)
-}
-
 protonDagger {
     workManagerHiltIntegration = true
 }
@@ -55,12 +50,5 @@ dependencies {
         fragment,
         `javax-inject`,
         `lifecycle-runtime`
-    )
-        project(Module.kotlinTest),
-        `coroutines-test`,
-        `kotlin-test`,
-        `kotlin-test-junit`,
-        mockk,
-        turbine
     )
 }

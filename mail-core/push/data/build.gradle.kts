@@ -25,11 +25,6 @@ plugins {
     kotlin("plugin.serialization")
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(56)
-    lineCoveragePercentage.set(67)
-}
-
 protonDagger {
     workManagerHiltIntegration = true
 }
@@ -61,25 +56,4 @@ dependencies {
         store5,
         `android-work-runtime`,
     )
-
-        project(Module.accountData),
-        project(Module.accountDomain),
-        project(Module.cryptoAndroid),
-        project(Module.cryptoCommon),
-        project(Module.keyDomain),
-        project(Module.kotlinTest),
-        project(Module.userDomain),
-        `android-test-core`,
-        `android-work-testing`,
-        `coroutines-test`,
-        `hilt-android-testing`,
-        junit,
-        `kotlin-test`,
-        mockk,
-        robolectric,
-        turbine
-    )
-
-    kaptTest(`hilt-android-compiler`)
-    kaptTest(`room-compiler`)
 }

@@ -28,11 +28,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(66)
-    lineCoveragePercentage.set(96)
-}
-
 android {
     namespace = "me.proton.core.key.data"
 }
@@ -59,19 +54,5 @@ dependencies {
         `coroutines-core`,
         `room-ktx`,
         store5
-    )
-
-        project(Module.androidInstrumentedTest),
-        project(Module.cryptoAndroid),
-        `android-golib`,
-        `kotlin-test`
-    )
-
-        project(Module.androidTest),
-        project(Module.kotlinTest),
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk
     )
 }

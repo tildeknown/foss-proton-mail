@@ -23,11 +23,6 @@ plugins {
     kotlin("plugin.serialization")
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(42)
-    lineCoveragePercentage.set(60)
-}
-
 
 android {
     namespace = "me.proton.core.payment.data"
@@ -55,17 +50,5 @@ dependencies {
         `room-ktx`,
         serialization("core"),
         `serialization-json`,
-    )
-
-        project(Module.kotlinTest),
-        project(Module.paymentTest),
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk,
-        `serialization-json`
-    )
-
-        `kotlin-test-junit`
     )
 }

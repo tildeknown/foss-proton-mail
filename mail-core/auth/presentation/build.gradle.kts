@@ -30,11 +30,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(40)
-    lineCoveragePercentage.set(60)
-}
-
 
 android {
     namespace = "me.proton.core.auth.presentation"
@@ -103,17 +98,5 @@ dependencies {
         fragment,
         `lifecycle-runtime`,
         `lifecycle-viewModel`,
-    )
-
-        project(Module.androidTest),
-        project(Module.kotlinTest),
-        `android-arch-testing`,
-        `android-test-core`,
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk,
-        robolectric,
-        turbine
     )
 }

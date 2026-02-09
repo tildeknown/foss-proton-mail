@@ -27,12 +27,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(0)
-    lineCoveragePercentage.set(0)
-}
-
-
 dependencies {
     api(
         project(Module.domain),

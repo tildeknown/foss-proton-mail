@@ -28,11 +28,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(76)
-    lineCoveragePercentage.set(67)
-}
-
 
 android {
     namespace = "me.proton.core.util.android.sharedpreferences"
@@ -45,14 +40,5 @@ dependencies {
         project(Module.kotlinUtil),
         `android-ktx`,
         serialization("core")
-    )
-
-        project(Module.androidTest),
-        project(Module.kotlinTest),
-        `android-test-core`,
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        robolectric
     )
 }

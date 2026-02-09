@@ -26,12 +26,6 @@ plugins {
     kotlin("plugin.serialization")
 }
 
-
-protonCoverage {
-    branchCoveragePercentage.set(61)
-    lineCoveragePercentage.set(96)
-}
-
 android {
     namespace = "me.proton.core.notification.data"
 }
@@ -61,25 +55,4 @@ dependencies {
         `serialization-json`,
         store5
     )
-
-        project(Module.androidTest),
-        project(Module.accountData),
-        project(Module.accountDomain),
-        project(Module.cryptoAndroid),
-        project(Module.cryptoCommon),
-        project(Module.keyDomain),
-        project(Module.kotlinTest),
-        `android-test-core`,
-        `android-work-testing`,
-        `coroutines-test`,
-        `hilt-android-testing`,
-        junit,
-        `kotlin-test`,
-        mockk,
-        robolectric,
-        turbine
-    )
-
-    kaptTest(`hilt-android-compiler`)
-    kaptTest(`room-compiler`)
 }

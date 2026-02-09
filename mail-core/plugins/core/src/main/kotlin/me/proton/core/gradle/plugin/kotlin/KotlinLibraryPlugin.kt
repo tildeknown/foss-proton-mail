@@ -24,7 +24,6 @@ import me.proton.core.gradle.plugin.PluginIds
 import me.proton.core.gradle.plugin.applyJavaConvention
 import me.proton.core.gradle.plugin.applyKotlinConvention
 import me.proton.core.gradle.plugin.createProtonExt
-import me.proton.core.gradle.plugins.coverage.ProtonCoveragePlugin
 import org.gradle.api.Project
 
 public class KotlinLibraryPlugin : BuildConventionPlugin() {
@@ -33,7 +32,6 @@ public class KotlinLibraryPlugin : BuildConventionPlugin() {
 
         target.pluginManager.apply(PluginIds.javaLibrary)
         target.pluginManager.apply(PluginIds.kotlinJvm)
-        target.pluginManager.apply(ProtonCoveragePlugin::class.java)
         target.pluginManager.apply(PluginIds.dependencyAnalysis)
 
         val ext = target.createProtonExt<KotlinLibraryExtension>()

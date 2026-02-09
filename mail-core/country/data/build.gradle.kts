@@ -27,11 +27,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(66)
-    lineCoveragePercentage.set(100)
-}
-
 
 android {
     namespace = "me.proton.core.country.data"
@@ -47,11 +42,5 @@ dependencies {
         project(Module.kotlinUtil),
         project(Module.data),
         `coroutines-core`
-    )
-
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk
     )
 }

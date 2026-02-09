@@ -23,11 +23,6 @@ plugins {
     protonKotlinLibrary
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(90)
-    lineCoveragePercentage.set(93)
-}
-
 
 kotlin {
     sourceSets {

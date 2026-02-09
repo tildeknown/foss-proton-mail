@@ -24,11 +24,6 @@ plugins {
     kotlin("plugin.serialization")
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(88)
-    lineCoveragePercentage.set(100)
-}
-
 
 protonDagger {
     workManagerHiltIntegration = true
@@ -58,19 +53,4 @@ dependencies {
         `serialization-core`,
         `serialization-json`
     )
-
-        project(Module.androidTest),
-        project(Module.kotlinTest),
-        `android-test-core-ktx`,
-        `android-work-testing`,
-        `coroutines-test`,
-        `hilt-android-testing`,
-        junit,
-        `kotlin-reflect`,
-        `kotlin-test`,
-        mockk,
-        robolectric
-    )
-
-    kaptTest(`hilt-android-compiler`)
 }

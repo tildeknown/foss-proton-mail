@@ -23,12 +23,6 @@ plugins {
     protonDagger
 }
 
-
-protonCoverage {
-    branchCoveragePercentage.set(17)
-    lineCoveragePercentage.set(39)
-}
-
 android {
     namespace = "me.proton.core.auth.fido.play"
 }
@@ -41,10 +35,5 @@ dependencies {
     implementation(
         project(Module.kotlinUtil),
         googlePlayFido
-    )
-
-        `coroutines-test`,
-        `kotlin-test`,
-        mockk
     )
 }

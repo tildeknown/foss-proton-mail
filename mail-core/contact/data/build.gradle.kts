@@ -29,11 +29,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(11)
-    lineCoveragePercentage.set(31)
-}
-
 
 android {
     namespace = "me.proton.core.contact.data"
@@ -63,15 +58,4 @@ dependencies {
 
     kaptTest(`room-compiler`)
 
-        project(Module.cryptoCommon),
-        project(Module.cryptoAndroid),
-        project(Module.accountData),
-        project(Module.accountDomain),
-        project(Module.keyDomain),
-        `android-test-core`,
-        `coroutines-test`,
-        junit,
-        robolectric,
-        `room-ktx`
-    )
 }

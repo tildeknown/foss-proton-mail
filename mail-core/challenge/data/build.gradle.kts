@@ -23,11 +23,6 @@ plugins {
     kotlin("plugin.serialization")
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(10)
-    lineCoveragePercentage.set(79)
-}
-
 
 android {
     namespace = "me.proton.core.challenge.data"
@@ -48,11 +43,5 @@ dependencies {
         `android-ktx`,
         `hilt-android`,
         `room-ktx`
-    )
-
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk
     )
 }

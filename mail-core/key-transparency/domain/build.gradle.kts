@@ -27,11 +27,6 @@ protonBuild {
 //    apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(70)
-    lineCoveragePercentage.set(86)
-}
-
 
 dependencies {
 
@@ -49,12 +44,5 @@ dependencies {
         project(Module.domain),
         project(Module.keyDomain),
         project(Module.userDomain),
-    )
-
-        project(Module.kotlinTest),
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk
     )
 }

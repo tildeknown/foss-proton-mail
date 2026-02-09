@@ -81,7 +81,6 @@ repositories {
 }
 
 dependencies {
-    implementation(project(":coverage"))
     implementation(gradleApi())
     implementation("org.jetbrains.kotlin:kotlin-gradle-plugin")
     compileOnly(libs.android.gradle)

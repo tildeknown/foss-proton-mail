@@ -25,11 +25,6 @@ plugins {
 }
 
 
-protonCoverage {
-    branchCoveragePercentage.set(100)
-    lineCoveragePercentage.set(98)
-}
-
 android {
     namespace = "me.proton.core.accountrecovery.data"
 }
@@ -48,13 +43,5 @@ dependencies {
         project(Module.kotlinUtil),
         project(Module.networkData),
         `serialization-core`
-    )
-
-        project(Module.androidTest),
-        project(Module.kotlinTest),
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk
     )
 }

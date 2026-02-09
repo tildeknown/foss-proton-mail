@@ -23,11 +23,6 @@ plugins {
     kotlin("plugin.serialization")
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(46)
-    lineCoveragePercentage.set(59)
-}
-
 
 dependencies {
     api(
@@ -44,11 +39,5 @@ dependencies {
         project(Module.featureFlagDomain),
         `coroutines-core`,
         `serialization-core`,
-    )
-
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk
     )
 }

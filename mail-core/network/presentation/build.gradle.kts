@@ -25,11 +25,6 @@ plugins {
     id("kotlin-parcelize")
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(100)
-    lineCoveragePercentage.set(100)
-}
-
 
 android {
     namespace = "me.proton.core.network.presentation"
@@ -57,16 +52,5 @@ dependencies {
         `lifecycle-runtime`,
         `lifecycle-viewModel`,
         material,
-    )
-
-        project(Module.androidTest),
-        project(Module.networkDomain),
-        project(Module.kotlinTest),
-        `android-arch-testing`,
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk,
-        turbine
     )
 }

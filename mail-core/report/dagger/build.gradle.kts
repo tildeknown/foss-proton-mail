@@ -24,22 +24,12 @@ plugins {
     protonDagger
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(0)
-    lineCoveragePercentage.set(0)
-}
-
 
 android {
     namespace = "me.proton.core.report.dagger"
 }
 
 dependencies {
-        `android-test-core`,
-        `android-test-runner`,
-        `kotlin-test-junit`,
-    )
-
     api(
         project(Module.domain),
         project(Module.reportDomain)

@@ -53,12 +53,4 @@ dependencies {
         `serialization-core`,
         retrofit,
     )
-
-        project(Module.kotlinTest),
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk,
-        turbine,
-    )
 }

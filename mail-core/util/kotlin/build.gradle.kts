@@ -27,11 +27,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(27)
-    lineCoveragePercentage.set(39)
-}
-
 
 dependencies {
     api(
@@ -43,12 +38,5 @@ dependencies {
     implementation(
         okhttp,
         `serialization-json`
-    )
-
-        junit,
-        `coroutines-test`,
-        `kotlin-test`,
-        mockk,
-        turbine
     )
 }

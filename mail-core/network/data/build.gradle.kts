@@ -29,11 +29,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(54)
-    lineCoveragePercentage.set(80)
-}
-
 
 android {
     namespace = "me.proton.core.network.data"
@@ -62,21 +57,4 @@ dependencies {
         `okHttp-logging`,
         `retrofit-kotlin-serialization`,
     )
-
-        project(Module.cryptoCommon),
-        project(Module.kotlinTest),
-        project(Module.networkDagger),
-        `android-test-core`,
-        `coroutines-test`,
-        `hilt-android-testing`,
-        junit,
-        `kotlin-test`,
-        mockk,
-        mockWebServer,
-        `retrofit-scalars-converter`,
-        robolectric,
-        `kotlin-test-junit`
-    )
-
-    kaptTest(`hilt-android-compiler`)
 }

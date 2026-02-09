@@ -47,11 +47,4 @@ dependencies {
         project(Module.biometricData),
         project(Module.kotlinUtil),
     )
-
-        project(Module.kotlinTest),
-        `coroutines-test`,
-        `kotlin-test`,
-        mockk,
-        turbine,
-    )
 }

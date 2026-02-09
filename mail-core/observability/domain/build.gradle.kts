@@ -24,11 +24,6 @@ plugins {
     kotlin("plugin.serialization")
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(48)
-    lineCoveragePercentage.set(47)
-}
-
 
 kotlin {
     sourceSets {

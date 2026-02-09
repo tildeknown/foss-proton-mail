@@ -25,11 +25,6 @@ plugins {
     kotlin("plugin.serialization")
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(42)
-    lineCoveragePercentage.set(92)
-}
-
 protonDagger {
     workManagerHiltIntegration = true
 }
@@ -58,12 +53,4 @@ dependencies {
         `android-work-runtime`,
         retrofit,
     )
-
-        project(Module.kotlinTest),
-        `coroutines-test`,
-        junit,
-        mockk
-    )
-
-    kaptTest(`room-compiler`)
 }

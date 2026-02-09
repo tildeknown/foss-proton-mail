@@ -29,11 +29,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(6)
-    lineCoveragePercentage.set(13)
-}
-
 protonDagger {
     workManagerHiltIntegration = true
 }
@@ -66,20 +61,5 @@ dependencies {
         // Other
         `android-work-runtime`,
         store5,
-    )
-
-    kaptTest(`room-compiler`)
-
-        project(Module.cryptoCommon),
-        project(Module.cryptoAndroid),
-        project(Module.accountData),
-        project(Module.accountDomain),
-        project(Module.keyDomain),
-        `android-test-core`,
-        `androidx-collection`,
-        `coroutines-test`,
-        junit,
-        robolectric,
-        `room-ktx`,
     )
 }

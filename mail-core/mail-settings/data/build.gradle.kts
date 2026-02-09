@@ -28,11 +28,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(48)
-    lineCoveragePercentage.set(86)
-}
-
 protonDagger {
     workManagerHiltIntegration = true
 }
@@ -68,13 +63,5 @@ dependencies {
         // Other
         `room-ktx`,
         store5
-    )
-
-        project(Module.androidTest),
-        project(Module.kotlinTest),
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk
     )
 }

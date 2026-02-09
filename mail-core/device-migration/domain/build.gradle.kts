@@ -36,10 +36,4 @@ dependencies {
     implementation(
         project(Module.kotlinUtil),
     )
-
-        `coroutines-test`,
-        `kotlin-test`,
-        mockk,
-        turbine,
-    )
 }

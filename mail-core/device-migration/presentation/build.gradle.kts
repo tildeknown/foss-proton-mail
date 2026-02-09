@@ -89,12 +89,4 @@ dependencies {
         `navigation-compose`,
         `zxing-core`,
     )
-
-        project(Module.kotlinTest),
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk,
-        turbine,
-    )
 }

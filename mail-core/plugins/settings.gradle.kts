@@ -20,10 +20,6 @@ rootProject.name = "CoreGradlePlugins"
 
 include(
     "core",
-    "coverage",
-    "detekt",
-    "jacoco",
-    "tests",
     "include-core-build",
     "environment-configuration",
     "mock-proxy"

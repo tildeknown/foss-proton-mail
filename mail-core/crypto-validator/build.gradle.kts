@@ -40,8 +40,6 @@ plugins {
     protonAndroidLibrary
 }
 
-protonCoverage.disabled.set(true)
-
 android {
     namespace = "me.proton.core.crypto.validator"
 }

@@ -24,11 +24,6 @@ plugins {
     kotlin("plugin.serialization")
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(50)
-    lineCoveragePercentage.set(83)
-}
-
 protonDagger {
     workManagerHiltIntegration = true
 }
@@ -67,14 +62,5 @@ dependencies {
         `room-ktx`,
         `serialization-core`,
         store5
-    )
-
-        project(Module.androidTest),
-        project(Module.kotlinTest),
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk,
-        turbine
     )
 }

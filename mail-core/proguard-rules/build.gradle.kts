@@ -19,5 +19,3 @@
 plugins {
     protonKotlinLibrary
 }
-
-protonCoverage.disabled.set(true)

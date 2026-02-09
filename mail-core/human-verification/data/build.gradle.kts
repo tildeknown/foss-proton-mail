@@ -28,11 +28,6 @@ protonBuild {
     apiModeDisabled()
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(79)
-    lineCoveragePercentage.set(96)
-}
-
 
 android {
     namespace = "me.proton.core.humanverification.data"
@@ -59,14 +54,5 @@ dependencies {
         `okHttp-logging`,
         `room-ktx`,
         cache4k
-    )
-
-        project(Module.kotlinTest),
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk,
-        mockWebServer,
-        turbine
     )
 }

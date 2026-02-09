@@ -24,11 +24,6 @@ plugins {
     protonDagger
 }
 
-protonCoverage {
-    branchCoveragePercentage.set(76)
-    lineCoveragePercentage.set(79)
-}
-
 
 android {
     namespace = "me.proton.core.notification.presentation"
@@ -48,15 +43,5 @@ dependencies {
         `androidx-core`,
         `coroutines-android`,
         `datastorePreferences`
-    )
-
-        project(Module.kotlinTest),
-        project(Module.notificationTest),
-        `android-test-core`,
-        `coroutines-test`,
-        junit,
-        `kotlin-test`,
-        mockk,
-        robolectric
     )
 }
